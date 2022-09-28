@@ -1,7 +1,6 @@
 
 <head itemscope itemtype="https://schema.org/Blog">
     <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
-    <base href="{{ .Permalink }}" />
     {{ if eq .Params.code true -}}
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Source+Code+Pro">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
