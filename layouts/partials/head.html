@@ -7,12 +7,12 @@
     {{ end -}}
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Lora&family=News+Cycle" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
-    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    <link rel="canonical" href="{{ .RelPermalink }}" itemprop="url" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" />
 
     {{ with .OutputFormats.Get "rss" -}}
-    <link rel="alternate" type="application/rss+xml" title="{{ $.Title }} | {{ $.Site.Title }}" href="{{ .Permalink }}" />
-    <link rel="feed" type="application/rss+xml" title="{{ $.Title }} | {{ $.Site.Title }}" href="{{ .Permalink }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ $.Title }} | {{ $.Site.Title }}" href="{{ .RelPermalink }}" />
+    <link rel="feed" type="application/rss+xml" title="{{ $.Title }} | {{ $.Site.Title }}" href="{{ .RelPermalink }}" />
     {{ end -}}
 
     <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
@@ -45,9 +45,9 @@
     <meta property="og:description" content="{{ . }}" />
     <meta name="twitter:description" content="{{ . }}" />
     {{ end }}
-    <meta name="url" content="{{ .Permalink }}" />
-    <meta name="twitter:url" content="{{ .Permalink }}" /> 
-    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta name="url" content="{{ .RelPermalink }}" />
+    <meta name="twitter:url" content="{{ .RelPermalink }}" /> 
+    <meta property="og:url" content="{{ .RelPermalink }}" />
     {{ with .Params.image -}} 
     <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ . }}" />
     <meta property="og:image" content="{{ $.Site.BaseURL }}img/{{ . }}" /> 

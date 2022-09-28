@@ -2,6 +2,6 @@
 <h1>{{ title .Title }}</h1>
 {{ .Content }}
 <ul class="cleanlist">{{ range .Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a>&nbsp;&nbsp;<span class="listdate">({{ .Date | time.Format "2006-01-02" }})</span></li>{{ end }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&nbsp;<span class="listdate">({{ .Date | time.Format "2006-01-02" }})</span></li>{{ end }}
 </ul>
 {{ end }}
