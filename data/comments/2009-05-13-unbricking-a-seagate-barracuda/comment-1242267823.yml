@@ -1,0 +1,17 @@
+_id: '20'
+comment: 'Stuart: not ssh, just a very basic terminal running on the PCB. There''s
+  no established connection, just sending and receiving of data.
+
+
+  Jonathan: You can still connect to a drive and have a look around, even if you don''t
+  need to perform a fix :)
+
+
+  The highlight for me was getting the USB cable working. I installed the Nokia cable''s
+  usual drivers and (after the snip) connected the RX and TX wires to each other.
+  I connected putty to COM8 (discovered via Device Manager), turned local echo off,
+  and started typing. Seeing my characters appear on the screen was fantastic.'
+date: '2009-05-14 12:23:43'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://

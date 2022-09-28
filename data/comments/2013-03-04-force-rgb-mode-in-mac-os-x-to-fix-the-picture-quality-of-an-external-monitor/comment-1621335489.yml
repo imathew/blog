@@ -1,0 +1,14 @@
+_id: '16265'
+comment: 'For Big Sur this worked for me:
+
+
+  1. sudo cp -R /System/Library/Displays /Library/
+
+  2. sudo cp -r ~/DisplayVendorID-4c2d /Library/Displays/Contents/Resources/Overrides/DisplayVendorID-4c2d
+
+
+  I was almost desperate when I found this and it worked'
+date: '2021-05-18 20:58:09'
+email: ea46b28c2dbbe5263e5431ad5e2a1999
+name: okfunk
+url: null

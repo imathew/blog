@@ -1,0 +1,24 @@
+_id: '16141'
+comment: 'All Hail King Mathew, All Hail King Marcus
+
+
+  Thank you so much for providing this info! If anyone lands on this page with hopes
+  of getting their Mac Pro Cheesegrater (5,1) up and running on Mojave with Radeon
+  RX 560 or RX 580 Metal Compatible graphics cards, I had to alter Marcus'' script
+  a little to get it to work. "cp -r" command gave me an "Illegal action" error, while
+  "cp -a" worked immediately.
+
+
+  -bash-3.2# cp -a /Volumes/Macintosh\ HD/Users/username/Desktop/EDID-Fix/DisplayVendorID-*
+  /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/
+
+
+  Please note the "\" in front of every spacebar Marcus puts into his script. You''ll
+  need to do it to for every spacebar you might have in your finder path.
+
+
+  For High Sierra, it works just as advertised.'
+date: '2019-06-13 16:35:42'
+email: 035e8838eec47adcaf3d00ca31e145b4
+name: MM_Techie
+url: null

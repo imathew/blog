@@ -1,0 +1,12 @@
+_id: '1013'
+comment: I followed the procedure above on my bricked 7200.11 with SD15 firmware,
+  and the drive is again working. However, when I attempt to flash the drive with
+  the corrected firmware, it shows up in that process as a 'ST31000340AS', instead
+  of the ST3750330AS' that it really is. Is there something about the process that
+  might have resulted in this situation? Goes without saying that the firmware update
+  did not succeed, and Seagate Tech Support now reports that since I did this repair
+  I have voided the warranty - jeez!
+date: '2010-10-13 04:24:20'
+email: e00571b57073b5068410b97adf7fbb75
+name: Dan S
+url: null

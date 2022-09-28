@@ -1,0 +1,21 @@
+_id: '10027'
+comment: "Thanks for the Hack, however I have a new problem that might be easy to\
+  \ fix. I have TWO Dell U2414H monitors, connected to my 2012 mac mini. One is connected\
+  \ with the supplied mini display port to display port cable, and the other monitor\
+  \ is connected with an hdmi cable. \n\nI got the second monitor later and was using\
+  \ the fist one quite happily with your hack. When I connected the second monitor\
+  \ and selected the profile for the Dell U2414H that was made for my first monitor\
+  \ I got no results. I then disconnected my first monitor and did the hack, I rebooted\
+  \ and my second monitor looked great! Only my first monitor looked bad again...\
+  \ So I disconnected the second monitor and ran the hack on the first monitor, I\
+  \ rebooted and my first monitor was fine, but my second monitor was bad again! I\
+  \ then ran the hack with both monitors turned on, I saw in the terminal window that\
+  \ the hack detects 2 monitors, i removed the old color profiles and put the new\
+  \ one in the display folder, in the folder there are 2 color profiles, but only\
+  \ one shows up in the settings window.. I now have one nice and one not so nice\
+  \ monitor and Im really bummed out :-( Does anyone know how to get it working on\
+  \ both monitors at the same time?"
+date: '2014-04-27 18:21:47'
+email: d870534c86d78ad78058f42a0354f5cf
+name: Michael
+url: null

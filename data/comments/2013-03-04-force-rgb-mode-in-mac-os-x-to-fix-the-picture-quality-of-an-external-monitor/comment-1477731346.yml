@@ -1,0 +1,11 @@
+_id: '15880'
+comment: "Thanks Scott,\nI tried to do the same steps in Sierra but I have a issue\
+  \ with ruby\n\n  davids-MacBook-Pro:~ disiei$ ruby patch-edid.rb\n  ruby: No such\
+  \ file or directory -- patch-edid.rb (LoadError)\n\nMy ruby version \n  davids-MacBook-Pro:~\
+  \ disiei$ ruby -v\n  ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]\n\
+  \nThnaks in advance !!\n\nDavid"
+date: '2016-10-29 19:55:46'
+email: 5324ce3a81c0280b37ee5d25d0f65119
+name: David
+reply_to: '15877'
+url: null

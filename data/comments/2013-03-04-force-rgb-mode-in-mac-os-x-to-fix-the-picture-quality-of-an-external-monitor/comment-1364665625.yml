@@ -1,0 +1,14 @@
+_id: '9169'
+comment: 'A minor suggestion: the xml tags in the script on this page are gone, so
+  I''d suggest to escape them, so they are displayed correctly or remove the script
+  altogether. I ended up copying it and pasting into my emacs and only later, when
+  comparing to the existing overrides file that I realized that it was supposed to
+  be an xml and saw the comments suggesting to get it from the forum link :-)
+
+
+  Other than that, thanks so much for this post. I had researched how to get a better
+  resolution with MacBook Pro and had not found any good solution until now.'
+date: '2013-03-31 04:47:05'
+email: cf4000bd0804142a77bd3bdeb80fd527
+name: Rodrigo De Castro
+url: http://gravatar.com/sacaluta

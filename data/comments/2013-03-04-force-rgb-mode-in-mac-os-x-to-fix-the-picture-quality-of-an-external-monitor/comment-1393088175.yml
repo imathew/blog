@@ -1,0 +1,21 @@
+_id: '9958'
+comment: "Hi Michiel et al., \n\nI also got a Philips 272P and ran the script, moved\
+  \ the folder to the override folder etc. \n\nHowever,\n(1) When I ran the script\
+  \ I wasn't able to close my MacBook Pro Retina: It would not work with the lid closed;\
+  \ maybe it is because I am using a HDMI (monitor) to Thunderbolt/miniDisplayPort\
+  \ cable (Perhaps I should go out and buy some kind of adaptor... ). \n(2) The monitor\
+  \ did change from NTSC to 1920x1080 (in scaled), not the full resolution of the\
+  \ monitor, though.\n(3) Name appears as \"Display with forced RGB mode (EDID override)\"\
+  \ (I understand this shouldn't be a factor). But I don't get the full resolution,\
+  \ which is what matters.\n\nI just ran the script again after seeing your post.\
+  \ Here's what I got in the file DisplayProductID-8c5:\n\n\n\n\n\n  DisplayProductName\n\
+  \  Display with forced RGB mode (EDID override)\n  IODisplayEDID\n  AP///////wBBDMUI3wAAAA8XAQOAPCJ4Io4FrU8zsCYNUFS9SwDRANHAgYCV\n\
+  D5UAswCBwKlAVl4AoKCgKVAwIDUAVVAhAAAeAAAA/wBBVTQxMzE1MDAwMjIz\nAAAA/ABQaGlsaXBzIDI3MlA0AAAA/QAXTA9jHgAKICAgICAgAKM=\n\
+  \n  DisplayVendorID\n  16652\n  DisplayProductID\n  2245\n\n\n\nWere you able to\
+  \ get the full 2560 x 1440 resolution? Is this something I can change in the above\
+  \ file or it is a matter of cable? Thanks!"
+date: '2014-02-23 03:56:15'
+email: 8db7424612be003d674f1a41007b8cb2
+name: Zyg
+reply_to: '9956'
+url: null

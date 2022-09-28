@@ -1,0 +1,22 @@
+_id: '10104'
+comment: "First of all, Thanks for sharing this. It really worked after 2 years of\
+  \ searching and struggling.\nYou are guys just awesome. \n\nSecondly, I had to face\
+  \ a problem that was mentioned by some others in the comments but no clear cut solution\
+  \ has been provided. I guess.\n\nHere it is:\n\nWhen I pasted the file in the \"\
+  \ Overrides \" folder. It didn't replace any folder. Just beeing added to the bunch\
+  \ of folders.\nWhat happened is:\nColors were perfectly corrected. \nBut, Resolution\
+  \ choices were narrowed to: ( 1080 - 1600*900 - 1360*768 ) ONLY and scaling has\
+  \ disappeared and the maximum resolution I can get is 1360 * 768 other wise the\
+  \ scale will outfit the screen ( larger).\n\nHere what I did, thanks to people who\
+  \ mentioned that but indirectly.\n\n1- I deleted the file I generated and pasted\
+  \ from the folder \"Overrides\".\n2- I went to the file I generated in the \" Home\
+  \ directory \" and rename it by a name of one of the files present already in the\
+  \ \"Overrides\" folder. In my case it was this \" DisplayVendorID-4d10 \".\n3- I\
+  \ pasted the generated and renamed file to the folder \" Overrides \" again, then\
+  \ it asked to replace I clicked OK ( N.B I backed up that folder present already\
+  \ to the desktop in case something happened).\n4- Then, restarted the monitor and\
+  \ it worked.\n\nRegards\nIbrahim"
+date: '2014-05-26 07:57:14'
+email: 8a44ff9d301078049373b7b62e2da438
+name: Ibrahim
+url: null

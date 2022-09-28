@@ -1,0 +1,39 @@
+_id: '14328'
+comment: "The short story: I now have my MacBook Pro running my new Acer K272HUL 27\"\
+  \ running at 2560x1440 pixels and it is sweet!\n\nThe longer story: I have a Macbook\
+  \ Pro (Mid 2012 model) manufactured in 2015 (got it in an emergency for $800 its\
+  \ only a few months old and they are around $1,300 Australian Dollars and I bought\
+  \ an Acer K272HUL 27\" display to get me by until I get my new iMac Retina 27\"\
+  \ (I get it early June 2015 really can't wait) as my iMac 27\" Mid 2009 27\" decided\
+  \ it would die a week or so before I was going to update anyway and I wanted to\
+  \ use the Macbook Pro with the Acer at full resolution 2560x1440 in the meantime,\
+  \ well tried everything all the hints tips suggestions I called a local Apple dealer\
+  \ and called Apple support who put me on to this site. \n\nThe solution was as follows:\n\
+  \nFirst be fore you try anything you need one of these its called a Mini-DisplayPort-to-DisplayPort\
+  \ Cable\nhttp://shopap.lenovo.com/au/en/itemdetails/0B47091/460/67FB3393C9474D4EBB539D3DC944B8CE\n\
+  \nI tried a Mini-DisplayPort-to-DVI and a Mini-DisplayPort-to-HDMI\nThey both only\
+  \ gave me 1920x1080 resolution which is not right.\n\nYou will only get this wroking\
+  \ correctly if you get the Mini-DisplayPort-to-DisplayPort Cable\n\nYou have to\
+  \ use the Mini-DisplayPort-to-DisplayPort Cable they should only cost you around\
+  \ $10-$20 Australian dollars mine is 2mtrs and cost me $9.00 Australian dollars\n\
+  \n\nHow to force RGB in Mac OS X\n1. Download the patch-edid.rb script here: http://www.vizyweb.com.au/git-files/gist-patch-edid.rb.tar-3.gz\
+  \ and extract it in to your home directory, If you don't know where your home folder\
+  \ is use these instructions: In your home folder, there are folders for your desktop\
+  \ files, downloads, pictures, documents, movies, music, and for any public files.\
+  \ To open your Home folder, click the desktop to make sure you\u2019re in the Finder,\
+  \ then choose Go &gt; Home. \n\n2.Connect only the external monitor(s) in question\
+  \ (I closed my MacBook lid, for example). The script will make override files for\
+  \ any connected monitor.\n\n3. Type \u201Cruby patch-edid.rb\u201D in Terminal.\n\
+  \n4. A new folder will be created in your home directory. Move it into the \u201C\
+  /System/Library/Displays/Overrides\u201D folder. If finder tells you that you are\
+  \ overwriting an existing folder, consider backing it up first.\nRestart your computer,\
+  \ enjoy your monitor.\n\nTo undo the changes, either delete the folder you had copied\
+  \ to the Overrides folder (if it didn\u2019t already exist) or replace it with the\
+  \ folder you had backed up.\n\nHope this helps some people as I wasted more than\
+  \ 7 hours on this issue before I resolved it.\n\nYou have to use the Mini-DisplayPort-to-DisplayPort\
+  \ Cable they should only cost you around $10-$20 Australian dollars mine is 2mtrs\
+  \ and cost me $9.00 Australian dollars"
+date: '2015-05-29 20:03:00'
+email: 3f13113396c8e3bdbfef27127fbbc891
+name: vizyweb
+url: http://www.vizyweb.com.au

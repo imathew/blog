@@ -1,0 +1,18 @@
+_id: '303'
+comment: 'Mike: I''m not an expert, but this is the most straightforward guide I''ve
+  found on using ffmpeg to convert video formats. Perhaps it can help you out with
+  picking the correct options?
+
+
+  http://www.linuxjournal.com/article/8517
+
+
+  The line (in my code) that you''ll want to change with help from the above examples
+  is:
+
+
+  %ffmpeg% -y -i "%%f.dvr-ms"  -vcodec copy  -acodec copy  -f dvd "%%f.mpg"'
+date: '2010-02-02 09:06:37'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

@@ -1,0 +1,12 @@
+
+<p class="site-title">
+    <a href="/">Mathew Inkson</a>
+</p>
+
+<div class="site-categories">
+    <a href="/">About</a>&nbsp;&nbsp;
+    {{ range .Site.Params.categories -}}
+    <a href="/categories/{{ . | urlize }}/">{{ . }}</a>&nbsp;&nbsp;
+    {{ end -}}
+    <a href="/license">License</a>
+</div>

@@ -1,0 +1,15 @@
+_id: '9412'
+comment: I upgraded to 10.9 and when I connected it to my U3014 via a DisplayPort
+  I got the problem of bad display quality that I had when I initially connected the
+  monitor.The System Report said that the display was a TV (or something like that).
+  I went into the /System/Library/Displays/Overrides and saw that the DisplayVendorID-10ac/
+  folder was no longer there. I copied it from the corresponding folder in my pre-Mavericks
+  Time Machine Backup. Initially it said there was a permissions problem, which isn't
+  surprising since the Overrides folder is owned by root and has write permissions
+  only for root. I then ran the cp command using sudo and it worked. I unplugged the
+  monitor, waited a few minutes, and plugged it back in again. When it came up the
+  image quality was good.
+date: '2013-10-24 02:04:43'
+email: 50205e500014f755f3e66415c8cd74f0
+name: ecf_in_md
+url: null

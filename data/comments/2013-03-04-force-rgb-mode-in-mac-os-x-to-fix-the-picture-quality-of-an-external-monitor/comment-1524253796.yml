@@ -1,0 +1,9 @@
+_id: '16036'
+comment: It stopped working for me, on monitor that I rarely use. Now I have macOS
+  10.13.4, when I last time used this monitor I had 10.13.3. I checked that this file
+  in /System/Library/... and it is still there, md5 has not changed. I generated this
+  file again. but still doesn't work.
+date: '2018-04-21 05:49:56'
+email: 490dc0a53589b91d628d9475f85b8122
+name: harry19911
+url: http://gravatar.com/harry19911

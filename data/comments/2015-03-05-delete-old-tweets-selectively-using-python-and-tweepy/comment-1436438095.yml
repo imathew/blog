@@ -1,0 +1,22 @@
+_id: '14397'
+comment: "Hello anytime I try to destroy a status I got an error message : [\"TweepError:\
+  \ [{u'message': u'This method requires a POST.', u'code': 86}]\\n\"]\n\nI can post\
+  \ statuses with api.update_status \n\nbut not destroy statuses ! \n\nDo You have\
+  \ any clues ? I goggled and found mostly nothing \nHere is my code\n\ndef teardown_fixtures():\n\
+  \        \"\"\"Cleaning function\"\"\"\n        print('In Teardown')\n\n       \
+  \ try:\n            # Consumer keys and access tokens, used for OAuth\n        \
+  \    consumer_key = ''\n            consumer_secret = ''\n            access_token\
+  \ = ''\n            access_token_secret = ''\n            auth = tweepy.OAuthHandler(consumer_key,\
+  \ consumer_secret)\n            auth.set_access_token(access_token, access_token_secret)\n\
+  \            # Creation of the actual interface, using authentication\n        \
+  \    api = tweepy.API(auth)\n           \n            # Delete tweets one by one\n\
+  \            for status in tweepy.Cursor(api.user_timeline).items(200):\n      \
+  \          api.destroy_status(status.id)\n\n            print \"Twitter timeline\
+  \ removed!\"\n        except:\n            print('Exception occurred in teardown_fixtures')\n\
+  \            exc_type, exc_value, _ = sys.exc_info()\n            print(traceback.format_exception_only(exc_type,\
+  \ exc_value))\n        finally:\n            pass\n\n    # add the cleaner to the\
+  \ session\n    request.addfinalizer(teardown_fixtures)\n    return api"
+date: '2015-07-09 20:34:55'
+email: c94652ca31be33bf0f216012b32ea7ff
+name: Georges-Henry PORTEFAIT
+url: https://plus.google.com/+GeorgesHenryPORTEFAIT

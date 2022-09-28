@@ -1,0 +1,33 @@
+_id: '9361'
+comment: 'Thanks a lot. This worked for me also. I have a LG m2280a. When I connected
+  it for the first time in a late-2012 mac mini (OSX 10.8.5) with HDMI cable the fonts
+  was really blurry and the image was cutted (the top and bottom was "outside" the
+  screen area).
+
+
+  After follow all the steps of this post the fonts are now totally fine and the image
+  fits perfectly in screen (1080p) using the same HDMI cable. Just 2 considerations
+  about the steps:
+
+
+  1. Probably you will need to use the sudo command to copy the files. Instead of
+  just use cp origin destination, use sudo cp origin destination. System will ask
+  you for password.
+
+
+  2. After restart your computer I opened the System Preferences and in Displays option
+  i changed my resolution to something really small (like 800x600) and then to resolution
+  I wanted (1920x1080). Just after this the image becames OK.
+
+
+  It''s really bad that Apple doesn''t fix this problem. It''s not an HDMI cable problem,
+  or a monitor problem, or even a driver problem. A little hack fix the issue. But,
+  if I want to do hacks to fix this kind of problems I will propably buy a PC and
+  install some kind of Slackware Linux.
+
+
+  But it''s fixed now. Thanks again.'
+date: '2013-09-29 06:41:43'
+email: 95cc15580c260ef39b9b27e8f7fb376e
+name: Marcell Freitas
+url: http://gravatar.com/mdcfreitas

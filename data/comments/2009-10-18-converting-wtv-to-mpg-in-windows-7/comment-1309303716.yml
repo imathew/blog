@@ -1,0 +1,20 @@
+_id: '3038'
+comment: 'Malcolm: Yes, it works for both SD and HD for me me, BUT something that
+  I have only just discovered is that in Australia (where I am) both SDTV and HDTV
+  is broadcast in MPEG-2, because the specs were set at the same time (back in 2000),
+  whereas the US and UK phased in their approach and went with the superior H.264
+  for HD.
+
+
+  So (depending on where you are) your SD and HD WTV files are probably in different
+  formats, whereas my SD and HD files are all MPEG-2. This method is about retrieving
+  the core MPEG data in the file, but if the WTV contains H.264 data it would explain
+  why it won''t work for you.
+
+
+  I''ll update this post to say that, but as you said this is getting pretty old,
+  now. I''m sure that others have come up with better ways of doing it. Good luck!'
+date: '2011-06-29 09:28:36'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

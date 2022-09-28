@@ -1,0 +1,8 @@
+_id: '15442'
+comment: "This didn't work for me, when i run the script i get this message: \n\n\
+  patch-edid.rb:9:in `scan': invalid byte sequence in UTF-8 (ArgumentError)\n\tfrom\
+  \ patch-edid.rb:9:in `' \n\nHow can i fix this?"
+date: '2016-04-17 10:35:43'
+email: e5531c7da69b802305385b0b83e4c104
+name: Heiko
+url: null

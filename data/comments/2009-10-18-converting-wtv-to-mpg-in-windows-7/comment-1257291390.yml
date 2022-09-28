@@ -1,0 +1,29 @@
+_id: '221'
+comment: 'Spooky: I get the same errors (scrolling down the command window in the
+  hundreds). I spent a while searching for a fix but couldn''t find anything definite.
+  This is a typical list of responses:
+
+  http://forum.doom9.org/archive/index.php/t-132773.html
+
+
+  Manually setting the buffer size doesn''t seem to make any difference: as someone
+  says in the above link perhaps the copy mode ignores the bufsize flag completely.
+  I gave up on the issue because it doesn''t seem to make any difference for me. The
+  videos I have produced are fine so far; they run well in MPC-HC in Windows 7 (http://mpc-hc.sourceforge.net/)
+  and on my PS3 via PS3 Media Centre. Is playback any better for you in other programs?
+
+
+  Anyway, the buffer underflow may or may not be the issue in your case. There could
+  be something different about your source file or your version of ffmpeg that wasn''t
+  apparent for me. I wouldn''t have thought that the DVB-T stick would be a problem,
+  because Media Centre takes the raw input from whatever hardware and produces the
+  same type of file. Or maybe it does something that I''m not aware of depending on
+  the source?
+
+
+  This is all just guessing, though. I wish I could help. Please let me know if you
+  fix it and/or the buffer underflow warnings.'
+date: '2009-11-04 10:36:30'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

@@ -1,0 +1,20 @@
+_id: '15388'
+comment: 'I have a Dell S2415H connected to a 13" Retina Macbook Pro (Early 2016)
+  running El Capitan 10.11.4.
+
+  I did the following steps to fix the blurry text which was driving me crazy:
+
+  1. Put the macbook in Clamshell mode
+
+  2. Run the ''Force RGB'' patch
+
+  3. Set Display Profile to ''Color LCD''
+
+  4. Reset the monitor''s settings to default.
+
+  5. run this command on terminal ''defaults -currentHost write -globalDomain AppleFontSmoothing
+  -int 3'' and reboot the macbook.'
+date: '2016-04-09 08:03:06'
+email: 9cc03af63c33532e7027e82ebf7f76c9
+name: agron
+url: http://gravatar.com/agroonn

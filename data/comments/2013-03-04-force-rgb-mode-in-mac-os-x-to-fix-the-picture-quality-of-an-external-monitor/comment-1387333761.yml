@@ -1,0 +1,9 @@
+_id: '9523'
+comment: "I'm on a mac Mini and LG 22\" TV/Monitor with HDMI conection. When I run\
+  \ the script, I have the following error:\n\npatch-edid.rb:26:in `pack': can't convert\
+  \ MatchData into String (TypeError)\n\tfrom patch-edid.rb:26\n\tfrom patch-edid.rb:24:in\
+  \ `each'\n\tfrom patch-edid.rb:24\n\nCan anyone help me?\n\nTIA"
+date: '2013-12-18 13:29:21'
+email: 07d1ad4eba1da723cabcc69ecb9ee937
+name: Ernesto
+url: null

@@ -1,0 +1,11 @@
+_id: '15947'
+comment: "I tried Marcus' method, but needed a few extra steps because my hard drive\
+  \ is encrypted.  In terminal, I had to run\n&gt; diskutil coreStorage list\n\nTo\
+  \ get the list of drives. Then picking the final encrypted one in the list, I found\
+  \ the UUID and ran\n \n&gt; diskutil coreStorage unlockVolume \n\nThat told me it\
+  \ was mounted as /dev/disk17. Finally, I had to run\n\n&gt; mount -uw /dev/disk17\n\
+  \nto make the volume writable."
+date: '2017-04-11 14:53:39'
+email: 61801c8fb992a44d5506b6a557831003
+name: Matt Brennan
+url: null

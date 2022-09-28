@@ -1,0 +1,17 @@
+_id: '29'
+comment: "Hi Mathew,\n\nI am trying to do this DIY as well but am running into some\
+  \ problems which hopefully u can help.\n\nI snip off the usb connected to a old\
+  \ USB port. I found the 4 wries there, tx, rx, gnd and pwr cable. The Green and\
+  \ White seems to be the tx and rx. \n\nSo the next steps followed :\n\n1. Create\
+  \ a loopback between the tx and rx wires. \n2. Connext the USB end of the cable\
+  \ into the PC\n3. Start hyperterminal.\n\n\nThe problem starts from 3. I was not\
+  \ able to tell which COM port the cable was using. It was not shown in device manager\
+  \ as well (WinXP). Hyperterminal only shows com1 which was the serial port. Any\
+  \ idea how i could fixed it?\n\nI tried putty as well but it doesnt work. Is the\
+  \ setup so simple (barred the harddisk and cardstock and screwing in etc). Connect\
+  \ the USB end into the PC and start the terminal program?\n\nThanks for your help\n\
+  Rgds,\nTw"
+date: '2009-06-06 19:58:28'
+email: 56ce4c886220c13e4260b531e9e8365b
+name: TW
+url: null

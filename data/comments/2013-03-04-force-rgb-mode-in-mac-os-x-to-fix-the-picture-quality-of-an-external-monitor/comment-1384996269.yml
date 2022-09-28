@@ -1,0 +1,26 @@
+_id: '9481'
+comment: "Wow Mathew see what you started! There are a lot of people frustrated right\
+  \ now (and a great many who seem much happier thanks to you and Mr Schwartz). I\
+  \ hope I could be one of those -- HDMI vs mini-display-to-DVI into my nice new NEC\
+  \ monitor makes no difference, I don't think it's cables, I think it is the way\
+  \ the rMBP works with the 2d, non-internal-only Nvidia card to send its OS environment\
+  \ info to an external display. Here it's the same, FusionWare emulator makes all\
+  \ the text much sharper, whether in an application or online in windows. But working\
+  \ in the mac apps only -- pictures are great but text gets blurry, \"astigmatic\"\
+  \ to me, seen as someone with an astigmatism but no corrective lens. Zooming with\
+  \ a camera on it, there's a spillover in the squares of grey or squares missing\
+  \ information. I have a couple more things to try but this fix is bookmarked...\
+  \ the NEC display menu shows many color \"spaces\" that make a difference, but of\
+  \ course thats all NEC's hardware. If I like I can use color profiles as a 'dirty\
+  \ fix' to this issue, with an optional color setting that will make text more comfortable\
+  \ and throw everything else off! Any time I want I can dumb down the beautiful monitor\
+  \ for office mode (no, not my first choice) \n\nNeed to scope out the Mac's color\
+  \ profiling onboard for color space, just because it is supposed to already be something\
+  \ that in our case could solve the issue.. maybe it's still not right despite that,\
+  \ and the patch does the job. Got to fully understand this patch and what I am doing\
+  \ before I go doing it (but the text is very straining on the eyes in places, very\
+  \ sloppy and a beautiful monitor is not getting to live its full potential...."
+date: '2013-11-21 12:11:09'
+email: 9f5775b3de57370d456f8e7944e26856
+name: Brien
+url: http://www.glassharp.org

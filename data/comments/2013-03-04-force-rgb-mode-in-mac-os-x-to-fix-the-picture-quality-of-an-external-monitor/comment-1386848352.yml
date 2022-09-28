@@ -1,0 +1,41 @@
+_id: '9513'
+comment: "Guideline for RETINA dummies, ;-)\n\nIMPORTANT\nI used a HDMI cable at first\
+  \ and got only 1920x1080, I returned it and bought a \"Thunderbolt to Displayport\"\
+  \ Adapter, the resolution got corrected\u2039 \"I do not know why\"( yes I am also\
+  \ a dummie, I probably could have kept the hdmi adapter?). Anyway Great resolution\
+  \ but at this point the text still were blur-ish.\n\n\nHow to confirm resolution\
+  \ and television mode.\n1. click on Apple icon upper left corner\n2. click on About\
+  \ this Mac\n3. click on More info\n4. click on system Report\n5. click on Graphics/Displays\n\
+  6. click on Nvidia Geforce\n\n\"if you have wrong settings but correct resolution\
+  \ \" it will look like below dissregard my comments \"NICE\"  it's just guidelines\
+  \ to the real dummies to quickly find what is of interest.\n\nNVIDIA GeForce GT\
+  \ 650M:\n\nChipset Model: NVIDIA GeForce GT 650M\nType: GPU\nBus: PCIe\nPCIe Lane\
+  \ Width: x8\nVRAM (Total): 1024 MB\nVendor: NVIDIA (0x10de)\nDevice ID: 0x0fd5\n\
+  Revision ID: 0x00a2\nROM Revision: 3688\ngMux Version: 3.2.19 [3.2.8]\nDisplays:\n\
+  Color LCD:\nDisplay Type: LCD\nResolution: 2880 X 1800\nRetina: Yes\nPixel Depth:\
+  \ 32-Bit Color (ARGB8888)\nMirror: Off\nOnline: Yes\nBuilt-In: Yes\nConnection Type:\
+  \ DisplayPort\n27EA83:\nResolution: 2560 x 1440 @ 60 Hz                        \
+  \                         NICE!\nPixel Depth: 32-Bit Color (ARGB8888)\nDisplay Serial\
+  \ Number:\nMain Display: Yes\nMirror: Off\nOnline: Yes\nRotation: Supported\nAdapter\
+  \ Type: DisplayPort\nAdapter Firmware Version: 0,15\nTelevision: Yes           \
+  \                                                              NOT SO NICE.....\n\
+  \n\nSO FAR SO GOOD If it looks like below I think you got it right already:\n\n\n\
+  NVIDIA GeForce GT 650M:\n\n  Chipset Model:\tNVIDIA GeForce GT 650M\n  Type:\tGPU\n\
+  \  Bus:\tPCIe\n  PCIe Lane Width:\tx8\n  VRAM (Total):\t1024 MB\n  Vendor:\tNVIDIA\
+  \ (0x10de)\n  Device ID:\t0x0fd5\n  Revision ID:\t0x00a2\n  ROM Revision:\t3688\n\
+  \  gMux Version:\t3.2.19 [3.2.8]\n  Displays:\nColor LCD:\n  Display Type:\tLCD\n\
+  \  Resolution:\t2880 X 1800\n  Retina:\tYes\n  Pixel Depth:\t32-Bit Color (ARGB8888)\n\
+  \  Mirror:\tOff\n  Online:\tYes\n  Built-In:\tYes\n  Connection Type:\tDisplayPort\n\
+  Display with forced RGB mode (EDID override):                                CORRECT\n\
+  \  Resolution:\t2560 x 1440 @ 60 Hz                                      = YOUR\
+  \ MONITOR MAX RESOLUTION \n  Pixel Depth:\t32-Bit Color (ARGB8888)\n  Display Serial\
+  \ Number:\t            \n  Main Display:\tYes\n  Mirror:\tOff\n  Online:\tYes\n\
+  \  Rotation:\tSupported\n  Adapter Type:\tDisplayPort\n  Adapter Firmware Version:\t\
+  0,15\n                                                                         \
+  \                                 NO TELEVISION NO MORE!\n\nFor you users that still\
+  \ have monitor set to TELEVISION. I hope someone soon will make a step by step instruction\
+  \ in the terminal.\n\n/A"
+date: '2013-12-12 22:39:12'
+email: 5953f7796b8a22127fd2707f5b22059a
+name: Antero
+url: null

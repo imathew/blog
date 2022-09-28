@@ -1,0 +1,16 @@
+_id: '10015'
+comment: "Hey there, \nI applied this script using a dell u2312hm when using mini\
+  \ display port to display port adapter on a haswell retina macbook pro. The monitor\
+  \ gets the rgb signal but the fonts still look fuzzy. It's like if one letter is\
+  \ sharp and the next isn't. Sometimes I even see like some reddish or bluish shadow\
+  \ around some letters. especially when the same letters are following each other\
+  \ like : ll or tt. When I zoom in and the font gets bigger, the shadows go away.\
+  \ \n\nThe same thing happens when using a mini display port to dvi adapter.\n\n\
+  I have put the terminal command to AppleSmoothing -int 2 . \n\nCould it be the monitor??\
+  \ The monitor was fine under mavericks connected to my old 2008 macbook pro with\
+  \ dvi cable. \n\nI just ordered a viewsonic vp-2770 and im afraid to have the same\
+  \ result on such a quality monitor."
+date: '2014-04-22 01:34:54'
+email: 2cf1febf82a132df7092bb47313e52c3
+name: Phil T.
+url: null

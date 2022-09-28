@@ -1,0 +1,16 @@
+_id: '11921'
+comment: "Thank you for your file. Unfortunately it didn't work for me.\n\nI have\
+  \ a MacPro (new model) with Thunderbolt to HDMI and a Dell 2711. \nThis setup worked\
+  \ with 10.9 Mavericks. I had to press \"Alt\" while \npressing \"scaled\" in preferences\
+  \ in order to get 2556x1440 as an option. \nAs soon as I upgraded to 10.10 (currently\
+  \ on 10.10.3 beta) the \nresolution went away and the highest I can reach is 1920x1080.\n\
+  \nI downloaded all 3 scrips, even the alternative. I put the Ruby file in \nmy home\
+  \ folder, run the script, create the new folder with the new text \nfile with I\
+  \ name DisplayProductID-a055, restart my computer and nothing. \nI still only see\
+  \ 1920x1080 as my highest resolution possible. I am putting it \nin the correct\
+  \ folder System&lt;Library&lt;Displays&lt;Overrides\n\nWhat can I be doing wrong?\n\
+  \nPlease please help!\n\nThank,"
+date: '2014-09-16 16:15:08'
+email: 6c8471d7adcb1cd79846e7a78fe9b23c
+name: Conrad Rodas
+url: null

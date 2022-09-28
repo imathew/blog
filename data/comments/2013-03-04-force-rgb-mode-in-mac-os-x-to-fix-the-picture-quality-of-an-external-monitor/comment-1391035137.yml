@@ -1,0 +1,11 @@
+_id: '9910'
+comment: "FIX: can\u2019t convert MatchData into String (TypeError)\n\nChange line\
+  \ 26 (add .to_s behind the closing curved bracket):\nmonitor_name=[disp[\"edid_hex\"\
+  ].match(/000000fc00(.*?)0a/){|m|m[1]}].pack(\"H*\")\nmonitor_name=[disp[\"edid_hex\"\
+  ].match(/000000fc00(.*?)0a/){|m|m[1]}.to_s].pack(\"H*\")\n\n.to_s means convert\
+  \ to string, so it does just what the error told us todo."
+date: '2014-01-30 09:38:57'
+email: fbcb402939a8120b19870d6b90e09e19
+name: chrisb
+reply_to: '9752'
+url: null

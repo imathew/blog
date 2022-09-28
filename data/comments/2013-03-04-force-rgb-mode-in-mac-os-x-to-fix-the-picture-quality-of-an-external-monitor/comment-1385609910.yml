@@ -1,0 +1,16 @@
+_id: '9491'
+comment: 'I used Andrew''s script, which adds the monitor name. However, my monitor
+  name had some garbage characters in it (not sure why), and this actually prevented
+  the override file from being loaded - that is, I rebooted and the problem was still
+  there. Manually editing the DisplayProductID-... file and removing the junk characters
+  from the monitor name fixed the problem and my monitor is now usable. Might be worth
+  mentioning, especially for those with a Phillips Brilliance 27" (272P4) monitor.
+
+
+  Anyways, thanks a bunch to everyone involved here. I''m glad my monitor works. I
+  have no clue why Apple won''t just add a little "Television?" checkbox to their
+  Display settings. It would save hundreds of people time and money. Ugh.'
+date: '2013-11-28 14:38:30'
+email: b2ecd194174398696f1d9a80bf6a14fa
+name: Tom Switzer
+url: http://gravatar.com/tixxit

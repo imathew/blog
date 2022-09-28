@@ -1,0 +1,8 @@
+_id: '9963'
+comment: You may wish to update your article. wtv files are now natively supported
+  in ffmpeg. So there's no need to use the dvr-ms format at all. Just feed the wtv
+  file directly into ffmpeg. HTH.
+date: '2014-02-25 09:53:22'
+email: c35d9b72fd50ca085d9ed18912b570f9
+name: Marc
+url: null

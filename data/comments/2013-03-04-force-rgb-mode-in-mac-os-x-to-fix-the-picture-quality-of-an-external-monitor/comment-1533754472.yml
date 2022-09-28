@@ -1,0 +1,14 @@
+_id: '16074'
+comment: "Hi all!\n\nI think this is my problem with my Mac Air Mid 2013.\nI have\
+  \ disabled csrutil\nI'm logged in as root\nI've tried a lot of different guides\
+  \ and patch-did.rb files and none of them spitting out anything...\ndifferent errors\
+  \ like this one:\npatch-edid.rb:11:in `match': invalid byte sequence in UTF-8 (ArgumentError)\n\
+  \tfrom patch-edid.rb:11:in `match'\n\tfrom patch-edid.rb:11:in `'\n\nI've not edited\
+  \ any patch files... As I understand it should work when downloaded and no editing\
+  \ needed.. or am I wrong?\n\nI'm running High Sierra 10.13.6\n\nI'm trying to connect\
+  \ it to my Philips 46\" Flat-TV.\n\nIs there anyone here that can point me in a\
+  \ right direction...?\n\nThanks!!"
+date: '2018-08-09 04:54:32'
+email: 58d78a6b3bbc4c9a136f1686fbceea4d
+name: Anders
+url: null

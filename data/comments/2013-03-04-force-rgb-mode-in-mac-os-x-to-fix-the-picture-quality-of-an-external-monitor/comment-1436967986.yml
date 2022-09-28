@@ -1,0 +1,12 @@
+_id: '14415'
+comment: 'after upgrade 10.10.3 - 10.11 beta3 i have no 2560x1080 anymore on external
+  monitor on my hackintosh.
+
+  After ruby patch-edid.rb - i even have less options then before ( no 1080p 1080i)
+
+  Looks like Aplleintelframebuffer azul patches (10.10-Azul-Port_0x6-DP2HDMI and 10.10-Azul-Port_0x7-DP2HDMI)
+  do not work on 10.11  ('
+date: '2015-07-15 23:46:26'
+email: ad583709419ab8db5b4608aed13f5774
+name: Paul Lipatov
+url: https://plus.google.com/107231993526152972587

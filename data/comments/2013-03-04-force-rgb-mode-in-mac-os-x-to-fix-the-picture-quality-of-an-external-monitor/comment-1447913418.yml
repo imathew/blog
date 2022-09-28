@@ -1,0 +1,32 @@
+_id: '14864'
+comment: 'BACK AT THE FIRST POST: "When I hooked it up to my Dell U2410 monitor via
+  HDMI cable I was shocked by the poor picture quality. The contrast was all wrong
+  and text was misshapen. No amount of calibration in the monitor or software would
+  fix it. OS X thinks my monitor is a TV, and is using the YCbCr colour space rather
+  than RGB. I had to override an EDID setting to force the RGB colour space, and it
+  is now working correctly."
+
+
+  1) What determines why a monitor IDs themselves as a TVs while another monitor ID
+  themselves as a RGB monitors?
+
+
+  2) My 3840x2160 RGB monitor supports audio via HDMI. My laptop HDMI works to a TV,
+  but no audio goes to my monitor. My first thought, does the fact it correctly sees
+  it as an RGB monitor mean it assumes monitor does not have audio? The monitor does
+  show-up under Sound Output as HDMI, but no audio goes to the monitor. Anyway to
+  OSX that the monitor does accept audio?
+
+
+  3) Same problem, but with the monitor connected by Thunderbolt/Displayport 1.2.
+  I assue DP supports at least 2 channels of audio, but no audio flows to the monitor.
+
+
+  4) Somehow OSX 10.9.5 thinks my 3840x2160 RGB monitor has a resolution of 6400x????.
+  So the QT Player fits a 3840x2160 video into the center quarter of the screen. I
+  can manually make it go Full Screen, but is there some way to tell OSX the correct
+  resolution?'
+date: '2015-11-19 17:10:18'
+email: 2ffd078773d2ecbee37c1a33241f839b
+name: Steve Mullen
+url: null

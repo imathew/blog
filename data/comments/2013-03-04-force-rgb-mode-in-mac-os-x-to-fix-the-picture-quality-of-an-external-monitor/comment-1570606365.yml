@@ -1,0 +1,14 @@
+_id: '16151'
+comment: 'On macOS Catalina it''s not possible to copy generated DisplayVendorID-*
+  folder to /System since it''s read only.
+
+
+  I managed to copy it using recovery mode:
+
+  1. Mount drive via DiskUtil
+
+  2. Copy with Terminal'
+date: '2019-10-09 18:32:45'
+email: c99f382595dfd0e689d75175ee67d77e
+name: "An\u017Ee Rehar"
+url: http://gravatar.com/anzefora

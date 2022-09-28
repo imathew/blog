@@ -1,0 +1,15 @@
+_id: '9209'
+comment: 'By home directory I mean your user folder. When you open up Terminal that''s
+  where you are first put, so if you run this script the results are created in that
+  location. Not sure what your level of expertise is with the command line, so check
+  out this if you are unsure: http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line
+
+
+  For your other question see my reply to azran on April 22nd. I think it will just
+  generate files for both screens, and you will have to determine which one was created
+  for the external screen and use that.'
+date: '2013-05-22 09:56:44'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9207'
+url: http://ireckon.net/

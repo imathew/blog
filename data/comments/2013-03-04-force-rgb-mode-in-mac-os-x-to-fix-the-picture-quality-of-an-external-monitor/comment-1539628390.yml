@@ -1,0 +1,10 @@
+_id: '16101'
+comment: Should be, hook up your target display again and then open System Prefs&gt;Displays&gt;Color
+  and choose the original profile OR go rootless again go to /System/Library/Displays/Contents/Resources/Overrides
+  and remove the folder that was added in the first place. In other words, follow
+  the steps backwards as it were.
+date: '2018-10-16 05:33:10'
+email: 2e3599ff8e8ecfa705d523fdbbd238ae
+name: The Real Nirv
+reply_to: '16094'
+url: http://gravatar.com/therealnirv

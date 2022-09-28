@@ -1,0 +1,9 @@
+_id: '9479'
+comment: Thanks, I used this for what seemed like the opposite direction, to force
+  full rgb on a panasonic plasma TV with a mac mini.  Outputting the limited color
+  space (the default) would still crush blacks no matter how I calibrated the TV.  The
+  full colorspace fixed the problem.
+date: '2013-11-20 14:24:25'
+email: 517811047a7d79c54f977926fffcdc6b
+name: Mark
+url: http://gravatar.com/mzuber88

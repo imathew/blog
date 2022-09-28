@@ -1,0 +1,10 @@
+_id: '15805'
+comment: So close to getting this working on my Acer K272HUL with my Macbook Air.
+  Followed directions to a T, including unlocking the filevault part, but when I execute
+  the mkdir command (mkdir /Volumes/ Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-472),
+  I get the No such file or directory error. Help please!
+date: '2016-06-11 10:09:59'
+email: 9e4962ad6fa6a666a2c90af0d176e961
+name: Jim
+reply_to: '14963'
+url: null

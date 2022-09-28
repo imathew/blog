@@ -1,0 +1,13 @@
+_id: '333'
+comment: 'make powershell run in remotesigned mode by typing "powershell Set-ExecutionPolicy
+  RemoteSigned" at the start bar
+
+
+  you may have to run powershell as administrator to the above command to work
+
+
+  Set-ExecutionPolicy RemoteSigned'
+date: '2010-03-09 08:37:37'
+email: a13bd2a43b03c18d01a0e18f96a7cbd1
+name: resago
+url: null

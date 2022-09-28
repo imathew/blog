@@ -1,0 +1,9 @@
+_id: '9752'
+comment: "Hi - \n\nWhen I run the script, I have the following error:\n\npatch-edid.rb:26:in\
+  \ `pack\u2019: can\u2019t convert MatchData into String (TypeError)\nfrom patch-edid.rb:26\n\
+  from patch-edid.rb:24:in `each\u2019\nfrom patch-edid.rb:24\n\nCan anyone help me?\
+  \ I have no idea what to do!!  Thank you in advance!\n\nDebra"
+date: '2014-01-11 10:01:57'
+email: 2ea2b458ab557f9ba522a61be0a1e005
+name: debra
+url: null

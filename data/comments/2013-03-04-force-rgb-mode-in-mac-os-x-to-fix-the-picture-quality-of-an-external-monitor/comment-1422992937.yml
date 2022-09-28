@@ -1,0 +1,17 @@
+_id: '13793'
+comment: "@Chris: it is normal that you see all kinds of  \u201CDisplayVendorID -xxxx\u201D\
+  .  Copying the new folder into the folder System/Library/Displays/Overrides/ and\
+  \ restarting the MacBook should do it. \n\n@Leon: 1. Download the file 'patch-edid.rb'\
+  \ and put it into your home directory.\n\n              2. Run the patch by opening\
+  \ Terminal and typing in Terminal the following:\n\n                  ruby patch-edid.rb\n\
+  \n                  After doing that you'll see a new folder in your home directory.\n\
+  \n              3. Go to System/Library/Displays/Overrides/ and make a back-up\n\
+  \                  of the folder 'DisplayVendorID-4dd9' if it exists, i.e. back-up\
+  \ the folder you are going to overwrite.\n\n              4. Copy the new folder\
+  \ from your home directory to System/Library/Displays/Overrides/.\n            \
+  \  \n              5. Restart your laptop.\n\nHope you will have more succes now."
+date: '2015-02-04 06:48:57'
+email: e0865cf469ffd6c5750e4bc6ab7250d1
+name: Stefan
+reply_to: '13775'
+url: null

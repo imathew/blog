@@ -1,0 +1,17 @@
+_id: '16017'
+comment: "Hi, this might be a helpful suggestion.  This worked for me with a MacBook\
+  \ Pro Retina 13\" 2014 with OSX Sierra 10.12.6.  My monitor is an LG 27EA83R.  It\
+  \ was washed out but otherwise had proper resolution with a Mini DisplayPort to\
+  \ DisplayPort cable.  \n\nI disabled SIP, downloaded the Andrew Daugherity\u2019\
+  s improved patch-edid.rb script.  \n\nUsed external keyboard and mouse on my closed\
+  \ MacBook Pro.  \n\nRan the script.  It created a folder with a single file.  Rather\
+  \ than move the entire folder and replace the one that existed (one existed on my\
+  \ MacBook Pro with many override files,) I simply copied the single file into the\
+  \ existing folder.  This retained all other overrides.  \n\nIf I want to reverse,\
+  \ I can remove the single file.  I copied the file to the folder instead of moving\
+  \ it, so I'd have a copy and know the name of the file to remove.  \n\nI reenabled\
+  \ SIP.  \n\nHope this helps."
+date: '2018-01-25 08:25:14'
+email: 7a4bc6f3acb70496eae4edb6cf25161b
+name: taser_this
+url: null

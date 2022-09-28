@@ -1,0 +1,11 @@
+_id: '9175'
+comment: This is the first I've heard about it affecting DisplayPort audio. I would
+  suggest you run the ruby script with only the HDMI attached, then backup any existing
+  folder with the same name as the one created before putting it in the overrides
+  folder. If it affects your DisplayPort audio, revert the changes by deleting the
+  new folder (and reinstating the old one, if applicable).
+date: '2013-04-09 09:07:57'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9173'
+url: http://ireckon.net/

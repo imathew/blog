@@ -1,0 +1,12 @@
+_id: '339'
+comment: 'full house: do you mean this line?
+
+
+  ffmpeg.exe -y -i "showname.dvr-ms"  -vcodec copy  -acodec copy  -f dvd "showname.mpg"
+
+
+  If so, maybe the version of ffmpeg you have doesn''t support dvr-ms?'
+date: '2010-03-12 13:50:31'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

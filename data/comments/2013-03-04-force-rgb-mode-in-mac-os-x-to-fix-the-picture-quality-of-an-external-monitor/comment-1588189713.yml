@@ -1,0 +1,10 @@
+_id: '16200'
+comment: "Hello! I am also encountering the same issue. \n\nAfter performing these\
+  \ steps:\n4. Type: sudo mount -uw /\n5. Enter Password.\n6. Type: rm -rf /System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-#\n\
+  \nI only get: \n\n/System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-#:\
+  \ Permission denied\n(I do replace the # with the actual numbers).\n\nPlease help!"
+date: '2020-04-30 05:48:33'
+email: e2c851c5b951b1013282caf4c27a5a0e
+name: elli
+reply_to: '16197'
+url: null

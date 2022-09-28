@@ -1,0 +1,12 @@
+_id: '10047'
+comment: "Hi All, \nI tried the hack, and it did not work!  I have an MBP 13 inch,\
+  \ I use a connection thunderbolt (instead of mini dislay port) to VGA. \nHere is\
+  \ the output of the file in the overrides directory: \n\n\n\n\n\n  DisplayProductName\n\
+  \  ASUS MS246 - forced RGB mode (EDID override)\n  IODisplayEDID\n  AP///////wAEafckAQEBARMUAQMKNB14JjWFplZImiQSUFS/7wDRwLMAqUCV\n\
+  AAEBgYCBQHFPAjqAGHE4LUBYLEUA3QwRAAAeAAAA/wBBNUxNSVowMzk3NTkK\nAAAA/QA3Sx5VEwAKICAgICAgAAAA/ABBU1VTIE1TMjQ2CiAgAHw=\n\
+  \n  DisplayVendorID\n  1129\n  DisplayProductID\n  9463\n\n\n\nDoes this look OK?\
+  \  I still see blurry text, and when I use parallels, the letters are crystal clear."
+date: '2014-05-08 20:07:20'
+email: 0d80b1046405fe4481e46d73b3cb20db
+name: Sagit
+url: http://Sagit

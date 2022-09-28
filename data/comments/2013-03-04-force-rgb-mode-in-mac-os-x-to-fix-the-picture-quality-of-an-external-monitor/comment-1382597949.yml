@@ -1,0 +1,11 @@
+_id: '9418'
+comment: "Just upgraded to Mavericks and can confirm that using 'sudo cp -R DisplayVendorID-xyz\
+  \ /System/Library/Displays/Overrides/' works. After a restart my 1080p Visio TV\
+  \ looks noticeably better using any resolution. It's still not as crisp as I would\
+  \ have expected (Gnome and Windows on the same display look crisper), but it's better.\
+  \ \n\nThanks for the tip and I 100% agree w/ your observations about the Apple community."
+date: '2013-10-24 17:59:09'
+email: 8af7751fc9790928e22bc3d7ecff9283
+name: bpopp
+reply_to: '9410'
+url: http://www.bpopp.net

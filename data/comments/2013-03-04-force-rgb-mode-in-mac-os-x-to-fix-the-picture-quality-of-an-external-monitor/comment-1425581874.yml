@@ -1,0 +1,25 @@
+_id: '14018'
+comment: I sense that I'm still in a different stadium, but this is the closest thread
+  I have yet found in my dilemma. I'm using a pair of late '12 Mac Minis with simultaneously
+  both HDMI as well as Thunderbolt to VGA video paths. The HDMI works fine, but after
+  upgrading from 10.8.6 to Yosemite, everything has gone haywire with my 1080P monitor
+  that is down stream from the Thunderport/Displays port. That port is converted to
+  VGA which then must pass through a Starview 4port VGA/USB hub. The hub used to be
+  "supported" but now is the weak link. The monitor is some industrial (VER G32LW170STD702LGF3)
+  nameless brand. I would switch out the hub or try DVI if my Mini wasn't sharing
+  a monitor with a Windows 7 embedded computer that works best with that specific
+  hub and connectivity. What happens is that the Mini cannot express a full screen
+  usage of the monitor (it trims vertically on both sides). I could accept this anomaly
+  if 1 out of 3 startups the Finder and Pointer didn't go nuts. The system bogs down
+  and cannot function properly even with nothing else running. Apple has replaced
+  the logic board twice as wells as both HD's to no avail. Currently I'm going to
+  try downgrading to Mavericks to see if the support for my hub still existed there.
+  Otherwise it's going to be an admittedly very steep learning curve for me to learn
+  more about EDID forcing and exactly what Apple's "Genius" engineers are up to in
+  dropping support for such peripherals as my Starview hub. Starview has no updates.
+  And Apple simply suggests different monitors and/or hubs. I want them to put the
+  older supports back in!
+date: '2015-03-06 05:57:54'
+email: 1e72dfcd0b3a7688c02ec97c2bd0715f
+name: David
+url: null

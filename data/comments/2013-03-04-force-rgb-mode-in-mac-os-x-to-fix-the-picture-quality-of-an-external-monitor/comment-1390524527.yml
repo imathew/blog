@@ -1,0 +1,27 @@
+_id: '9880'
+comment: '@Yiftipon sorry to hear it didn''t work
+
+
+  maybe this helps?
+
+
+  You can force OS X to use LCD font smoothing on all displays with this Terminal
+  command:
+
+  defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+
+
+  And to restore the default:
+
+  defaults -currentHost delete -globalDomain AppleFontSmoothing
+
+
+  found it here: http://forums.macrumors.com/showthread.php?t=1390034&amp;page=1
+
+
+  maybe that helps?'
+date: '2014-01-24 11:48:47'
+email: 1a807ff4d3cbe9ab9ea7188ab3acdb50
+name: mukki2013
+reply_to: '9876'
+url: http://gravatar.com/mukki2013

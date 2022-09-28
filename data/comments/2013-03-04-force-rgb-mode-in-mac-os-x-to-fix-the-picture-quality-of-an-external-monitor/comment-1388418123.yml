@@ -1,0 +1,16 @@
+_id: '9664'
+comment: 'Hey Bram
+
+
+  I''ve downloaded your version of patch-edid.rb off of Github, but whenever i run
+  it nothing happens - nothing returned on the commandline and no new folders or files
+  created.
+
+
+  Digging a little deeper, it seems it''s returning displays.length as zero - any
+  idea why that might be?'
+date: '2013-12-31 02:42:03'
+email: 0e83b19c456cb5d09175822fd8593f61
+name: Rob Corradi (@Ribrob)
+reply_to: '9616'
+url: http://twitter.com/Ribrob

@@ -1,0 +1,8 @@
+_id: '14719'
+comment: "Unfortunately it does not work for me:\n\npatch-edid.rb:9:in `scan': invalid\
+  \ byte sequence in UTF-8 (ArgumentError)\n\tfrom patch-edid.rb:9:in `'\n\nI got\
+  \ an 5K Retina iMac. \nPlease help! The colors on my Philips TV make me crazy!!"
+date: '2015-10-07 02:18:37'
+email: 95ccbba2b7182796e9186c0e5fc13c7a
+name: Karl
+url: null

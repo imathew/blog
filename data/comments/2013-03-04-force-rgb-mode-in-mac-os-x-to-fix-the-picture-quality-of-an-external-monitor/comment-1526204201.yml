@@ -1,0 +1,11 @@
+_id: '16042'
+comment: My DisplayVendorId-* folder for my external screen got messed up with multiple
+  DisplayProductID-* files in it. I deleted the whole folder within single user mode
+  (cmd+s at startup), copied the generated files to /System/Library/Displays/Contents/Resources/Overrides
+  and now it works again. Seems to happen after upgrading to high sierra, before that,
+  it just worked fine.
+date: '2018-05-13 19:36:41'
+email: c3ac11d9a60d54d450eec8615ed13e96
+name: bstelljes
+reply_to: '16041'
+url: null

@@ -1,0 +1,15 @@
+_id: '14962'
+comment: "Realized my drive wouldn't mount by default because it's a FileVault volume.\
+  \ First, look for the \"Logical Volume\" number, grabbing it from the last entry\
+  \ with the following command. It's a long string of hex numbers with some hyphens.\
+  \ (Not \"Logical Volume Family\" or \"Physical Volume\", but \"Logical Volume\"\
+  )\n\n    diskutil coreStorage list\n\nThen, unlock it:\n\n    diskutil coreStorage\
+  \ unlock \n\nwhich should also mount it. (If it doesn't, try diskutil mount ). Then,\
+  \ make sure you're using the full paths, i.e., \"/Volumes//System/...\" and not\
+  \ \"/System/...\" (Matt, that's why you were getting read-only errors: you were\
+  \ referring to the Recovery Volume paths."
+date: '2015-12-30 06:51:23'
+email: bc78c467644cad123221d7132b4d535f
+name: branden
+reply_to: '14866'
+url: null

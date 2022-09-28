@@ -1,0 +1,18 @@
+_id: '9607'
+comment: "Hi,\nI have tried your solution but i didn't work although I have a monitor\
+  \ that others seem to have gotten to work.\n\nsetup:\n- MBP mid 2012\n- OS X 10.9.1\n\
+  - Mini DisplayPort to HDMI Adapter -&gt; HDMI cable\n- 2nd display: HP Pavilion\
+  \ 23xi\n\nsystem graphics info after installing file:\nDisplays:\nColor LCD:\n \
+  \ Display Type:\tLCD\n  Resolution:\t1440 x 900\n  Pixel Depth:\t32-Bit Color (ARGB8888)\n\
+  \  Main Display:\tYes\n  Mirror:\tOff\n  Online:\tYes\n  Built-In:\tYes\nHP 23xi\
+  \ - forced RGB mode (EDID override):\n  Resolution:\t1920 x 1080 @ 60 Hz\n  Pixel\
+  \ Depth:\t32-Bit Color (ARGB8888)\n  Display Serial Number:\t3CM3280C94  \n  Mirror:\t\
+  Off\n  Online:\tYes\n  Rotation:\tSupported\n\nit is still blurry as before...\n\
+  \nnote:\nEven though the file got installed, I was not able to do install it with\
+  \ the lid closed because I need that 'enter/return' button to confirm the command\
+  \ in terminal of course.\n\nAny help is appreciated!\nDesperately trying to avoid\
+  \ having to buy aspirine after looking at the screen..."
+date: '2013-12-27 00:38:46'
+email: eb24c5a90b00452369e8c3561601440d
+name: Bram WUyts
+url: null

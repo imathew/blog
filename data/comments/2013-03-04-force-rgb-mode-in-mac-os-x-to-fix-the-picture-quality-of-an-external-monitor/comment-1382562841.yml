@@ -1,0 +1,8 @@
+_id: '9415'
+comment: To me this seems like a simple permission problem. /System/Library/Displays/Overrides/
+  is owned by root and other users do not have write permissions. Solution? Sudo...
+date: '2013-10-24 08:14:01'
+email: efc03df4e740c05368d679b6308cd199
+name: mikrohard
+reply_to: '9410'
+url: null

@@ -1,0 +1,14 @@
+_id: '14963'
+comment: 'the comment parsing system removed my angle bracket placeholders. The unlock
+  command is:
+
+
+  diskutil coreStorage unlock (number)
+
+
+  and the full path should be "/Volumes/(drive name)/System/..."'
+date: '2015-12-30 06:55:46'
+email: bc78c467644cad123221d7132b4d535f
+name: branden
+reply_to: '14962'
+url: null

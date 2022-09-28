@@ -1,0 +1,13 @@
+_id: '16018'
+comment: "I tried the recommended linked github patch-edid.rb script from TFA, but\
+  \ it emphatically does not work whatsoever for my ViewSonic VX 2770 on Mac OS X\
+  \ 10.11.6 El Capitan on both my iMac 27\" Retina Desktop using Thunderbolt 2 to\
+  \ HDMI cable nor my 2010 Mac Mini using a pure HDMI cable. \n\nHowever, I finally\
+  \ found this modified script here https://embdev.net/topic/284710#3027030 that works\
+  \ perfectly and preserves the expected resolutions, yay!\n\nBefore buying a new\
+  \ cable, please try the modified script from the link above (or use one of the subsequent\
+  \ patched scripts in that forum topic for various other monitors.)\n\nGood luck!"
+date: '2018-02-01 17:04:44'
+email: e2c997aeec3d0bf5b34b8686b974d63a
+name: jtnix
+url: http://gravatar.com/jtnix

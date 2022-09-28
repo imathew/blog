@@ -1,0 +1,19 @@
+_id: '9913'
+comment: 'Yes. I have the Dell S2440L and experience the same problem. The problem
+  is the driver for Intel HD 4000 graphics. It has problems with HDMI to HDMI. Some
+  people use a Thunderbolt --&gt; HDMI adapter and it works. Other people like me
+  use minidisplayport --&gt; VGA and it works. Mine used to go black for a few seconds
+  until I switched to VGA.
+
+
+  Windows has the updated driver from Intel but Mac OS X does not (yet). The same
+  problem occurs in Linux.
+
+
+  Many people are complaining about this on Intel''s and Apple''s websites. I hope
+  they will release a driver update to solve the problem.'
+date: '2014-01-30 23:08:59'
+email: 3ac7b7c3df2c5a350906fa4d1d4b0bc9
+name: John Brown
+reply_to: '9909'
+url: null

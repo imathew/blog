@@ -1,0 +1,17 @@
+_id: '9972'
+comment: 'Has anyone had any success forcing an actual TV into RGB mode over HDMI?
+
+
+  My 2008 Mac Pro and Bravia 40D3000 connects via VGA, however the time will come
+  when I go 1080p, and I''ll be forced to go digital and be unable to avoid the RGB
+  issue anymore. I have a DVI-HDMI cable that I never used due to this years ago.
+
+
+  I tried this last year, the, however I suspect that the EDID info is incorrect and
+  is ignored, nothing changed on boot. Just tried today again in a spare moment, and
+  now the script doesn''t create anything at all, no idea what has changed to cause
+  this. That said I''m no worse off, having never had any success.'
+date: '2014-03-03 06:29:16'
+email: 52f056ceef6caa78b388708f719cd538
+name: Nick Mowinski
+url: null

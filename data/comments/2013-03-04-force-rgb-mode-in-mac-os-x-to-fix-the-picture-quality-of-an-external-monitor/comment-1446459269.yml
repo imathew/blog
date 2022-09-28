@@ -1,0 +1,14 @@
+_id: '14803'
+comment: "Hi, for anyone still having problems AFTER going through the whole process:\
+  \ I came across a fix by user jkgeyti on github that worked perfectly for me:\n\n\
+  \"I just realised what the problem was for me. I hope this will be useful for others.\n\
+  \nOpening the produced config file in nano showed the device name has a bunch of\
+  \ \"unsupported\" characters Philips 272P4^@^@^@\uFFFD^@^WL^Oc^^^@ - forced RGB\
+  \ mode (EDID override). I replaced it with Philips 272P4 - forced RGB mode (EDID\
+  \ override), saved, unplugged and reseated the hdmi cable, and success!\n\nMaybe\
+  \ it was worth adding a line to the script that strips all non-alphanumeric characters\
+  \ from the display name?\""
+date: '2015-11-02 21:14:29'
+email: 40c379bc0973f2e5a1f3db61446c417f
+name: Philipp
+url: null

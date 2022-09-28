@@ -1,0 +1,18 @@
+_id: '14316'
+comment: "Hi, thought i'd post this as it may help some:\nI've been using an ASUS\
+  \ Pro Art PA279Q monitor for 12 months with my MBP 15\" mid 2012 running more recently\
+  \ 10.9.3 yosemite connected via daisy chained thunderbolt drives (imac-&gt;promise\
+  \ pegasus R4-&gt;WD mybook thunderbolt duo-&gt;display) with display at end. crisp\
+  \ fonts and colours great, never needed tweaking. MBP logic board died so bought\
+  \ a refurbished imac 27\" 2013 and setup from MBP time machine backup. when PA279Q\
+  \ was plugged directly into imac thunderbolt port (using mini display port-VGA adapter\
+  \ same as before) it gave me shitty resolution (1280x800 or less) with fuzzy fonts.\
+  \ \nrerouting the display through the HDD daisy chain restored previous display\
+  \ settings for external monitor giving me 1920x1080 and crisp fonts as well as a\
+  \ PA-248 colour profile to work with. I've no idea why but perhaps this may be useful\
+  \ to others experiencing similar issues. i was about to try the force RGB suggestions\
+  \ of the past 2 years of threads but this solved my issue."
+date: '2015-05-06 00:48:14'
+email: 30eb94e9a8b927bf48c412bfb23eb2fa
+name: dave
+url: null

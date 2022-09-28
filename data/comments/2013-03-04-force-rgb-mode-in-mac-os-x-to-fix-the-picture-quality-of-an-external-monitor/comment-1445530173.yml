@@ -1,0 +1,24 @@
+_id: '14772'
+comment: "I had been using Yosemite with this override trick flawlessly... until El\
+  \ Capital came. Then things went awful again, and with \"things\" I mean colors,\
+  \ shapes, blurry fonts, etc.\nSo I came back here to see if there was a new trick\
+  \ for this new OS or something, and voil\xE0! \nI followed the same steps stated\
+  \ above, i.e.:\n0.- Disconnect all displays but the one is giving you problems.\
+  \ In my case, I use mac mini with an AOC Q2963PM 29\" 2560x1080 as primary display\
+  \ and a Samsung S23B370 1920x1080 as secondary display. Since the problem is with\
+  \ AOC, I unplugged the S23.\n1.- Download the improved script https://gist.github.com/adaugherity/7435890\
+  \ ||\_Put it on home directory. (For newbies: where is home folder? Is the one it\
+  \ has a \"house\" icon, and it is named with the user name you created when the\
+  \ first OS was installed on your machine)\n2.- Reboot to disable SIP. See http://www.macworld.com/article/2986118/security/how-to-modify-system-integrity-protection-in-el-capitan.html\
+  \ Go down to \"Follow these steps to disable SIP\" section. If you use a wireless\
+  \ keyboard, the \"Command+R\" combo does't work. I had to plug an USB Keyboard just\
+  \ to make it work.\n3.- Reboot again\n4.- Run the improved script you downloaded\
+  \ in step 1.\n5.- Copy the folder created by the script (in my case it was \"DisplayVendorID-5e3\"\
+  ) \ninto the \u201C/System/Library/Displays/Contents/Resources/Overrides\u201D folder.\
+  \ \n6.- Reboot\n7.- Notice everything is back to normal again. Enjoy the view.\n\
+  8.- Reboot again to enable SIP. Just in case.\n\nThat's all. I really hope it works\
+  \ for you too."
+date: '2015-10-23 03:09:33'
+email: e9b20f8d3e32d2866c4f014e5d665bee
+name: Sebastian
+url: null

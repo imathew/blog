@@ -1,0 +1,11 @@
+_id: '346'
+comment: 'Hi Mathew,
+
+  I am trying to unbrick my hdd, but when I connect to Hyperterminal or Putty and
+  enter Ctrl+z my com prompt shows F&gt; and I cannot access level 2. Any ideas? PS.
+  I am using a Nokia Usb to Uart cable model CA-42 with drivers install, alsoo I am
+  only able to communicate at a rate of 9600 instead of 38400.'
+date: '2010-03-22 07:57:20'
+email: ec90c57fe2043762badf5ceafc87017e
+name: Hassiem
+url: null

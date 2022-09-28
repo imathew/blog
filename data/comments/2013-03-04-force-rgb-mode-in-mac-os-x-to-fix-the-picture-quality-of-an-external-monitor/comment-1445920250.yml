@@ -1,0 +1,9 @@
+_id: '14780'
+comment: I disable SIP in recovery mode. I verify status while still in recovery mode
+  and is shows disabled. I reboot normally and check csrutil status, it shows SIP
+  as enabled and denies access to systems folder to copy my new monitor profile. When
+  I reboot in recovery mode and check status, it still shows SIP as disabled.
+date: '2015-10-27 15:30:50'
+email: 53f05439bf4f28d6f343a32b42bf0be5
+name: Kimball
+url: null

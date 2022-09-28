@@ -1,0 +1,6 @@
+<footer>{{ if .Params.lastmod }}
+    <p class="updated">Last updated {{ .Params.lastmod.Format "January 2, 2006" }}</p>{{ end }}{{ if .Params.tags }}{{ end }}
+    {{ if eq .Type "posts" -}}
+    <div class="end"><hr /></div>
+    {{ partial "comments.html" .}}{{ end }}
+</footer>

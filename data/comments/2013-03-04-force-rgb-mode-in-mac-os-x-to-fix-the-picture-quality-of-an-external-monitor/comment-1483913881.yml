@@ -1,0 +1,10 @@
+_id: '15913'
+comment: Sierra users - to run this ruby script please make sure that your ruby is
+  actually working. Coming from behind 4 osx upgrades my ruby did not, so this script
+  did not work, nor give out any meaningful errors withing 5 minutes of looping. Just
+  type in terminal "ruby -v" to see if it respons. If not, reinstall/fix ruby and
+  it will work.
+date: '2017-01-09 09:18:01'
+email: 644f776845b127b50cf930c70b57aa79
+name: Allan
+url: null

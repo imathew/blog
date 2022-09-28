@@ -1,0 +1,13 @@
+_id: '14679'
+comment: I found that upgrading to El Capitan had wiped out my override on my ASUS
+  PA279. It had also changed the background picture to something I used a year ago
+  and killed my calibration! Of course I couldn't copy the override folder anymore.
+  So I rebooted into recovery mode, opened a terminal in recovery and manually copied
+  the folder into the new overrides folder (System/Library/Displays/Contents/Resources/Overrides)
+  . In recovery mode, the internal hard disk gets mounted into /Volumes/Macintosh
+  HD/ so make sure you take that into account. I would guess that you can also do
+  this using a single user boot (hold command-S during a boot).
+date: '2015-10-01 13:19:23'
+email: a1fb7361a24ccbd1caf2414e871aa6bc
+name: Jao
+url: http://lagemaat.blogspot.com

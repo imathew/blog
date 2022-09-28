@@ -1,0 +1,19 @@
+_id: '15127'
+comment: 'I have an early 2011 Macbook Pro 15" running Mavericks connected to a LG
+  23MP47HQ-P IPS monitor. It is connected through a thunderbolt to HDMI adapter and
+  is being recognized as a TV. I''ve run the patch multiple times with no success.
+  I''ve gone into the Display Vendor ID file and the LG monitor is being recognized
+  and has the correct name in the code. I''ve also tried to edit the display name
+  in the patch file (as per Michiel''s comment) before running the terminal command
+  but this causes an error in the execution and doesn''t create a new folder.
+
+
+  Would anyone have any other ideas of what might solve my issue. Did I buy a monitor
+  that this patch just will not work on?
+
+
+  Thanks!'
+date: '2016-03-11 08:53:18'
+email: ffd76113a643c893994064d6748c69d0
+name: Luke
+url: null

@@ -1,0 +1,36 @@
+_id: '9932'
+comment: "Mathew, Andrew and Tom thank you very much!! This \u201Afixed\u2019 my monitor\
+  \ problem too!!\nMy setup is a bit different than with the rest of you, but the\
+  \ solution also\nworks for me.\nI have the 27\u201D Philips 272C4QPJKAB/00 monitor\
+  \ at 2560x1440. It\u2019s the consumer version of the Philips 272P4QPJKEB. I wanted\
+  \ to use the monitor as a second monitor to my late 2013 27\u201D iMac that runs\
+  \ OSX Mavericks. The cable I use is a \u201Emini-displayport to displayport version\u201D\
+  .\nThat resulted in very distorted text display as with the rest of you. So I was\
+  \ very glad to find this forum/thread in a consumers-review on the site of a Dutch\
+  \ supplier.\n\nA few insights on the problems I encountered while fixing the problem\
+  \ (hopefully this will help people with the same monitor on a Mac):\n\nI downloaded\
+  \ Andrew\u2019s enhanced version of the script through Github and extracted patch-edid.rb\
+  \ from the .tar file. I placed in /root (I thought /home was the same as the root)\
+  \ and tried to run it. That didn\u2019t work (although I logged on as administrator).\
+  \ But when I executed it in /users/username it worked. I was a bit scared it wouldn\u2019\
+  t, because I can\u2019t \u201Aclose the lid\u2019 on my iMac as MBO owners can.\
+  \ No problem there though.\nRemember you have to place the resulting folder in your\
+  \ root: system/library/displays/overrides instead of the user/home.\n\nRestarting\
+  \ my Imac twice resulted in a much better text quality (and in settings the \u201E\
+  TV\u201D line disapeared). BUT I had to fine tune my monitor on the monitor itself\
+  \ to have normal text quality. Turning the \u201ESmart Image\u201D to \u201EMovie\u201D\
+  \ and turning OFF Smarttext (and  Smartkolor; I have Smartcontrast turned on) did\
+  \ the rest of the job.\n\nI also followed the tip of Tom Switzer (thanks) who has\
+  \ the professional version of the monitor (272P4QPJKEB), but encountered the problem\
+  \ that I couldn\u2019t view/edit the file that the patch-edid.rb produced (file\
+  \ format ineditable). I bought an hex-editor that was able to open and edit the\
+  \ file. It resulted in a byte bigger file that (seemed to have) added a unicode-8\
+  \ flag. Now I was able to edit it with text-editor. And I could remove the ??? characters\
+  \ in the file name. With me the patch seemed to work without it too. But at least\
+  \ it looks nicer without the ??? characters in the monitor name (showing up in systeminfo).\n\
+  \nThanks again!! It prevented me from returning the monitor as useless for my iMac.\
+  \ Now I have an AWESOME double 27\" desktop space (2 times 2560x1440)."
+date: '2014-02-08 18:05:55'
+email: 9584cf7ee6d100f55125f40ef6cb703b
+name: ludwig70
+url: null

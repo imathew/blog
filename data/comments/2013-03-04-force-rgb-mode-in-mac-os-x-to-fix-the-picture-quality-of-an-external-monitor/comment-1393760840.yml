@@ -1,0 +1,9 @@
+_id: '9971'
+comment: I'm using an LG L245W monitor which is known to have incorrect onboard EDID
+  data. I have solved this on my Windows computer by overriding it in the nVidia drivers
+  so it should be possible on my Mac as well. However, this patch doesn't seem to
+  work for me. Can anyone help me in the right direction please?
+date: '2014-03-02 22:47:20'
+email: 8b845d2b03ad9af7ccf4f84b971a8445
+name: Nisei
+url: null

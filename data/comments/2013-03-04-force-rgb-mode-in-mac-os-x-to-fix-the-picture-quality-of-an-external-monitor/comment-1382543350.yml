@@ -1,0 +1,10 @@
+_id: '9413'
+comment: 'This fix worked for me on Mavericks.  If you get Permission denied when
+  moving/copying, remember to add ''sudo''
+
+
+  sudo mv DisplayVendorID-10ac /System/Library/Displays/Overrides'
+date: '2013-10-24 02:49:10'
+email: 52ff77851c94ceeeed12b2f823030f37
+name: Mattias
+url: null

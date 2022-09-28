@@ -1,0 +1,27 @@
+_id: '31'
+comment: 'Hi TW,
+
+
+  Are you using a DKU-5 (or similar) USB cable? The required cable isn''t a regular
+  USB cable but one containing the circuitry to create a serial signal. I used an
+  old Nokia phone cable.
+
+
+  When you insert the correct cable, Windows should detect it and ask for drivers.
+  I was lucky - I bought mine from eBay and it didn''t come with drivers, but Vista
+  detected and installed the correct ones (after automatically searching online).
+  The cable then appeared as "USB-Serial Controller" in Device Manager, and listed
+  the COM port number.
+
+
+  As for your final question - yes, it was that simple for me. You''ll need to check
+  that the cable is working correctly via the loopback method before you attach it
+  to the hard disk, though. It sounds to me that you don''t have the correct cable,
+  or the correct drivers haven''t been installed.
+
+
+  Good luck!'
+date: '2009-06-08 23:00:41'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://

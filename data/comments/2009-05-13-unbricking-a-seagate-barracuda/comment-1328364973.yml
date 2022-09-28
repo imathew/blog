@@ -1,0 +1,19 @@
+_id: '5746'
+comment: "my hdd is showing the problem\n\nMODEL      :             ST3750330NS\n\
+  CAPACITY :             0MB  \n\nvisiting card inserted motor contacts disable\n\n\
+  \nF3 T&gt;     ^A\n\nController FW Rev: 12061642, CustomerRel: SN04, Changelist:\
+  \ 00052376, ProdType:                                                          \
+  \                     \nMS01.SDN1, Date: 12/06/2007, Time: 164517, UserId: 00011250\
+  \                                                           \nServo FW Rev: B0FA\
+  \                  \nRAP Format Rev: 0092, Contents Rev: 15 05 00 08           \
+  \                                    \n\nF3 2&gt;Z      \n\nSpin Down Complete \
+  \                 \nElapsed Time 0.149 msecs                        \n\nF3 2&gt;/2\
+  \       \n\nF3 2&gt;U\n\nError 1009 DETSEC 00006008\nSpin Error\nElapsed Time 29.501\
+  \ secs\nR/W Status 2 R/W Error 84150180\nF3 2&gt;m0,2,2,,,,,22\n\nUnable to load\
+  \ Diag Overlay\n\nF3 2&gt;/1\n\nF3 1&gt;N1\n\nUnable to load Diag Overlay\n\nF3\
+  \ 1&gt;/T\n\nF3 T&gt;i4,1,22\n\nUnable to load Diag Overlay\n\nF3 T&gt;\n\nneed\
+  \ adivce for terminal command, \nthis error is repaiable or not,\n\nthanks"
+date: '2012-02-05 01:16:13'
+email: 08a87b89a4753c7ae6a80b996c7d8c21
+name: salim
+url: null

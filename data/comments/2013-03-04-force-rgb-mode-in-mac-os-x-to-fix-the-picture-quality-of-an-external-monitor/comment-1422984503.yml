@@ -1,0 +1,26 @@
+_id: '13792'
+comment: "Hi all,\n\nSo, I am wondering if the blurry fonts on my LG 32\" HDTV, connected\
+  \ by HDMI-HDMI to my Mac Mini (late 2014), are caused by the same problem you are\
+  \ all dealing with here...\n\nPlease could anyone review whether I correctly followed\
+  \ the instructions of Matthew's post and Andrew's comment? I am an absolute dummy\
+  \ in this department, so I probably skipped some step that to others seems too obvious\
+  \ to mention. This is what I did:\n\nI copied Andrew\u2019s file and containing\
+  \ folder (see his post above) to the required folder, so that it shows in Finder\
+  \ as follows:\nSystem/Library/Displays/Overrides/gist7435890-66c54c17b179809b028b58a2ca7af0b9540d05b6/patch-edid.rb\n\
+  \nThen I restarted my computer (Late 2014 Mac Mini, running Yosemite including all\
+  \ updates). I did not really see any changes, as the fonts still appear blurry on\
+  \ the screen (32\u2033 LG smart TV, connected with HDMI to HDMI; the TV has no DVI\
+  \ or VGA connections).\n\nIn the Display Preferences on my Mac, the resolution is\
+  \ set to \u201CDefault for display\u201D, which is 1080p, and in the color tab I\
+  \ see the following profiles:\n\nHD 709-A\nLG TV Calibrated [this one I created\
+  \ before; it shows the richest colors]\nSD 170M-A\nAdobe RGB (1998)\nGeneric RGB\
+  \ Profile\nsRGB IEC1966-2.1\n\nDid I take the right steps? I have no idea what a\
+  \ script is supposed to do; was I also supposed to double-click on the script file,\
+  \ beside just copying it to the required folder?\n\nAnd am I looking in the right\
+  \ place, under Display Preferences? As I never saw anything about YcBcR or something\
+  \ in any of the System Preferences, I don\u2019t know if I am trying to apply the\
+  \ right fix here in the first place.\n\nThanks much for any suggestions!\nLeon"
+date: '2015-02-04 04:28:23'
+email: 2a7ecee245d6f0fa003a656a1a242581
+name: Leon
+url: null

@@ -1,0 +1,18 @@
+_id: '9410'
+comment: "I got this working before I upgraded to OS X Mavericks this morning but\
+  \ now the override seems to have disappeared and Mac System Report is saying my\
+  \ DELL U2711 is \"Television: (Yes)\".\n\nI ran the script and it has created the\
+  \ \"DisplayVendorID-10ac\" folder but I can't see \u201C/System/Library/Displays/Overrides\u201D\
+  \  in my Library (Library is visible and I have run various \"chflags no hidden\"\
+  \ commands in Terminal for the folders). \n\nI can see \u201C/System/Library/Displays/Overrides\"\
+  \ in Terminal but when I try to copy the folder over in there I get an error (not\
+  \ sure what I'm doing): \n\nrsync -av /Users/[ME]/DisplayVendorID-10ac/* /System//Library/Displays/Overrides/\n\
+  building file list ... done\nDisplayProductID-a057\nrsync: mkstemp \"/System/Library/Displays/Overrides/.DisplayProductID-a057.QM32QP\"\
+  \ failed: Permission denied (13)\nsent 757 bytes  received 42 bytes  1598.00 bytes/sec\n\
+  total size is 613  speedup is 0.77\nrsync error: some files could not be transferred\
+  \ (code 23) at /SourceCache/rsync/rsync-42/rsync/main.c(992) [sender=2.6.9]\n\n\
+  Hmmmm."
+date: '2013-10-23 21:32:36'
+email: 75fb6307bf31d342f81c6bca1767a2e2
+name: Neil
+url: null

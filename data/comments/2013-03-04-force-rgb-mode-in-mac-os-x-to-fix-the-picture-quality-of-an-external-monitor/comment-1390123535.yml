@@ -1,0 +1,13 @@
+_id: '9834'
+comment: "I have followed instructions explicitly and here is screen shot of the (LoadError)\n\
+  \n****************************************************\nLast login: Sun Jan 19 00:23:36\
+  \ on console\n\nPamz-BIG-iMac:~ pam$ ruby patch-edid.rb\n\n/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin13/rbconfig.rb:212:\
+  \ warning: Insecure world writable dir /Library/Application Support/GoodSync in\
+  \ PATH, mode 040777\n\nruby: No such file or directory -- patch-edid.rb (LoadError)\n\
+  \nPamz-BIG-iMac:~ pam$ \n\n****************************************************\n\
+  \nAny suggestions to help me out? Running on iMac 27 to Samsung SyncMaster 27\"\
+  \ T240-HD via HDMI"
+date: '2014-01-19 20:25:35'
+email: 9d5334dfa989633748d38f63ec4843d6
+name: Pam
+url: http://n/a

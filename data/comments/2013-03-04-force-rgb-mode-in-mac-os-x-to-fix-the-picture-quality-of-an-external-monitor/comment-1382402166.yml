@@ -1,0 +1,10 @@
+_id: '9406'
+comment: It's going to be different for different machines and monitors, but all the
+  script would have done is create new override files. You might be able to just check
+  which ones you'd copied across to your overrides folder by their date, and delete
+  them (or just move them elsewhere) to get back to how it was.
+date: '2013-10-22 11:36:06'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9405'
+url: http://ireckon.net/

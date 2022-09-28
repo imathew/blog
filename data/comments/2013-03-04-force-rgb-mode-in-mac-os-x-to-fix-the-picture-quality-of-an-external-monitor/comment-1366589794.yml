@@ -1,0 +1,10 @@
+_id: '9183'
+comment: If I recall correctly, when you run the ruby script an override is created
+  for each attached monitor. I'm not 100% sure on this, but I presume you can run
+  the ruby script and then determine which override represents your external monitor
+  before copying just that one to the /System/Library/Displays/Overrides directory.
+date: '2013-04-22 10:16:34'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9182'
+url: http://ireckon.net/

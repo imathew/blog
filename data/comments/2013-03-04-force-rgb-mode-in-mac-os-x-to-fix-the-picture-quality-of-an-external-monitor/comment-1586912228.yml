@@ -1,0 +1,19 @@
+_id: '16197'
+comment: 'This worked for me a few months ago for my MacBook Pro and Dell U2713H
+
+
+  I think there was an update a few weeks ago and it broke again, the  fixed option
+  is still there in the monitor settings, it just doesn''t do anything anymore.
+
+
+  I''ve gone through the process again, however now I am unable to copy the fixed
+  file to the Overrides folder, I''ve disabled SIP but I keep getting a permissions
+  error when I try copy or when I try using sudo to copy it in terminal.
+
+
+  Has anyone else had this happen? It''s quite frustrating that it was working and
+  it''s broke again :/'
+date: '2020-04-15 10:57:08'
+email: db9b0cf5d1e0a836002228091222cf87
+name: Izabel
+url: null

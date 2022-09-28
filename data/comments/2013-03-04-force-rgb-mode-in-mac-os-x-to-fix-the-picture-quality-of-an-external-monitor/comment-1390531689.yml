@@ -1,0 +1,14 @@
+_id: '9881'
+comment: '@Yiftipon, I''m no expert, but it did take some trial and error in following
+  the explicit instructions of the procedure to get my external monitor to look good
+  and "fly right." Are you getting any errors (might be embedded within a message)
+  after running the script on Console? I saw one on my first few attempts and stopped
+  to think about what it was telling me. I concluded that I had moved the folder containing
+  the Ruby script file, but needed to move only the script file itself so that it
+  could be found and run. That took care of all my problems and I have a beautiful
+  external display now! Good luck in your troubleshooting...'
+date: '2014-01-24 13:48:09'
+email: 9d5334dfa989633748d38f63ec4843d6
+name: Pam
+reply_to: '9876'
+url: http://n/a

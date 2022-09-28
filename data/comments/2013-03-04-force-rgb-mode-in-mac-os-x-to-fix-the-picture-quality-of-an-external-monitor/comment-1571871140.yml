@@ -1,0 +1,24 @@
+_id: '16155'
+comment: '1.) Run ruby edid-fix.rb while only the monitor you wanna configure is connected
+
+  2.) Copy resulting DisplayVendors* folder to some easy to type path
+
+  3.) Restart in recovery mode - CMD+R during boot
+
+  4.) Mount your HD via DiskUtil
+
+  5.) Open terminal
+
+  6.) csrutil disable
+
+  7.) sudo mount -uw /
+
+  8.) go to folder where you copied DisplayVendors*
+
+  9.) cp -rf DisplayVendors* /Volumes/YourHDName/System/Library/Displays/Contents/Resources/Overrides
+
+  10.) csrutil enable'
+date: '2019-10-24 09:52:20'
+email: 220841ffb4bbbc8da4e80fd8ca101558
+name: Uros
+url: null

@@ -1,0 +1,11 @@
+_id: '9962'
+comment: Hi Zyg. The file you generated looks fine. I never closed the lid during
+  the process. It's not needed. The problem is that Apple's DVI to Thunderbolt plug
+  does not support higher resolutions than full HD (1920x1080). If you just get a
+  regular DisplayPort (monitor side) to Mini DisplayPort (MacBook side) cable, you'll
+  get it to work. See also http://daggle.com/macbook-run-2560-1440-monitor-2324
+date: '2014-02-24 19:41:41'
+email: a618a2738bda7de2d12da51c47d09926
+name: Michiel
+reply_to: '9960'
+url: http://gravatar.com/micros123

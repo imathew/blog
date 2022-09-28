@@ -1,0 +1,9 @@
+_id: '220'
+comment: "I get a lot of \"buffer underflow\" errors while ffmpeg runs. The resulting\
+  \ mpg file plays quite choppy, seems to be that several frames are missing. \nThe\
+  \ source file is recorded with Windows 7 Media Center and a DVB-T USB stick.\n\n\
+  Do you have any ideas?"
+date: '2009-11-04 07:16:45'
+email: 2dd8f11c88c5d7ff4c76d10abbcc039a
+name: Spooky
+url: null

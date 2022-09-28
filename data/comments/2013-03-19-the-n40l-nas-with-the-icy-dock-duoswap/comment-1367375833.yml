@@ -1,0 +1,13 @@
+_id: '9191'
+comment: 'Hah, I actually got that fan before you answered (thanks, amazon prime),
+  so I''d like to note that to connect the non-PWM (3-pin) fan to the motherboard
+  (which you have to do, otherwise it fails to boot), you have to cut off the far
+  header flange (as seen from the case front). Took me a bit to decipher from the
+  pinout and your gaffer picture, but it''s the far flange.
+
+
+  Also, yay quieter storage servers. I''m very happy with this mod now (-:'
+date: '2013-05-01 12:37:13'
+email: 4aed3eb291895487e95cc2850cb92391
+name: Andreas Fuchs
+url: http://boinkor.net

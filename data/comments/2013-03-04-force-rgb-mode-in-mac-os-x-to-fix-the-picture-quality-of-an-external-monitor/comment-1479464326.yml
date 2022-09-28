@@ -1,0 +1,20 @@
+_id: '15886'
+comment: "Thanks a bunch for the guide! Saved me from needlessly returning my MacBook,\
+  \ the HDMI Adapter, or my TV.\n\nI have a few recommendations to speed up the process,\
+  \ which saves one boot to recovery and you never have to actually disable the System\
+  \ Integrity Protection (SIP), thus never really leaving the system potentially vulnerable.\n\
+  \n1.) Start by running the .rb script.\n\nIt only generates a couple of files in\
+  \ your user's directory and does not require any special rights to read the current\
+  \ monitor / tv configuration. (TV must be connected).\n\n2.) Boot to into the recovery\
+  \ system (Cmd+R during boot).\n\nAll your files are accessible here and you have\
+  \ write permissions to the \"Overrides\" folder. Your system disk is just not mounted\
+  \ to / but to /Volumes/ (e.g. \"/Volumes/Macintosh HD/\")\n\n3.) Open a terminal\
+  \ and copy the DisplayVendor-directory. Remember that every path is now prefixed\
+  \ by \"/Volumes/Macintosh HD/\".\n\nE.g. I had the Ruby script in a folder \"EDID-Fix\"\
+  \ on my desktop. \n-bash-3.2# cp -r /Volumes/Macintosh\\ HD/Users/marcus/Desktop/EDID-Fix/DisplayVendorID-*\
+  \ /Volumes/Macintosh\\ HD/System/Library/Displays/Contents/Resources/Overrides/\n\
+  \n4.) Reboot to your system\n\nHope you find that useful. \n\nCheers,\nMarcus"
+date: '2016-11-18 21:18:46'
+email: 42f42337a862434833c9358b8b074f38
+name: Marcus
+url: null

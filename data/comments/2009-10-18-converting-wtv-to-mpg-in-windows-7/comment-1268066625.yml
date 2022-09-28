@@ -1,0 +1,22 @@
+_id: '332'
+comment: "rename wtv based on metadata. this powershell script should fill the gap.\n\
+  \n/code\n\n## metaname.ps1 ##\n# get the Toub.MediaCenter.Dvrms.dll from the dvrms\
+  \ toolkit site and save in in c:\\ \n# if you save it somewhere else, change the\
+  \ path below\n[void][System.Reflection.Assembly]::LoadFile(\"C:\\Toub.MediaCenter.Dvrms.dll\"\
+  )\n\n# set the vars below to fit your situation\n$source=\"e:\\recorded tv\"\n$target=\"\
+  e:\\recorded tv\"\n\n# this loop gets the Title, Subtitle, and Description from\
+  \ each wtv file and renames it\nforeach ($file in gci \"$source\\*.wtv\") {\n  \
+  \  $wtv = New-Object Toub.Mediacenter.Dvrms.Metadata.DvrmsMetadataEditor($file)\n\
+  \    $attrlist = $wtv.GetAttributes()\n\n# you can add or remove other metadata\
+  \ as you see fit\n    $t = $attrlist[\"Title\"].value -replace(\":\",\"-\")\n  \
+  \  $s = $attrlist[\"WM/SubTitle\"].value -replace(\":\",\"-\")\n    $d = $attrlist[\"\
+  WM/SubTitleDescription\"].value -replace(\":\",\"-\")\n\n# the multiple moves below\
+  \ handle cases of duplicates and long descriptions, only one will actually work.\n\
+  \    move \"$file\" \"$target\\$t-$s-$d.wtv\"\n    move \"$file\" \"$target\\$t-$s-$d-2.wtv\"\
+  \n    move \"$file\" \"$target\\$t-$s-$d-3.wtv\"\n    move \"$file\" \"$target\\\
+  $t-$s.wtv\"\n    move \"$file\" \"$target\\$t-$s-2.wtv\"\n    move \"$file\" \"\
+  $target\\$t-$s-3.wtv\"\n}\n\n/code"
+date: '2010-03-09 03:43:45'
+email: a13bd2a43b03c18d01a0e18f96a7cbd1
+name: resago
+url: null

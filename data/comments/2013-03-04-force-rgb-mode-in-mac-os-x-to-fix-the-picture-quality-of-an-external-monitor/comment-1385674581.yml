@@ -1,0 +1,10 @@
+_id: '9495'
+comment: Yeah, this is because those apps weren't made specifically for the retina
+  pixel density - I have the same problem with a few of my Windows apps running in
+  Parallels. It's unrelated to the issue discussed in this blog post, but yes those
+  apps then look fine for me when I display them on a regular external monitor.
+date: '2013-11-29 08:36:21'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9494'
+url: http://ireckon.net/

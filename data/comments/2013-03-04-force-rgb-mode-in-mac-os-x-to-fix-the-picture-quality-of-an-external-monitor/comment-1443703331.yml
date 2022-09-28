@@ -1,0 +1,13 @@
+_id: '14683'
+comment: It still works in El Capitan. After installing El Capitan on my MacBook Air
+  I was distraught to see fonts all fuzzy again. So I ran the script again and tried
+  to copy the override folder but it wouldn't let me copy it. Read the end part of
+  the article he has a way to make it work in El Capitan. You have to disable rootless
+  mode then copy the script again. I turned rootless mode back on and fonts are sharp
+  again. :). Just boot into recovery and run that command in terminal to disable rootless.
+  It works.
+date: '2015-10-01 22:42:11'
+email: a85a51c245010b42b63f07c0dc35d75a
+name: Paul McGuire
+reply_to: '14682'
+url: null

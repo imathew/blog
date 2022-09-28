@@ -1,0 +1,11 @@
+_id: '15911'
+comment: "Marcus' instructions do work. But in Step (2), after you boot into Recovery\
+  \ mode, you have to use the \"Disk Utility\" to mount the MacintoshHD volume. \n\
+  \nI was confused why I only had \"OS\\ X\\ Base\\ System\" under \"/Volumes\" but\
+  \ reading http://apple.stackexchange.com/questions/236206/backup-files-from-terminal-in-recovery-mode\
+  \ clarified that I need to mount the additional disk."
+date: '2016-12-29 10:47:42'
+email: 2703336f4bb0a82ff937c73d5e6f439e
+name: Sarangan Thuraisingham
+reply_to: '15886'
+url: https://plus.google.com/+SaranganThuraisingham

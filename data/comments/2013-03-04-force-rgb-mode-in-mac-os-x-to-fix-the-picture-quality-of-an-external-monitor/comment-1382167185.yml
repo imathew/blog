@@ -1,0 +1,17 @@
+_id: '9403'
+comment: 'I purchased a Gefen DisplayPort Extender over CAT7 only to have it show
+  very weird colors when connected to my Retina MacBook Pro. However, it worked fine
+  when I booted into either BootCamp Windows or switched to my dedicated Ubuntu box,
+  etc. I suspect because OS X kept showing "NTSC" for the display that it "might be
+  the problem." Finding this page was AMAZING. Like the author said complex Mac issues
+  are hard to get good info on (and I laughably must admit I almost considered throwing
+  $1000 at the problem to get an Apple Cinema Display).
+
+
+  ANYWHO. This worked for me. Wanted to post in case anyone else goes looking for
+  display issues with a DP extender. For me with YCbCr it showed everything as a purple
+  tint.'
+date: '2013-10-19 18:19:45'
+email: 50ab26e06571c922fa1f085a175123ca
+name: scott
+url: http://gravatar.com/trinok

@@ -1,0 +1,9 @@
+_id: '15891'
+comment: I was able to copy the necessary files without disabling System Integrity
+  Protection, or booting into Recovery mode, by simply using "sudo cp..." from Terminal,
+  as an Admin user.  Alas, it hasn't helped me get my HP 27vx monitors working acceptably
+  on a Late 2016 MBP w/ Sierra.
+date: '2016-12-03 03:27:37'
+email: 1f29eb9e0e66f526e8fdc882f2922423
+name: Mike Tovino
+url: null

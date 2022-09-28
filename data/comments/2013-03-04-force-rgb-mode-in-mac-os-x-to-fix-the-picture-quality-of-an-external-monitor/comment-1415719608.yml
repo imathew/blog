@@ -1,0 +1,13 @@
+_id: '12866'
+comment: 'Francesco, I found the folder Displays in the Library (but there are in
+  fact two folders called Library in Mac. Click the Terminal icon until the options
+  appear (long click), click the "Go to Folder..." option and then type /system/ and
+  you''ll find the Displays folder there.
+
+  Another thing. After running the script, you gotta paste the file into the Override
+  folder and erase (or backup to the desktop) the file that was there previously.
+  It worked for me, though I''m still facing some pixelated fonts.'
+date: '2014-11-12 02:26:48'
+email: 34164acea80b3e622c341dd802d30206
+name: Eduardo
+url: null

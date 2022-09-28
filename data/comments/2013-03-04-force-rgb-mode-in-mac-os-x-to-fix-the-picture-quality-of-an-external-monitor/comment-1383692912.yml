@@ -1,0 +1,10 @@
+_id: '9456'
+comment: 'I''m getting an error: patch-edid.rb:11:in `'': undefined method `[]'' for
+  nil:NilClass (NoMethodError)
+
+
+  when running the file, help?'
+date: '2013-11-06 10:08:32'
+email: af44f3f5f79697726af451dd8958b019
+name: Matt
+url: null

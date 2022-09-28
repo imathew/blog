@@ -1,0 +1,23 @@
+_id: '10135'
+comment: 'well this didn''t work for me.
+
+  I applied the script (i used the improved one which generates monitors name in the
+  file) and put it at the correct folder.
+
+  I rebooted and it is still fuzzy.
+
+  And the colour file  itself though is used since my screen now has a title of DELL
+  U3014 - Forced RGB mode (edid override).
+
+  It has to do with the 10.9.3 update. I tried to go back to a 10.9.2 version with
+  TimeMachine but the restore failed twice.
+
+  So i restored tru a SuperDuper backup to my 10.9.3 version which has this problem
+  unfortunately.
+
+
+  Anybody any ideas here ?'
+date: '2014-06-10 02:05:51'
+email: f6f2e31c3c5889e2a07ebc2637f2e95d
+name: Michael Reitsma
+url: https://plus.google.com/+MichaelReitsma

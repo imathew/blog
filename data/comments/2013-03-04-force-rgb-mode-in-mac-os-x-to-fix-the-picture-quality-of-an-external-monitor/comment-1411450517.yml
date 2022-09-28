@@ -1,0 +1,11 @@
+_id: '12100'
+comment: This doesn't work for me. I am running OSX Mavericks with a Dell 2407WFP
+  and after running the Ruby script, replacing in Overrides, also doing the font smoothing
+  with -2, my screen still looks blurry. Very frustrating when this display worked
+  perfectly with an older MBP (non-Retina, 10.8) and also works perfectly with Linux.
+  I'm going Thunderbolt to DVI-D, I guess I'll try other combinations ... Thunderbolt
+  to VGA ... HDMI to VGA ... this is just stupid.
+date: '2014-09-23 15:35:17'
+email: 55502f40dc8b7c769880b10874abc9d0
+name: Pissed Mac User
+url: null

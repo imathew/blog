@@ -1,0 +1,11 @@
+_id: '14546'
+comment: Restarting may be un-nessicary.  In Yosmites 10.10.5 with a 2ndary HDMI monitor,
+  instead of restarting I disconnected the Monitor's HDMI cable and reconnected it
+  and the Font quality improved drastically, though it is still not a clear as my
+  built in display.  Note sure if this makes any difference but I already had a /System/Library/Displays/Overrides/DisplayVendorID-...
+  with the same number so I only copied in the resultant DisplayProductID-#### and
+  left the other pre-existing DisplayProductID-#### files in place.
+date: '2015-08-26 02:22:37'
+email: 184c2e09606d4df57992827696ff3676
+name: Alexander Kohr
+url: null

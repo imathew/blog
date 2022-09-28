@@ -1,0 +1,15 @@
+_id: '16107'
+comment: 'i wanted to say that i think it was an hdmi switch i put in between and
+  not the update to Mojave that knocked one monitor back to YUV, since the other (same
+  model) was still RGB. To fix the issue i booted to Mojave USB that i created and
+  copied the files over after remounting the internal hd as RW mode.
+
+
+  so i had run the ruby script in regular mode first, just to be clear.
+
+
+  just in case that helps anyone else.'
+date: '2018-11-18 02:44:36'
+email: e7d977ab3a1bad6a63210c1095fff239
+name: xtrap225
+url: http://gravatar.com/xtrap225

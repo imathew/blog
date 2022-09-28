@@ -1,0 +1,21 @@
+{{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) -}}
+  {{ if eq .reply_to $.parentId -}}
+  		<div id="comment-{{ ._id }}" class="post-comment reply">
+  			<div class="arrow-up"></div>
+			<div class="post-comment-header">
+				<img class="post-comment-avatar" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg">
+				<p class="post-comment-info">
+					<span class="post-comment-name">{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</span>
+					<span class="post-comment-reply-link"><a href="#comment-{{ $.parentId }}">in reply to {{ $.parentName }}</a></span>
+					<br/>
+					<a href="#comment-{{ ._id }}" title="Permalink to this comment">
+						<time class="post-time">{{ dateFormat "Jan 2, 2006" .date }}</time>
+					</a>
+				</p>
+			</div>
+			<div class="comment-message">
+				{{ .comment | plainify | markdownify }}
+			</div>
+		</div>
+  {{ end -}}
+{{ end -}}

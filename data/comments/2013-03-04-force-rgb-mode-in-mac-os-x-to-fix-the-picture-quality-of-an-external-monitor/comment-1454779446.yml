@@ -1,0 +1,18 @@
+_id: '15019'
+comment: 'If anybody is planning using this patch in combination with pixel-clock
+  patch one has to keep in mind, that prior using pixel-clock there is the need to
+  remove any previous RGB patches. So every custom folder added to Overrides directory
+  should be removed, then apply the pixel-clock patch, and finally the patch-ede one.
+
+
+  Otherwise, you''ll face a bootloop like this one https://cloud.githubusercontent.com/assets/11856987/12868039/b7be90a4-cd0e-11e5-9ef6-9ee97c671bf4.jpg
+
+
+  PS Confirmed working on mac mini 2012 MD388 with two dell u2913wm over HDMI and
+  USB with freed up thunderbolt port for any other use at their full res on El Capitan
+  10.11.4 Beta 2 (15E33e), so the code of improved script remains still up to date.
+  Many thanks!'
+date: '2016-02-07 04:24:06'
+email: 0154e8fca871ef4d4a458b5e714f0c03
+name: nos1609
+url: http://nos1609.wordpress.com

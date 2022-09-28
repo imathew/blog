@@ -1,0 +1,33 @@
+_id: '13778'
+comment: 'I was about to send my new Acer K272HUL back because the main reason I bought
+  it was the 1440 lines in resolution and then I founf this post and it worked: Thanks
+  a lot to all the people involved finding the cause and writing the fixes! I ended
+  up using Andews ruby script mentioned in his comment above:
+
+  http://www.ireckon.net/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/comment-page-3#comment-9463
+
+
+  My configuration: Yosemite 10.10.2 on a MacBook Air Mid-2012 with Intel HD Graphics
+  4000 1024MB connected with a Mini Display Port to DP cable. I bought both of these,
+  both work finally. I only bought the more expensive one because originally I thought
+  the cable might be the reason for my limit in resolution:
+
+
+  http://www.amazon.de/gp/product/B0094WTC2C?psc=1&amp;redirect=true&amp;ref_=oh_aui_detailpage_o01_s00
+
+  http://www.amazon.de/gp/product/B002XVYZ82?psc=1&amp;redirect=true&amp;ref_=oh_aui_detailpage_o02_s00
+
+
+  Original problem: From the Display settings I could select 2048x1152 and it would
+  display the content on my big screen with black borders at 2560x1440 (told by the
+  monitor menu --&gt; info). Switching to 2560x1440 in the mac settings would result
+  in a totally broken image: Mainly black, some heavily distorted parts of the screen
+  on the left third of the monitor.
+
+
+  Followed the instructions exactly as described and it works like a charm: 2560x1440
+  @ 60Hz now!'
+date: '2015-02-01 21:07:09'
+email: 87075937cce5a378d68e55c283f9d70e
+name: Philipp
+url: null

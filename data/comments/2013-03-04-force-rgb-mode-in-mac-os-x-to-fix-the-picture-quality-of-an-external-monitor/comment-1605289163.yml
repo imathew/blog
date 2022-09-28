@@ -1,0 +1,17 @@
+_id: '16226'
+comment: 'Ahhh! it works!!!
+
+  ----
+
+  From here: https://gist.github.com/ejdyksen/8302862#gistcomment-3526456
+
+  ----
+
+  For Big Sur, the process is a bit different, since step 2 doesn''t work.
+
+  The solution is creating the folder /Library/Displays/Contents/Resources/Overrides
+  and using that instead of /System/Library/Displays/Contents/Resources/Overrides'
+date: '2020-11-14 04:39:23'
+email: bf3f7e63422eef4ae2d0691f66f456e5
+name: Federico E Carpi
+url: null

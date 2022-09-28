@@ -1,0 +1,16 @@
+_id: '14684'
+comment: "The exact steps I took (to simplify):\n1. Re run the script to generate\
+  \ the folder to copy to ovverrides.\n2. You'll notice override in a new location:\
+  \ /System/Library/Displays/Contents/Resources/Overrides and you can't paste anything\
+  \ to it.\n3. Boot into recovery (pressing Command+R repeatedly as Mac reboots).\n\
+  4. Go to Utilities --&gt; Terminal and type: csrutil disable. --- Reboot.\n5. Now\
+  \ copy the new file created to /System/Library/Displays/Contents/Resources/Overrides\
+  \ overriding the one already there.\n6. (See 7). Reboot. Text is sharp again! \n\
+  7. Boot into recovery (press Command+R repeatedly as Mac reboots).\n8. Go to Utilities\
+  \ --&gt; Terminal and type: csrutil enable. --- Reboot.\n\nYou now have Rootless\
+  \ and sharp text!"
+date: '2015-10-01 22:58:37'
+email: a85a51c245010b42b63f07c0dc35d75a
+name: bigmcguire
+reply_to: '14682'
+url: http://gravatar.com/bigmcguire

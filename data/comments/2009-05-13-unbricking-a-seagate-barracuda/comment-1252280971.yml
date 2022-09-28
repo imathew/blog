@@ -1,0 +1,25 @@
+_id: '147'
+comment: 'Going by your pinout it appears as though 6 is receive, 7 is transmit, and
+  8 is ground. There doesn''t seem to be a standard for dku-5 wire colours, so the
+  only way to be sure is to test them.
+
+
+  I didn''t check for voltage but used Ohms to check for continuity. If you look at
+  the multimeter photo you can see that I''ve switched it to the Ohm side, and by
+  default the value (resistance) is 1. If I were to touch the probes together the
+  resistance should drop to zero (or thereabouts). As you can see in that photo I
+  cut the Nokia end from the cable and separated the wires. I then used this resistance
+  method to check which wire matched which pin.
+
+
+  It sounds like you have the right cable, so once you''ve found the Rx and Tx wires
+  you should be about to tie them to each other, connect to the COM port (using putty
+  or hyperterminal or similar), and whatever you type on the keyboard should appear
+  on the screen (as the data loops back through the wires). You can then be satisfied
+  that you have the correct wires, and can attach them to your hard drive. Keep in
+  mind that the Rx and Tx needs to be reversed on the drive (because the drive will
+  be receiving what the USB cable is transmitting!)'
+date: '2009-09-07 09:49:31'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

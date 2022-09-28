@@ -1,0 +1,10 @@
+_id: '9159'
+comment: "Change line 7 to look like this:\ndata=`ioreg -l -d0 -r -w0 -c AppleDisplay`\n\
+  \nNote: I've added the -w option and set it an unlimited width. This solves the\
+  \ \"patch-edid.rb:9: undefined method `[]\u2018 for nil:NilClass (NoMethodError)\"\
+  \ error."
+date: '2013-03-19 15:40:35'
+email: 031e5e9a289122429c56bc4609fedcba
+name: Nick
+reply_to: '9152'
+url: null

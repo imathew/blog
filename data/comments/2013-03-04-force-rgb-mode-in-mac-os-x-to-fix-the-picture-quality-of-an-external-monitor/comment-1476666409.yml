@@ -1,0 +1,10 @@
+_id: '15874'
+comment: I'm running Sierra (MacBookPro) and trying to use this solution for my Asus
+  monitor. I've downloaded and unzipped the .rb file and placed it in my home directory,
+  but when I run the ruby patch-edid.rb in Terminal, nothing appears to happen. A
+  new Terminal line appears, and no new folder is created in my home directory. Does
+  anyone know what I might be doing incorrectly? Thanks!
+date: '2016-10-17 12:06:49'
+email: f673bd8083c1ca6446eea7c8ef0e28b8
+name: Jordan
+url: null

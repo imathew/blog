@@ -1,0 +1,8 @@
+_id: '14726'
+comment: "it's not working for me. \nwhen I type \u201Cruby patch-edid.rb\u201D \n\
+  patch-edid.rb:9:in `scan': invalid byte sequence in UTF-8 (ArgumentError)\n\tfrom\
+  \ patch-edid.rb:9:in `'"
+date: '2015-10-08 02:36:25'
+email: bf757cd668fc92643a26138e6a0f8c3a
+name: Jorge
+url: null

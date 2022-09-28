@@ -1,0 +1,22 @@
+_id: '9353'
+comment: 'Hi Mathew,
+
+
+  I tried your steps but I am getting this error when I run the script from the terminal:
+
+
+  $ ruby patch-edid.rb
+
+  ruby: No such file or directory -- patch-edid.rb (LoadError)
+
+
+  Can you please suggest what I can do about this? I have the patch-edid.rb under
+  /users/(my name)/patch-edid.rb
+
+
+  Thanks!'
+date: '2013-09-25 06:04:10'
+email: 33da95c22e0e8ca3d2fbc95e94356cff
+name: Hadi
+reply_to: '9348'
+url: null

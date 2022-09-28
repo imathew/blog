@@ -1,0 +1,12 @@
+_id: '10330'
+comment: "Has anybody used this script on the new LG 34UM95 Monitor. I use it with\
+  \ a GTX680 graphic card and despite adding the generated \"DisplayVendorID-4c2d\"\
+  \ folder it keeps showing up as a TV with horrible fonts. \n\nMy script looks like\
+  \ this:\n\n\n\n\n\n  DisplayProductName\n  Display with forced RGB mode (EDID override)\n\
+  \  IODisplayEDID\n  AP///////wBMLYELV0hLMA4YAQOAPSN4Il+xoldPoigPUFS/74BxT4EAgcCB\n\
+  gJUAqcCzANEABHQAMPJwWoCwWIoAYFkhAAAeAAAA/QAYSx5aHgAKICAgICAg\nAAAA/ABVMjhENTkwCiAgICAgAAAA/wBIVFBGNDAwODU3CiAgABM=\n\
+  \n  DisplayVendorID\n  19501\n  DisplayProductID\n  2945"
+date: '2014-07-12 06:00:19'
+email: 950c6501d86303342255c55962b2af14
+name: ni.
+url: null

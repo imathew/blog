@@ -1,0 +1,15 @@
+_id: '16113'
+comment: "Dear Brian, \n\nThe following instructions may be helpful for you.\n\n1.\
+  \ Press Cmd + R, then, restart your MacBook Pro.\n2. After that, go to Utility -&gt;\
+  \ Terminal, type: csrutil disable reboot. Then, your macbook will be restarted again.\n\
+  3. Download \"patch-edid.rb\" from https://gist.github.com/adaugherity/7435890.\n\
+  4. Move \"patch-edid.rb\" to Downloads folder.\n\n5. Use Terminal App and type the\
+  \ following commands\ncd Downloads\nruby patch-edid.rb\n\n6. Now, you may find a\
+  \ folder named \"DisplayVendorID-1xxx\"\n7. Move that folder to /System/Library/Displays/Contents/Resources/Overrides\
+  \ replacing the old display vendor id.\n8. Unplug your displayport cable and plug\
+  \ again.\n9. Job Done! Enjoy it!"
+date: '2018-12-16 18:13:07'
+email: ed6036591f9f17ebd0d385bef165480d
+name: Tronic
+reply_to: '16112'
+url: null

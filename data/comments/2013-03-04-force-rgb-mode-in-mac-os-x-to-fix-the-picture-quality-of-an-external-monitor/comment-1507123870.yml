@@ -1,0 +1,28 @@
+_id: '15993'
+comment: 'WOW Thank you so much !
+
+
+  For the case you are using a encrypted FileVault Drive:
+
+
+  do the steps of Marcus until the terminal. There you are not able to find your main
+  drive.
+
+
+  with the command: "diskutil coreStorage list" you can list all drives. Search for
+  the one where (Revertible : YES most time its the last entry). Then copy the name
+  of it with this pattern XXXXXXXX-XXXX-... etc. to the clipboard (cmd+v).
+
+
+  With the command "diskutil coreStorage unlockVolume XXXXXX-XXXX ..." you can then
+  mount the Volume with your user password. After this step continue with the manual
+  of Marcus.
+
+
+  Best regards,
+
+  Martin'
+date: '2017-10-05 00:31:10'
+email: d336677293571b77d85960bd25ef1089
+name: Martin
+url: null

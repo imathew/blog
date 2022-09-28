@@ -1,0 +1,19 @@
+_id: '14904'
+comment: 'Hi,
+
+
+  I just wanted to let you know that Peter''s comment concerning SIP is correct. If
+  you are in the recovery mode you can do the move or copy operation without any problem.
+  No need to disable SIP and re-anable it later. A possible complication is FileVault.
+  If FileVault is enabled you have to unlock the System disk. Instructions for that
+  can be found in Rich Troutons blog entry https://derflounder.wordpress.com/2011/11/23/using-the-command-line-to-unlock-or-decrypt-your-filevault-2-encrypted-boot-drive/.
+
+
+  Thanks to everybody that contributed to solve the problem.
+
+
+  Matthias'
+date: '2015-11-28 01:18:56'
+email: 1a919afe3b0394e5a3edc921cafe5a4d
+name: Matthias
+url: null

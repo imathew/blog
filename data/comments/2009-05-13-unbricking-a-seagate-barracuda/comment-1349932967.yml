@@ -1,0 +1,32 @@
+_id: '8825'
+comment: 'Thanks, Matt between this and a couple of other posts on this subject you
+  have all given me enough information to do a successful recovery.
+
+
+  The gotcha for me was the genuine Nokia CA-42 cable I was using needed 3v power
+  so I hooked up the ground (black) to the negative and red (3.3V) to the positive
+  of the cmos battery.
+
+
+  After that it was just a case of swapping the RX and TX (Blue and white in my case)
+  as the usb end was sealed so i couldnt find out which was which but swapping it
+  is no prob.
+
+
+  Other resouces used were
+
+
+  https://sites.google.com/site/seagatefix/Home
+
+
+  and
+
+
+  http://www.youtube.com/watch?v=WqC4VNHkjvc
+
+
+  Thanks again'
+date: '2012-10-11 16:22:47'
+email: 78fa5bfa688e2420030de1d95fb37def
+name: Doug T
+url: null

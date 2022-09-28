@@ -1,0 +1,16 @@
+_id: '12199'
+comment: 'I hit the same problem again today with a brand new-out-of-the-box Mac Mini
+  running OS X Server 10.9.5 and a Dell U2413 connected via HDMI.  I ran patch-edit,
+  moved the DisplayProductID to the Override folder, rebooted and presto chango!  Thanks
+  again Andrew!
+
+
+  (I also submitted this problem and the fix to Apple, asking them to fix it in the
+  OS so that we don''t have to patch every machine ...)
+
+
+  --John'
+date: '2014-09-30 08:43:36'
+email: f758f95145a7483f1e66ecfb04087c78
+name: John
+url: null

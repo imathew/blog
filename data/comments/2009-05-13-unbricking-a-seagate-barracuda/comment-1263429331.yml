@@ -1,0 +1,15 @@
+_id: '288'
+comment: 'Shawn: Maybe - if you plug a cable into your computer and Windows detects
+  it and creates a new COM port for it (which you''ll see appear in the device manager),
+  you''re halfway there. It would just be a matter of determining the correct Rx and
+  Tx wires, then.
+
+
+  Jeremy: In theory the data should be fine, because you''re not changing anything
+  on the disk itself but unlocking a simple setting on the logic card. My data was
+  fine, at any rate! Don''t rely on me, though - if you have crucial files to restore
+  it''s probably safer to send it back to Seagate.'
+date: '2010-01-14 11:35:31'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

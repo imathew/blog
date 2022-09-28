@@ -1,0 +1,22 @@
+_id: '12127'
+comment: 'The patch-edid Ruby script worked perfectly for me and my dual Dell 2413
+  monitors.  Because I have a new (spring 2014) MacBook Pro (with retina display),
+  I have one monitor connected via HDMI and the other via Thunderbolt / Display port.  The
+  problem affected only the monitor connected via HDMI.
+
+
+  I played the swap game trying to isolate the problem (swapped cables, swapped monitors,
+  swapped MacBooks) ... eventually proving that it ONLY occurs with a Dell U2413 monitor
+  connected via HDMI to a new MacBook running Mavericks.  The problem does not occur
+  with a) an old MacBook, or b) connection via Display Port, or c) using a Dell U2410
+  monitor.
+
+
+  Thanks again!
+
+
+  --John'
+date: '2014-09-25 08:46:04'
+email: f758f95145a7483f1e66ecfb04087c78
+name: John
+url: null

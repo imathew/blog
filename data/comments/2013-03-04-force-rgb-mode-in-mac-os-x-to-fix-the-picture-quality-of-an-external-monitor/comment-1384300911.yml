@@ -1,0 +1,23 @@
+_id: '9463'
+comment: 'Thanks for the howto.  I used it to fix my Dell U2413, which worked fine
+  over DVI (using the HDMI to DVI adapter shipped with my Mac Mini) but had this problem
+  with straight HDMI or (mini)DisplayPort.  Note that the monitor shows different
+  IDs for each input so you''ll have to re-run the script if you change connections.
+
+
+  Since updating to Mavericks required my to do it again, I took the time to add some
+  features I really wanted to the ruby script:
+
+  * Use the monitor name (taken from the EDID data) rather than the generic "Display
+  with forced RGB mode"
+
+  * Multiple display support -- patch the EDID for all connected displays, rather
+  than just the first one.  Obviously you only need to install the override file for
+  the problematic display, not all of them.
+
+
+  It''s available on my GitHub: https://gist.github.com/adaugherity/7435890'
+date: '2013-11-13 11:01:51'
+email: f5cc36ee632c050bfcbe99903c8c05f1
+name: Andrew Daugherity
+url: https://plus.google.com/100440459581353447794

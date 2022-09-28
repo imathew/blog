@@ -1,0 +1,16 @@
+_id: '10107'
+comment: 'After running through the process and rebooting I''ve got a garbled screen
+  (see pic in the link):
+
+
+  https://lh6.googleusercontent.com/ZXrT6U4wd0XJMBcP6eZ3zuvLk_RpAvHhfS_tOkg7sibT=w816-h612-no
+
+
+  I can get back to normal by restoring the original folder I backed up from /System/Library/Displays/Overrides.  Anyone
+  else ever seen anything like this?  I''m using a pretty new monitor (the LG 34UM95
+  21:9 3440x1440).  My understanding was that the script should extract the existing
+  profile and just override to force RGB.  Time for some more EDID research I guess.'
+date: '2014-05-27 01:09:37'
+email: d1e29eae537777f9dc695b24b7ead6fa
+name: Brian
+url: http://gravatar.com/bedoig

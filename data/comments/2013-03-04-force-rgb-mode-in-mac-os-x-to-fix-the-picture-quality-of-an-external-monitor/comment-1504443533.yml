@@ -1,0 +1,11 @@
+_id: '15985'
+comment: "Tried out the 2 workarounds - \na) Forcing RGB by adding an additional folder\
+  \ to /System/Library/Displays/Contents/Resources/Overrides.\nb) running \"defaults\
+  \ -currentHost write -globalDomain AppleFontSmoothing 2\" command \n\nThat did not\
+  \ help with my macbook pro 10.11.6 and external hp lp2475w connected via Hmdi to\
+  \ Hdmi cabling.\n\nHOWEVER after i ran \"auto scan\" setting on the external monitor\
+  \ , the monitor restarted, and afterdwards the fonts were tottaly smooth . Fantastic!"
+date: '2017-09-03 22:58:53'
+email: 1ab9a9032dbae58465417b98ceb02a35
+name: Liudas
+url: null

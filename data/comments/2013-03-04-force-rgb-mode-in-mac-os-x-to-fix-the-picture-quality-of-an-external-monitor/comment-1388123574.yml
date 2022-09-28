@@ -1,0 +1,37 @@
+_id: '9616'
+comment: 'David,
+
+  you have to do the following:
+
+  1. download the following file: https://gist.github.com/adaugherity/7435890 (klik
+  on the button "download gist")
+
+  2. in your downloads folder, dubbelklik on the file that ends with .tar.gz (a folder
+  will be created with patch-edid.rb inside)
+
+  3. move the file "patch-edid.rb" from the downloads folder to your home folder
+
+  4. open terminal
+
+  5. type: "ruby patch-edid.rb" (without " " of course) and press enter. (now a folder
+  is created that begins with "DisplayVendorID")
+
+  6. move this folder to Macintosh HD/System/Library/Displays/Overrides
+
+  7. restart your computer
+
+
+  Now one thing that some of us need to pay attention to is the hardware.
+
+  I could not get it to work with an HDMI cable but it did work with a VGA cable and
+  since I have a MacBook Pro 2012 with a Mini DisplayPort I had to use an adapter.
+
+  for the adapter I used and original Apple one: http://store.apple.com/us/product/MB572Z/B/mini-displayport-to-vga-adapter
+
+
+  cheers'
+date: '2013-12-27 16:52:54'
+email: eb24c5a90b00452369e8c3561601440d
+name: Bram WUyts
+reply_to: '9613'
+url: null

@@ -1,0 +1,21 @@
+_id: '9313'
+comment: 'This is embarrassing! I just figured out why the menu bar had a color gradient
+  from gray on the left to blue on the right:
+
+
+  some #$%^@ created a TRANSLUCENT menu bar option - over in System preferences for
+  the Desktop (Mt. Lion present to users???) - and the background was not a solid
+  (few desktop pictures are), so the gradient came from the DESKTOP, not the MENU
+  BAR.
+
+
+  Thought I''d put that out there in case anyone else had the same problem - because
+  it isn''t cured by the patch because it CAN''T be cured by the patch.
+
+
+  My Sceptre 32" monitor now looks fine - I unchecked the Translucent Menu bar option.
+  Sheesh.'
+date: '2013-08-20 13:36:57'
+email: 0a5afcd1757625eafc6822be17cbab91
+name: ABE
+url: http://liebjabberings.wordpress.com

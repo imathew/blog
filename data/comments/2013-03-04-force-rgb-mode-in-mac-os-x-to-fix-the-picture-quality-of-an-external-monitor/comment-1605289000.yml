@@ -1,0 +1,26 @@
+_id: '16225'
+comment: "Hi all,\n\nAfter update to Big Sur, there are some extra steps on \"Marcus\
+  \ proposed method\" that need to be done. So here is my upgraded version of his\
+  \ steps.\n\n1.) Start by running the .rb script.\n\nIt only generates a couple of\
+  \ files in your user\u2019s directory and does not require any special rights to\
+  \ read the current monitor / tv configuration. (TV must be connected).\n\n2.) Be\
+  \ sure that FileVault is disabled. You find it in Preferences-&gt;Security and Privacy.\n\
+  \n3.) Boot to into the recovery system (Cmd+R during boot).\n\nAll your files are\
+  \ accessible here and you have write permissions to the \u201COverrides\u201D folder.\
+  \ Your system disk is just not mounted to / but to /Volumes/ (e.g. \u201C/Volumes/Macintosh\
+  \ HD/\u201D)\n\nIf you cannot see some of this mounted folders, open the Disk Utility\
+  \ app and mount them, then close Disk Utility and open the terminal again.\n\n4.)\
+  \ Remount the Machintosh HD volume in read-wirte mode\n-bash-3.2# mount -u -w /Volumes/Macintosh\\\
+  \ HD\n\n5.) Open a terminal and copy the DisplayVendor-directory. Remember that\
+  \ every path is now prefixed by \u201C/Volumes/Macintosh HD/\u201D.\n\nE.g. I had\
+  \ the Ruby script in a folder \u201CEDID-Fix\u201D on my desktop.\n-bash-3.2# cp\
+  \ -r /Volumes/Macintosh\\ HD/Users/marcus/Desktop/EDID-Fix/DisplayVendorID-* /Volumes/Macintosh\\\
+  \ HD/System/Library/Displays/Contents/Resources/Overrides/\n\n6.) Create a new blessed\
+  \ snapshot of the Machintosh HD volume\n-bash-3.2# bless --folder /Volumes/Machintosh\\\
+  \ HD/System/Library/CoreServices --bootefi --create-snapshot\n\n7.) Disable authenticated-root\
+  \ on crsutil\n-bash-3.2# csrutil authenticated-root disable\n\n8.) Reboot to your\
+  \ system\n\nCheers,\nJader"
+date: '2020-11-14 04:36:40'
+email: 2993b969f81ca4eb5256c919e9b957e0
+name: Jader
+url: null

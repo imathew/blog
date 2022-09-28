@@ -1,0 +1,13 @@
+_id: '12935'
+comment: "hello, i have a problem i downloaded the patch, i have it on my desktop,\
+  \ and then when i go to terminal, and type: ruby patch-edid.rb and hit enter, this\
+  \ is what i get :/\n\nLast login: Sun Nov 16 14:30:16 on ttys000\nMacBook-Pro-uzivatela-Adam:~\
+  \ Winstead$ ruby patch-edid.rb\nruby: No such file or directory -- patch-edid.rb\
+  \ (LoadError)\nMacBook-Pro-uzivatela-Adam:~ Winstead$ \n\nim very new to mac, i\
+  \ dont know what to do, i have it on my desktop but it says no such file or directory,\
+  \ so i dotn know what to do, \n\ni would much appreciate for any kind of advice!\
+  \ ty everyone"
+date: '2014-11-17 00:52:05'
+email: 97e5b7bbb90fd3323885bab11d341304
+name: Adam
+url: null

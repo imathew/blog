@@ -1,0 +1,8 @@
+_id: '9199'
+comment: I'm not sure why this didn't work for you. Try running "ioreg -l -d0 -r -w0
+  -c AppleDisplay" in a terminal window and see what the result is.
+date: '2013-05-13 14:32:22'
+email: 031e5e9a289122429c56bc4609fedcba
+name: Nick
+reply_to: '9197'
+url: null

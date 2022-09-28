@@ -1,0 +1,22 @@
+_id: '15951'
+comment: 'I''ve got the same problem. MacBook Pro Retina Mid-2012, MacOS Sierra 10.12.4.
+  Dell 30" U3014 with mini-DisplayPort worked for over a year. Then stopped working
+  entirely--monitor says nothing connected, and Mac shows only its own display. I
+  suspect it was MacOS upgrades. So I switched to the full size dual-link DVI connection
+  on monitor, with dual-link adapter from that cable to mini-DP on Mac. That works
+  but only up to 1920 x 1440. I followed the procedures in this post plus the comments
+  (thank you everybody!), and like EOL I now see "forced RGB (EDID override)" in this
+  display''s preference window. But the max resolution offered still is only 1920
+  x 1440 even if I hold down the Option key while clicking the Scaled radio button.
+
+
+  Dell supports only Windows, which I guess I can understand given Apple''s disinterest
+  in providing any support whatsoever for anybody''s monitors but its own. Now that
+  Apple no longer sells its own monitors, you''d think Apple would step up support
+  for other monitors, but apparently Apple is more interested in selling iPhones.
+  Pity.'
+date: '2017-04-17 04:48:47'
+email: a244f2f227bc1417a5f9b155f67d9f88
+name: Tom Dayton
+reply_to: '15950'
+url: null

@@ -1,0 +1,8 @@
+_id: '9152'
+comment: "I'm getting this error when typing in \"ruby patch-edid.rb\" to Terminal:\n\
+  \n patch-edid.rb:9: undefined method `[]' for nil:NilClass (NoMethodError)\n\nIs\
+  \ it because I do not have Ruby installed?"
+date: '2013-03-15 15:51:44'
+email: d450a0a1953e62db2f039cffef942c9d
+name: Matt
+url: null

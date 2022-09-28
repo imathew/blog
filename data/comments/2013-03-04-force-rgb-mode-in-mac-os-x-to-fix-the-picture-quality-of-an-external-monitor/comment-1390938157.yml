@@ -1,0 +1,15 @@
+_id: '9907'
+comment: 'Worked for me on 15 inch late 2011 Macbook pro (10.9.1) connected via DP
+  to 29 inch LG 29EA93 (2560 x 1080).
+
+
+  Not mentioned in the guide but implied... The first time I tried it didn''t work.
+  Folder got cleared from overrides when I rebooted.
+
+
+  Did it again, this time changing permissions on the folder/file to root:wheel instead
+  of my user and it worked.'
+date: '2014-01-29 06:42:37'
+email: 55a344c29432a01c048cfb70bf047462
+name: Cloudmoose
+url: null

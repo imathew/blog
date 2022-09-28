@@ -1,0 +1,10 @@
+_id: '16264'
+comment: 'https://developer.apple.com/forums/thread/649832
+
+  Here it states that for Big Sur you can simply copy it into the equivalent /Library
+  folder (/Library/Displays/Contents/Resources/Overrides) and it should work even
+  without going "rootless"'
+date: '2021-04-23 01:48:05'
+email: a53da26fa3fcb0ded091df59bd65809d
+name: David
+url: null

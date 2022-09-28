@@ -1,0 +1,11 @@
+_id: '9487'
+comment: "Hi,\nI'm a new Mac user and have run into the same issue when plugged my\
+  \ rMBP to an HP monitor.  When I followed the instructions to run the patch I got\
+  \ the following message after I've entered the \"ruby patch-edid.rb\" line in Terminal:\
+  \ \"ruby: No such file or directory -- patch-edid.rb (LoadError)\"\nI already confirmed\
+  \ I do have ruby installed (version 1.8.7).  Could anyone help me figure out what\
+  \ I've done wrong?  \nAny help would be greatly appreciated,\nThanks,"
+date: '2013-11-26 10:39:56'
+email: 1ac4ea65716abde29f2f84c875c9ebff
+name: claochase
+url: http://gravatar.com/claochase

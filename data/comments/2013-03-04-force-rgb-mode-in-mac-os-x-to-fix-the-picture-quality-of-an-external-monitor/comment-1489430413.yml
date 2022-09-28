@@ -1,0 +1,18 @@
+_id: '15939'
+comment: "Marcus, thanks for laying this out. Just got a brand new (3 days old) MBP\
+  \ 13 with Sierra. Have some fuzziness on the external monitors. Tried your script\
+  \ out, got all the files generated. However, even in the Recovery System I get a\
+  \ \"read-only\" error on the \"/System/Library/Displays/Contents/Resources/Overrides/\"\
+  \ folder. Furthermore, the \"/Volumes/\" folder doesn't contain \"/Macintosh HD/\"\
+  \ it contains something that sounds similar (like, OS HD Mac...). That folder is\
+  \ empty (or un-traversable). Does one need to manually mount that section of the\
+  \ Hard Disk ?\n\nI copied the DisplayVendorID directories onto a USB and loaded\
+  \ that USB up in recovery mode and tried to copy over to the Overrides folder but\
+  \ that gave me a permission denied as well. \n\nI've combed through all the posts\
+  \ on here and can't seem to find the answer. Any ideas? Sounds like I may need to\
+  \ disable SIP after all perhaps ?"
+date: '2017-03-14 05:40:13'
+email: fe4392c9c15e4ff2f6f1e1eebbd2b8b3
+name: Calvin Deboer
+reply_to: '15886'
+url: https://plus.google.com/116230261390059892985

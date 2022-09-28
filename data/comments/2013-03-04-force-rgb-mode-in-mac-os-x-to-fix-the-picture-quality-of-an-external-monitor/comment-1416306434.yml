@@ -1,0 +1,12 @@
+_id: '12971'
+comment: "Hello, I recently bought a DELL 2713HM to use on my MacBookPro 2011 (Yosemite\
+  \ 10.10.1) connected through a Mini Display to Display cable. The problem is that\
+  \ the colours are off, washed out. The best color profile I have found is 'Apple\
+  \ RGB', although it's still not right. \n\nI downloaded and run the ruby script\
+  \ and placed the files in the /System/Library/Displays/Overrides, and rebooted by\
+  \ these new profiles that appeared (Dell U2713HM EDID override) are just as bad\
+  \ as the original. \n\nIs there a way to fix this? Has anyone got the same problem?"
+date: '2014-11-18 21:27:14'
+email: 1233effa0ff4974d5a4335ac408be5d3
+name: Panos Spiliotis
+url: http://gravatar.com/panosspiliotis

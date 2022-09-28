@@ -1,0 +1,19 @@
+_id: '9489'
+comment: "Mathew,\nThanks so much for your response.  I got it to work - at least\
+  \ the part of Terminal reading the script.  My issue is that I had saved the patch\
+  \ incorrectly.  I repeated the procedure by right clicking on the patch file I found\
+  \ at http://embdev.net/topic/284710#3027030 and saved it to the Home directory as\
+  \ indicated on the instructions.  Then went to Terminal, typed\"ruby...\" once I\
+  \ hit enter a bunch of more code appeared.  \nI've done the entire procedure and\
+  \ after rebooting I noticed that the display menus on my Mac have changed and even\
+  \ worse the blurry text persists.  The display menu of the HP monitor now reads:\
+  \ Display with forced RGB mode (EDID override) - Is this correct?\nAlso, the Overscan\
+  \ slice bar disappeared - is that part of what the patch is suppose to do?  \nAnyway,\
+  \ it's too bad that my text and overall image quality look so poorly :(  After running\
+  \ the patch, should I also change other settings on the Monitor?\nAny additional\
+  \ suggestions would be greatly welcomed - Thanks,"
+date: '2013-11-26 11:34:02'
+email: 1ac4ea65716abde29f2f84c875c9ebff
+name: claochase
+reply_to: '9488'
+url: http://gravatar.com/claochase

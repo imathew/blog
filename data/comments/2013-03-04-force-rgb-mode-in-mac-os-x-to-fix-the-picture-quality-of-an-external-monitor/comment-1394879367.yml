@@ -1,0 +1,7 @@
+_id: '9983'
+comment: "Hello !\n\nI have a little problem : patch-edid.rb:11:in `': undefined method\
+  \ `[]' for nil:NilClass (NoMethodError) \nDo you have any solution ?\n\nThanks"
+date: '2014-03-15 21:29:27'
+email: 1045e1f143ccc8edcff2db599c4c09c8
+name: "Beno\xEEt-Marie"
+url: null

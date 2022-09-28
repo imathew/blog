@@ -1,0 +1,10 @@
+_id: '9929'
+comment: I tried this to fix what I thought was a blurry font issue on a new Macbook
+  Pro connected to an old-model 27" LED Cinema Display, and it meant that the machine
+  crashed on boot, playing the end of the boot chime over and over like a broken record.
+  I had to boot into an Ubuntu installer USB stick to undo the change, and then it
+  could boot again.
+date: '2014-02-07 09:05:31'
+email: b7dcba68bd7dd9cb4ab63cac51bdc6bc
+name: Elliot
+url: null

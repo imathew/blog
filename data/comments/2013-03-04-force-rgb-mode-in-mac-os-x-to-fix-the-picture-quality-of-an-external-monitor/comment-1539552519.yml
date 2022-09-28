@@ -1,0 +1,16 @@
+_id: '16099'
+comment: "Further to my first comment. I need to point out that at first this did\
+  \ not work at all. For some oddball reason, the moment I chose \"dot by dot\" for\
+  \ the aspect ration I noticed that adjustments to sharpness and color have no effect.\
+  \ This tells me that the computer is driving the display with a pure RGB signal\
+  \ as it should behave this way. A little surprised about sharpness failing to adjust\
+  \ but I think this is due to the \"dot by dot\" aspect ratio setting.\n\nWith respect\
+  \ to color calibration I am still able to drive the TV's RGB values independently.\n\
+  \nBy the way, all these controls that I am referencing above are from the TV's menu\
+  \ itself.\n\nI am still investigating this interesting RGB option but one thing\
+  \ is for sure \u2026\n\nPlease check your aspect ratio settings if it's a TV that\
+  \ you are testing this on."
+date: '2018-10-15 08:28:39'
+email: 2e3599ff8e8ecfa705d523fdbbd238ae
+name: The Real Nirv
+url: http://gravatar.com/therealnirv

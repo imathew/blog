@@ -1,0 +1,12 @@
+_id: '16139'
+comment: 'It''s probably because you have FileVault (disk encryption) enabled.
+
+  You need to run this command first in the terminal to make your volume available
+  :
+
+  diskutil apfs unlock "Macintosh HD"'
+date: '2019-05-07 23:37:07'
+email: 3d77573b92e7498ce3524f4fc438c230
+name: Maxime Lem
+reply_to: '15939'
+url: null

@@ -1,0 +1,11 @@
+_id: '16214'
+comment: I have a Dell U2720Q monitor connected to a 13" MacBook from 2018 via USB-C
+  and noticed my black levels are crushed. I tried this fix to force RGB mode and
+  the fix is applied (I can see the EDID) however I'm still stuck in "limited range"
+  RGB mode where as I need "full range" RGB mode in order to see all the black levels.
+  Is there a way to tweak this script to create a version which not only forced RGB
+  but also forced "full range" RGB mode?
+date: '2020-07-06 13:15:51'
+email: bc3885fe3d9806c96f6950ff2361ad37
+name: Scott S.
+url: null

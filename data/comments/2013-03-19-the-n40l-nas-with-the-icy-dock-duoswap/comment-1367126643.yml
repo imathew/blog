@@ -1,0 +1,13 @@
+_id: '9189'
+comment: 'Yep, the NF-S12B. You''re still probably better off with a PWM fan, just
+  check the minimum speed first, but the Noctua seems to be doing the job OK at the
+  lowest RPM.
+
+
+  Thanks for the Time Machine heads-up! I looked into using it, but I store all non-system
+  files directly on the NAS, and I back that up separately. I don''t care about backing
+  up system files, but if I ever go that route I''ll use your method.'
+date: '2013-04-28 15:24:03'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

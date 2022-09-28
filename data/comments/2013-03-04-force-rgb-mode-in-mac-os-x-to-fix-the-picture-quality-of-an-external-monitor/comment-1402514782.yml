@@ -1,0 +1,53 @@
+_id: '10140'
+comment: 'Hello everyone,
+
+
+  this is my first post and sorry for my English.
+
+
+  I bought the Dell U2414H and hooked it up with my MacBook Pro Mid 2009. It has the
+  Nvidia GeForce 9400M inside. In near future the display will be connected with a
+  2012 Mac mini with the Intel HD4000 inside.
+
+
+  My question is: how do I recognize that my setup suffers under the problem that
+  is discussed here? By now, I can give you following details.
+
+
+  On the monitor side:
+
+
+  - I own the revision A00
+
+  - I use the original Display Port to Mini Display Port cable
+
+  - When I first connected the monitor with my MacBook Pro the Display Port Mode 1.2
+  was automatically disabled
+
+  - The Dell OSD menu tells me that the monitor is running with RGB input format,
+  Mac Gamma and sRGB mode
+
+  - For my eyes, everything looks fine
+
+
+
+  On the MacBook side:
+
+
+  - I runs OS X 10.8.5
+
+  - "About this Mac &gt; Monitor" tells me that I''m using "Monitor: Dell U2414H"
+
+  - "About this Mac &gt; System &gt; Grafik/Monitor" tells me "TV: Yes"
+
+  - "System Preferences &gt; Monitor &gt; Colours &gt; Open Profile" tells me "Colour
+  Room: RGB"
+
+
+  Thank you very very much in advance,
+
+  Martin'
+date: '2014-06-12 05:26:22'
+email: c69e8db4bd129ca10d330aa743eb5e31
+name: Martin
+url: null

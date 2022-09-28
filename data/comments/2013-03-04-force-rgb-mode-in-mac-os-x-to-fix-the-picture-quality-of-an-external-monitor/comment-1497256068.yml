@@ -1,0 +1,11 @@
+_id: '15963'
+comment: Doesn't seem to work for me. Sierra 10.12.4 with a Dell U2413. Copied the
+  patched EDID file to the folder and overwrote the existing file. Rebooted but the
+  monitor still defaults to YPbPr mode. System Preferences -&gt; Display shows the
+  "forced RGB mode" in the display name. Forcibly setting the monitor to RGB results
+  in a purple screen, rebooting the system or restarting the monitor turns it back
+  to YPbPr.
+date: '2017-06-12 18:27:48'
+email: bac2546460cb892c3e8c05786c7d169d
+name: Ben
+url: null

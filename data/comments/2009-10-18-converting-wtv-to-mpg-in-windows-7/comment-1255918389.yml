@@ -1,0 +1,25 @@
+_id: '211'
+comment: 'I don''t think this is possible with the .mpg format, which is quite basic.
+  If you were to use a richer container format like .mp4 or .mkv you would be able
+  to add metadata using the following option (taken from the ffmpeg documentation):
+
+
+  "-metadata key=value"
+
+  Set a metadata key/value pair. For example, for setting the title in the output
+  file:
+
+  ffmpeg -i in.avi -metadata title="my title" out.flv
+
+
+  There''s probably an easy way to retrieve this data from the .wtv and then use the
+  above command to insert them, but I don''t know how.
+
+
+  I convert to .mpg because of the excellent native performance on the PS3. Rather
+  than convert to something like .mkv, which would have to be transcoded, I''d just
+  use the original .wtv file. Having no metadata is a tradeoff I choose to make.'
+date: '2009-10-19 13:13:09'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+url: http://ireckon.net/

@@ -1,0 +1,10 @@
+_id: '16268'
+comment: Just used the first script to generate the override file for my 2nd Dell
+  Monitor.  Found I couldn't mount the MacHD in rescue mode.  Tried using a SuperDuper
+  bootable back up for the job, but same issue.  Eventually sussed that I needed to
+  disconnect my CalDigit hub, then boot using back up disc, and the rest is history.  Many
+  thanks.  (MacBook Pro 13" retina 2013 model)
+date: '2021-10-30 23:55:23'
+email: 297ec86be267e05c8a51826ba8062f89
+name: MikeM
+url: null

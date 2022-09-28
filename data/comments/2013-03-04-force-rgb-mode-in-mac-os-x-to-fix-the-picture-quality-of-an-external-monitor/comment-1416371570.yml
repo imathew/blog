@@ -1,0 +1,17 @@
+_id: '12986'
+comment: 'I''ve tried running this script, but no folder is created. When running
+  it in verbose mode, I get these errors.
+
+
+  Exception `LoadError'' at /Users/MyUser/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems.rb:1216
+  - cannot load such file -- rubygems/defaults/operating_system
+
+  Exception `LoadError'' at /Users/MyUser/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems.rb:1225
+  - cannot load such file -- rubygems/defaults/ruby
+
+
+  I''ve got both of those gems installed though, so I''m not sure why I get that.'
+date: '2014-11-19 15:32:50'
+email: b38bc3554eb9ca813a40c93189a1aa44
+name: Chris
+url: null

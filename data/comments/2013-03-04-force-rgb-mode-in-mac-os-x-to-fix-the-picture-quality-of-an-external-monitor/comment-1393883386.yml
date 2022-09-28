@@ -1,0 +1,10 @@
+_id: '9976'
+comment: Hi Nisei, if you open the generated configuration file in a text editor,
+  does it look like regular XML or garbled? In case of the latter it could be because
+  the internal name of your screen has invalid characters. There's solutions offered
+  here in the comments by me and others.
+date: '2014-03-04 08:49:46'
+email: a618a2738bda7de2d12da51c47d09926
+name: Michiel
+reply_to: '9971'
+url: http://gravatar.com/micros123

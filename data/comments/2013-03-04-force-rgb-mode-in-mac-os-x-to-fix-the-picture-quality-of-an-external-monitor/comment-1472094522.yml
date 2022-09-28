@@ -1,0 +1,13 @@
+_id: '15831'
+comment: 'I got a CX271 EIZO monitor, and when using it in windows bootcamp displays
+  pures blacks and pure whites (Full dynamic range 0-255 enabled in nvidia driver)
+  while in macosX blacks and white are faded.
+
+  Is there a solution to fix that ?
+
+  I tried to force recognition of my screen and nothing append (just a profile created
+  in my display panel in macosx preferences). Blacks and white are always dead.'
+date: '2016-08-25 13:08:42'
+email: 94b83267563b84c2e0eeebc97b8bc78b
+name: benjamin
+url: null

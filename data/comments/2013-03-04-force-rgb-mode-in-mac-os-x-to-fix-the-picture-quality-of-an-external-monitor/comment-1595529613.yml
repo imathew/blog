@@ -1,0 +1,13 @@
+_id: '16216'
+comment: "Follow the original instructions for running the script:\n\n\"\n1. Download\
+  \ the patch-edid.rb script from the forums thread above, or download Andrew Daugherity\u2019\
+  s improved patch-edid.rb script from his github page. Put the script in your home\
+  \ directory.\n\n2. Connect only the external monitor(s) in question, if you can\
+  \ (I closed my MacBook lid, for example). The script will make override files for\
+  \ any connected monitor.\n\n3. Open Terminal, Type \u201Cruby patch-edid.rb\u201D\
+  \ in Terminal (By default, you will be in your home directory when opening up Terminal).\n\
+  \"\nThat's how you run the script to get the folders that you need."
+date: '2020-07-24 04:40:13'
+email: 2f8a00698a9e3da2c268a35d26f87940
+name: Joseph
+url: null

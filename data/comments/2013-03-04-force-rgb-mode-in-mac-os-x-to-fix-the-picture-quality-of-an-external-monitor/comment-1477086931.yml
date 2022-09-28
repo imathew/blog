@@ -1,0 +1,28 @@
+_id: '15877'
+comment: 'I upgraded to Sierra before remembering I had to do this hack to get my
+  old Mac mini to work well with an external display.  So glad this page still exists!
+
+
+  Here are the steps I had to follow, since I don''t have a Recovery Partition on
+  this computer, and Internet Recovery uses a very old version of OS X that doesn''t
+  have the csrutil utility.
+
+  1. Download Sierra installer again.
+
+  2. Follow the steps on Apple''s site to make a bootable USB drive.
+
+  3. Reboot and hold down Option and then select the USB drive.
+
+  4. Wait forever for it to boot.
+
+  5. Use the Terminal to run csrutil disable.
+
+  6. Follow the steps above.
+
+  7. Rejoice in my white windows actually being white instead of gray!!!!
+
+  8. Try to remember to re-enable SIP.'
+date: '2016-10-22 08:55:31'
+email: b749f45bd28d6e15603cf3a41cf4d339
+name: Scott McIntyre
+url: https://www.facebook.com/app_scoped_user_id/511695350/

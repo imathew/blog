@@ -1,0 +1,10 @@
+_id: '14946'
+comment: Adjusting for the El Capitan update I navigated to /System/Library/Displays/Contents/Resources/Overrides
+  in terminal from recovery mode, however when attempting to copy the generated file
+  I get a Read-Only file system error. So, it seems in El Capitan this work around
+  does not... work.
+date: '2015-12-08 16:05:04'
+email: 6367206041ddd59af4bf9368f9e2a132
+name: Matt
+reply_to: '14866'
+url: null

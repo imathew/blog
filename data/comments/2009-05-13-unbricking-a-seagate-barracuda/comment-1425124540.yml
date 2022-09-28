@@ -1,0 +1,44 @@
+_id: '13982'
+comment: 'Hello, Mathew and other experts:
+
+
+  My Seagate hard drive (2 GB, green, Barracude) seems to have the firmware problem,
+  i.e. the hard drive is not recognized by BIOS. I can feel that it spins as normal.
+  There are some posts on the web on restore the hard drive from the busy state to
+  normal state.
+
+
+
+  First, I remove the star shape screws of the hard drive PCB. Then, insert a piece
+  of paper on top of the read/write head connector and the PCB board.
+
+
+  When I connect the hard drive serial RS-232 port to a USB-Serial adapter at a PC
+  USB port, connect the SATA hard drive power cable to a PC and the hard drive, it
+  shows in my PC putty terminal window (38400 baud, 8/1 bit, no parity, no flow control):
+
+
+  Boot 0x40M
+
+  Spin Up
+
+
+
+
+  then, I feel the hard drive stops spinning. There is no communication any more.
+  Of course, it does not respond to Ctrl+Z command. I suspect that it goes to a protection
+  mode from other on-line posts. There is only one procedure I am not sure. It is
+  to insert a piece of paper between data SMT connector and PCB. Before un-assemble
+  PCB for the paper inserting, hard drive motor spins forever after power it up. Could
+  you tell me what is wrong?
+
+
+
+  Thanks a lot
+
+
+  rxjwg98 at gmail dot com'
+date: '2015-02-28 22:55:40'
+email: 8dfc4ec1e75f63cf58d02c509d992d21
+name: ruwan2
+url: http://www.ireckon.net

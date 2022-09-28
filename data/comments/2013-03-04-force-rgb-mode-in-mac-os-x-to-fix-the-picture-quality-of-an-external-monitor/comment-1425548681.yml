@@ -1,0 +1,9 @@
+_id: '14014'
+comment: i would like to add that you CANNOT EXPECT ACCURATE COLORS FROM AN HDMI Connection.
+  The first step would have been using the mini -DVI (aka T-Bolt aka mini Display)
+  to Display (or DVI) as it allows for the full RGB spectrum (0-255) (HDMI will default
+  to 16-235 = no absolute whites or blacks)
+date: '2015-03-05 20:44:41'
+email: 220309a3c6a2204c85c50e092c714ec0
+name: pete
+url: null

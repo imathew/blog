@@ -1,0 +1,13 @@
+_id: '9449'
+comment: 'You can simply drag the newly-created folder into the /System/Library/Displays/Overrides
+  folder, or as Mattias wrote in a comment further up you can type the following into
+  the command line, replacing the name of the DisplayVendor-10ac folder with the name
+  of yours:
+
+
+  sudo mv DisplayVendorID-10ac /System/Library/Displays/Overrides'
+date: '2013-11-04 08:52:15'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9447'
+url: http://ireckon.net/

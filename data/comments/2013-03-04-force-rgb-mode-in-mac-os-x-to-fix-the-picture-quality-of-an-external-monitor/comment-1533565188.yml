@@ -1,0 +1,25 @@
+_id: '16073'
+comment: "I was struggling with this on High Sierra and that the new Macbooks are\
+  \ formatted APFS. However with the method below I got it to work on a 2018 15\"\
+  \ Macbook Pro running High Sierra 10.13.6.\n\nIf you have 2 Macs this is easily\
+  \ solved booting the Mac you want to fix into Target Disk Mode and using the another\
+  \ Mac to move the files.\n\nMac 1 = The machine I want to fix\nMac 2 = The machine\
+  \ I used to move files\n\nThis is what I did.\n\n* On Mac 1, I downloaded the script\
+  \ and popped it in a folder on my desktop.\n* Ran the script (with the monitor connected)\
+  \ and that created a file in that folder. \n* You should now have a folder called\
+  \ DisplayVendorID-* (* will be different for different monitors e.g. mine was DisplayVendorID-1e6d)\
+  \ with a text file in it, mine was called DisplayProductID-76db.\n* Navigate to\
+  \ /System/Library/Displays/Contents/Resources/Overrides and see if you have a folder\
+  \ with the same DisplayVendorID-* as you just created. If you don't that's fine,\
+  \ go to the next step. If you do, like I did, take a look inside the folder and\
+  \ backup the DisplayProductID-* file that you're going to replace.\n* Shut down\
+  \ Mac 1\n* I booted Mac 1 up in Target Disk Mode (holding T when starting up)\n\
+  * Connected it to Mac 2\n* Moved the file created on the desktop of Mac 1 to the\
+  \ /System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-* folder\
+  \ on Mac 1 (I replaced the DisplayProductID-76db already there)\n* Disconnect the\
+  \ Macs\n* Reboot Mac 1 and connect monitor if disconnected. It should be fixed\n\
+  \nI hope that helps someone!"
+date: '2018-08-07 00:19:48'
+email: 5e0c5719f7bb795f3940fdf5b3eed022
+name: Steve
+url: http://gravatar.com/stevearscott

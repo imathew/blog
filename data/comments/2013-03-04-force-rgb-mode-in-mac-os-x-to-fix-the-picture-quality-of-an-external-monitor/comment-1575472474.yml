@@ -1,0 +1,28 @@
+_id: '16179'
+comment: "Here are the convoluted steps I used to get this working on Catalina, may\
+  \ be useful for anyone who needs more concise instructions.\n\nDisable System Integrity\
+  \ Protection\n\n1. Restart computer.\n2. Hold \u2018Cmd + R\u2019 until you see\
+  \ the progress bar beneath the Apple logo.\n3. Select and enter the password for\
+  \ your user account when prompted to access Utilities.\n4. Open Terminal from the\
+  \ Utilities tab.\n5. Type: csrutil disable (Use \u2018csrutil enable\u2019 to reenable\
+  \ following completion of all steps).\n6. Restart your computer.\n\nUsing The Patch\
+  \ File\n\n1. Download and extract the patch file.\n2. Open Terminal.\n3. Type: ruby\
+  \ (patch file directory) Note: You can drag the patch file into Terminal instead\
+  \ of typing out the file directory.\n4. Press Enter.\n\nA new folder will be created\
+  \ in your home directory by the name of \u2018DisplayVendorID-#\u2019. I\u2019m\
+  \ not sure whether the ID number is variable, \u2018#\u2019 should be replaced by\
+  \ the actual digits that follow.\n\nMounting Read-Only Partition And Deleting System\
+  \ Files\n\n1. Open Finder and select \u2018Go &gt; Go to Folder\u2026 &gt; /System/Library/Displays/Contents/Resources/Overrides/\u2018\
+  \n2. Drag the \u2018DisplayVendorID-#\u2019 folder that coincides with the folder\
+  \ generated in your home directory to the Desktop, to create a backup.\n3. Open\
+  \ Terminal.\n4. Type: sudo mount -uw /\n5. Enter Password.\n6. Type: rm -rf /System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-#\n\
+  \nConfirm that the specified \u2018DisplayVendorID-#\u2019 folder has been deleted\
+  \ from /System/Library/Displays/Contents/Resources/Overrides/\n\nCopying Folder\
+  \ Generated In Home Directory\n\n1. Open Terminal.\n2. Type: cp -R /Users/YOUR_USER/DisplayVendorID-#\
+  \ /System/Library/Displays/Contents/Resources/Overrides/\n\nConfirm that the folder\
+  \ was successfully copied under /System/Library/Displays/Contents/Resources/Overrides/\n\
+  \nRestart your computer."
+date: '2019-12-05 02:14:34'
+email: 6dbbf15344828733c11f5fee645c67b8
+name: Chris R
+url: null

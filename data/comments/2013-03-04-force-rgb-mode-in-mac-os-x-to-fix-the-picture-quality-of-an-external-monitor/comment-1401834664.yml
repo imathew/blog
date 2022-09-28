@@ -1,0 +1,12 @@
+_id: '10119'
+comment: "Hello\nPlease anyone can help me???\n\ni\u2019m trying to run the script\
+  \ (ruby patch-edid.rb) and i get this\nanswer\n\n/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.\n\
+  0/universal-darwin13/rbconfig.rb:212: warning: Insecure world writable\ndir /usr/local\
+  \ in PATH, mode 040777\npatch-edid.rb:11:in `\u2019: undefined method `[]\u2018\
+  \ for nil:NilClass\n(NoMethodError)\n\n\nI don't know what to do, and absolutely\
+  \ no idea what could be the problem\n\nI have a MBP 13 early 2013 retina running\
+  \ 10.9.3"
+date: '2014-06-04 08:31:04'
+email: e61556e4328c66d98b087e98a868f01e
+name: Christian
+url: null

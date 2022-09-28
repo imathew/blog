@@ -1,0 +1,16 @@
+_id: '9825'
+comment: "I ran the script and it worked great for about 30 minutes. After that, I\
+  \ couldn't reproduce the results. \n\nHere is my situation, it's a bit complicated:\
+  \ \nI am running a video switch (iogear gcs1782) and I have a minidisplayport to\
+  \ dual link dvi adapter to connect to the switch. On the other port of the switch\
+  \ I have my desktop. Up until earlier tonight, if I wanted to switch from desktop\
+  \ to mbp (late 2013 model) it would give me a snowy screen. Sometimes it just wouldn't\
+  \ turn on at all.\n\nAfter applying the script, the monitor was fixed, and when\
+  \ I switched between desktop and mac, the monitor never had any snow again. Then\
+  \ about 30 minutes later, the snow returned.\n\nAny suggestions? This has been driving\
+  \ me insane because I put so much into getting the setup that should have theoretically\
+  \ worked."
+date: '2014-01-17 20:04:17'
+email: 7d2340dc3f791db00b7e8f12418f6d77
+name: Kyle
+url: null

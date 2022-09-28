@@ -1,0 +1,9 @@
+_id: '15895'
+comment: I was having major problems with a 2016 13" MBP and a Dell U2410 monitor,
+  and this guide fixed it for me.  I didn't have to enable rootless mode, I was able
+  to copy the folder created by the script to the location specified, and enter my
+  password to authenticate the change
+date: '2016-12-07 14:35:34'
+email: 0d1bd602876c7ad9cc58c2574f6c32e1
+name: John Crighton
+url: null

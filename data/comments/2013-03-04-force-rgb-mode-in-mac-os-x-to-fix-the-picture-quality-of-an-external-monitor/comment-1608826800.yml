@@ -1,0 +1,12 @@
+_id: '16244'
+comment: Same, trying to get my external LG display to work via my Thinkpad Thunderbolt
+  3 Gen 2 dock, everything else on the dock works including Ethernet, just not the
+  HDMI/DisplayPorts (or just not my external monitor? Not sure which is at fault).  I
+  have a brand new M1 MacBook Air, monitor is LG-34WK650-W - I know it recognizes
+  the devices, it appears in system info and triggers the screen to turn on, however
+  it's just a black screen and then shuts off again :(
+date: '2020-12-25 03:20:00'
+email: c1c54cd5be2e7cf2256155d22f7dd837
+name: Peter Chabot
+reply_to: '16241'
+url: null

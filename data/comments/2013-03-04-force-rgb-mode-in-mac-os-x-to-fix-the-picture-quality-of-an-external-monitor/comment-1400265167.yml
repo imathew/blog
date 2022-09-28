@@ -1,0 +1,16 @@
+_id: '10072'
+comment: "Hi, \n\nI've find this thread through this http://forums.macrumors.com/showthread.php?t=1699375\n\
+  \nWhere was a question:\n\n\"I have MacBook Air 13\" 2012, OSX Mavericks 10.9.1\
+  \ and just got a Dell U2414H monitor. Settings in OSD are: RGB color, Mac Gamma,\
+  \ sRGB color preset and in OSX Dell U2414H color profile. It is connected with mDP\
+  \ to DP cable, works good and image appears good, but it is recognized as HDTV by\
+  \ the OS. This annoys me and I am not sure if the OS sends full (0-255) or limited\
+  \ (16-235) RGB.\"\n\nI've the the same situation: hakintosh with OS X 10.9.2 and\
+  \ dell U2414H monitor. In OSD menu it shows RGB signal and in OS X information about\
+  \ this monitor: 32-bit Color (ARGB8888).\n\nI have applied this fix, no error when\
+  \ it was run, but it's still 32-bit Color (ARGB8888), and I don't see any changes.\n\
+  \nHow to understand that this fix worked or it has been applied.\n\nThanks."
+date: '2014-05-17 04:32:47'
+email: 0837950443220a047a367cb2c965ffa5
+name: Michael
+url: null

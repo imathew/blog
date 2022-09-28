@@ -1,0 +1,12 @@
+_id: '9759'
+comment: "Hey Guys,\n\nThank you very much for the solution, seems to work for a lot\
+  \ of people!\nUnfortunately I have the same Problem as Ernesto and debra.\n\nWhen\
+  \ I run the script, I have the following error:\n\npatch-edid.rb:26:in `pack': can't\
+  \ convert MatchData into String (TypeError)\n\tfrom patch-edid.rb:26\n\tfrom patch-edid.rb:24:in\
+  \ `each'\n\tfrom patch-edid.rb:24\n\nI run a MBAir, Mac OS X Lion 10.7.5, HDMI-cable,\
+  \ HP Pavillon 23xi.\n\nCan anyone help?! After searching the Internet now for several\
+  \ hours I am still clueless\u2026\n\nThanks a lot in advance!\n\nPeter"
+date: '2014-01-12 04:00:08'
+email: bcf23b1feed40b83f5f340dab12ac376
+name: Peter
+url: null

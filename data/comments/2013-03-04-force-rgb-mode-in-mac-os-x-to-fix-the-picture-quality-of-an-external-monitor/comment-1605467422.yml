@@ -1,0 +1,15 @@
+_id: '16227'
+comment: "Actually, for me the process with Big Sur is super easy now.\n\n1. Download\
+  \ the patch-edid.rb script from the forums thread above, or download Andrew Daugherity\u2019\
+  s improved patch-edid.rb script from his github page. Put the script in your home\
+  \ directory.\n\n2. Connect only the external monitor(s) in question, if you can\
+  \ (I closed my MacBook lid, for example). The script will make override files for\
+  \ any connected monitor.\n\n3. Type \u201Cruby patch-edid.rb\u201D in Terminal.\n\
+  \n4. Copy the new folder to /Library/Displays/Contents/Resources/Overrides &lt;-\
+  \ You have to create these folders, Display and all the rest did not exist.\n\n\
+  5. Reboot and you are done.\n\n6. Check if the Display is listed as EDID override\
+  \ in the system information section.\n\nWhole process takes only 5 minutes now :)"
+date: '2020-11-16 06:10:22'
+email: 47b4327b5c6fa05e1187618b0e21cab1
+name: drknickel
+url: null

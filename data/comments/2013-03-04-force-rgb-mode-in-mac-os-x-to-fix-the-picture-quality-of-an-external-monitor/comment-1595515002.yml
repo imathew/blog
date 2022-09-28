@@ -1,0 +1,24 @@
+_id: '16215'
+comment: 'This worked...
+
+
+  For macOS Sierra, Version 10.12.6
+
+  with External Monitor Lenovo Q24i-10
+
+
+  One note:
+
+  When I used the cp -r method (that Marcus laid out), it didn''t work for me for
+  some reason.
+
+
+  Instead, I had to use the cp -R method (for me: cp-R r /Volumes/Macintosh\ HD/Users/____/Desktop/DisplayVendorID-*
+  /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/
+
+
+  Not sure if it was the same for others.'
+date: '2020-07-24 00:36:42'
+email: 2f8a00698a9e3da2c268a35d26f87940
+name: Joe K
+url: null

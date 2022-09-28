@@ -1,0 +1,23 @@
+_id: '9652'
+comment: 'Hi there, when i run the script i just get returned to the command line
+  and nothing''s been created.
+
+
+  Get it to run in debug, i get the following...
+
+
+  Exception `LoadError'' at /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems.rb:1082
+  - cannot load such file -- rubygems/defaults/operating_system
+
+  Exception `LoadError'' at /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems.rb:1091
+  - cannot load such file -- rubygems/defaults/ruby
+
+
+  I never used Ruby before, but it looks like something''s up with my Ruby?
+
+
+  Rob'
+date: '2013-12-30 11:42:31'
+email: bedebc57d2969f05b7abec97bd8f6bde
+name: Rob Corradi (@Ribrob)
+url: http://twitter.com/Ribrob

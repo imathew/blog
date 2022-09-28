@@ -1,0 +1,12 @@
+_id: '9966'
+comment: 'I still have problem with the patch... and an Asus PA279Q.
+
+
+  patch-edid.rb:11:in `'': undefined method `[]'' for nil:NilClass (NoMethodError)
+
+
+  why?'
+date: '2014-02-25 21:07:29'
+email: c730c356028a3a4019be69862d165206
+name: riccardo delfanti
+url: https://plus.google.com/+riccardodelfanti

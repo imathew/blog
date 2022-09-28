@@ -1,0 +1,15 @@
+_id: '10011'
+comment: Just wanted to say thanks for this! I can't believe you have to do a custom
+  hack on a Mac for a second display to display correctly. For me, the problem was
+  simply faint red (or pink) dots that were only visible on white screens or objects.
+  I could use the display correctly though. My Viewsonic was detected as a "Television"
+  as well. I just got the Viewsonic VP2770-LED on a Woot deal and at first thought
+  there was something wrong with my iMac, the mini displayport cable, or the monitor
+  itself. Turns out that it's Apple as I was able to use the monitor with the same
+  Mac in Bootcamp on Windows 8.1 without any issues. I could tweak the monitor on
+  a different User Mode, but that was sort of a setting workaround. This fix is more
+  permanent and long-term. Thanks again!
+date: '2014-04-16 14:47:59'
+email: 15093fe982feedcfacb96a21eae31dad
+name: mkvstheworld
+url: http://gravatar.com/mkvstheworld

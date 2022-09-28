@@ -1,0 +1,12 @@
+_id: '15817'
+comment: The patch corrected the problem of OS X recognizing the displays as televisions,
+  but the picture quality didn't change for me.  After installing SwitchResX and using
+  the settings exactly as described by genriquediaz at https://discussions.apple.com/thread/4672999?start=15&amp;tstart=0,
+  then the picture quality was perfect.  FYI, my graphics card has two DVI dual-link
+  connections and I'm using a DVI-I Dual-Link to HDMI adapter and connecting the other
+  end of the HDMI cable to the displays.  I'm using 2560x1080 resolution.
+date: '2016-07-17 03:09:33'
+email: f0007dcd7dec6d09238a71cb085b2d31
+name: hugh
+reply_to: '15815'
+url: null

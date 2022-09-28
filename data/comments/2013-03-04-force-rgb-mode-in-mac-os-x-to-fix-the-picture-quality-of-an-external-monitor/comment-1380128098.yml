@@ -1,0 +1,12 @@
+_id: '9359'
+comment: 'doesn''t work
+
+
+  $ ruby /Users/(name)/patch-edid.rb
+
+  ruby: No such file or directory -- /Users/muhammadhadi/patch-edid.rb (LoadError)'
+date: '2013-09-26 02:54:58'
+email: 33da95c22e0e8ca3d2fbc95e94356cff
+name: Hadi
+reply_to: '9355'
+url: null

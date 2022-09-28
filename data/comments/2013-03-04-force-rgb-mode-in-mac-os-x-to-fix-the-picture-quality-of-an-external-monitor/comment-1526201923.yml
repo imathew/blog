@@ -1,0 +1,11 @@
+_id: '16041'
+comment: "For the ones, that have upgraded to APFS with file vault and can't mount\
+  \ in recovery mode. The steps are bit different than before. \n 1. diskutil apfs\
+  \ list (It should be the drive with role 'no specific role' )\n 2. diskutil apfs\
+  \ unlockVolume 'VolumeUUID'\n 3. Enter passphrase of your user account\n 3. Your\
+  \ drive will be mounted at /Volumes/\n\nUnfortunately, the fix didn't work for me\
+  \ this time on high sierra. Patch worked fine for previous version of mac os."
+date: '2018-05-13 18:58:43'
+email: c3ac11d9a60d54d450eec8615ed13e96
+name: bstelljes
+url: null

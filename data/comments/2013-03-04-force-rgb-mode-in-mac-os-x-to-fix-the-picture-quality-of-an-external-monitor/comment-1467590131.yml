@@ -1,0 +1,12 @@
+_id: '15810'
+comment: Adding my thanks for this post.  I have a 29" AOC (standard res) monitor
+  to which I've employed this fix over several system updates, and it has worked every
+  time, including the most recent El Capitan version.  I can confirm the poor display
+  quality issue is not due to resolution settings, font smoothing, calibration, or
+  drivers (AFAIK none is available in my case -- not sure if any of AOC's monitors
+  is designed to work with Mac systems). I used the disable/enable SIPS process but
+  skipped the second-to-last reboot.
+date: '2016-07-04 09:55:31'
+email: d0a69db5a1d693305f4d60e2d1d395ba
+name: Scott
+url: null

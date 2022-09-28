@@ -1,0 +1,33 @@
+baseURL = "https://www.mathewinkson.com/"
+languageCode = "en-au"
+title = "Mathew Inkson"
+disableKinds = ["section"]
+enableEmoji = true
+enableRobotsTXT = true
+#googleAnalytics = "UA-31343840-1"
+#enableGitInfo = true
+#canonifyURLs = true
+
+[frontmatter]
+  lastmod = ["lastmod"]
+
+[taxonomies]
+  category = "categories"
+
+[params]  
+  categories = ["Music","Technology","Sport","Television", "Government", "Misc"]
+  author = "Mathew Inkson"
+  ogimage = "og.png"
+  sitename = "Mathew Inkson"
+  twitter = "@imathew"
+  staticman = true
+
+[permalinks]
+  posts = '/:year/:month/:slug/'
+  pages = ":slug"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-au"
+    weight = 1

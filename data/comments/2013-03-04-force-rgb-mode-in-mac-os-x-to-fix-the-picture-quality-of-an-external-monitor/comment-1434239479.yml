@@ -1,0 +1,28 @@
+_id: '14346'
+comment: 'Hi guys,
+
+
+  I''m having the same blurry text rendering issue on my new NEC EA274WMi. Connected
+  to windows machine it''s perfectly sharp. Connected to a macbook pro retina late
+  2012 OS X Yosemite all texts are blurry.
+
+
+  I used the patch mentioned in this post but it doesn''t work. Once installed it
+  forces me to use a lower resolution than the native 2560 x 1440, making everything
+  more blurry.
+
+
+  Already tried with hdmi/DVI/displayport cables, disabling the lcd font smoothing
+  and reducing the transparency in System Preferences.
+
+
+  Who can give me some suggestions?
+
+  Thanks in advance.
+
+
+  Ste'
+date: '2015-06-14 09:51:19'
+email: 5a3845c523df27b37375cad53248e093
+name: Stefano
+url: null

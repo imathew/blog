@@ -1,0 +1,16 @@
+_id: '9702'
+comment: "\"but I'm no authority\" is perfect because the author did not understand\
+  \ much of the problem. \n\nEach display must be sent to a Mac EDID: (http://en.wikipedia.org/wiki/Extended_display_identification_data)\
+  \ or a DisplayID (http://en.wikipedia.org/wiki/DisplayID) and when they do not then\
+  \ OS X can not come up with the correct data. \n\nSo if something does not work\
+  \ is not the responsibility of Apple but just displays!!!\n\nGoing to modify the\
+  \ system files is not a solution when you just use the button [Detect Displays]\
+  \ (http://support.apple.com/kb/HT5019?viewlocale=en_US) to obtain useful data to\
+  \ the GPU. It would always be better to use the Mini DisplayPort output port and\
+  \ a DisplayPort input.\n\nI have not read all the posts, but I hope that others\
+  \ have already pointed out the absurdity of this procedure ... or the \"limits\"\
+  \ of some monitors!"
+date: '2014-01-02 09:30:38'
+email: cb285d7f7f9db45515ca8d0daf1bcaaa
+name: Henry
+url: null

@@ -1,0 +1,10 @@
+_id: '15345'
+comment: apologies. I also later noticed that the string for the Dell U2410 had some
+  weird characters. I modified the file using vi text editor and all good now. After
+  rebooting, the input colour format on the dell colour settings is now RGB. finally!.
+  However, i notice no improvement. the quality and colours are very very good as
+  before. Did I have to do this?
+date: '2016-03-31 19:34:00'
+email: 3b48cce6cdb9360f0b30553dc7f032a3
+name: Robert Geranio
+url: null

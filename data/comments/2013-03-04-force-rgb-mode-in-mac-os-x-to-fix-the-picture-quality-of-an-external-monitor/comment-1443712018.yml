@@ -1,0 +1,18 @@
+_id: '14687'
+comment: "Yep. I generated new DisplayProduct under El Capitan.\nHere is how it looks\
+  \ with patched DisplayProduct - http://s15.postimg.org/esq5fordn/IMG_2720.jpg\n\n\
+  \nHere is my patching log:\n\nPro:csync bash$ ruby patch-edid.rb \n/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin15/rbconfig.rb:213:\
+  \ warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777\nfound\
+  \ display: vendorid 1129, productid 9185, EDID:\n00ffffffffffff000469e123010101010a18010380331d78eae595a656529d27105054afcf80714f8180818fb30081409500a9400101023a801871382d40582c4500fe221100001e000000fd00384b1e530f000a202020202020000000fc0056583233390a20202020202020000000ff0045334c4d52533031333033390a014802031df14a900403011412051f1013230907078301000065030c001000023a801871382d40582c4500fe221100001e011d8018711c1620582c2500fe221100009e011d007251d01e206e285500fe221100001e8c0ad08a20e02d10103e9600fe22110000180000000000000000000000000000000000000000000000000000e6\n\
+  Setting color support to RGB 4:4:4 only\nNumber of extension blocks: 1\nremoving\
+  \ extension block\n\nRecalculated checksum: 0x51\nnew EDID:\n00FFFFFFFFFFFF000469E123010101010A18010380331D78E2E595A656529D27105054AFCF80714F8180818FB30081409500A9400101023A801871382D40582C4500FE221100001E000000FD00384B1E530F000A202020202020000000FC0056583233390A20202020202020000000FF0045334C4D52533031333033390A0051\n\
+  \n\nAnd this is content of DisplayProduct file:\n\nPro:csync bash$ cat DisplayVendorID-469/DisplayProductID-23e1\
+  \ \n\n\n\n\n  DisplayProductName\n  Display with forced RGB mode (EDID override)\n\
+  \  IODisplayEDID\n  AP///////wAEaeEjAQEBAQoYAQOAMx144uWVplZSnScQUFSvz4BxT4GAgY+z\n\
+  AIFAlQCpQAEBAjqAGHE4LUBYLEUA/iIRAAAeAAAA/QA4Sx5TDwAKICAgICAg\nAAAA/ABWWDIzOQogICAgICAgAAAA/wBFM0xNUlMwMTMwMzkKAFE=\n\
+  \n  DisplayVendorID\n  1129\n  DisplayProductID\n  9185"
+date: '2015-10-02 01:06:58'
+email: 2bd7e1d8feae974d1b00653727193781
+name: 0x62ash
+reply_to: '14686'
+url: null

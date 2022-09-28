@@ -1,0 +1,14 @@
+_id: '9435'
+comment: 'Many thanks for this! I applied this fix on a Dell U2413 connected via mini
+  displayport, but the image was extremely blurry and I thought it was applying some
+  incorrect scaling. Turns out I''d set sharpening to zero to improve image quality
+  some time ago and forgotten about it, bumping it back to 50 brought it back to normal.
+  Colours are much improved now.
+
+
+  Also on Mavericks I found that you don''t need to reboot, simply moving or removing
+  the files and power cycling the monitor is enough to enable/disable the fix.'
+date: '2013-10-30 03:28:55'
+email: 45921e5771f1f60d5af662388e4a7eed
+name: Alex
+url: http://blog.al4.co.nz

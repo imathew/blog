@@ -1,0 +1,12 @@
+_id: '9432'
+comment: 'I tried the patch in Maverick on my macbook air 2013, it works but has very
+  negative side effects : when using the profile with forced rgb, I lose the possibility
+  to get the dock on the second screen (new maverick feature) and I lose also the
+  dual screen settings shortcut on the menu bar... It rolled back by removing the
+  forced rgb profile and all came back to normal. Do you know how to fix this ?
+
+  Thank you very much'
+date: '2013-10-26 23:28:05'
+email: 8b7ee0712281b15a30811a044717c494
+name: Essaimel
+url: null

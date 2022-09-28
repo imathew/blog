@@ -1,0 +1,14 @@
+_id: '9188'
+comment: 'These modifications look very sensible, thanks! Which non-PWM fan did you
+  get? It looks like a Noctua; is it the NF-S12B FLX?
+
+
+  Relatedly, I''m not sure you''ve already discovered this (I hope you don''t have
+  to), but if you''re running TimeMachine backups over AFP, they have a tendency to
+  get corrupted. I''ve solved this by exporting an iSCSI volume (this is fairly easy
+  if you run FreeNAS, but should be possible on Linux too). OS X then treats it as
+  a local disk. That ends up being both faster and more reliable (-:'
+date: '2013-04-28 14:37:29'
+email: 4aed3eb291895487e95cc2850cb92391
+name: Andreas Fuchs
+url: http://boinkor.net

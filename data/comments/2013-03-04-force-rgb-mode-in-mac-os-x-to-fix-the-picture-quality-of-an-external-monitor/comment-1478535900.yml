@@ -1,0 +1,19 @@
+_id: '15882'
+comment: 'I run the script mentioned on this website following the instructions above
+  and it worked without problems on Sierra 10.12.1. I copied the RAW script (RAW button
+  in the upper right corner of the frame with script text, pasted it to nano, saved,
+  and run. No need to worry about the built in display, it is omitted by the script).
+
+
+  I can easily confirm the effect with my Dell U2515H, which actually displays the
+  input mode.
+
+
+  I did the hack to improve font rendering, which is very nice on retina, but not
+  on the external display. Unfortunately, I cannot really see a difference - I guess
+  I would need to have a side by side comparison. That said, the screen look fine
+  to me now.'
+date: '2016-11-08 03:25:00'
+email: 6bb446b5f1aa350d56c197b8f9fc95ba
+name: Andrzej
+url: null

@@ -1,0 +1,55 @@
+_id: '13779'
+comment: 'Thanks Andrew, I tried to follow your instructions. Not sure if I did it
+  correctly, so please confirm if the below seems correct:
+
+
+  I copied your file and containing folder to the required folder, so that it shows
+  in Finder as follows:
+
+  System/Library/Displays/Overrides/gist7435890-66c54c17b179809b028b58a2ca7af0b9540d05b6/patch-edid.rb
+
+
+  Then I restarted my computer (Late 2014 Mac Mini, running Yosemite including all
+  updates). I did not really see any changes, as the fonts still appear blurry on
+  the screen (32" LG smart TV, connected with HDMI to HDMI; the TV has no DVI or VGA
+  connections).
+
+
+  In the Display Preferences on my Mac, the resolution is set to "Default for display",
+  which is 1080p, and in the color tab I see the following profiles:
+
+  HD 709-A
+
+  LG TV Calibrated [this one I created before; it shows the richest colors]
+
+  SD 170M-A
+
+  Adobe RGB (1998)
+
+  Generic RGB Profile
+
+  sRGB IEC1966-2.1
+
+
+  Did I take the right steps? I have no idea what a script is supposed to do; was
+  I also supposed to double-click on it, beside just copying it to the required folder?
+
+
+  And am I looking in the right place, under Display Preferences? As I never saw anything
+  about YcBcR or something in any of the System Preferences, I don''t know if I am
+  trying to apply the right fix here in the first place. Sorry to ask such basic questions.
+  I did read through many of the comments posted here, but I might have missed any
+  clarifications for dummies.
+
+
+  Would be great if you could help me optimise my brand new setup with my Mac Mini
+  and HDTV!
+
+  Thanks much,
+
+  Leon'
+date: '2015-02-02 00:52:45'
+email: 2a7ecee245d6f0fa003a656a1a242581
+name: Leon
+reply_to: '9463'
+url: null

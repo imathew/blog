@@ -1,0 +1,12 @@
+_id: '13383'
+comment: 'I am trying to get this to work on my Benq 27 Monitors and just not getting
+  there. The file I create and copy to the folder is not editable with my txt reader
+  and therefore I suspect I need to change a part of the source file as per Tom''s
+  message, however when I change ANYTHING in this line: monitor_name=[disp["edid_hex"].match(/000000fc00(.*?)0a/){|m|m[1]}.to_s].pack("H*")
+  I simply get error messages when running the script. I tried running the ORIGINAL
+  script, however display was even worse...I am not sure WHICH bit of that line to
+  change to get it working. Any help would be really really appreciated!!'
+date: '2014-12-16 08:53:00'
+email: fcd57c1aefe217177a45fff2bf1c03dd
+name: Ben
+url: null

@@ -1,0 +1,17 @@
+_id: '9474'
+comment: 'The problem is very much present in the latest Mavericks. I confirm that
+  this fix works with the new 15" Macbook Pro Retina, Mavericks and Dell U2713H over
+  Thunderbolt cable. Without this patch the external monitor was identified as TV
+  and was barely usable.
+
+
+  The fix started working as soon as I copied the created folder to the right place
+  (initially I missed this step, though it''s clearly described above ;) ) and re-connected
+  the monitor.
+
+
+  Thank you very much!'
+date: '2013-11-18 20:55:21'
+email: dda3ad3fbb8c76bebe3bd0516b1cd582
+name: Andrzej
+url: null

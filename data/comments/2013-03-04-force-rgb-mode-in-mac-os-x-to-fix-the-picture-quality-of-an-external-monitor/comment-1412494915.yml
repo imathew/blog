@@ -1,0 +1,18 @@
+_id: '12258'
+comment: 'Thank you very much! I used Andrew''s modified script and proceeded through
+  all the steps while my MacBook''s lid was closed. After the fix was applied, I re-opened
+  my lid and the external screen momentarily flashed black signifying the MacBook''s
+  connection.
+
+
+  When I checked the color space on the monitor''s control panel it was RGB. I didn''t
+  have to do a restart, but I assume that''s because the display''s override files
+  were reloaded when the lid was opened.
+
+
+  For reference, I used this on a Dell S2340L (HDMI) and a MacBook Pro Mid 2012 running
+  OSX 10.10 Public Beta 4.'
+date: '2014-10-05 18:41:55'
+email: 53a9056ab89453ad0703094c2ebd8916
+name: Colin
+url: null

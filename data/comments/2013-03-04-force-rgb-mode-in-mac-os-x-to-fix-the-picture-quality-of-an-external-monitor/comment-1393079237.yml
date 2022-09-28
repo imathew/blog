@@ -1,0 +1,15 @@
+_id: '9957'
+comment: I finally got the script to run on my iMac and force the Asus ProArt to be
+  non-TV (I called Apple Support, they helped me with the script, told me where to
+  place it and run it).  They fixed it back to the original setting, I had made a
+  modification that didn't work and couldn't figure it out, the rep fixed the script
+  and told me where I need to place it, restarted my machine and it worked.  I still
+  had the issue where the text wasn't as good as the iMac, but thanks to @ludwig70.  What
+  he recommended for @Bernard got me thinking went into the settings looking for the
+  OSD menu, instead found the Splendid menu switch the display to Adobe RGB Mode instead
+  of Standard Mode and the text issue went away,  Also tried the sRGB it also worked
+  well just the colors were a bit muted.  Hopes this information helps others.
+date: '2014-02-23 01:27:17'
+email: 38d827ffaa907b700c3d2cefbe13e1b8
+name: Manuel Maicol Osorio
+url: https://plus.google.com/+ManuelMaicolOsorio

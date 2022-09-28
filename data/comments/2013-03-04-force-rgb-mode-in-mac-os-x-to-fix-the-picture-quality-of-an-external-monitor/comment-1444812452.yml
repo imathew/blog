@@ -1,0 +1,14 @@
+_id: '14752'
+comment: "I didn't try this fix when running Yosmite but I did when running El Capitan\
+  \ and it doesn't work.\n\nI changed the name of the monitor as suggested and that\
+  \ enabled me to see the new profile in the display settings but choosing the new\
+  \ file did not have any effects on the screen so I'm still dealing with blurry fonts\
+  \ and wonky colors.\n\nAfter looking around and googling, this problem seems to\
+  \ be isolated to Philips monitors. I can't test the theory but..the fix supposedly\
+  \ worked on Philips when running Yosmite but once installing El Capit\xE1n it doesn't\
+  \ work anymore.\n\nIt would be amazing if you could find a solution to the problem.\
+  \ :/"
+date: '2015-10-14 19:47:32'
+email: f90d0861c36630016aeeaf49feb6ed63
+name: Ash
+url: null

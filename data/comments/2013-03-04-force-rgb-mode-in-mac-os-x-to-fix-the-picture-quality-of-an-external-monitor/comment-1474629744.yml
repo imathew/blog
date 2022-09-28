@@ -1,0 +1,7 @@
+_id: '15854'
+comment: This worked for me with El Capitan but not with Sierra. "ruby patch-edid.rb"
+  doesn't create the profile folder (but doesn't give me an error either).
+date: '2016-09-23 21:22:24'
+email: 07c51b6eb319d013e1d0c22a09e2fdbd
+name: erlendsp
+url: http://gravatar.com/erlendsp

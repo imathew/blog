@@ -1,0 +1,12 @@
+_id: '146'
+comment: "Hi, I'm trying this with an oem dku-5 cable. It's got 5 wires in  it and\
+  \ 6 pins (with no missing pins) on the phone connector. How did you know which pins\
+  \ are Gnd, Rv, Tx? If I # the pins from the closest end, the wires are connected\
+  \ to 1, 2, 4, 5, 6. I'm comparing against http://www.lathey.co.uk/guides/NokiaPOP-PortPinout.pdf\n\
+  \nAlso, I'm not getting any voltage when I tried a volt meter across all 5 wires\
+  \ (in all combinations of pairs).\n\nI've got the Nokia driver loaded - and a COM\
+  \ port appears, so that seems fine. \n\nAny ideas? \nthanks"
+date: '2009-09-06 22:33:28'
+email: e1661dcfb0e46aa23b3b965f6062c102
+name: Oliver
+url: null

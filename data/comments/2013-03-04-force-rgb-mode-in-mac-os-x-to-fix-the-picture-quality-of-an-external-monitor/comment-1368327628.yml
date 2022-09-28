@@ -1,0 +1,16 @@
+_id: '9197'
+comment: 'Hi,
+
+
+  I''ve changed line 7 as suggested above to be "data=`ioreg -l -d0 -r -w0 -c AppleDisplay`"
+  but still receive the error:
+
+
+  undefined method `[]'' for nil:NilClass (NoMethodError)
+
+
+  Any other suggestions?'
+date: '2013-05-12 13:00:28'
+email: 20b29d1c8e1eccc3710a95841abfaa4f
+name: Karen H
+url: null

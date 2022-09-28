@@ -1,0 +1,32 @@
+{{ if .Params.comments }}
+	<h3 class="title-comments"><a href="#comments">Comments</a></h3>
+	<span class="description-comments">This static blog no longer supports comments, but the below have been migrated from a previous WordPress incarnation. There may be formatting errors.</span>
+	{{ $comments := readDir "data/comments" -}}
+	{{ $.Scratch.Add "hasComments" 0 -}}
+	{{ $postSlug := .File.BaseFileName -}}
+	{{ range $comments -}}
+	{{ if eq .Name $postSlug }}
+		{{ $.Scratch.Add "hasComments" 1 }}
+		{{ range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
+			{{ if not .reply_to }}
+	<div id="comment-{{ ._id }}" class="post-comment">
+		<div class="post-comment-header">
+			<img class="post-comment-avatar" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg">
+			<p class="post-comment-info">
+				<span class="post-comment-name">{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</span>
+				<br />
+				<a href="#comment-{{ ._id }}" title="Permalink to this comment">
+					<time class="post-time">{{ dateFormat "Jan 2, 2006" .date }}</time>
+				</a>
+			</p>
+		</div>
+		<div class="comment-message">{{ .comment | plainify | markdownify }}
+		</div>
+	</div>
+		{{ partial "comment-replies" (dict "entryId_parent" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }}
+				{{ end -}}
+			{{ end -}}
+		{{ end -}}
+	{{ end -}}
+	<div class="end"><hr /></div>
+{{ end -}}

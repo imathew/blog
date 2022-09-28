@@ -1,0 +1,9 @@
+_id: '9237'
+comment: 'It sounds like either ruby isn''t installed (I think it''s only there by
+  default on newer versions of OS X) or it''s not present in your PATH. Not my area,
+  I''m afraid, but there''s some info here: http://stackoverflow.com/questions/4945902/when-i-type-commands-in-the-terminal-i-get-an-error-command-not-found'
+date: '2013-06-13 13:17:55'
+email: 964727ff57b3aa9abf64909b95a1902f
+name: Mathew
+reply_to: '9226'
+url: http://ireckon.net/

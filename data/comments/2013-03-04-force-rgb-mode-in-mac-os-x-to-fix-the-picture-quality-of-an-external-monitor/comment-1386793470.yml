@@ -1,0 +1,12 @@
+_id: '9510'
+comment: "Hey Michael, I had the same issues but with another Monitor. Just download\
+  \ the script in your download folder or copy 'n paste the script code in a blank\
+  \ text document and save it as \"patch-edid.rb\". Then open your terminal and go\
+  \ to your download folder (type \"cd Downloads\" if you\xB4re in your User Root-Folder).\
+  \ Then run the ruby-Script with \"ruby patch-edid.rb\" and follow the steps 4. and\
+  \ 5. from above. That\xB4s all!"
+date: '2013-12-12 07:24:30'
+email: bd7c64b570560e18844960993f8395fc
+name: Thoschi
+reply_to: '9508'
+url: http://mordsteam.de

@@ -1,0 +1,17 @@
+_id: '14954'
+comment: 'FOR THOSE ONES WHO CANNOT SEE THE DISPLAY FOLDER!!!!
+
+  Hi there. Just want to let you know that I got it work just literately following
+  the steps as described above. The reason I could not see the "DISPLAY" folder was
+  that I was looking at the wrong directory. Yes, there are few "LIBRARY" folders
+  in Mac. The first one I looked at was under my username home directory. You can
+  access there by going to GO tab in Finder and holding ALT(option) bottom that reveals
+  LIBRARY folder. But it''s the wrong one. You need to go to your actual MACINTOSH
+  HD drive. Than skip the library folder in there and go to System/Library/Displays/Contents/Resources/Overrides.
+  If you have been likeminded (lets call it BLIND-STUPID) than you should solve the
+  problem and get your monitor to work properly! THANK YOU!!!!'
+date: '2015-12-11 20:03:33'
+email: f6e44da13a936aeac64ba0ba2348ba45
+name: AlexAtr
+reply_to: '14793'
+url: null

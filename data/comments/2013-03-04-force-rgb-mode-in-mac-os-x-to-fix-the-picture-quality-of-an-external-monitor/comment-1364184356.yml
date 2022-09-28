@@ -1,0 +1,10 @@
+_id: '9164'
+comment: The EDID for some displays is quite long. My HPw2207h has an EDID of several
+  hundred characters. By default ioreg clips the output to the terminal width. The
+  -w flag allows to you set the clip width and setting it to zero set the clip width
+  to unlimited.
+date: '2013-03-25 15:05:56'
+email: 031e5e9a289122429c56bc4609fedcba
+name: Nick
+reply_to: '9160'
+url: null

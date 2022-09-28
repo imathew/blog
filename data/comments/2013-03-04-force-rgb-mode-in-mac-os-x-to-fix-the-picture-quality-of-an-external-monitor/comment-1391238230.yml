@@ -1,0 +1,13 @@
+_id: '9917'
+comment: 'Figured this out -- I''m sure I missed something everyone else saw or knows,
+  but just in case anyone else is stuck, here''s what''s up -- I found two library
+  paths, Macintosh HD&gt;Users&gt;[username]&gt;Library and Macintosh HD&gt;System&gt;Library.
+  Displays/Overrides is in the System&gt;Library path.
+
+
+  Unfortunately I can''t report success, my Samsung T27C350EW did look sharper, but
+  the image is still shifted about 10 cm offscreen.'
+date: '2014-02-01 18:03:50'
+email: 2fb97372a0822bbb239619453cfd7352
+name: Stephanie
+url: null
