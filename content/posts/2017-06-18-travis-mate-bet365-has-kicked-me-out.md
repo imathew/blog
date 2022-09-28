@@ -13,7 +13,7 @@ If you have an online gambling account that hasn't been closed or severely restr
 
 {{< rawhtml >}}
 <p class="addendum">
-<time>Update Sep 2022:</time> Well, this pop-culture reference has dated pretty badly. As all good jokes are better when explained - <a href="//en.wikipedia.org/wiki/Travis_Fimmel" title="Travis Fimmel @ Wikipedia" target="_blank">Travis Fimmel</a> is an actor who was on popular TV show <a href="//en.wikipedia.org/wiki/Vikings_%5c%28TV_series%5c%29" title="Vikings TV series @ Wikipedia" target="_blank">Vikings</a>. Online betting company Bet365 had him feature in wall-to-wall ads that everyone watching live sport in 2017 would have seen. The general idea of the ads was that we're all friends, part of this delightful betting community together. There, now you can enjoy the sarcasm as originally intended.
+<span class="date">Update Sep 2022:</span> Well, this pop-culture reference has dated pretty badly. As all good jokes are better when explained - <a href="//en.wikipedia.org/wiki/Travis_Fimmel" title="Travis Fimmel @ Wikipedia" target="_blank">Travis Fimmel</a> is an actor who was on popular TV show <a href="//en.wikipedia.org/wiki/Vikings_%5c%28TV_series%5c%29" title="Vikings TV series @ Wikipedia" target="_blank">Vikings</a>. Online betting company Bet365 had him feature in wall-to-wall ads that everyone watching live sport in 2017 would have seen. The general idea of the ads was that we're all friends, part of this delightful betting community together. There, now you can enjoy the sarcasm as originally intended.
 </p>
 {{< /rawhtml >}}
 

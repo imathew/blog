@@ -4,7 +4,7 @@
 .post-comment-reply-link a,
 .post-time,
 .post-time a,
-.subtitle time,
+.subtitle .date,
 .updated,
 blockquote,
 figure.inline figcaption {
@@ -23,7 +23,7 @@ figure.inline figcaption {
 	font-size: 0.8em;
 }
 
-.addendum time {
+.addendum .date {
 	font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ p img {
 .subtitle,
 .tags,
 figure.inline figcaption,
-p.addendum time {
+p.addendum .date {
 	font-family: 'news cycle', sans-serif;
 }
 

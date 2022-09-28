@@ -2,7 +2,7 @@
 <h1>{{ .Title }}</h1>  
 {{ if eq .Type "posts" -}}
 <span class="subtitle">
-    <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+    <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
     {{ if .Params.categories -}}
     &nbsp;&nbsp;|&nbsp;&nbsp;
     {{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}<a href="/categories/{{ . | urlize }}/">{{ title $e }}</a>{{ end }}{{ end }}
