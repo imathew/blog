@@ -14,7 +14,7 @@
 			<img class="post-comment-avatar" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg">
 			<p class="post-comment-info">
 				<span class="post-comment-name">{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</span>
-				<br />
+				<br>
 				<a href="#comment-{{ ._id }}" title="Permalink to this comment">
 					<time class="post-time">{{ dateFormat "Jan 2, 2006" .date }}</time>
 				</a>
@@ -28,5 +28,5 @@
 			{{ end -}}
 		{{ end -}}
 	{{ end -}}
-	<div class="end"><hr /></div>
+	<div class="end"><hr></div>
 {{ end -}}
