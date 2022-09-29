@@ -1,5 +1,6 @@
 .addendum,
 .description-comments,
+.embed figcaption,
 .listdate,
 .post-comment-reply-link a,
 .post-time,
@@ -11,7 +12,7 @@ figure.inline figcaption {
 	color: #727272;
 }
 
-.addendum,
+.addendum, 
 .fixedwidth,
 .hljs,
 .listdate,
@@ -19,7 +20,8 @@ figure.inline figcaption {
 .subtitle,
 .tags,
 .updated, 
-figure.inline figcaption {
+figure.inline figcaption
+{
 	font-size: 0.8em;
 }
 
@@ -45,6 +47,10 @@ figure.inline figcaption {
 	font-style: italic;
 }
 
+.embed {
+	margin: 0;
+}
+
 .end {
 	padding: 20px;
 }
@@ -63,7 +69,7 @@ p img {
 .site-categories,
 .subtitle,
 .tags,
-figure.inline figcaption,
+figcaption,
 p.addendum .date {
 	font-family: 'news cycle', sans-serif;
 }
@@ -175,6 +181,7 @@ blockquote {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
+	margin: 0;
 }
 .spotify iframe, .youtube iframe {
     position: absolute;
@@ -182,6 +189,7 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
+	border: none;
 }
 
 .subtitle+p {
@@ -238,6 +246,10 @@ hr {
 	border: 0;
 	height: 1px;
 	width: 80%;
+}
+
+html {
+    width: 100%;
 }
 
 figure.inline {

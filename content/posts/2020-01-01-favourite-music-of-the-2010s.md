@@ -53,9 +53,13 @@ Top tracks from the Twenty Tens. A bit inconsistent with my annual lists, some s
 40. David Bowie - Blackstar
 
 ## Spotify playlist
-{{< spotify "https://open.spotify.com/embed/playlist/1krwZw93zhIxl0tPf9lUJp" >}}
-[Direct link](https://open.spotify.com/playlist/1krwZw93zhIxl0tPf9lUJp "Spotify")
+{{< spotify
+  "//open.spotify.com/embed/playlist/1krwZw93zhIxl0tPf9lUJp"
+  "//open.spotify.com/playlist/1krwZw93zhIxl0tPf9lUJp"
+>}}
 
 ## YouTube playlist
-{{< youtube "https://www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvKNWyDngMOny2jedNUf2NEP" >}}
-[Direct link](https://www.youtube.com/playlist?list=PLQeQBnrQOLvKNWyDngMOny2jedNUf2NEP "YouTube")
+{{< youtube
+  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvKNWyDngMOny2jedNUf2NEP"
+  "//www.youtube.com/playlist?list=PLQeQBnrQOLvKNWyDngMOny2jedNUf2NEP"
+>}}

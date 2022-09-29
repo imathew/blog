@@ -40,13 +40,18 @@ image: "mitskipuberty2.jpg"
 29. Shura - What's It Gonna Be?
 30. Psychic Twin - Strangers
 
-## Playlists
+## Spotify playlist
 
-[Spotify playlist](//open.spotify.com/user/imathew/playlist/0ShlslrrsURQcwMGNv4Wr6 "Spotify")
-{{< spotify "//embed.spotify.com/?uri=spotify%3Auser%3Aimathew%3Aplaylist%3A0ShlslrrsURQcwMGNv4Wr6" >}}
+{{< spotify
+  "//embed.spotify.com/?uri=spotify%3Auser%3Aimathew%3Aplaylist%3A0ShlslrrsURQcwMGNv4Wr6"
+  "//open.spotify.com/user/imathew/playlist/0ShlslrrsURQcwMGNv4Wr6"
+>}}
 
-[YouTube playlist](//www.youtube.com/playlist?list=PLQeQBnrQOLvLUWkIXf8Wg_sF_2eQWm--6 "YouTube")
-{{< youtube "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLUWkIXf8Wg_sF_2eQWm--6">}}
+## YouTube playlist
+{{< youtube
+  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLUWkIXf8Wg_sF_2eQWm--6"
+  "//www.youtube.com/playlist?list=PLQeQBnrQOLvLUWkIXf8Wg_sF_2eQWm--6"
+>}}
 
 ## January 26
 

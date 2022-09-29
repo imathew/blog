@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{- if eq .Type "posts" -}}
+<article>
+{{ end }}
 <h1>{{ .Title }}</h1>  
 {{ if eq .Type "posts" -}}
 <span class="subtitle">
@@ -7,10 +10,13 @@
     &nbsp;&nbsp;|&nbsp;&nbsp;
     {{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}<a href="/categories/{{ . | urlize }}/">{{ title $e }}</a>{{ end }}{{ end }}
 </span>
-
 {{ end -}}
-{{ $reFigIn := "<p>([\\s]*?<figure[>\\s][\\S\\s]*?</figure>\\s*?)</p>" }}
-{{ $reFigOut := "$1" }}
-{{ $reFigContent := .Content | replaceRE $reFigIn $reFigOut | safeHTML }}
-{{ $reFigContent }}
-{{ end -}}
+{{/* remove p tags from around figure tags */ -}}
+{{ $reFigIn := "<p>([\\s]*?<figure[>\\s][\\S\\s]*?</figure>\\s*?)</p>" -}}
+{{ $reFigOut := "$1" -}}
+{{ $reFigContent := .Content | replaceRE $reFigIn $reFigOut -}}
+{{ $reFigContent | safeHTML}}
+{{ if eq .Type "posts" -}}
+</article>
+{{- end -}}
+{{- end -}}
