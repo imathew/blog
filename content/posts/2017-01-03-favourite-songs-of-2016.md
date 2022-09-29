@@ -41,7 +41,6 @@ image: "mitskipuberty2.jpg"
 30. Psychic Twin - Strangers
 
 ## Spotify playlist
-
 {{< spotify
   "//embed.spotify.com/?uri=spotify%3Auser%3Aimathew%3Aplaylist%3A0ShlslrrsURQcwMGNv4Wr6"
   "//open.spotify.com/user/imathew/playlist/0ShlslrrsURQcwMGNv4Wr6"
@@ -54,7 +53,6 @@ image: "mitskipuberty2.jpg"
 >}}
 
 ## January 26
-
 I didn't submit my top ten to this year's [Hottest 100](//www.abc.net.au/triplej/hottest100/16/), since I don't think Australia Day should be celebrated as long as it's held on January 26th. Instead I voted only for _A.B. Original - January 26_. It's an important message, but I also like the tune.
 
 {{< youtube "//www.youtube.com/embed/tZ9qeX4gUeo" >}}

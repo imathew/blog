@@ -17,7 +17,7 @@ Please note that since I've been deleting my old tweets this way for some time I
 
 To get the required authentication keys you will need to [register a Twitter application](//apps.twitter.com/ "Register app").
 
-### Update
+## Update
 
 Since my initial post I've added functionality to unfavor (or 'unfavorite') tweets, too. I've included the full script below.
 
