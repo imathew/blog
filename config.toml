@@ -1,5 +1,6 @@
-baseURL = "https://www.mathewinkson.com/"
-languageCode = "en-au"
+baseURL = ""
+#baseURL = "//www.mathewinkson.com/"
+languageCode = "en-AU"
 title = "Mathew Inkson"
 disableKinds = ["section"]
 enableEmoji = true
@@ -16,18 +17,15 @@ enableRobotsTXT = true
 
 [params]  
   categories = ["Music","Technology","Sport","Television", "Government", "Misc"]
+  canonURL = "//www.mathewinkson.com"
   author = "Mathew Inkson"
   ogimage = "og.png"
   sitename = "Mathew Inkson"
   twitter = "@imathew"
+  facebook = "//facebook.com/imathew"
+  github = "//github.com/imathew"
   staticman = true
 
 [permalinks]
   posts = '/:year/:month/:slug/'
   pages = ":slug"
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    languageCode = "en-au"
-    weight = 1
