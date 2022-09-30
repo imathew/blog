@@ -15,7 +15,7 @@ I've added an [IcyDock Duo Swap](//www.icydock.com/goods.php?id=141 "IcyDock Duo
 
 There is a fifth SATA port on the motherboard, but to use a sixth drive I was required to use a SATA to eSATA cable and poke it out to the eSATA port at the back of the case. I also found the case fan a bit noisier than I liked, so I replaced it. Concerned by the possibility of buying an incompatible PWM model as warned by [this article](//silentpcreview.com/hp-proliant-microserver/ "Quiet Fan Swap For HP MicroServer"), I used a non-PWM fan and set the RPM manually.
 
-In order to make the drives hot-swappable I was required to install a [modified bios](//homeservershow.com/blog/byob-hardware/hp-proliant-n40l-microserver-build-and-bios-modification-revisited/e "HP ProLiant N40L MicroServer Build and BIOS Modification Revisited") and alter some advanced configuration settings.
+In order to make the drives hot-swappable I was required to install a [modified bios](//homeservershow.com/blog/byob-hardware/hp-proliant-n40l-microserver-build-and-bios-modification-revisited/ "HP ProLiant N40L MicroServer Build and BIOS Modification Revisited") and alter some advanced configuration settings.
 
 {{< gallery caption-position="none" >}}
   {{< figure link="/img/Front-internal.jpg" caption="I have covered the light (below the DuoSwap) with gaffer tape. Like tinsel, I find it distracting." alt="Front internal view of the NAS" >}}

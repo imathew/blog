@@ -1,13 +1,12 @@
-baseURL = "https://thankful-smoke-0bcb23d1e.2.azurestaticapps.net/"
 #baseURL = "https://www.mathewinkson.com/"
+baseURL = "https://thankful-smoke-0bcb23d1e.2.azurestaticapps.net/"
+#baseURL = ""
 languageCode = "en-AU"
 title = "Mathew Inkson"
 disableKinds = ["section"]
 enableEmoji = true
 enableRobotsTXT = true
 #googleAnalytics = "UA-31343840-1"
-#enableGitInfo = true
-#canonifyURLs = true
 
 [frontmatter]
   lastmod = ["lastmod"]

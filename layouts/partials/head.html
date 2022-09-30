@@ -1,7 +1,6 @@
 
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
-    <base href="{{ .Site.BaseURL }}">
     <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
     {{ if eq .Params.code true -}}
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Source+Code+Pro">
@@ -48,13 +47,13 @@
     <meta name="twitter:description" content="{{ . }}">
     {{ end }}
     <meta name="url" content="{{ .Permalink }}">
-    <meta name="twitter:url" content="{{ .Permalink }}"> 
+    <meta name="twitter:url" content="{{ .Permalink }}">
     <meta property="og:url" content="{{ .Permalink }}">
-    {{ with .Params.image -}} 
+    {{ with .Params.image -}}
     <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ . }}">
-    <meta property="og:image" content="{{ $.Site.BaseURL }}img/{{ . }}"> 
+    <meta property="og:image" content="{{ $.Site.BaseURL }}img/{{ . }}">
     <meta name="twitter:image" content="{{ $.Site.BaseURL }}img/{{ . }}">
-    <meta name="twitter:image:src" content="{{ $.Site.BaseURL }}img/{{ . }}"> 
+    <meta name="twitter:image:src" content="{{ $.Site.BaseURL }}img/{{ . }}">
     {{ else -}}
     <meta itemprop="image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.ogimage }}">
     <meta property="og:image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.ogimage }}">
