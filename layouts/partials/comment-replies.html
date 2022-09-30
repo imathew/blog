@@ -3,7 +3,7 @@
   		<div id="comment-{{ ._id }}" class="post-comment reply">
   			<div class="arrow-up"></div>
 			<div class="post-comment-header">
-				<img class="post-comment-avatar" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg" alt="">
+				<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg" alt="">
 				<p class="post-comment-info">
 					<span class="post-comment-name">{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</span>
 					<span class="post-comment-reply-link"><a href="#comment-{{ $.parentId }}">in reply to {{ $.parentName }}</a></span>
