@@ -1,5 +1,5 @@
-baseURL = "//thankful-smoke-0bcb23d1e.2.azurestaticapps.net/"
-#baseURL = "//www.mathewinkson.com/"
+baseURL = "https://thankful-smoke-0bcb23d1e.2.azurestaticapps.net/"
+#baseURL = "https://www.mathewinkson.com/"
 languageCode = "en-AU"
 title = "Mathew Inkson"
 disableKinds = ["section"]
@@ -17,13 +17,13 @@ enableRobotsTXT = true
 
 [params]  
   categories = ["Music","Technology","Sport","Television", "Government", "Misc"]
-  canonURL = "//www.mathewinkson.com"
+  canonURL = "https://www.mathewinkson.com"
   author = "Mathew Inkson"
   ogimage = "og.png"
   sitename = "Mathew Inkson"
   twitter = "@imathew"
-  facebook = "//facebook.com/imathew"
-  github = "//github.com/imathew"
+  facebook = "https://facebook.com/imathew"
+  github = "https://github.com/imathew"
   staticman = true
 
 [permalinks]
