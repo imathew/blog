@@ -1,7 +1,7 @@
 
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
-    <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
+    <title itemprop="name">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     {{ if eq .Params.code true -}}
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Source+Code+Pro">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
