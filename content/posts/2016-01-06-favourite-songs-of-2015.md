@@ -52,4 +52,4 @@ Starts with my top ten for Hottest 100 purposes, the rest are ordered by (Spoti
 
 The [Hamilton Original Broadway Cast Recording](//open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc) is my album of the decade, hands-down. Nothing came close to topping it this year. But being a musical - and a good musical - most of its songs require the context of the others, so it's difficult to name them in a list like this.
 
-Since it's primarily a hip-hop musical, [Cabinet Battle #1](//open.spotify.com/track/3TfKt8mPpdXfQTMfRjHzyz) is the best example of the show. But if there was going to be a breakaway pop hit it would probably be [Wait For It](https://open.spotify.com/track/7EqpEBPOohgk7NnKvBGFWo), sung by Leslie Odom Jr's Aaron Burr.
+Since it's primarily a hip-hop musical, [Cabinet Battle #1](//open.spotify.com/track/3TfKt8mPpdXfQTMfRjHzyz) is the best example of the show. But if there was going to be a breakaway pop hit it would probably be [Wait For It](//open.spotify.com/track/7EqpEBPOohgk7NnKvBGFWo), sung by Leslie Odom Jr's Aaron Burr.
