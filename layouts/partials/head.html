@@ -31,6 +31,7 @@
     <meta name="language" content="{{ .Language.LanguageName }}">
     <meta name="robots" content="index,follow"> 
     <meta name="googlebot" content="index,follow">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
     <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
 
@@ -45,9 +46,9 @@
     <meta property="og:description" content="{{ . }}">
     <meta name="twitter:description" content="{{ . }}">
     {{ end }}
-    <meta name="url" content="{{ .RelPermalink }}">
-    <meta name="twitter:url" content="{{ .RelPermalink }}"> 
-    <meta property="og:url" content="{{ .RelPermalink }}">
+    <meta name="url" content="{{ .Permalink }}">
+    <meta name="twitter:url" content="{{ .Permalink }}"> 
+    <meta property="og:url" content="{{ .Permalink }}">
     {{ with .Params.image -}} 
     <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ . }}">
     <meta property="og:image" content="{{ $.Site.BaseURL }}img/{{ . }}"> 
@@ -83,7 +84,8 @@
     {{ end -}}
     {{ with.Params.category }} 
     <meta name="news_keywords" content="{{ index . 0 }}">
-    <meta property="article:section" content="{{ index . 0 }}"> 
+    <meta property="article:section" content="{{ index . 0 }}">
+    <meta property="fb:admins" content="637829497" />
     {{ end }}
     <script type="application/ld+json">
     {

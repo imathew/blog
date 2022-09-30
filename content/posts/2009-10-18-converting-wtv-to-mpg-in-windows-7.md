@@ -9,7 +9,7 @@ code: true
 comments: true
 ---
 
-**Update 2014-02-25:** _As Marc has said in a [comment below](/2009/10/converting-wtv-to-mpg-in-windows-7/comment-page-1#comment-9455 "Marc's comment"), ffmpeg now supports wtv files natively, so the dvr-ms step is unnecessary. I no longer use this process at all so I haven't updated it, but will leave it here for posterity._
+**Update 2014-02-25:** _As Marc has said in a [comment below](/2009/10/converting-wtv-to-mpg-in-windows-7/#comment-9455 "Marc's comment"), ffmpeg now supports wtv files natively, so the dvr-ms step is unnecessary. I no longer use this process at all so I haven't updated it, but will leave it here for posterity._
 
 I use a PlayStation 3 to watch TV programmes recorded in Windows 7.  The media sharing functionality in 7 is much better than in Vista, and it's quite simple to share the Recorded TV folder and watch .wtv files on the PS3. However, I prefer to convert the .wtv files to .mpg, and use the excellent [PS3 Media Centre](//ps3mediaserver.org/) to serve them. In my experience, .wtv files on the PS3 are:
 
