@@ -1,5 +1,5 @@
-#baseURL = "https://www.mathewinkson.com/"
-baseURL = "https://thankful-smoke-0bcb23d1e.2.azurestaticapps.net/"
+baseURL = "https://www.mathewinkson.com/"
+#baseURL = "https://thankful-smoke-0bcb23d1e.2.azurestaticapps.net/"
 #baseURL = ""
 languageCode = "en-AU"
 title = "Mathew Inkson"
