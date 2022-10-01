@@ -12,8 +12,7 @@ image: "bojackofanartist.jpg"
 
 ## Elsewhere
 
-[www.inkson.org](//www.inkson.org "Mathew Inkson")  
-[aus.social/@mathew](//aus.social/@imathew "Mastodon")  
 [twitter.com/imathew](//twitter.com/imathew "Twitter")  
+[aus.social/@mathew](//aus.social/@imathew "Mastodon")  
 [facebook.com/imathew](//www.facebook.com/imathew "Facebook")  
-[instagram.com/minkson](//instagram.com/minkson "Instagram")  
+[www.inkson.org](//www.inkson.org "Mathew Inkson")
