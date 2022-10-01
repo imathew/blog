@@ -4,7 +4,7 @@ title = "Mathew Inkson"
 disableKinds = ["section"]
 enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = "UA-31343840-1"
+googleAnalytics = "335149410"
 
 [frontmatter]
   lastmod = ["lastmod"]
