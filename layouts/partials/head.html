@@ -59,7 +59,7 @@
     <meta property="og:image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.ogimage }}">
     {{ end -}}
     <meta property="og:updated_time" content="{{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{end}}">
-    {{ hugo.Generator }}
+    <meta name="generator" content="Hugo {{ hugo.Version }}" >
     {{ if eq .Type "posts" -}} 
     {{ $paginator := .Paginate (where .Pages "Type" "!=" "pages") -}}
     {{ if $paginator }}

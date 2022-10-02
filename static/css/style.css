@@ -1,6 +1,8 @@
 .addendum,
 .description-comments,
 .embed figcaption,
+.endnote,
+.endnote a,
 .listdate,
 .post-comment-reply-link a,
 .post-time,
@@ -12,7 +14,7 @@ figure.inline figcaption {
 	color: #727272;
 }
 
-.addendum, 
+.addendum,
 .fixedwidth,
 .hljs,
 .listdate,
@@ -55,13 +57,7 @@ figure.inline figcaption
 	padding: 20px;
 }
 
-.gallery .img,
-.hljs,
-figure.inline img,
-p img {
-	border: 1px solid #363636;
-}
-
+.endnote,
 .gallery figcaption,
 .post-comment-header,
 .pswp__caption,
@@ -72,6 +68,23 @@ p img {
 figcaption,
 p.addendum .date {
 	font-family: 'news cycle', sans-serif;
+}
+
+.endnote {
+	font-size: 0.7em;
+	margin-top: -20px;
+}
+
+.endnote,
+figure.inline figcaption {
+	text-align: center;
+}
+
+.gallery .img,
+.hljs,
+figure.inline img,
+p img {
+	border: 1px solid #363636;
 }
 
 .gallery figcaption,
@@ -282,10 +295,6 @@ html {
 
 figure.inline {
 	margin: 20px 0;
-}
-
-figure.inline figcaption {
-	text-align: center;
 }
 
 figure.inline img,

@@ -1,6 +1,7 @@
 <footer>{{ if .Params.lastmod }}
     <p class="updated">Last updated {{ .Params.lastmod.Format "January 2, 2006" }}</p>{{ end }}{{ if .Params.tags }}{{ end }}
-    {{ if eq .Type "posts" -}}
     <div class="end"><hr></div>
+    {{ if eq .Type "posts" -}}
     {{ partial "comments.html" .}}{{ end }}
+    <div class="endnote"><span>Mathew Inkson {{ now.Year }} &mdash; <a href="//github.com/imathew/blog" target="_blank" title="Github repository for this site">built</a> with <a href="//gohugo.io/" target="_blank" title="Website for the Hugo framework">Hugo</a> {{ hugo.Version }}</span></div>
 </footer>

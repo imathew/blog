@@ -19,5 +19,3 @@ Unless otherwise specified, all original source code snippets I provide within b
 <p>For more information, please refer to &lt;<a href="//unlicense.org">http://unlicense.org/</a>&gt;</p>
 </div>
 {{< /rawhtml >}}
-
-\- Mathew Inkson
