@@ -1,0 +1,78 @@
+==================================================================
+https://keybase.io/imathew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mathewinkson.com
+  * I am imathew (https://keybase.io/imathew) on keybase.
+  * I have a public key with fingerprint 886F 48EC 618C 5D08 9888  0B9F 47EA 4E73 7F51 C8E7
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.19"
+        },
+        "key": {
+            "eldest_kid": "01019429aa8ec3cec807a3b25aa59fe69bf30f1b1d22b2cbaf28183993cb83c95b630a",
+            "fingerprint": "886f48ec618c5d0898880b9f47ea4e737f51c8e7",
+            "host": "keybase.io",
+            "key_id": "47ea4e737f51c8e7",
+            "kid": "01019429aa8ec3cec807a3b25aa59fe69bf30f1b1d22b2cbaf28183993cb83c95b630a",
+            "uid": "18cd02058a96268ac9174263d2ae5419",
+            "username": "imathew"
+        },
+        "service": {
+            "hostname": "mathewinkson.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1465201052,
+    "expire_in": 157680000,
+    "prev": "534a522894371bb6bb8c77cc444b0d586233020968499b349d7ef8bb1308bfca",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkm1QVFUYx3cXkSEEnR20eHGEjYGyle77PXczUQplEGlsMgkZl3vuPQuXXXa3
+3QXa1h17kQUKQoEcBZwwBpEPvQ0hmDWRIljoZBEIgRbmIMgE4TbgTOvYvYQfmulj
+59OZ8/ye//k//3MOhwepNOodd7KcB3dfuq0emIaqvXvwJo8O2kS3zuDRCRYJWV3K
+zsoXIZ1BZ0ZuyDtRsmSLs9pElFzojFtm9LoS5HBKNqtMYckgGed0Xr3CK93IIiKn
+y2iWRKWKYzhHERzPAySQAhIAxvIkJGiepzkTYjhoIjETDnGRICAhQN5EAByQHEcK
+EJACR0OGxHj5QpNkzUcOu0NSLOoAYEyUrMjgQKBFDHAAAAxyJopFPIVYkjXRuAAQ
+KzcW2Jyufw2jW3JqXLL3H/z/7Lt4SU62KWIERgOeYwgG8AKHsxTBkCLBI5qS45NB
+J3IsBy8V8a4CVKpkKh+WSAJSclUGWQb+qUtWs9NmTRZsRXK73WFz2QSbRa4WuFx2
+g9LsctsVuhRB47KOEUpWUU5SecHGh0+Iy6jgkhRlnGJoQp6dJvQ69JpdciCjpBA0
+ywBMXso9qETWpEmKpwkCcBTJ4hAyEAKBZQWBoiiIiTRgCJKUB+YYQHEcJClOZJEJ
+QIiTGIAmQUnGiV612mRtVjbK58uaTinfyruKHUjnrdTErlCpNaqVwRrlk6oeCV3z
+8OeWda5RdQWNpqo+pndVrHz9hUB8cFqBts5P/pLwpFk7s28ucmN7aHiq4aUNOUUt
+9SMH2JicnQ33J1suvLv/SEjris2hQ1cie75Kf2Oqpm9n5djzteE1R2uqzKtOzX36
+DacH7SWarsSkVqN24a1hOiUv6kZWYsTvz3W8F5we1rvtmaGBPZn9CbXnzo+5PT3S
++sXFiPej9zf3p5jT8vnmC1XzFQvHPI7H89a1j3w2qb1REru+rPfLE3m/XevacOcy
+82LMzQ+9GZbuIUvZo4kNFmvQxWPuVy7GfNupBoG9NUk187lQPXI5ZVZjSLvuO0Qu
+VP8At4uj6RNU+Dv+sV7i8+CJbN+gur9xKuwL7VB79OnpvsnRumurBPvY8crsq0HV
+mQfePPvrLe139Rll5an6uum41R3PpoYY7g1Phw7l6PG3J3xt7p8PbfLEbHPZN+W2
+eovY4aMGdbZ/oOduir+j/OWqM7MPxsHqXR88Vkn6DtbdjS72X4nXDzcXRIbNtxY+
+PfMgRGg74h2funR8pjGu3pMVtj3zo603m7rHSrfsiz+pT1DPnFx7tTrs7HhfbcfE
+ujL+1BP6QMBHSKV9hS3CJ7PRI9d9rQ3R/kBwdeeZrMyt976m72/R/JRUcStnc/nk
+6nP4Uz1/NWXwtw+fn/VmxM5lD5+I+HGt1zK48fvTf/r+KAt0uqOiutsWB3f05+7+
+Gw==
+=wj+N
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/imathew
+
+==================================================================
