@@ -3,14 +3,12 @@
   		<div id="comment-{{ ._id }}" class="post-comment reply">
   			<div class="arrow-up"></div>
 			<div class="post-comment-header">
-				<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg" alt="">
+				{{ if .url }}<a href="{{ .url }}">{{ end }}<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=51&r=pg&d=identicon&r=pg" alt="">{{ if .url }}</a>{{ end }}
 				<p class="post-comment-info">
-					<span class="post-comment-name">{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</span>
-					<span class="post-comment-reply-link"><a href="#comment-{{ $.parentId }}">in reply to {{ $.parentName }}</a></span>
+					<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
+					<span class="post-comment-reply-link">in reply to <a href="#comment-{{ $.parentId }}">{{ $.parentName }}</a></span>
 					<br>
-					<a href="#comment-{{ ._id }}" title="Permalink to this comment">
-						<span class="post-time">{{ dateFormat "Jan 2, 2006" .date }}</span>
-					</a>
+					<span class="post-time">{{ dateFormat "Jan 2, 2006" .date }}</span>
 				</p>
 			</div>
 			<div class="comment-message">

@@ -4,6 +4,7 @@
 .endnote,
 .endnote a,
 .listdate,
+.post-comment-reply-link,
 .post-comment-reply-link a,
 .post-time,
 .post-time a,
@@ -147,6 +148,7 @@ body {
 	color: #363636;
 }
 
+.post-comment-reply-link,
 .post-comment-reply-link a {
 	font-style: italic;
 }
