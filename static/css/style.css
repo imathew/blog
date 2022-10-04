@@ -147,6 +147,10 @@ body {
 	color: #363636;
 }
 
+.post-comment-reply-link {
+	line-height: 2em;
+}
+
 .post-comment-reply-link,
 .post-comment-reply-link a {
 	font-style: italic;
@@ -168,6 +172,7 @@ blockquote {
 
 .site-categories {
 	font-size: 0.9em;
+	line-height: 2em;
 	margin-bottom: 2em;
 	margin-top: 8px;
 	text-align: center;
