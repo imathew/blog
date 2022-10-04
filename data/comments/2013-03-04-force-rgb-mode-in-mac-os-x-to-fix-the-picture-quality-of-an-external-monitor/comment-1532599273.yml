@@ -1,11 +1,24 @@
 _id: '16069'
-comment: "Hi guys, I've tried everything on this, nothing is working. \n\nTwo options\
-  \ : \n1/ I'm expecting too much from a 1080p screen (it's the Dell U2414H)\n2/ nothing\
-  \ is fixing the problem\n\nThe script worked in the sense that the screen is now\
-  \ in forced RGB mode (EDID override) but the text doesn't look any better.\nI've\
-  \ taken some screenshots, the difference seems huge (I expected only a small difference)\
-  \ and it's only text that seems to be off.\n\nAny help at all would be greatly appreciated\n\
-  \nhttps://ibb.co/cyoFg8\nhttps://ibb.co/cg4cuT"
+comment: "Hi guys, I've tried everything on this, nothing is working.  
+
+
+Two options  
+
+
+1/ I'm expecting too much from a 1080p screen (it's the Dell U2414H)  
+
+
+2/ nothing is fixing the problem  
+The script worked in the sense that the screen is now in forced RGB mode (EDID override) but the text doesn't look any better.  
+
+
+I've taken some screenshots, the difference seems huge (I expected only a small difference) and it's only text that seems to be off.\n\nAny help at all would be greatly appreciated  
+
+
+https://ibb.co/cyoFg8  
+
+
+https://ibb.co/cg4cuT"
 date: '2018-07-26 20:01:13'
 email: 60c15a6fe026a6cd1c1daf29a5489f80
 name: Hugo
