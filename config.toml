@@ -26,3 +26,8 @@ googleAnalytics = "G-5W1PKV4DSY"
 [permalinks]
   posts = '/:year/:month/:slug/'
   pages = ":slug"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -11,11 +11,9 @@ image: "travisstadium.jpg"
 
 If you have an online gambling account that hasn't been closed or severely restricted, the company believes you are a loser, and is treating you like a mug.
 
-{{< rawhtml >}}
 <p class="addendum">
 <span class="date">Update Sep 2022:</span> Well, this pop-culture reference has dated pretty badly. As all good jokes are better when explained - <a href="//en.wikipedia.org/wiki/Travis_Fimmel" title="Travis Fimmel @ Wikipedia" target="_blank">Travis Fimmel</a> is an actor who was on popular TV show <a href="//en.wikipedia.org/wiki/Vikings_%28TV_series%29" title="Vikings TV series @ Wikipedia" target="_blank">Vikings</a>. Online betting company Bet365 had him feature in wall-to-wall ads that everyone watching live sport in 2017 would have seen. The general idea of the ads was that we're all friends, part of this delightful betting community together. There, now you can enjoy the sarcasm as originally intended.
 </p>
-{{< /rawhtml >}}
 
 Travis, cobber! You told me that the final whistle is never the final whistle. That the turnstiles would never stop turning. That the cheering goes on forever. That we were part of something big.
 

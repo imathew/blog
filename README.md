@@ -1,2 +1,2 @@
-# Mat's blog
+# Matt's blog
 www.mathewinkson.com
