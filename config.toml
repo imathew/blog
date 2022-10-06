@@ -4,7 +4,6 @@ title = "Mathew Inkson"
 disableKinds = ["section"]
 enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = "G-5W1PKV4DSY"
 
 [frontmatter]
   lastmod = ["lastmod"]
@@ -22,6 +21,7 @@ googleAnalytics = "G-5W1PKV4DSY"
   facebook = "https://facebook.com/imathew"
   github = "https://github.com/imathew"
   staticman = true
+  googleAnalytics = "G-5W1PKV4DSY"
 
 [permalinks]
   posts = '/:year/:month/:slug/'

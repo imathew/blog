@@ -10,5 +10,15 @@
 {{ partial "photoswipe" . }}
 {{ end -}}
 {{ if hugo.IsProduction -}}
-{{ template "_internal/google_analytics.html" . }}
+
+<script async src="/js/gtag.js"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', '{{ .Site.Params.googleAnalytics }}', { 'anonymize_ip': false });
+}
+</script>
 {{- end -}}
