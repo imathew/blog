@@ -2,6 +2,7 @@
 title: "Favourite songs of 2017"
 description: "Songs of 2017 that I can listen to over and over again."
 date: "2018-01-04"
+embed: true
 categories: 
   - "music"
 image: "/img/Gangofyouths.jpg"

@@ -2,6 +2,7 @@
 title: "Favourite songs of 2018"
 description: "Twenty songs of 2018 that I really enjoyed."
 date: "2019-01-14"
+embed: true
 categories: 
   - "music"
 image: "/img/Thisisamerica.jpg"

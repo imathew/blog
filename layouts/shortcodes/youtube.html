@@ -1,9 +1,6 @@
 <figure class="embed">
-    <div class="youtube">
-        <iframe title="YouTube Player" loading="lazy" allowfullscreen
-            src="{{ index .Params 0}}"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
+    <div class="lazyframe" data-src="{{ index .Params 0}}" data-vendor="youtube" data-initinview="true">
+        <span class="loading">&nbsp;&nbsp;Loading ...</span>
     </div>
     {{- if isset .Params 1 }}
     <figcaption><a href="{{ index .Params 1}}" title="YouTube" target="_blank">Direct link</a></figcaption>

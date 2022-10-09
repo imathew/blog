@@ -82,9 +82,10 @@ figure.inline figcaption {
 
 .gallery .img,
 .hljs,
+.lazyframe,
 figure.inline img,
 p img {
-	border: 1px solid #363636;
+	outline: 1px solid #363636;
 }
 
 .gallery figcaption,
@@ -110,6 +111,23 @@ body {
 
 .hljs-literal {
 	color: darkgreen;
+}
+
+.lazyframe {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+	margin: 0;
+}
+
+.lazyframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	border: none;
 }
 
 .post-comment {
@@ -199,22 +217,6 @@ blockquote {
 
 .site-title a {
 	text-decoration: none;
-}
-
-.spotify, .youtube {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-	margin: 0;
-}
-.spotify iframe, .youtube iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-	border: none;
 }
 
 .subtitle+p {

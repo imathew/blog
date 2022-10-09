@@ -2,6 +2,7 @@
 title: "Favourite songs of 2016"
 description: "Great tunes from The Year of Our Lord Two Thousand and Sixteen."
 date: "2017-01-03"
+embed: true
 categories: 
   - "music"
 image: "/img/mitskipuberty2.jpg"

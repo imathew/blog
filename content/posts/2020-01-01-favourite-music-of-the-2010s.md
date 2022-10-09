@@ -2,6 +2,7 @@
 title: "Favourite music of the 2010s"
 description: "Top tracks from the Twenty Tens."
 date: "2020-01-01"
+embed: true
 categories: 
   - "music"
 image: "/img/slipaway.jpg"

@@ -2,6 +2,7 @@
 title: "Favourite songs of 2019"
 description: "Twenty-five top tracks of Twenty-Nineteen."
 date: "2019-12-30"
+embed: true
 categories: 
   - "music"
 image: "/img/theblueep.jpg"

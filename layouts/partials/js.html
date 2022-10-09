@@ -1,13 +1,17 @@
-{{ if eq .Params.code true }}
+{{ if eq .Params.embed true -}}
+<script defer src="{{(resources.Get "/js/lazyframe.min.js" ).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/load-lazyframe.js" | resources.Minify).RelPermalink}}"></script>
+{{ end -}}
+{{ if eq .Params.code true -}}
 <script defer src="{{(resources.Get "/js/highlight.js" | resources.Minify).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/load-highlight.js" | resources.Minify).RelPermalink}}"></script>
 {{ end -}}
-{{ if eq .Params.gallery true }}
+{{ if eq .Params.gallery true -}}
 <script defer src="{{(resources.Get "/js/jquery-1.12.4.js" | resources.Minify).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/load-photoswipe.js" | resources.Minify).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/photoswipe.js" | resources.Minify).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/photoswipe-ui-default.js" | resources.Minify).RelPermalink}}"></script>
-{{ partial "photoswipe" . }}
+{{ partial "photoswipe" . -}}
 {{ end -}}
 {{ if isset .Site.Params "googleanalytics" -}}
 <script defer src="{{(resources.Get "/js/ga4.js" | resources.Minify).RelPermalink}}"></script>

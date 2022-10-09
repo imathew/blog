@@ -3,6 +3,7 @@ title: "Favourite songs of 2015 (excluding Hamilton)"
 description: "My top thirty tracks of the year that aren't on the Hamilton recording."
 date: "2016-01-06"
 slug: "favourite-songs-of-2015"
+embed: true
 categories: 
   - "music"
 ---

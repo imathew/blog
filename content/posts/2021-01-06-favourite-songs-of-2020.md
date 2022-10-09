@@ -2,6 +2,7 @@
 title: "Favourite songs of 2020"
 description: "Fiften fabulous finds from twenty twenty"
 date: "2021-01-06"
+embed: true
 categories: 
   - "music"
 image: "/img/Hottest100_2020.png"

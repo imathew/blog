@@ -2,6 +2,7 @@
 title: "Favourite songs of 2014"
 description: "My top thirty tracks of the year. Starts with my top ten, the rest are ordered by (Spotify) track length."
 date: "2015-01-02"
+embed: true
 categories: 
   - "music"
 ---
