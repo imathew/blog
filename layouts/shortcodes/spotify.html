@@ -5,7 +5,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
-    {{ if isset .Params 1 -}}
+    {{- if isset .Params 1 }}
     <figcaption><a href="{{ index .Params 1}}" title="Spotify" target="_blank">Direct link</a></figcaption>
     {{- end }}
 </figure>
