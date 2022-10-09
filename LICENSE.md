@@ -8,7 +8,7 @@ Unless otherwise specified, original code snippets within files in the `content`
 
 # Site software
 
-The rest of this repository is covered by the [MIT license](//mit-license.org), *with the exception of third-party resources* (images, styles, javascript, fonts) whose creators retain any copyright.
+The rest of this repository is covered by the [MIT license](//mit-license.org), *with the exception of third-party resources*. These are located in the 'assets3p' folder and their creators/owners retain any copyright.
 
 # Licenses
 

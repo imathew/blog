@@ -4,7 +4,7 @@ description: "Twenty songs of 2018 that I really enjoyed."
 date: "2019-01-14"
 categories: 
   - "music"
-image: "Thisisamerica.jpg"
+image: "/img/Thisisamerica.jpg"
 ---
 
 I've only picked twenty songs for my list this year. There were some gems that I really enjoyed, but a lot fewer than in recent years.

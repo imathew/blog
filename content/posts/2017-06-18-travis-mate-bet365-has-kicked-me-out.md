@@ -6,7 +6,7 @@ lastmod: "2022-09-27"
 categories: 
   - "government"
   - "sport"
-image: "travisstadium.jpg"
+image: "/img/travisstadium.jpg"
 ---
 
 If you have an online gambling account that hasn't been closed or severely restricted, the company believes you are a loser, and is treating you like a mug.

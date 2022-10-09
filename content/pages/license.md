@@ -14,7 +14,7 @@ Unless otherwise specified, original code snippets I provide within articles on 
 
 ## Site software
 
-The [code for the site itself](//github.com/imathew/blog) is covered by [The MIT License](//mit-license.org), *with the exception of third-party resources* (images, styles, javascript, fonts) whose creators retain any copyright.
+The [code for the site itself](//github.com/imathew/blog) is covered by [The MIT License](//mit-license.org), *with the exception of third-party resources* (images, styles, javascript, fonts). These are located in the 'assets3p' folder of the repository and their creators/owners retain any copyright.
 
 ## Licences
 

@@ -4,7 +4,7 @@ description: "Fiften fabulous finds from twenty twenty"
 date: "2021-01-06"
 categories: 
   - "music"
-image: "Hottest100_2020.png"
+image: "/img/Hottest100_2020.png"
 ---
 
 Only fifteen songs this year. A lot of good but often depressing music was made given that it was 2020, and I've limited this to songs that excite me whenever I hear them.

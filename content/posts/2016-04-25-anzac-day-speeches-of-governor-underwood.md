@@ -9,11 +9,11 @@ categories:
 
 The Anzac Day addresses of the late [Peter Underwood](//en.wikipedia.org/wiki/Peter_Underwood), former Governor of Tasmania, are among the most thoughtful and important speeches made on Australia's commemoration of war and its effects.
 
-[Friday, 25th April 2014](/doc/anzac_day_2014.pdf)  
-[Thursday, 25th April 2013](/doc/anzac_day_2013.pdf)  
-[Wednesday, 25th April 2012](/doc/anzac_day_2012.pdf)  
-[Monday, 25th April 2011](/doc/anzac_day_2011.pdf)  
-[Sunday, 25th April 2010](/doc/anzac_day_2010.pdf)
+{{< reslink src="/doc/anzac_day_2014.pdf" title="Peter Underwood Speech PDF 2014-04-25" content="Friday, 25th April 2014">}}  
+{{< reslink src="/doc/anzac_day_2013.pdf" title="Peter Underwood Speech PDF 2013-04-25" content="Thursday, 25th April 2013">}}  
+{{< reslink src="/doc/anzac_day_2012.pdf" title="Peter Underwood Speech PDF 2012-04-25" content="Wednesday, 25th April 2012">}}  
+{{< reslink src="/doc/anzac_day_2011.pdf" title="Peter Underwood Speech PDF 2011-04-25" content="Monday, 25th April 2011">}}  
+{{< reslink src="/doc/anzac_day_2010.pdf" title="Peter Underwood Speech PDF 2010-04-25" content="Sunday, 25th April 2010">}}  
 
 These were once available on the Government House website, which hosts selected [speeches of the Governor of Tasmania](//www.govhouse.tas.gov.au/the-governor/selected-speeches-of-the-governor). Currently, the site appears to host speeches of the current governor exclusively.
 

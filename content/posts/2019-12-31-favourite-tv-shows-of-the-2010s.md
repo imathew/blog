@@ -5,7 +5,7 @@ date: "2019-12-31"
 lastmod: "2020-05-16"
 categories: 
   - "television"
-image: "bojack.png"
+image: "/img/bojack.png"
 ---
 
 **Eligibility:** Only seasons that aired in this timeframe are considered. For example, [The Office (US)](//www.imdb.com/title/tt0386676/) is one of the best-ever comedies, but its great seasons aired in the previous decade.

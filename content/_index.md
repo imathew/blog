@@ -4,12 +4,12 @@ date: "2009-03-29"
 description: "Back in the noughties I produced a blog (this one is 2.0)"
 aliases:
     - /about
-image: "bojackofanartist.jpg"
+image: "/img/bojackofanartist.jpg"
 ---
 
 [Mathew Inkson](//www.inkson.org "Mathew Inkson") is a software developer in Hobart, Tasmania.
 
-<p><img src="/img/bojackofanartist.jpg" alt="Cartoon painting from BoJack Horseman, picturing a humanoid horse looking at another horse in a pool" width="1200" height="800"></p>
+![Cartoon painting from BoJack Horseman, picturing a humanoid horse looking at another horse in a pool](/img/bojackofanartist.jpg)
 
 ## Elsewhere
 

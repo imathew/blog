@@ -5,7 +5,7 @@ date: "2010-09-21"
 categories: 
   - "sport"
 comments: true
-image: eddiebrownlow.jpg"
+image: "/img/eddiebrownlow.jpg"
 ---
 
 So, [Chris Judd](//secure.wikimedia.org/wikipedia/en/wiki/Chris_Judd) has won the 2010 [Chas Brownlow Trophy](//secure.wikimedia.org/wikipedia/en/wiki/Brownlow_Medal), and some people aren't very happy about it. I reckon this is because they misunderstand what the award is.
@@ -44,8 +44,8 @@ But even the AFLCA put Judd in the top five for 2010, so those who claimed that 
 
 ## Sad face
 
-The stature of the Brownlow drowns out the other awards, and so everyone - the public, the media, the players - puts their faith in the Brownlow and demands that it be awarded to the clear player of the year. We don't always see eye-to-eye on who that player is, but in 2010 everyone seems to agree that it was [Dane Swan](//secure.wikimedia.org/wikipedia/en/wiki/Dane_Swan), so the knockers have been more vocal than usual. Swan did have a great year, and Brownlow night must have been a terrible let-down given that the media had already awarded it to him. But that doesn't make Judd any less a champion: he had a great year, and he deserves his award. It's a shame to see people attacking him with their [disappointment](/img/eddiebrownlow.jpg).
+The stature of the Brownlow drowns out the other awards, and so everyone - the public, the media, the players - puts their faith in the Brownlow and demands that it be awarded to the clear player of the year. We don't always see eye-to-eye on who that player is, but in 2010 everyone seems to agree that it was [Dane Swan](//secure.wikimedia.org/wikipedia/en/wiki/Dane_Swan), so the knockers have been more vocal than usual. Swan did have a great year, and Brownlow night must have been a terrible let-down given that the media had already awarded it to him. But that doesn't make Judd any less a champion: he had a great year, and he deserves his award. It's a shame to see people attacking him with their {{< reslink src="/img/eddiebrownlow.jpg" title="Eddie McGuire looking philosophical" content="disappointment">}}.
 
-The Brownlow simply isn't the award that the public wants it to be. It awards something unique - something you can't quite [put your finger on](/img/pressurepoint.jpg) - and it would be great if people recognised and appreciated that. It would also be great if the coaches award was elevated to a higher importance to fill the "best player" void. The TV networks wouldn't go much on it - the count would probably be decided earlier in the evening and the winner would rarely be a surprise - but the public would get the result they want. And maybe they'd stop knocking champions for their success.
+The Brownlow simply isn't the award that the public wants it to be. It awards something unique - something you can't quite {{< reslink src="/img/pressurepoint.jpg" title="Chris Judd putting his finger on the problem" content="put your finger on">}} - and it would be great if people recognised and appreciated that. It would also be great if the coaches award was elevated to a higher importance to fill the "best player" void. The TV networks wouldn't go much on it - the count would probably be decided earlier in the evening and the winner would rarely be a surprise - but the public would get the result they want. And maybe they'd stop knocking champions for their success.
 
 But that probably won't happen as long as there are Collingwood supporters.

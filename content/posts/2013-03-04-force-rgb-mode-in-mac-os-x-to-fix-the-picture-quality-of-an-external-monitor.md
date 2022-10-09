@@ -5,7 +5,7 @@ date: "2013-03-04"
 categories: 
   - "technology"
 comments: true
-image: "applelogo.png"
+image: "/img/applelogo.png"
 ---
 
 I recently bought a MacBook Pro (with 'Retina' screen), but when I hooked it up to my Dell U2410 monitor via HDMI cable I was shocked by the poor picture quality. The contrast was all wrong and text was misshapen. No amount of calibration in the monitor or software would fix it.

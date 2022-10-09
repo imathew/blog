@@ -6,7 +6,7 @@ categories:
   - "technology"
 gallery: true
 comments: true
-image: "removecard.jpg"
+image: "/img/removecard.jpg"
 ---
 
 Recently, one of my hard disks 'disappeared' from my computer - it was not being detected in the BIOS. It turned out that this was a known issue with my drive, and one for which Seagate had released a firmware update.
@@ -24,9 +24,9 @@ Apart from that, the steps I followed are identical to the guide above. I don't 
 Here are a few photos that I took during the operation.
 
 {{< gallery caption-position="none" >}}
-  {{< figure link="/img/removecard.jpg" caption="Removing the PCB board" alt="Underside of a hard disk, showing the unscrewing of the PCB" >}}
-  {{< figure link="/img/cardoff.jpg" caption="Board removed" alt="Underside of a hard disk with the PCB removed" >}}
-  {{< figure link="/img/multimeter.jpg" caption="Checking which wires are which" alt="A multimeter showing continuity between connector and wire" >}}
-  {{< figure link="/img/thetools.jpg" caption="The full kit" alt="Underside of a hard disk, including the tools used for the process. USB cable, screwdriver, cardboard" >}}
-  {{< figure link="/img/underdesk.jpg" caption="The mess" alt="A messy computer desk with the hard disk PCB connected via USB" >}}
+  {{< gbox src="/img/removecard.jpg" title="Removing the PCB board" alt="Underside of a hard disk, showing the unscrewing of the PCB" >}}
+  {{< gbox src="/img/cardoff.jpg" title="Board removed" alt="Underside of a hard disk with the PCB removed" >}}
+  {{< gbox src="/img/multimeter.jpg" title="Checking which wires are which" alt="A multimeter showing continuity between connector and wire" >}}
+  {{< gbox src="/img/thetools.jpg" title="The full kit" alt="Underside of a hard disk, including the tools used for the process. USB cable, screwdriver, cardboard" >}}
+  {{< gbox src="/img/underdesk.jpg" title="The mess" alt="A messy computer desk with the hard disk PCB connected via USB" >}}
 {{< /gallery >}}

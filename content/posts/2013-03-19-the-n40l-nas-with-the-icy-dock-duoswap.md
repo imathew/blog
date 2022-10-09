@@ -6,7 +6,7 @@ categories:
   - "technology"
 gallery: true
 comments: true
-image: "Front.jpg"
+image: "/img/Front.jpg"
 ---
 
 A recent tech buy was an [HP ProLiant N40L MicroServer](//n40l.fandom.com/wiki/HP_MicroServer_N40L_Wiki "HP ProLiant N40L"), which serves as a NAS, a Sick Beard/SABnzbd+/Deluge server, and as a backup server.
@@ -18,17 +18,17 @@ There is a fifth SATA port on the motherboard, but to use a sixth drive I was re
 In order to make the drives hot-swappable I was required to install a [modified bios](//homeservershow.com/blog/byob-hardware/hp-proliant-n40l-microserver-build-and-bios-modification-revisited/ "HP ProLiant N40L MicroServer Build and BIOS Modification Revisited") and alter some advanced configuration settings.
 
 {{< gallery caption-position="none" >}}
-  {{< figure link="/img/Front-internal.jpg" caption="I have covered the light (below the DuoSwap) with gaffer tape. Like tinsel, I find it distracting." alt="Front internal view of the NAS" >}}
-  {{< figure link="/img/Front-sans-HDD.jpg" caption="A flap drops down after ejecting the HDD" alt="Front internal view of the NAS with the HDD removed" >}}
-  {{< figure link="/img/Top-connections.jpg" caption="The DuoSwap has two SATA connectors and a single power input." alt="The top internal view of the NAS" >}}
-  {{< figure link="/img/Top-disconnections.jpg" caption="The three cables when disconnected from the DuoSwap." alt="Top internal view of the DuoSwap, with disconnected cables" >}}
-  {{< figure link="/img/Top-sans-HDD.jpg" caption="After ejecting the HDD the SSD can be seen." alt="Top internal view of the NAS after removing the HDD" >}}
-  {{< figure link="/img/Front.jpg" caption="A HDD and a SSD in the DuoSwap." alt="The front of the NAS" >}}
-  {{< figure link="/img/Back.jpg" caption="The replacement fan and eSATA cable." alt="External rear view of the NAS" >}}
-  {{< figure link="/img/eSata.jpg" caption="The eSATA cable is snaked back inside the case." alt="The rear of the NAS, showing the eSATA cable" >}}
-  {{< figure link="/img/On-shelf-closeup.jpg" caption="The light is glowing here because I hadn't yet covered it." alt="The NAS on a shelf" >}}
-  {{< figure link="/img/On-shelf.jpg" caption="Fits in nicely next to some books and a printer." alt="The NAS on a self next to books" >}}
-  {{< figure link="/img/Inside-door.jpg" caption="Apparently the inner door guard can be removed and covered with a makeshift filter of nylon stockings. I will attempt this feat." alt="The NAS door shown from the inside" >}}
+  {{< gbox src="/img/Front-internal.jpg" title="I have covered the light (below the DuoSwap) with gaffer tape. Like tinsel, I find it distracting." alt="Front internal view of the NAS" >}}
+  {{< gbox src="/img/Front-sans-HDD.jpg" title="A flap drops down after ejecting the HDD" alt="Front internal view of the NAS with the HDD removed" >}}
+  {{< gbox src="/img/Top-connections.jpg" title="The DuoSwap has two SATA connectors and a single power input." alt="The top internal view of the NAS" >}}
+  {{< gbox src="/img/Top-disconnections.jpg" title="The three cables when disconnected from the DuoSwap." alt="Top internal view of the DuoSwap, with disconnected cables" >}}
+  {{< gbox src="/img/Top-sans-HDD.jpg" title="After ejecting the HDD the SSD can be seen." alt="Top internal view of the NAS after removing the HDD" >}}
+  {{< gbox src="/img/Front.jpg" title="A HDD and a SSD in the DuoSwap." alt="The front of the NAS" >}}
+  {{< gbox src="/img/Back.jpg" title="The replacement fan and eSATA cable." alt="External rear view of the NAS" >}}
+  {{< gbox src="/img/eSata.jpg" title="The eSATA cable is snaked back inside the case." alt="The rear of the NAS, showing the eSATA cable" >}}
+  {{< gbox src="/img/On-shelf-closeup.jpg" title="The light is glowing here because I hadn't yet covered it." alt="The NAS on a shelf" >}}
+  {{< gbox src="/img/On-shelf.jpg" title="Fits in nicely next to some books and a printer." alt="The NAS on a self next to books" >}}
+  {{< gbox src="/img/Inside-door.jpg" title="Apparently the inner door guard can be removed and covered with a makeshift filter of nylon stockings. I will attempt this feat." alt="The NAS door shown from the inside" >}}
 {{< /gallery >}}
 
 Ubuntu-server 12.10 is installed, along with Sick Beard, [SABnzbd+](//sabnzbd.org "SABnzbd+"), and [Deluge](//deluge-torrent.org "Deluge"). At some point it may also host an XBMC database, so to handle these services better I've upgraded the box to 8GB RAM.

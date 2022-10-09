@@ -4,7 +4,7 @@ description: "Top tracks from the Twenty Tens."
 date: "2020-01-01"
 categories: 
   - "music"
-image: "slipaway.jpg"
+image: "/img/slipaway.jpg"
 ---
 
 Top tracks from the Twenty Tens. A bit inconsistent with my annual lists, some songs didn't age well. Or I didn't.

@@ -1,24 +1,15 @@
 {{ if eq .Params.code true }}
-<script src="/js/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
+<script defer src="{{(resources.Get "/js/highlight.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/load-highlight.js" | resources.Minify).RelPermalink}}"></script>
 {{ end -}}
 {{ if eq .Params.gallery true }}
-<script src="/js/jquery.min.js"></script>
-<script src="/js/load-photoswipe.js"></script>
-<script src="/js/photoswipe.min.js"></script>
-<script src="/js/photoswipe-ui-default.min.js"></script>
+<script defer src="{{(resources.Get "/js/jquery-1.12.4.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/load-photoswipe.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/photoswipe.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/photoswipe-ui-default.js" | resources.Minify).RelPermalink}}"></script>
 {{ partial "photoswipe" . }}
 {{ end -}}
-{{ if hugo.IsProduction -}}
-
-<script async src="/js/ga4.js"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', '{{ .Site.Params.googleAnalytics }}', { 'anonymize_ip': false });
-}
-</script>
+{{ if isset .Site.Params "googleanalytics" -}}
+<script defer src="{{(resources.Get "/js/ga4.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/load-ga4.js" | resources.Minify).RelPermalink}}"></script>
 {{- end -}}

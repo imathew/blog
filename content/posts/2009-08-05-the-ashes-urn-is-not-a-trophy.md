@@ -5,7 +5,7 @@ date: "2009-08-05"
 categories: 
   - "sport"
 comments: true
-image: "darnleyurn.jpg"
+image: "/img/darnleyurn.jpg"
 ---
 
 Whenever Australia wins or retains [the Ashes](//en.wikipedia.org/wiki/The_Ashes), people call for "the urn" to be sent home with the team, believing it to be a trophy. It's an understandable assumption, but the urn's history shows that they are incorrect.

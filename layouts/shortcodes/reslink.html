@@ -1,0 +1,2 @@
+{{- $res := resources.Get (printf "%s" (.Get "src" | safeURL)) -}}
+<a href="{{ $res.RelPermalink }}" title="{{ .Get "title"}}" target="_blank">{{ .Get "content"}}</a>

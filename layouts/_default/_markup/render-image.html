@@ -1,8 +1,9 @@
+{{- $image := resources.Get (printf "%s" (.Destination | safeURL)) -}}
 {{ if .Title }}
 <figure class="inline">
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" title="{{ .Title }}">
+  <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}">
   <figcaption>{{ .Title }}</figcaption>
 </figure>
 {{ else }}
-<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+<img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}">
 {{ end }}

@@ -4,7 +4,7 @@ description: "Great tunes from The Year of Our Lord Two Thousand and Sixteen."
 date: "2017-01-03"
 categories: 
   - "music"
-image: "mitskipuberty2.jpg"
+image: "/img/mitskipuberty2.jpg"
 ---
 
 ![Album cover showing a woman in a field with the title overlaid](/img/mitskipuberty2.jpg "Mitski - Puberty 2 album")

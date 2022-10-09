@@ -6,7 +6,7 @@ slug: "the-silverstone-sg05-for-a-steambox-and-htpc"
 categories: 
   - "technology"
 gallery: true
-image: "steambox_amp.jpg"
+image: "/img/steambox_amp.jpg"
 ---
 
 I've long wanted to set up my idea of the trinity of home computer hardware, and I finally got around to doing it a couple of months ago. I previously posted about procuring [a small server](/2013/03/the-n40l-nas-with-the-icy-dock-duoswap "The N40L NAS with the Icy Dock DuoSwap") for NAS/backup purposes and [mentioned](/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor "Force RGB mode in Mac OS X to fix the picture quality of an external monitor") that I had a new mac laptop for general use, and this "steambox" was the final piece of the puzzle.

@@ -1,87 +1,48 @@
+{{- $imgpath := printf "%s" (cond (isset .Params "image") .Params.image .Site.Params.ogimage) | safeURL -}}
+{{- $image := resources.Get ($imgpath | safeURL) -}}
+{{- $preload := (resources.Get ("/.well-known/keybase.txt" | safeURL)).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/newscycle-latin.woff2" | safeURL)).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/lora-latin.woff2" | safeURL)).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/newscycle-latinext.woff2" | safeURL)).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/lora-latinext.woff2" | safeURL)).RelPermalink -}}
 
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
     <title itemprop="name">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    {{ if eq .Params.code true -}}
-    <style type="text/css">
-        /* latin-ext */
-        @font-face {
-        font-family: 'Source Code Pro';
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-        src: url(/font/sourcecodepro-latinext.woff2) format('woff2');
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-        font-family: 'Source Code Pro';
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-        src: url(/font/sourcecodepro-latin.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-    </style>
-    {{ end -}}
-    <style type="text/css">
-        /* latin-ext */
-        @font-face {
-        font-family: 'Lora';
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-        src: url(/font/lora-latinext.woff2) format('woff2');
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-        font-family: 'Lora';
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-        src: url(/font/lora-latin.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-        /* latin-ext */
-        @font-face {
-        font-family: 'News Cycle';
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-        src: url(/font/newscycle-latinext.woff2) format('woff2');
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-        font-family: 'News Cycle';
-        font-display: swap;
-        font-style: normal;
-        font-weight: 400;
-        src: url(/font/newscycle-latin.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-    </style>
-    {{ if eq .Params.code true -}}
-    <link rel="stylesheet" href="/css/highlightjs.min.css" type="text/css" media="all">
-    {{ end -}}
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
     <link rel="canonical" href="{{.Site.Params.canonURL}}{{ .RelPermalink }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
+
+    <link rel="stylesheet" href="{{(resources.Get "/css/font.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    {{ if eq .Params.code true -}}
+    {{- $preload := (resources.Get ("/font/sourcecodepro-latinext.woff2" | safeURL)).RelPermalink -}}
+    {{- $preload := (resources.Get ("/font/sourcecodepro-latin.woff2" | safeURL)).RelPermalink -}}
+    <link rel="stylesheet" href="{{(resources.Get "/css/codefont.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    {{ end -}}
+    {{- if eq .Params.code true -}}
+    <link rel="stylesheet" href="{{(resources.Get "/css/highlightjs.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    {{ end -}}
+    {{- if eq .Params.gallery true -}}
+    {{- $def1 := (resources.Get ("/css/default-skin.png" | safeURL)).RelPermalink -}}
+    {{- $def2 := (resources.Get ("/css/default-skin.svg" | safeURL)).RelPermalink -}}
+    <link rel="stylesheet" href="{{(resources.Get "/css/photoswipe.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{(resources.Get "/css/photoswipe.default-skin.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{(resources.Get "/css/hugo-easy-gallery.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    {{ end -}}
+    <link rel="stylesheet" href="{{(resources.Get "/css/style.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
 
     {{ with .OutputFormats.Get "rss" -}}
     <link rel="alternate" type="application/rss+xml" title="{{ $.Title }} | {{ $.Site.Title }}" href="{{ .RelPermalink }}">
     <link rel="feed" type="application/rss+xml" title="{{ $.Title }} | {{ $.Site.Title }}" href="{{ .RelPermalink }}">
     {{ end -}}
 
-    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="512x512" href="{{- (resources.Get ("/android-chrome-512x512.png" | safeURL)).RelPermalink -}}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{- (resources.Get ("/android-chrome-192x192.png" | safeURL)).RelPermalink -}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{- (resources.Get ("/favicon-32x32.png" | safeURL)).RelPermalink -}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{- (resources.Get ("/favicon-16x16.png" | safeURL)).RelPermalink -}}">
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="{{- (resources.Get ("/favicon.ico" | safeURL)).RelPermalink -}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{- (resources.Get ("/apple-touch-icon.png" | safeURL)).RelPermalink -}}">
+    <link rel="shortcut icon" href="{{- (resources.Get ("/favicon.ico" | safeURL)).RelPermalink -}}">
+    <link rel="manifest" href="{{- (resources.Get ("/site.webmanifest" | safeURL)).RelPermalink -}}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -107,18 +68,13 @@
     <meta name="url" content="{{ .Permalink }}">
     <meta name="twitter:url" content="{{ .Permalink }}">
     <meta property="og:url" content="{{ .Permalink }}">
-    {{ with .Params.image -}}
-    <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ . }}">
-    <meta property="og:image" content="{{ $.Site.BaseURL }}img/{{ . }}">
-    <meta name="twitter:image" content="{{ $.Site.BaseURL }}img/{{ . }}">
-    <meta name="twitter:image:src" content="{{ $.Site.BaseURL }}img/{{ . }}">
-    {{ else -}}
-    <meta itemprop="image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.ogimage }}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.ogimage }}">
-    {{ end -}}
+    <meta itemprop="image" content="{{ $image.Permalink }}">
+    <meta property="og:image" content="{{ $image.Permalink }}">
+    <meta name="twitter:image" content="{{ $image.Permalink }}">
+    <meta name="twitter:image:src" content="{{ $image.Permalink }}">
     <meta property="og:updated_time" content="{{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{end}}">
     <meta name="generator" content="Hugo {{ hugo.Version }}" >
-    {{ if eq .Type "posts" -}} 
+{{ if eq .Type "posts" -}} 
     {{ $paginator := .Paginate (where .Pages "Type" "!=" "pages") -}}
     {{ if $paginator }}
     <link rel="first" href="{{ $paginator.First.URL }}">
@@ -144,7 +100,6 @@
     <meta property="article:section" content="{{ index . 0 }}">
     <meta property="fb:admins" content="637829497" />
     {{ end }}
-    {{- $imgpath := print .Site.BaseURL "img/" }}
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -161,7 +116,7 @@
         "dateModified": {{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" }}{{end}},
         "image": {
             "@type": "imageObject",
-            "url": {{ with .Params.image }}{{ print $imgpath . }}{{ else }}{{ print $imgpath .Site.Params.ogimage }}{{ end }}
+            "url": {{ $image.Permalink }}
         },
         "publisher": {
             "@type": "Organization",

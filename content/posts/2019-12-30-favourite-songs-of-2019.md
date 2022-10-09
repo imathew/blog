@@ -4,7 +4,7 @@ description: "Twenty-five top tracks of Twenty-Nineteen."
 date: "2019-12-30"
 categories: 
   - "music"
-image: "theblueep.jpg"
+image: "/img/theblueep.jpg"
 ---
 
 Twenty-five top tracks of Twenty-Nineteen.

@@ -1,6 +1,9 @@
 {{ define "main" }}
 <h1>What are you doing here?</h1>  
 <p>Page not found! Go <a href="/">home</a>, Todd.</p>
-<p><img src="/img/whatareyoudoinghere.jpg" alt="Bojack Horseman nailing that line"></p>
+
+{{ $image := resources.Get "/img/whatareyoudoinghere.jpg" }}
+<p><img src="{{ $image.RelPermalink }}" alt="Bojack Horseman nailing that line" width="{{- $image.Width -}}" height="{{- $image.Height -}}"></p>
+
 {{ .Content }}
 {{ end }}

@@ -4,7 +4,7 @@ description: "A more appropriate voting system for the Hottest 100 may more accu
 date: "2013-06-11"
 categories: 
   - "music"
-image: "jjj20.png"
+image: "/img/jjj20.png"
 ---
 
 ![The cover for Triple J's upcoming compilation](/img/jjj20.png)

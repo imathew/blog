@@ -4,7 +4,7 @@ description: "Great shows in a rough year for the industry."
 date: "2021-01-08"
 categories: 
   - "television"
-image: "lovecraft.jpg"
+image: "/img/lovecraft.jpg"
 ---
 
 **Eligibility:** Shows were considered if part of their first (or only) season aired for the first time in 2020. Other great shows that aired later seasons in 2020 were not included (Bojack Horseman, Better Call Saul, Ramy, What We Do In The Shadows, Rick and Morty)

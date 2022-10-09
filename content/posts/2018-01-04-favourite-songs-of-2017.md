@@ -4,7 +4,7 @@ description: "Songs of 2017 that I can listen to over and over again."
 date: "2018-01-04"
 categories: 
   - "music"
-image: "Gangofyouths.jpg"
+image: "/img/Gangofyouths.jpg"
 ---
 
 Many amazing tracks have been missed, as always. My favourite songs are the ones I can listen to over and over again.

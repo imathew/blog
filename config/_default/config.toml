@@ -2,32 +2,35 @@ baseURL = "https://www.mathewinkson.com/"
 languageCode = "en-AU"
 title = "Mathew Inkson"
 disableKinds = ["section"]
-enableEmoji = true
 enableRobotsTXT = true
 
 [frontmatter]
   lastmod = ["lastmod"]
 
-[taxonomies]
-  category = "categories"
+[markup.goldmark.renderer]
+  unsafe = true
 
-[params]  
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "assets3p"
+    target = "assets"
+
+[params]
   categories = ["Music","Technology","Sport","Television", "Government", "Misc"]
   canonURL = "https://www.mathewinkson.com"
   author = "Mathew Inkson"
-  ogimage = "og.png"
+  ogimage = "/img/og.png"
   sitename = "Mathew Inkson"
   twitter = "@imathew"
   facebook = "https://facebook.com/imathew"
   github = "https://github.com/imathew"
-  staticman = true
-  googleAnalytics = "G-5W1PKV4DSY"
 
 [permalinks]
   posts = '/:year/:month/:slug/'
   pages = ":slug"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[taxonomies]
+  category = "categories"
