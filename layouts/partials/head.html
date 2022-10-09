@@ -9,7 +9,7 @@
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
     <title itemprop="name">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <link rel="canonical" href="{{.Site.Params.canonURL}}{{ .RelPermalink }}">
+    <link rel="canonical" href="{{if .IsHome }}{{ .Site.Params.canonURL }}{{ else }}{{ .Site.Params.canonURL }}/{{ trim .RelPermalink "/" }}{{ end }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
 
     <link rel="stylesheet" href="{{(resources.Get "/css/font.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
