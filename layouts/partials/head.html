@@ -11,7 +11,8 @@
     <title itemprop="name">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <link rel="canonical" href="{{if .IsHome }}{{ .Site.Params.canonURL }}{{ else }}{{ .Site.Params.canonURL }}/{{ trim .RelPermalink "/" }}{{ end }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
-
+    <link rel="preload" href="/font/newscycle-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/lora-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{(resources.Get "/css/font.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
     {{ if eq .Params.code true -}}
     {{- $preload := (resources.Get ("/font/sourcecodepro-latinext.woff2" | safeURL)).RelPermalink -}}
