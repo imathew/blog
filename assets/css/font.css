@@ -1,5 +1,6 @@
 @font-face {/* latin */
     font-family: 'News Cycle';
+    font-display: swap;
     font-style: normal;
     font-weight: 400;
     src: url("/font/newscycle-latin.woff2") format('woff2');
@@ -7,6 +8,7 @@
 }
 @font-face {/* latin */
     font-family: 'Lora';
+    font-display: swap;
     font-style: normal;
     font-weight: 400;
     src: url("/font/lora-latin.woff2") format('woff2');
