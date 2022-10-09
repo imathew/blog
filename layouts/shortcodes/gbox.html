@@ -4,7 +4,7 @@
         <div class="img" style="background-image: url('{{ $image.RelPermalink }}');">
             <img itemprop="thumbnail" src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
         </div>
-        <a href="{{ $image.RelPermalink }}" itemprop="contentUrl"></a>
+        <a href="{{ $image.RelPermalink }}" itemprop="contentUrl" title="{{ .Get "title" }}"></a>
         <figcaption>
             <p>{{ .Get "title"}}</p>
         </figcaption>
