@@ -11,6 +11,7 @@
 <script defer src="{{(resources.Get "/js/load-photoswipe.js" | resources.Minify).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/photoswipe.js" | resources.Minify).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/photoswipe-ui-default.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/lazysizes.js" | resources.Minify).RelPermalink}}"></script>
 {{ partial "photoswipe" . -}}
 {{ end -}}
 {{ if isset .Site.Params "googleanalytics" -}}

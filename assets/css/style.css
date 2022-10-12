@@ -68,7 +68,7 @@ figure.inline figcaption
 .tags,
 figcaption,
 p.addendum .date {
-	font-family: 'news cycle', sans-serif;
+	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
 }
 
 .endnote {
@@ -253,7 +253,7 @@ blockquote {
 }
 
 body {
-	font-family: 'lora', serif;
+	font-family: 'lora', 'lora-fallback', serif;
 	font-size: 20px;
 	line-height: 1.6;
 	margin: 20px auto;
@@ -265,7 +265,7 @@ body {
 h1,
 h2,
 h3 {
-	font-family: 'news cycle', sans-serif;
+	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
 	line-height: 1.2;
 }
 

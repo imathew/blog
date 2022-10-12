@@ -1,5 +1,16 @@
 {{- $imgpath := printf "%s" (cond (isset .Params "image") .Params.image .Site.Params.ogimage) | safeURL -}}
 {{- $image := resources.Get ($imgpath | safeURL) -}}
+{{- $data := newScratch -}}
+{{ if isset .Params "image"}}
+    {{ if gt $image.Width .Site.Params.imagesize_inline }}
+        {{- $data.Set "resize" (printf "%dx webp" .Site.Params.imagesize_inline) -}}
+    {{- else -}}
+        {{- $data.Set "resize" (printf "%dx%d webp" $image.Width $image.Height) -}}
+    {{- end -}}
+{{- else -}}
+    {{- $data.Set "resize" "1200x630 webp text" -}}
+{{- end -}}
+{{- $image := $image.Resize ($data.Get "resize") -}}
 {{- $preload := (resources.Get ("/.well-known/keybase.txt" | safeURL)).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/newscycle-latin.woff2" | safeURL)).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/lora-latin.woff2" | safeURL)).RelPermalink -}}

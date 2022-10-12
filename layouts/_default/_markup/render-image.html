@@ -1,4 +1,11 @@
 {{- $image := resources.Get (printf "%s" (.Destination | safeURL)) -}}
+{{- $data := newScratch -}}
+{{- if gt $image.Width site.Params.imagesize_inline -}}
+  {{- $data.Set "resize" (printf "%dx webp" site.Params.imagesize_inline) -}}
+{{- else -}}
+  {{- $data.Set "resize" (printf "%dx%d webp" $image.Width $image.Height) -}}
+{{- end -}}
+  {{- $image := $image.Resize ($data.Get "resize") -}}
 {{ if .Title }}
 <figure class="inline">
   <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}">

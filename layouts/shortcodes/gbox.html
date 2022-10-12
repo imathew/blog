@@ -1,10 +1,21 @@
 {{- $image := resources.Get (printf "%s" (.Get "src" | safeURL)) -}}
+{{- $data := newScratch -}}
+{{- if gt $image.Width .Site.Params.imagesize_gallery -}}
+    {{- $data.Set "resize" (printf "%dx webp" .Site.Params.imagesize_gallery) -}}
+{{- else if gt $image.Height .Site.Params.imagesize_gallery -}}
+    {{- $data.Set "resize" (printf "x%d webp" .Site.Params.imagesize_gallery) -}}
+{{- else -}}
+    {{- $data.Set "resize" (printf "%dx%d webp" $image.Width $image.Height) -}}
+{{- end -}}
+{{- $image2 := $image.Resize ($data.Get "resize") -}}
 <div class="box" >
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <div class="img" style="background-image: url('{{ $image.RelPermalink }}');">
-            <img itemprop="thumbnail" src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        {{ with $image.Fill (printf "%dx%d webp" .Site.Params.imagesize_thumb .Site.Params.imagesize_thumb) -}}
+        <div class="img" style="background-image: url('{{ .RelPermalink }}');">
+        {{ end -}}
+            <img itemprop="thumbnail" data-src="{{ $image2.RelPermalink }}" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image2.Width }}" height="{{ $image2.Height }}" class="lazyload">
         </div>
-        <a href="{{ $image.RelPermalink }}" itemprop="contentUrl" title="{{ .Get "title" }}"></a>
+        <a href="{{ $image2.RelPermalink }}" itemprop="contentUrl" title="{{ .Get "title" }}"></a>
         <figcaption>
             <p>{{ .Get "title"}}</p>
         </figcaption>

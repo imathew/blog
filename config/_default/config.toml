@@ -27,6 +27,9 @@ enableRobotsTXT = true
   twitter = "@imathew"
   facebook = "https://facebook.com/imathew"
   github = "https://github.com/imathew"
+  imagesize_inline = 1050
+  imagesize_thumb = 310
+  imagesize_gallery = 1800
 
 [permalinks]
   posts = '/:year/:month/:slug/'
@@ -34,3 +37,9 @@ enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"
+
+[imaging]
+  hint = "picture"
+  quality = 85
+  resampleFilter = "Lanczos"
+  anchor = "Center"

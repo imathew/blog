@@ -18,7 +18,7 @@ I chose the Silverstone SG05 case because it was the smallest case I could find 
 There's not a lot else to say about this except that I've been using it for two months, and it works beyond my expectations. It was a bit fiddly to get everything in, but not as bad as I thought it'd be. I shouldn't need to open it again until I upgrade the video card in the next year or two. Its best feature is that it's incredibly quiet, I can barely hear a thing from it. Just out of the box it's quieter than my fan-modified NAS, and it's much, much quieter than my PS3. This is one of the many reasons I can't see myself buying a console again. I'm loving playing Steam games from the comfort of my couch.
 
 {{< gallery caption-position="none" >}}
-  {{< figure link="/img/steambox_components.jpg" caption="I took the GPU out of my old desktop, everything else was new." alt="A collection of hardware before assembling" >}}
-  {{< figure link="/img/steambox_rear.jpg" caption="Featuring a quiet 450w PSU. The MB slots in at the bottom. " alt="Rear view of the mini PC when built" >}}
-  {{< figure link="/img/steambox_amp.jpg" caption="It sits next to my amp, and it is roughly the same height and depth but half the width. On top is an Xbox 360 controller receiver. I put some masking tape over the bright power button LED. " alt="Front view of the mini PC in position" >}}
+  {{< gbox src="/img/steambox_components.jpg" title="I took the GPU out of my old desktop, everything else was new." alt="A collection of hardware before assembling" >}}
+  {{< gbox src="/img/steambox_rear.jpg" title="Featuring a quiet 450w PSU. The MB slots in at the bottom. " alt="Rear view of the mini PC when built" >}}
+  {{< gbox src="/img/steambox_amp.jpg" title="It sits next to my amp, and it is roughly the same height and depth but half the width. On top is an Xbox 360 controller receiver. I put some masking tape over the bright power button LED. " alt="Front view of the mini PC in position" >}}
 {{< /gallery >}}
