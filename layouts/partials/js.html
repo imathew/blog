@@ -15,9 +15,11 @@
 {{ partial "photoswipe" . -}}
 {{ end -}}
 {{ if isset .Site.Params "googleanalytics" -}}
+<script>
 window.minimalAnalytics = {
 	trackingId: '{{ .Site.Params.googleAnalytics }}',
 	autoTrack: true,
 };
+</script>
 <script defer src="{{(resources.Get "/js/minalytics.js" ).RelPermalink}}"></script>
 {{- end -}}
