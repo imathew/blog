@@ -71,11 +71,16 @@
     <meta itemprop="name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta name="application-name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:site_name" content="{{ .Site.Params.sitename }}">
-    {{ with .Params.description }} 
+    {{ if isset .Params "description" -}} 
     <meta name="description" content="{{ . }}">
     <meta itemprop="description" content="{{ . }}">
     <meta property="og:description" content="{{ . }}">
     <meta name="twitter:description" content="{{ . }}">
+    {{ else -}}
+    <meta name="description" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Title }}">
     {{ end }}
     <meta name="url" content="{{ .Permalink }}">
     <meta name="twitter:url" content="{{ .Permalink }}">
