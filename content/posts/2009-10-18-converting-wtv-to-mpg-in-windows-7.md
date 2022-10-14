@@ -27,7 +27,7 @@ ffmpeg.exe -y -i "showname.dvr-ms" -vcodec copy -acodec copy -f dvd "showname.mp
 
 Here are the options explained (taken from ffmpeg's documentation):
 
-``` text
+```
 -y              overwrite output files
 -i filename     input file name
 -vcodec codec   force video codec ('copy' to copy stream)

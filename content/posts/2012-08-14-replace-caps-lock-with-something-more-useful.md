@@ -24,7 +24,7 @@ To set caps lock to act as control, and set scroll lock to act as caps lock:
 1. Create a file with a .reg extension and insert the text in the block below (ensure that it ends with a new line).
 2. Double-click on the file, select 'Yes', then restart your computer.
 
-``` text
+``` ini
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,46,00,00,00,00,00
@@ -37,7 +37,7 @@ Alternatively to set caps lock to act as backspace while still setting scroll lo
 
 1. Follow the same process as above, but use the following code.
 
-``` text
+``` ini
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,0E,00,3a,00,3a,00,46,00,00,00,00,00
@@ -50,7 +50,7 @@ To undo either of the above changes by returning your keyboard to the default ma
 
 1. Follow the same process as previously, but use the following code.
 
-``` text
+``` ini
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,3a,00,46,00,46,00,00,00,00,00

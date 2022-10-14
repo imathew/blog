@@ -25,7 +25,7 @@ OpenELEC allows the user to edit the X.Org configuration by creating an [xorg.co
 
 What I've done is simply enable the NVIDIA feature "TwinView", and set its orientation option to "clone" mode. This means that the same video is being sent to both the VGA and HDMI outputs. I've pasted my xorg.config file below; in most setups just the Device section would suffice but I was required to flesh it out a bit more to accommodate my TV.
 
-```
+``` ini
 # X.Org configuration: /storage/.config/xorg.conf
  
 # define the mode required by the TV
@@ -66,7 +66,7 @@ X could not retrieve the TV's [EDID](//en.wikipedia.org/wiki/Extended_display_id
 
 Finally, in order to use the correct sound device I had to set custom values in XBMC's audio settings. These values were provided by Therio on the OpenELEC forums:
 
-```
+``` plain text
 Audio output: HDMI Output device: custom -> plughw:1,7 Passthrough device: custom -> plughw:1,7
 ```
 

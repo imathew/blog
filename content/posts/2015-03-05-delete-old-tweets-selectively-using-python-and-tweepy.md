@@ -21,7 +21,7 @@ To get the required authentication keys you will need to [register a Twitter app
 
 Since my initial post I've added functionality to unfavor (or 'unfavorite') tweets, too. I've included the full script below.
 
-```python
+``` python
 #!/usr/bin/env python
  
 import tweepy

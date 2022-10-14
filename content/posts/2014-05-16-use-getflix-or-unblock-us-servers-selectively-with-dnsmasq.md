@@ -15,7 +15,7 @@ There are a couple of reasons you might want to do this - you may be concerned a
 
 Here is my Dnsmasq configuration file. Much of this isn't necessary for this goal but I've kept it intact for context. I'll go through why I've made certain decisions and it may help someone else.
 
-```ini
+``` ini
 # /etc/dnsmasq.conf
  
 # regular dns servers (IPs redacted)
