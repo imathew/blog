@@ -72,10 +72,10 @@
     <meta name="application-name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:site_name" content="{{ .Site.Params.sitename }}">
     {{ if isset .Params "description" -}} 
-    <meta name="description" content="{{ . }}">
-    <meta itemprop="description" content="{{ . }}">
-    <meta property="og:description" content="{{ . }}">
-    <meta name="twitter:description" content="{{ . }}">
+    <meta name="description" content="{{ .Params.description }}">
+    <meta itemprop="description" content="{{ .Params.description }}">
+    <meta property="og:description" content="{{ .Params.description }}">
+    <meta name="twitter:description" content="{{ .Params.description }}">
     {{ else -}}
     <meta name="description" content="{{ .Title }}">
     <meta itemprop="description" content="{{ .Title }}">
