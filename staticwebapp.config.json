@@ -1,8 +1,19 @@
 {
     "responseOverrides": {
         "404": {
-            "statusCode": 404,
             "rewrite": "/404.html"
         }
-    }
+    },
+    "routes": [
+        {
+            "route": "/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/comment*",
+            "redirect": "/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2013/03/the-n40l-nas-with-the-icy-dock-duoswap/comment*",
+            "redirect": "/2013/03/the-n40l-nas-with-the-icy-dock-duoswap/",
+            "statusCode": 301
+        }
+    ]
 }
