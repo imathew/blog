@@ -3,6 +3,7 @@ title: "Converting .wtv to .mpg in Windows 7"
 description: "Batch conversion of WTV files to MPEG2 for better performance on the PlayStation 3."
 date: "2009-10-18"
 lastmod: "2014-02-25"
+slug: "converting-wtv-to-mpg-in-windows-7"
 categories: 
   - "technology"
 code: true

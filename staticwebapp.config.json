@@ -6,6 +6,26 @@
     },
     "routes": [
         {
+            "route": "/2009/05/unbricking-a-seagate-barracuda/comment*",
+            "redirect": "/2009/05/unbricking-a-seagate-barracuda/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2009/08/the-ashes-urn-is-not-a-trophy/comment*",
+            "redirect": "/2009/08/the-ashes-urn-is-not-a-trophy/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2009/10/converting-wtv-to-mpg-in-windows-7/comment*",
+            "redirect": "/2009/10/converting-wtv-to-mpg-in-windows-7/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/09/what-the-brownlow-medal-isnt/comment*",
+            "redirect": "/2010/09/what-the-brownlow-medal-isnt/",
+            "statusCode": 301
+        },
+        {
             "route": "/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/comment*",
             "redirect": "/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/",
             "statusCode": 301
@@ -13,6 +33,16 @@
         {
             "route": "/2013/03/the-n40l-nas-with-the-icy-dock-duoswap/comment*",
             "redirect": "/2013/03/the-n40l-nas-with-the-icy-dock-duoswap/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2015/03/delete-old-tweets-selectively-using-python-and-tweepy/comment*",
+            "redirect": "/2015/03/delete-old-tweets-selectively-using-python-and-tweepy/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2017/06/get-rid-of-the-video-umpire-or-how-i-learned-to-stop-worrying-and-love-the-post/comment*",
+            "redirect": "/2017/06/get-rid-of-the-video-umpire-or-how-i-learned-to-stop-worrying-and-love-the-post/",
             "statusCode": 301
         }
     ]
