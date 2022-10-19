@@ -1,0 +1,59 @@
+!  Title: Matt's Annoyances 
+!  TimeUpdated: May 12th 2021
+!  Maintainer: imathew
+!  Expires: 365 days (update frequency)
+!  Homepage: https://www.mathewinkson.com
+
+! -- Mastodon (aus.social) --
+! -- Remove spoiler warnings
+aus.social##.status__content--with-spoiler.status__content--with-action.status__content > p
+
+! -- Tweetdeck --
+! -- prompt to switch to preview
+tweetdeck.twitter.com##div.gryphon-beta-btn-container
+
+! -- ULTIMATE FOOTY --
+! -- ads --
+ultimatefooty.com.au##.header-widget.row
+ultimatefooty.com.au##div.row > .visible-xs
+ultimatefooty.com.au##div.clearfix.col-md-12
+ultimatefooty.com.au##div.text-center.col-md-12
+ultimatefooty.com.au##div.text-center.col-md-2
+ultimatefooty.com.au##div.text-center.col-md-4
+ultimatefooty.com.au##div.mobileShow
+ultimatefooty.com.au##iframe
+
+! -- adjustments --
+ultimatefooty.com.au#$#.player-stat{display:table-cell !important;}
+ultimatefooty.com.au#$#.container:nth-of-type(2){width:100% !important; max-width:1200px !important;}
+ultimatefooty.com.au#$#.col-md-10{width: 100% !important; min-width:520px !important;}
+ultimatefooty.com.au#$#.col-md-8{width: 70% !important; min-width:520px !important;}
+ultimatefooty.com.au#$#.col-md-4{width: 30% !important; min-width:360px !important;}
+
+! -- AFL WEBSITE --
+afl.com.au###telstra-bar
+afl.com.au##.navigation__title-bar
+afl.com.au##.parallax-content
+afl.com.au##.promo
+afl.com.au###footer-menu
+afl.com.au###telstra-footer
+fantasy.afl.com.au###bphf-top
+fantasy.afl.com.au###bphf-bottom
+
+! -- OZ BARGAIN --
+! -- bugbears --
+ozbargain.com.au##.unpublished
+! remove the "scrolling sucks" button
+ozbargain.com.au##form[action^="/ozbapi/user/238445/pref_infscroll"]
+! -- ozbargain.com.au##.node-teaser:has(.expired)
+ozbargain.com.au##.node-teaser:has(.targeted)
+! -- categories --
+ozbargain.com.au##.node-teaser:has(a[href="/cat/dining-takeaway"])
+ozbargain.com.au##.node-teaser:has(a[href="/cat/groceries"])
+ozbargain.com.au##.node-teaser:has(a[href="/cat/health-beauty"])
+ozbargain.com.au##.node-teaser:has(a[href="/cat/pets"])
+
+! -- SOMETHINGAWFUL --
+somethingawful.com/css/219a.css
+somethingawful.com/css/219.css
+somethingawful.com/css/byob.css

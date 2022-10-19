@@ -1,0 +1,23 @@
+!  Title: Matt's Annoyances Mobile
+!  TimeUpdated: May 12th 2021
+!  Maintainer: imathew
+!  Expires: 365 days (update frequency)
+!  Homepage: https://www.mathewinkson.com
+
+! -- AFL WEBSITE --
+afl.com.au###telstra-bar
+afl.com.au##.navigation__title-bar
+afl.com.au##.parallax-content
+afl.com.au##.promo
+afl.com.au###footer-menu
+afl.com.au###telstra-footer
+
+! -- UF WEBSITE --
+ultimatefooty.com.au##.header-widget.row
+ultimatefooty.com.au##div.row > .visible-xs
+ultimatefooty.com.au##div.clearfix.col-md-12
+ultimatefooty.com.au##div.text-center.col-md-12
+ultimatefooty.com.au##div.text-center.col-md-2
+ultimatefooty.com.au##div.text-center.col-md-4
+ultimatefooty.com.au##div.mobileShow
+ultimatefooty.com.au##iframe
