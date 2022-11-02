@@ -7,12 +7,12 @@ aliases:
 image: "/img/bojackofanartist.jpg"
 ---
 
-I'm a software developer in lutruwita / Tasmania.
+I'm a software developer in lutruwita/Tasmania.
 
 ![Cartoon painting from BoJack Horseman, picturing a humanoid horse looking at another horse in a pool](/img/bojackofanartist.jpg)
 
 ## Elsewhere
 
+<a rel="me" href="https://aus.social/@imathew">aus.social/@imathew</a> (Mastodon)  
 [twitter.com/imathew](//twitter.com/imathew "Twitter")  
-[aus.social/@mathew](//aus.social/@imathew "Mastodon")  
 [facebook.com/imathew](//www.facebook.com/imathew "Facebook")
