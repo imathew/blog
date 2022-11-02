@@ -13,6 +13,6 @@ I'm a software developer in lutruwita/Tasmania.
 
 ## Elsewhere
 
-<a rel="me" href="https://aus.social/@imathew">aus.social/@imathew</a> (Mastodon)  
+<a rel="me" href="https://aus.social/@imathew" target="_blank">aus.social/@imathew</a> (Mastodon)  
 [twitter.com/imathew](//twitter.com/imathew "Twitter")  
 [facebook.com/imathew](//www.facebook.com/imathew "Facebook")
