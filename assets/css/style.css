@@ -8,11 +8,12 @@
 .post-comment-reply-link a,
 .post-time,
 .post-time a,
+.site-title,
 .subtitle .date,
 .updated,
 blockquote,
 figure.inline figcaption {
-	color: #727272;
+	color: #696969;
 }
 
 .addendum,
@@ -160,7 +161,6 @@ body {
 
 .post-comment-name,
 .post-comment-name a, 
-.site-title a,
 .title-comments a,
 body {
 	color: #363636;
@@ -186,14 +186,13 @@ body {
 
 .reply,
 blockquote {
-	border-left: 1px solid #727272;
+	border-left: 1px solid #696969;
 }
 
 .site-categories {
 	font-size: 0.9em;
 	line-height: 2em;
-	margin-bottom: 2em;
-	margin-top: 8px;
+	margin-top: 0.2em;
 	text-align: center;
 }
 
@@ -210,13 +209,9 @@ blockquote {
 }
 
 .site-title {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin: 0;
 	text-align: center;
-}
-
-.site-title a {
-	text-decoration: none;
 }
 
 .subtitle+p {
@@ -258,10 +253,10 @@ body {
 	font-family: 'lora', 'lora-fallback', serif;
 	font-size: 20px;
 	line-height: 1.6;
-	margin: 20px auto;
+	margin: 0.8em auto;
 	max-width: 700px;
 	overflow-wrap: break-word;
-	padding: 0 20px;
+	padding: 0 0.8em;
 }
 
 h1,
@@ -273,6 +268,7 @@ h3 {
 
 h1 {
 	font-size: 2em;
+	text-align: center;
 }
 
 h2 {
@@ -296,7 +292,7 @@ h6 {
 }
 
 hr {
-	background-color: #727272;
+	background-color: #696969;
 	border: 0;
 	height: 1px;
 	width: 90%;
