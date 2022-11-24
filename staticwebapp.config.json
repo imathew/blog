@@ -6,6 +6,10 @@
     },
     "routes": [
         {
+            "route": "/404.html",
+            "statusCode": 404
+        },
+        {
             "route": "/2009/05/unbricking-a-seagate-barracuda/comment*",
             "redirect": "/2009/05/unbricking-a-seagate-barracuda/",
             "statusCode": 301
