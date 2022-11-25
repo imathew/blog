@@ -66,7 +66,7 @@ X could not retrieve the TV's [EDID](//en.wikipedia.org/wiki/Extended_display_id
 
 Finally, in order to use the correct sound device I had to set custom values in XBMC's audio settings. These values were provided by Therio on the OpenELEC forums:
 
-``` plain text
+```
 Audio output: HDMI Output device: custom -> plughw:1,7 Passthrough device: custom -> plughw:1,7
 ```
 

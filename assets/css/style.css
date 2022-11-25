@@ -82,7 +82,7 @@ figure.inline figcaption {
 }
 
 .gallery .img,
-.hljs,
+.highlight,
 .lazyframe,
 figure.inline img,
 p img {
@@ -315,7 +315,7 @@ p img {
 }
 
 pre {
-	overflow: scroll;
+	overflow: auto;
 }
 
 ul {
