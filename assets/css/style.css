@@ -8,7 +8,6 @@
 .post-comment-reply-link a,
 .post-time,
 .post-time a,
-.site-title,
 .subtitle .date,
 .updated,
 blockquote,
@@ -209,7 +208,7 @@ blockquote {
 }
 
 .site-title {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin: 0;
 	text-align: center;
 }
@@ -253,7 +252,7 @@ body {
 	font-family: 'lora', 'lora-fallback', serif;
 	font-size: 20px;
 	line-height: 1.6;
-	margin: 0.8em auto;
+	margin: 0.6em auto;
 	max-width: 700px;
 	overflow-wrap: break-word;
 	padding: 0 0.8em;
