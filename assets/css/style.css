@@ -13,7 +13,7 @@
 .updated,
 blockquote,
 figure.inline figcaption {
-	color: #696969;
+	color: #666;
 }
 
 .addendum,
@@ -86,7 +86,7 @@ figure.inline figcaption {
 .lazyframe,
 figure.inline img,
 p img {
-	outline: 1px solid #363636;
+	outline: 1px solid #333;
 }
 
 .gallery figcaption,
@@ -107,11 +107,11 @@ div.pswp__caption__center {
 
 .hljs,
 body {
-	background-color: #f9f9f9;
+	background-color: #fff;
 }
 
 .hljs-literal {
-	color: darkgreen;
+	color: #060;
 }
 
 .lazyframe {
@@ -163,7 +163,7 @@ body {
 .post-comment-name a, 
 .title-comments a,
 body {
-	color: #363636;
+	color: #333;
 }
 
 .post-comment-reply-link {
@@ -186,7 +186,7 @@ body {
 
 .reply,
 blockquote {
-	border-left: 1px solid #696969;
+	border-left: 1px solid #666;
 }
 
 .site-categories {
@@ -232,7 +232,7 @@ blockquote {
 }
 
 a {
-	color: #006699;
+	color: #069;
 	text-decoration: underline;
 	text-underline-offset: 0.1em;
 	text-decoration-thickness: from-font;
@@ -292,7 +292,7 @@ h6 {
 }
 
 hr {
-	background-color: #696969;
+	background-color: #666;
 	border: 0;
 	height: 1px;
 	width: 90%;
