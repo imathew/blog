@@ -2,7 +2,7 @@
 title: "Tasmanian election 2006, I mean 2018"
 description: "Tasmanian election déjà vu"
 date: "2018-03-04"
-categories: 
+categories:
   - "government"
 ---
 
