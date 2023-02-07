@@ -1,8 +1,8 @@
 <figure class="embed">
-    <div class="lazyframe" data-src="{{ index .Params 0}}" data-initinview="true">
-        <span class="loading">&nbsp;&nbsp;Loading ...</span>
-    </div>
     {{- if isset .Params 1 }}
     <figcaption><a href="{{ index .Params 1}}" title="Spotify" target="_blank">Direct link</a></figcaption>
     {{- end }}
+    <div class="lazyframe" data-src="{{ index .Params 0}}" data-initinview="true">
+        <span class="loading">&nbsp;&nbsp;Loading ...</span>
+    </div>
 </figure>

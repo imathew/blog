@@ -8,9 +8,7 @@ categories:
 image: "/img/thebeths-expertinadyingfield.jpg"
 ---
 
-Back to a full list this year after not bothering with 2021. Yeah, there are a lot of similar sounds here, I'm pretty consistent. 
-
-Keep on scrollin' for carefully curated Spotify and YouTube playlists!
+Ninety minutes of movie-length Matt-music for 2022 after not bothering last year. Yeah, there are a lot of similar sounds here, I'm pretty consistent. 
 
 1. The Beths - Silence is Golden
 2. Death Cab for Cutie - Here to Forever
@@ -38,16 +36,16 @@ Keep on scrollin' for carefully curated Spotify and YouTube playlists!
 24. Sky Ferreira - Don't Forget
 25. The Smile - The Smoke
 
-## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/7jJ6jxc7DGvM6qjsgJM4Db"
-  "//open.spotify.com/playlist/7jJ6jxc7DGvM6qjsgJM4Db"
->}}
-
 ## YouTube playlist
 {{< youtube
   "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLhP6yv3K2yPLR5psDBjLJU"
   "//www.youtube.com/playlist?list=PLQeQBnrQOLvLhP6yv3K2yPLR5psDBjLJU"
+>}}
+
+## Spotify playlist
+{{< spotify
+  "//open.spotify.com/embed/playlist/7jJ6jxc7DGvM6qjsgJM4Db"
+  "//open.spotify.com/playlist/7jJ6jxc7DGvM6qjsgJM4Db"
 >}}
 
 ## What happened to 2021?
