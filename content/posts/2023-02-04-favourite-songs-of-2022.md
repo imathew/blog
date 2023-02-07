@@ -1,6 +1,6 @@
 ---
 title: "Favourite songs of 2022"
-description: "Twenty-five songs of cheer from the Richie Benaud year"
+description: "Movie-length Matt-music: Ninety minutes of Twenty Twenty-Two."
 date: "2023-02-04"
 embed: true
 categories: 
@@ -8,7 +8,9 @@ categories:
 image: "/img/thebeths-expertinadyingfield.jpg"
 ---
 
-Ninety minutes of movie-length Matt-music for 2022 after not bothering last year. Yeah, there are a lot of similar sounds here, I'm pretty consistent. 
+After last year's hiatus I'm back with ninety minutes of Twenty Twenty-Two. Some movie-length Matt-music.
+
+Yeah, there are a lot of similar sounds here. I'm consistent.
 
 1. The Beths - Silence is Golden
 2. Death Cab for Cutie - Here to Forever
