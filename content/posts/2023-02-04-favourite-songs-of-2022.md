@@ -40,8 +40,8 @@ Yeah, there are a lot of similar sounds here. I'm consistent.
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLhP6yv3K2yPLR5psDBjLJU"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvLhP6yv3K2yPLR5psDBjLJU"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfBuTC4OPfKm2iMTIK7WEpFh"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfBuTC4OPfKm2iMTIK7WEpFh"
 >}}
 
 ## Spotify playlist
@@ -63,6 +63,11 @@ All year I received telegrams and faxes from my many fans, asking what happened 
 7. Olivia Rodrigo - brutal
 8. Aimee Mann - At the Frick Museum
 9. Wet Leg - Too Late Now
+
+{{< youtube
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCUWgmdiFVrnjj45ezUXncp"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfCUWgmdiFVrnjj45ezUXncp"
+>}}
 
 {{< spotify
   "//open.spotify.com/embed/playlist/4jQqUByDk46wdDy85yaroO"

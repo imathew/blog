@@ -53,6 +53,6 @@ An honourable mention to [Big Black Delta - Huggin & Kissin](//www.youtube.com/w
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLU7rFIgNs4a-zLpWmHWm4-"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvLU7rFIgNs4a-zLpWmHWm4-"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCywhL_wAmjQM5I2MNw7f6r"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfCywhL_wAmjQM5I2MNw7f6r"
 >}}

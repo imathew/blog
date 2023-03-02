@@ -61,6 +61,6 @@ Top tracks from the Twenty Tens. A bit inconsistent with my annual lists, some s
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvKNWyDngMOny2jedNUf2NEP"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvKNWyDngMOny2jedNUf2NEP"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfDZb-HNyI5T2k03oP_Z25vg"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfDZb-HNyI5T2k03oP_Z25vg"
 >}}

@@ -46,6 +46,6 @@ Twenty-five top tracks of Twenty-Nineteen.
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvIxJAb1QaHwp2uoyzv2ybA7"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvIxJAb1QaHwp2uoyzv2ybA7"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfBxVBnuh8ATtQwC9fCPyeGI"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfBxVBnuh8ATtQwC9fCPyeGI"
 >}}

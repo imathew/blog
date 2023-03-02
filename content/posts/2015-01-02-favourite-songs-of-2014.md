@@ -10,7 +10,7 @@ categories:
 My top thirty tracks of the year. Starts with my top ten, the rest are ordered by (Spotify) track length.
 
 [Spotify playlist](//open.spotify.com/user/imathew/playlist/3xCn2UkFYpKJ87D6zfhAl2 "Spotify")  
-[YouTube playlist](//www.youtube.com/playlist?list=PLQeQBnrQOLvI0H8ier57Xn9JcQXeMfPOi "YouTube")
+[YouTube playlist](//www.youtube.com/playlist?list=PL1QX4WW14gfBJaUSgUns00PVPwH0s6NdZ "YouTube")
 
 > "I'm wearing Win Butler's hair  
 There's a scalpless singer of a Montreal rock band somewhere  

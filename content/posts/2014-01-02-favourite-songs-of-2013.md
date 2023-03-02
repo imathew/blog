@@ -9,7 +9,7 @@ categories:
 Here are my thirty favourite tracks of 2013. I won't say 'best' because that'd suggest knowledge and objectivity.
 
 - [Spotify playlist](//open.spotify.com/user/imathew/playlist/7h0QdLh6KVAH4cmBN3CvQZ "Favourite songs of 2013 - Spotify")
-- [YouTube playlist](//www.youtube.com/playlist?list=PLQeQBnrQOLvLVt9TSVgSZ_0c1bfq-EVoT "Favourite songs of 2013 - YouTube") (some are live recordings rather than the album versions)
+- [YouTube playlist](//www.youtube.com/playlist?list=PL1QX4WW14gfD-p-kGjbcVt1msuNaUf51C "Favourite songs of 2013 - YouTube") (some are live recordings rather than the album versions)
 
 While [Parquet Courts\'](//en.wikipedia.org/wiki/Parquet_Courts "Parquet Courts at Wikipedia") sensational _Stoned And Starving_ is way out on top, [Chvrches](//en.wikipedia.org/wiki/Chvrches "Chvrches at Wikipedia") has eight of the thirty. Their debut - _The Bones Of What You Believe -_ is my album of the year.
 

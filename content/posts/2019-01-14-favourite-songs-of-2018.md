@@ -41,6 +41,6 @@ I've only picked twenty songs for my list this year. There were some gems that I
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvKDtBRboRlJ-hzxE4i2x3m2"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvKDtBRboRlJ-hzxE4i2x3m2"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCbYp-tYrkZ56MQLKKrBDlg"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfCbYp-tYrkZ56MQLKKrBDlg"
 >}}

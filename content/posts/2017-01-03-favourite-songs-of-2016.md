@@ -49,8 +49,8 @@ image: "/img/mitskipuberty2.jpg"
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLUWkIXf8Wg_sF_2eQWm--6"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvLUWkIXf8Wg_sF_2eQWm--6"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCa1sgox_8E-WLGg1gjaNk9"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfCa1sgox_8E-WLGg1gjaNk9"
 >}}
 
 ## January 26

@@ -36,6 +36,6 @@ Only fifteen songs this year. A lot of good but often depressing music was made 
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PLQeQBnrQOLvLigy0Um4I-n8rH8jYFa-Rc"
-  "//www.youtube.com/playlist?list=PLQeQBnrQOLvLigy0Um4I-n8rH8jYFa-Rc"
+  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfA8NeXJa-mTTDPZK7B0Y0XG"
+  "//www.youtube.com/playlist?list=PL1QX4WW14gfA8NeXJa-mTTDPZK7B0Y0XG"
 >}}
