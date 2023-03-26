@@ -4,6 +4,22 @@
 !  Expires: 365 days (update frequency)
 !  Homepage: https://www.mathewinkson.com
 
+! -- AFL --
+afl.com.au##iframe
+afl.com.au###telstra-bar
+afl.com.au###telstra-footer
+afl.com.au###footer-menu
+afl.com.au##.promo
+afl.com.au##main > section:nth-child(7)
+afl.com.au##main > section:nth-child(8)
+afl.com.au##main > section:nth-child(9)
+afl.com.au##main > section:nth-child(10)
+afl.com.au##main > section:nth-child(11)
+afl.com.au##main > section:nth-child(12)
+afl.com.au##main > section:nth-child(13)
+afl.com.au##main > section:nth-child(14)
+afl.com.au##main > section:nth-child(15)
+
 ! -- AFL Fantasy --
 ! -- Further improvements via Stylus and https://github.com/imathew/usercss/blob/main/aflfantasydraftdecrudulator.user.css
 fantasy.afl.com.au##header
