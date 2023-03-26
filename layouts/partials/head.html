@@ -13,7 +13,6 @@
 {{- $image := $image.Resize ($data.Get "resize") -}}
 {{- $preload := (resources.Get ("/.well-known/keybase.txt")).RelPermalink -}}
 {{- $preload := (resources.Get ("/block.txt")).RelPermalink -}}
-{{- $preload := (resources.Get ("/blockm.txt")).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/newscycle-latin.woff2")).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/lora-latin.woff2")).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/newscycle-latinext.woff2")).RelPermalink -}}
