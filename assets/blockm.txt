@@ -1,23 +1,21 @@
 !  Title: Matt's Annoyances Mobile
-!  TimeUpdated: May 12th 2021
+!  TimeUpdated: March 25th 2023
 !  Maintainer: imathew
 !  Expires: 365 days (update frequency)
 !  Homepage: https://www.mathewinkson.com
+!  (This is currently empty because I'm gradully moving cosmetic stuff to Stylish)
 
-! -- AFL WEBSITE --
-afl.com.au###telstra-bar
-afl.com.au##.navigation__title-bar
-afl.com.au##.parallax-content
-afl.com.au##.promo
-afl.com.au###footer-menu
-afl.com.au###telstra-footer
-
-! -- UF WEBSITE --
-ultimatefooty.com.au##.header-widget.row
-ultimatefooty.com.au##div.row > .visible-xs
-ultimatefooty.com.au##div.clearfix.col-md-12
-ultimatefooty.com.au##div.text-center.col-md-12
-ultimatefooty.com.au##div.text-center.col-md-2
-ultimatefooty.com.au##div.text-center.col-md-4
-ultimatefooty.com.au##div.mobileShow
-ultimatefooty.com.au##iframe
+! -- AFL Fantasy --
+! -- Further improvements via Stylus and https://github.com/imathew/usercss/blob/main/aflfantasydraftdecrudulator.user.css
+fantasy.afl.com.au##header
+fantasy.afl.com.au##footer
+fantasy.afl.com.au##iframe
+fantasy.afl.com.au##main > div:nth-child(4)
+fantasy.afl.com.au##:matches-path(-matchups) aside
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(1) > div
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(2)
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(3)
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(5)
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(6) > div > div > div:nth-child(1)
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(6) > div > div > div:nth-child(3)
+fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(8)
