@@ -1,6 +1,6 @@
 {{ if .Params.comments }}
 	<h2 class="title-comments" id="comments"><a href="#comments">Comments</a></h3>
-	<span class="description-comments">Comments are no longer supported&mdash;please contact me on <a rel="me noopener" href="https://aus.social/@imathew" target="_blank">Mastodon</a> or <a rel="me noopener" href="https://twitter.com/imathew" target="_blank">Twitter</a>.<br>The following have been migrated from an old site and may have formatting errors.</span>
+	<span class="description-comments">Comments are no longer supported&mdash;please contact me <a href="/" target="_blank">elsewhere</a>.<br>The following have been migrated from an old site and may have formatting errors.</span>
 	{{ $comments := readDir "data/comments" -}}
 	{{ $.Scratch.Add "hasComments" 0 -}}
 	{{ $postSlug := .File.BaseFileName -}}

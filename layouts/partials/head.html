@@ -63,12 +63,8 @@
     <meta name="language" content="English">
     <meta name="robots" content="index,follow"> 
     <meta name="googlebot" content="index,follow">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
-    <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
 
     <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta itemprop="name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta name="application-name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:site_name" content="{{ .Site.Params.sitename }}">
@@ -76,20 +72,15 @@
     <meta name="description" content="{{ .Params.description }}">
     <meta itemprop="description" content="{{ .Params.description }}">
     <meta property="og:description" content="{{ .Params.description }}">
-    <meta name="twitter:description" content="{{ .Params.description }}">
     {{ else -}}
     <meta name="description" content="{{ .Title }}">
     <meta itemprop="description" content="{{ .Title }}">
     <meta property="og:description" content="{{ .Title }}">
-    <meta name="twitter:description" content="{{ .Title }}">
     {{ end }}
     <meta name="url" content="{{ .Permalink }}">
-    <meta name="twitter:url" content="{{ .Permalink }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta itemprop="image" content="{{ $image.Permalink }}">
     <meta property="og:image" content="{{ $image.Permalink }}">
-    <meta name="twitter:image" content="{{ $image.Permalink }}">
-    <meta name="twitter:image:src" content="{{ $image.Permalink }}">
     <meta property="og:updated_time" content="{{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{end}}">
     <meta name="generator" content="Hugo {{ hugo.Version }}" >
 {{ if eq .Type "posts" -}} 

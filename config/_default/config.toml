@@ -24,7 +24,6 @@ enableRobotsTXT = true
   author = "Mathew Inkson"
   ogimage = "/img/og.png"
   sitename = "Mathew Inkson"
-  twitter = "@imathew"
   facebook = "https://facebook.com/imathew"
   github = "https://github.com/imathew"
   imagesize_inline = 1050
