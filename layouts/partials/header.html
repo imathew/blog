@@ -5,11 +5,11 @@
 
     <div class="site-categories">
         <nav>
-            <a href="/">About</a>&nbsp;&nbsp;
+            <a href="/">about</a>&nbsp;&nbsp;
             {{ range .Site.Params.categories -}}
-            <a href="/categories/{{ . | urlize }}/">{{ . }}</a>&nbsp;&nbsp;
+            <a href="/categories/{{ . | urlize }}/">{{ lower . }}</a>&nbsp;&nbsp;
             {{ end -}}
-            <a href="/license/">License</a>
+            <a href="/license/">license</a>
         </nav>
     </div>
 </header>

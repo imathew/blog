@@ -2,13 +2,14 @@
 {{- if eq .Type "posts" -}}
 <article>
 {{ end }}
-<h1>{{ .Title }}</h1>  
+<h1>{{ .Title | title }}</h1>  
 {{ if eq .Type "posts" -}}
 <span class="subtitle">
     <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
     {{ if .Params.categories -}}
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    {{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}<a href="/categories/{{ . | urlize }}/">{{ title $e }}</a>{{ end }}{{ end }}
+    <span class="article-categories">
+    {{- range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}<a href="/categories/{{ . | urlize }}/">{{ lower $e }}</a>{{ end }}</span>{{ end }}
 </span>
 {{ end -}}
 {{/* remove p tags from around figure tags */ -}}

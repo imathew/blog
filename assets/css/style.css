@@ -45,6 +45,12 @@ figure.inline figcaption
 	margin: 10px 0;
 }
 
+.date,
+.post-time,
+.site-title {
+	font-variant: small-caps;
+}
+
 .description-comments {
 	font-size: 0.8em;
 	font-style: italic;
@@ -73,6 +79,7 @@ p.addendum .date {
 
 .endnote {
 	margin-top: -20px;
+	font-style: italic;
 }
 
 .endnote,
@@ -207,9 +214,35 @@ blockquote {
 }
 
 .site-title {
+	color: #333;
 	font-size: 1.2em;
 	margin: 0;
+	overflow: hidden;
 	text-align: center;
+}
+
+.site-title:before,
+.site-title:after,
+hr {
+	background-color: #ddd;
+}
+
+.site-title:before,
+.site-title:after {
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+.site-title:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+.site-title:after {
+	left: 0.5em;
+	margin-right: -50%;
 }
 
 .subtitle+p {
@@ -257,6 +290,10 @@ body {
 	padding: 0 0.8em;
 }
 
+header {
+	margin-bottom: 40px;
+}
+
 h1,
 h2,
 h3 {
@@ -289,10 +326,8 @@ h6 {
 }
 
 hr {
-	background-color: #666;
 	border: 0;
 	height: 1px;
-	width: 90%;
 }
 
 html {
@@ -309,6 +344,10 @@ p img {
 	height: auto;
 	margin: 0 auto;
 	max-width: 90%;
+}
+
+p.addendum .date {
+	font-size: 0.9em;
 }
 
 pre {

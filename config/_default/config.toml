@@ -3,6 +3,7 @@ languageCode = "en-AU"
 title = "Mathew Inkson"
 disableKinds = ["section"]
 enableRobotsTXT = true
+titleCaseStyle = "AP"
 
 [frontmatter]
   lastmod = ["lastmod"]
