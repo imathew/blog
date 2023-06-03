@@ -91,7 +91,7 @@ figure.inline figcaption {
 .highlight,
 figure.inline img,
 p img {
-	outline: 1px solid #333;
+	outline: 1px solid #999;
 }
 
 .gallery figcaption,
@@ -191,7 +191,7 @@ body {
 
 .reply,
 blockquote {
-	border-left: 1px solid #666;
+	border-left: 1px solid #999;
 }
 
 .site-categories {
@@ -298,6 +298,7 @@ h1,
 h2,
 h3 {
 	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
+	line-height: 1.1em;
 }
 
 h1 {
