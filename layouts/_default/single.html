@@ -4,13 +4,13 @@
 {{ end }}
 <h1>{{ .Title | title }}</h1>  
 {{ if eq .Type "posts" -}}
-<span class="subtitle">
-    <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+<p class="subtitle">
+    <time class="date">{{ .PublishDate.Format "January 2, 2006" }}</time>
     {{ if .Params.categories -}}
     &nbsp;&nbsp;|&nbsp;&nbsp;
     <span class="article-categories">
     {{- range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}<a href="/categories/{{ . | urlize }}/">{{ lower $e }}</a>{{ end }}</span>{{ end }}
-</span>
+</p>
 {{ end -}}
 {{/* remove p tags from around figure tags */ -}}
 {{ $reFigIn := "<p>([\\s]*?<figure[>\\s][\\S\\s]*?</figure>\\s*?)</p>" -}}

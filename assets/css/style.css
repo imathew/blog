@@ -197,7 +197,7 @@ blockquote {
 .site-categories {
 	font-size: 0.9em;
 	line-height: 2em;
-	margin-top: 0.2em;
+	margin-top: -0.2em;
 	text-align: center;
 }
 
@@ -233,7 +233,7 @@ hr {
 	display: inline-block;
 	height: 1px;
 	position: relative;
-	vertical-align: middle;
+	vertical-align: 40%;
 	width: 50%;
 }
 .site-title:before {
@@ -246,7 +246,7 @@ hr {
 }
 
 .subtitle+p {
-	margin-top: 0.4em;
+	margin-top: 0.5em;
 }
 
 .title-comments {
@@ -349,6 +349,10 @@ p img {
 
 p.addendum .date {
 	font-size: 0.9em;
+}
+
+p.subtitle {
+	margin: 0;
 }
 
 pre {
