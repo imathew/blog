@@ -1,5 +1,5 @@
 {{ if .Params.comments }}
-	<h2 class="title-comments" id="comments"><a href="#comments">Comments</a></h3>
+	<h2 class="title-comments" id="comments"><a href="#comments">Comments</a></h2>
 	<span class="description-comments">Comments are no longer supported&mdash;please contact me <a href="/" target="_blank">elsewhere</a>.<br>The following have been migrated from an old site and may have formatting errors.</span>
 	{{ $comments := readDir "data/comments" -}}
 	{{ $.Scratch.Add "hasComments" 0 -}}
@@ -11,11 +11,11 @@
 			{{ if not .reply_to }}
 	<div id="comment-{{ ._id }}" class="post-comment">
 		<div class="post-comment-header">
-			{{ if .url }}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="{{ .name }}'s gravatar">{{ if .url }}</a>{{ end }}
+			{{ if .url }}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="" \>{{ if .url }}</a>{{ end }}
 			<p class="post-comment-info">
 				<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
 				<br>
-				<span class="post-time">{{ dateFormat "Jan 2, 2006" .date }}</span>
+				<time class="post-time" datetime="{{ dateFormat "2006-01-02" .date }}">{{ dateFormat "Jan 2, 2006" .date }}</time>
 			</p>
 		</div>
 		<div class="comment-message">{{ .comment | plainify | markdownify }}

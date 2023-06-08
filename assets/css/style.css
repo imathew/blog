@@ -180,6 +180,10 @@ body {
 	font-style: italic;
 }
 
+.post-time {
+	font-size: 0.9em;
+}
+
 .pswp__caption__center {
 	font-size: 0.9em;
 }
