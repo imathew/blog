@@ -49,5 +49,6 @@
             "redirect": "/2017/06/get-rid-of-the-video-umpire-or-how-i-learned-to-stop-worrying-and-love-the-post/",
             "statusCode": 301
         }
-    ]
+    ],
+    "trailingSlash": "always"
 }

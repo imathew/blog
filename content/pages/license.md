@@ -1,8 +1,6 @@
 ---
-title: "Licenses in use"
+title: "License"
 description: "Code snippets are licensed under the Unlicense, other content is licensed under CC BY 4.0, and the site software itself is covered by the MIT License."
-aliases:
-    - /license
 date: "2015-09-16"
 ---
 
