@@ -38,11 +38,11 @@ figure.inline figcaption
 }
 
 .cleanlist li {
-	padding-bottom: 10px;
+	padding-bottom: 0.6em;
 }
 
 .comment-message p {
-	margin: 10px 0;
+	margin: 0.5em 0;
 }
 
 .date,
@@ -61,7 +61,7 @@ figure.inline figcaption
 }
 
 .end {
-	padding: 60px 0 20px;
+	padding: 3em 0 1em;
 }
 
 .endnote,
@@ -78,7 +78,7 @@ p.addendum .date {
 }
 
 .endnote {
-	margin-top: -20px;
+	margin-top: -1.25em;
 	font-style: italic;
 }
 
@@ -97,12 +97,12 @@ p img {
 .gallery figcaption,
 div.pswp__caption__center {
 	font-size: 1em;
-	max-width: 700px;
+	max-width: 35em;
 	text-align: center;
 }
 
 .gallery figure {
-	margin: 5px;
+	margin: 0.25em;
 }
 
 .hljs, 
@@ -138,13 +138,13 @@ body {
 
 .post-comment {
 	font-size: 0.9em;
-	margin: 40px 0 0 0;
+	margin: 2.3em 0 0 0;
 }
 
 .post-comment-avatar {
 	border-radius: 50%;
 	float: left;
-	margin-right: 10px;
+	margin-right: 0.6em;
 }
 
 .post-comment-header a {
@@ -156,7 +156,7 @@ body {
 }
 
 .post-comment-info {
-	margin-bottom: 10px;
+	margin-bottom: 0.6em;
 }
 
 .post-comment-name,
@@ -185,8 +185,8 @@ body {
 }
 
 .reply {
-	margin-top: 20px;
-	padding-left: 20px;
+	margin-top: 1.2em;
+	padding-left: 1.2em;
 }
 
 .reply,
@@ -250,7 +250,7 @@ hr {
 }
 
 .title-comments {
-	margin: 5px 0 10px 0;
+	margin: 0.2em 0 0.5em 0;
 }
 
 .title-comments a {
@@ -276,22 +276,22 @@ a:hover {
 blockquote {
 	font-style: italic;
 	margin-left: 0;
-	margin-right: 30px;
-	padding-left: 30px;
+	margin-right: 1.5em;
+	padding-left: 1.5em;
 }
 
 body {
 	font-family: 'lora', 'lora-fallback', serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	line-height: 1.6;
 	margin: 0.6em auto;
-	max-width: 700px;
+	max-width: 35em;
 	overflow-wrap: break-word;
 	padding: 0 0.8em;
 }
 
 header {
-	margin-bottom: 40px;
+	margin-bottom: 2em;
 }
 
 h1,
@@ -336,7 +336,7 @@ html {
 }
 
 figure.inline {
-	margin: 20px 0;
+	margin: 1em 0;
 }
 
 figure.inline img,
@@ -360,5 +360,5 @@ pre {
 }
 
 ul {
-	padding-left: 20px;
+	padding-left: 1em;
 }
