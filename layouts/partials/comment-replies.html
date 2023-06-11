@@ -3,7 +3,7 @@
   		<div id="comment-{{ ._id }}" class="post-comment reply">
   			<div class="arrow-up"></div>
 			<div class="post-comment-header">
-				{{ if .url }}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="">{{ if .url }}</a>{{ end }}
+				{{ if .url }}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="{{ if .url }}{{ .name }}'s gravatar{{ end }}">{{ if .url }}</a>{{ end }}
 				<p class="post-comment-info">
 					<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
 					<br>
