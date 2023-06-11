@@ -20,7 +20,7 @@ titleCaseStyle = "AP"
     target = "assets"
 
 [params]
-  categories = ["Music","Technology","Sport","Television", "Government", "Misc"]
+  categories = ["Music","Technology","Sport","Television","Government","Miscellaneous"]
   canonURL = "https://www.mathewinkson.com"
   author = "Mathew Inkson"
   ogimage = "/img/og.png"

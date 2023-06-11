@@ -4,7 +4,7 @@ description: "The Anzac Day addresses of the late Peter Underwood, former Govern
 date: "2016-04-25"
 lastmod: "2022-09-25"
 categories: 
-  - "misc"
+  - "miscellaneous"
 ---
 
 The Anzac Day addresses of the late [Peter Underwood](//en.wikipedia.org/wiki/Peter_Underwood), former Governor of Tasmania, are among the most thoughtful and important speeches made on Australia's commemoration of war and its effects.
