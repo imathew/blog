@@ -12,7 +12,7 @@ image: "/img/travisstadium.jpg"
 If you have an online gambling account that hasn't been closed or severely restricted, the company believes you are a loser, and is treating you like a mug.
 
 <p class="addendum">
-<span class="date">Update Sep 2022:</span> Well, this pop-culture reference has dated pretty badly. As all good jokes are better when explained - <a href="//en.wikipedia.org/wiki/Travis_Fimmel" title="Travis Fimmel @ Wikipedia" target="_blank">Travis Fimmel</a> is an actor who was on popular TV show <a href="//en.wikipedia.org/wiki/Vikings_%28TV_series%29" title="Vikings TV series @ Wikipedia" target="_blank">Vikings</a>. Online betting company Bet365 had him feature in wall-to-wall ads that everyone watching live sport in 2017 would have seen. The general idea of the ads was that we're all friends, part of this delightful betting community together. There, now you can enjoy the sarcasm as originally intended.
+<time class="date" datetime="2022-09-27">Update Sep 2022:</time> Well, this pop-culture reference has dated pretty badly. As all good jokes are better when explained - <a href="//en.wikipedia.org/wiki/Travis_Fimmel" title="Travis Fimmel @ Wikipedia" target="_blank">Travis Fimmel</a> is an actor who was on popular TV show <a href="//en.wikipedia.org/wiki/Vikings_%28TV_series%29" title="Vikings TV series @ Wikipedia" target="_blank">Vikings</a>. Online betting company Bet365 had him feature in wall-to-wall ads that everyone watching live sport in 2017 would have seen. The general idea of the ads was that we're all friends, part of this delightful betting community together. There, now you can enjoy the sarcasm as originally intended.
 </p>
 
 Travis, cobber! You told me that the final whistle is never the final whistle. That the turnstiles would never stop turning. That the cheering goes on forever. That we were part of something big.
@@ -21,11 +21,11 @@ Travis, cobber! You told me that the final whistle is never the final whistle. T
 
 But I've been shut out, Travis! What did I do wrong?
 
-![A message in the Bet365 mobile site](/img/message.png "I need to charge my phone.")
+![Message reads: Hi Mathew, Following a review of your account by our Trading team, we regret to inform you that we are no longer able to offer you our telephone betting service and whilst our online service remains available to you, betting restrictions will be applied on any future bets placed, with the exception of minimum bet limits for NSW and Victoria thoroughbred races. Should you wish to continue to use our services, the Sports offers and promotions available to you will be restricted to the following standard offers which remain open to all customers: 365 Best, 365 Tote, 365 Mid+, Best Fluctuation, Feature Meeting Offer, Fixed Win Guarantee, Racing Value, Bore Draw Offer, Soccer Multi Bet Offer, Footy Multi Bet Offer, Parlay Offer, Euro Basketball Offer, Tennis Multi Bet Offer, Each-Way First Goalscorers and Extra Time Extra Chance. Kind regards, The bet365 Team](/img/message.png "I need to charge my phone.")
 
 Could it be a mistake, Travis? Here is the complete list of bets I placed in my last six months:
 
-![A list of bets placed on Bet365](/img/mybets.png "I did OK, but I'm no David Walsh.")
+![A screenshot from the bet365 app, showing a list of 18 bets placed between October 2016 and November 2017. The total outlay is $380 and the total return is $1257.](/img/mybets.png "I did OK, but I'm no David Walsh.")
 
 I messaged Bet365 and had no response. I called them up but the service rep wouldn't answer my questions:
 
