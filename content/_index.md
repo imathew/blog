@@ -3,7 +3,7 @@ title: "About me"
 date: "2009-03-29"
 description: "Mathew Inkson is a software developer in lutruwita / Tasmania."
 aliases:
-    - /about
+    - /about/
 image: "/img/bojackofanartist.jpg"
 ---
 

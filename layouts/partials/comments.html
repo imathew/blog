@@ -1,30 +1,30 @@
 {{ if .Params.comments }}
-	<h2 class="title-comments" id="comments"><a href="#comments">Comments</a></h2>
-	<span class="description-comments">Comments are no longer supported&mdash;please contact me <a href="/" target="_blank">elsewhere</a>.<br>The following have been migrated from an old site and may have formatting errors.</span>
-	{{ $comments := readDir "data/comments" -}}
-	{{ $.Scratch.Add "hasComments" 0 -}}
-	{{ $postSlug := .File.BaseFileName -}}
-	{{ range $comments -}}
-	{{ if eq .Name $postSlug }}
-		{{ $.Scratch.Add "hasComments" 1 }}
-		{{ range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
-			{{ if not .reply_to }}
-	<div id="comment-{{ ._id }}" class="post-comment">
-		<div class="post-comment-header">
-			{{ if .url }}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" width="57px" height="57px" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="{{ if .url }}{{ .name }}'s gravatar{{ end }}">{{ if .url }}</a>{{ end }}
-			<p class="post-comment-info">
-				<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
-				<br>
-				<time class="post-time" datetime="{{ dateFormat "2006-01-02" .date }}">{{ dateFormat "Jan 2, 2006" .date }}</time>
-			</p>
-		</div>
-		<div class="comment-message">{{ .comment | plainify | markdownify }}
-		</div>
+<div class="end"><hr></div>
+<h2 class="title-comments" id="comments"><a href="#comments">Comments</a></h2>
+<span class="description-comments">Comments are no longer supported&mdash;please contact me <a href="/" target="_blank">elsewhere</a>.<br>The following have been migrated from an old site and may have formatting errors.</span>
+{{- $comments := readDir "data/comments" -}}
+{{- $.Scratch.Add "hasComments" 0 -}}
+{{- $postSlug := .File.BaseFileName -}}
+{{- range $comments -}}
+{{- if eq .Name $postSlug -}}
+	{{- $.Scratch.Add "hasComments" 1 -}}
+	{{- range $index, $comments := (index $.Site.Data.comments $postSlug ) -}}
+		{{- if not .reply_to }}
+<div id="comment-{{ ._id }}" class="post-comment">
+	<div class="post-comment-header">
+		{{- if .url -}}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" width="57px" height="57px" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="{{ if .url }}{{ .name }}'s gravatar{{ end }}">{{- if .url -}}</a>{{- end -}}
+		<p class="post-comment-info">
+			<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
+			<br>
+			<time class="post-time" datetime="{{ dateFormat "2006-01-02" .date }}">{{ dateFormat "Jan 2, 2006" .date }}</time>
+		</p>
 	</div>
-		{{ partial "comment-replies" (dict "entryId_parent" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }}
-				{{ end -}}
-			{{ end -}}
-		{{ end -}}
-	{{ end -}}
-	<div class="end"><hr></div>
-{{ end -}}
+	<div class="comment-message">{{ .comment | plainify | markdownify }}
+	</div>
+</div>
+	{{- partial "comment-replies" (dict "entryId_parent" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- end -}}

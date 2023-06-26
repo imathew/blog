@@ -19,5 +19,9 @@
 {{ $reFigContent | safeHTML}}
 {{ if eq .Type "posts" -}}
 </article>
+{{ if .Params.lastmod }}
+<p class="updated">Last updated {{ .Params.lastmod.Format "January 2, 2006" }}</p>{{ end }}{{ if .Params.tags }}{{ end }}
+{{ if eq .Type "posts" -}}
+{{ partial "comments.html" .}}{{ end }}
 {{- end -}}
 {{- end -}}
