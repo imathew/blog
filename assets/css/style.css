@@ -348,7 +348,7 @@ hr {
 }
 
 html {
-	background-color: #f2f2f2;
+	background-color: #fafafa;
     width: 100%;
 }
 
@@ -365,11 +365,7 @@ p img {
 }
 
 footer {
-	min-height: 5.7em;
-}
-
-main {
-	min-height: calc(100vh - 11.8em);
+	min-height: 4.4em;
 }
 
 p.addendum .date {
@@ -386,4 +382,25 @@ pre {
 
 ul {
 	padding-left: 1em;
+}
+
+/* this is the width that the header and footer both add a line */
+@media (max-width:350px) {
+	main {
+		min-height: calc(100vh - 13.4em);
+	}
+}
+
+/* this is the width that the footer (but not header) adds a line */
+@media (min-width:350px) and (max-width:520px) {
+	main {
+		min-height: calc(100vh - 11.8em);
+	}
+}
+
+/* above this width we should be fine */
+@media (min-width:520px) {
+	main {
+		min-height: calc(100vh - 10.5em);
+	}
 }
