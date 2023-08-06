@@ -1,12 +1,17 @@
 @font-face {
-	font-family: 'News Cycle';
-	font-display: swap;
-	src: url("/font/newscycle-latin-400.woff2") format('woff2');
-}
-@font-face {
 	font-family: 'Lora';
 	font-display: swap;
 	src: url("/font/lora-latin-400.woff2") format('woff2');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-display: swap;
+	src: url("/font/playfairdisplay-latin-400.woff2") format('woff2');
+}
+@font-face {
+	font-family: 'News Cycle';
+	font-display: swap;
+	src: url("/font/newscycle-latin-400.woff2") format('woff2');
 }
 @font-face {
     font-family: 'Source Code Pro';
@@ -16,6 +21,11 @@
 @font-face {
     font-family: "Lora-fallback";
     size-adjust: 115.68%;
+    src: local("Times New Roman"), local(serif);
+}
+@font-face {
+    font-family: "Playfair Display-fallback";
+    size-adjust: 111%;
     src: local("Times New Roman"), local(serif);
 }
 @font-face {

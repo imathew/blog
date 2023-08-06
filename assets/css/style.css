@@ -32,6 +32,10 @@ figure.inline figcaption
 	font-weight: bold;
 }
 
+.article-categories {
+	font-size: 1.1em;
+}
+
 .cleanlist, .compactcleanlist {
 	list-style-type: none;
 	padding-left: 0;
@@ -306,16 +310,21 @@ body {
 	padding: 0.6em 1em;
 }
 
-h1,
-h2,
-h3 {
-	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
-	line-height: 1.1em;
+h1 {
+	font-family: 'playfair display', 'playfair display-fallback', sans-serif;
+	font-size: 1.9em;
+	font-weight: 400;
+	line-height: 1.2em;
+	text-align: center;
 }
 
-h1 {
-	font-size: 2em;
-	text-align: center;
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
+	line-height: 1.1em;
 }
 
 h2 {
