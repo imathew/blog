@@ -17,7 +17,7 @@
 {{- $preload := (resources.Get ("/font/newscycle-latin-400.woff2")).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/lora-latin-400.woff2")).RelPermalink -}}
 {{- if eq .Params.code true -}}
-{{- $preload := (resources.Get ("/font/sourcecodepro-latin-400.woff2")).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/cascadiamono-light.woff2")).RelPermalink -}}
 {{- end -}}
 
 <head itemscope itemtype="https://schema.org/Blog">
@@ -29,7 +29,7 @@
     <link rel="preload" href="/font/newscycle-latin-400.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/font/lora-latin-400.woff2" as="font" type="font/woff2" crossorigin>
     {{ if eq .Params.code true -}}
-    <link rel="preload" href="/font/sourcecodepro-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/cascadiamono-light.woff2" as="font" type="font/woff2" crossorigin>
     {{ end -}}
     <link rel="stylesheet" href="{{(resources.Get "/css/font.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
     {{ if eq .Params.code true -}}

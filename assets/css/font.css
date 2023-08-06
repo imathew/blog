@@ -14,9 +14,9 @@
 	src: url("/font/newscycle-latin-400.woff2") format('woff2');
 }
 @font-face {
-    font-family: 'Source Code Pro';
+    font-family: 'Cascadia Mono';
     font-display: swap;
-    src: url("/font/sourcecodepro-latin-400.woff2") format('woff2');
+    src: url("/font/cascadiamono-light.woff2") format('woff2');
 }
 @font-face {
     font-family: "Lora-fallback";
