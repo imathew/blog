@@ -415,7 +415,7 @@ ul {
 	border-radius: 1em;
 	display: block;
 	margin: auto;
-	max-height: calc(100vh - 100px);
+	max-height: calc(100vh - 120px);
 	max-width: 90vw;
 }
   
