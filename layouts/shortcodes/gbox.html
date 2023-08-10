@@ -9,15 +9,22 @@
 {{- end -}}
 {{- $image2 := $image.Resize ($data.Get "resize") -}}
 <div class="box" >
-    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        {{ with $image.Fill (printf "%dx%d webp" .Site.Params.imagesize_thumb .Site.Params.imagesize_thumb) -}}
-        <div class="img" style="background-image: url('{{ .RelPermalink }}');">
-        {{ end -}}
-            <img itemprop="thumbnail" data-src="{{ $image2.RelPermalink }}" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image2.Width }}" height="{{ $image2.Height }}" class="lazyload">
-        </div>
-        <a href="{{ $image2.RelPermalink }}" itemprop="contentUrl" title="{{ .Get "title" }}"></a>
-        <figcaption>
-            <p>{{ .Get "title"}}</p>
-        </figcaption>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="#{{$image.RelPermalink}}-lb" itemprop="contentUrl" title="{{ .Get "title" }}">
+            {{ with $image.Fill (printf "%dx%d webp" .Site.Params.imagesize_thumb .Site.Params.imagesize_thumb) -}}
+            <div class="img" style="background-image: url('{{ .RelPermalink }}');">
+            {{ end -}}
+            </div>
+        </a>
+        <a href="#{{ with .Get "galleryid" | default "thegallery" }}{{.}}{{end}}" class="lightbox-a">
+            <div class="lightbox" id="{{$image.RelPermalink}}-lb">  
+                <div class="content">
+                    <img src="{{ $image2.RelPermalink }}" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}"/>
+                    <figcaption>
+                        <p>{{ .Get "title"}}</p>
+                    </figcaption>
+                </div>
+            </div>
+        </a>
     </figure>
 </div>

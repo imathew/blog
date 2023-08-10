@@ -70,7 +70,6 @@ figure.inline figcaption
 }
 
 .endnote,
-.gallery figcaption,
 .post-comment-header,
 .site-title,
 .site-categories,
@@ -99,9 +98,16 @@ p img {
 }
 
 .gallery figcaption {
+	align-items: center;
+	color: #ccc;
+	display: flex !important;
 	font-size: 1em;
-	max-width: 35em;
-	text-align: center;
+	line-height: 1.2em;
+	min-height: 40px;
+}
+
+.gallery figcaption p {
+	padding: 10px;
 }
 
 .gallery figure {
@@ -385,6 +391,36 @@ pre {
 
 ul {
 	padding-left: 1em;
+}
+
+/* lightbox in pure html and css */
+.lightbox {
+	background: rgba(0, 0, 0, 0.85);
+	display: none;
+	position: fixed;
+	z-index: 1000;
+}
+  
+.lightbox:target {
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+  
+.lightbox img {
+	border-radius: 1em;
+	display: block;
+	margin: auto;
+	max-height: calc(100vh - 100px);
+	max-width: 90vw;
+}
+  
+a.lightbox-a {
+	position: unset;
 }
 
 /* this is the width that the header and footer both add a line */
