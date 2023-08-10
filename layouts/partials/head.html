@@ -38,8 +38,6 @@
     {{- if eq .Params.gallery true -}}
     {{- $def1 := (resources.Get ("/css/default-skin.png" | safeURL)).RelPermalink -}}
     {{- $def2 := (resources.Get ("/css/default-skin.svg" | safeURL)).RelPermalink -}}
-    <link rel="stylesheet" href="{{(resources.Get "/css/photoswipe.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
-    <link rel="stylesheet" href="{{(resources.Get "/css/photoswipe.default-skin.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
     <link rel="stylesheet" href="{{(resources.Get "/css/hugo-easy-gallery.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
     {{ end -}}
     <link rel="stylesheet" href="{{(resources.Get "/css/style.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">

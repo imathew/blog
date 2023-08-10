@@ -72,7 +72,6 @@ figure.inline figcaption
 .endnote,
 .gallery figcaption,
 .post-comment-header,
-.pswp__caption,
 .site-title,
 .site-categories,
 .subtitle,
@@ -99,8 +98,7 @@ p img {
 	outline: 1px solid #999;
 }
 
-.gallery figcaption,
-div.pswp__caption__center {
+.gallery figcaption {
 	font-size: 1em;
 	max-width: 35em;
 	text-align: center;
@@ -197,10 +195,6 @@ body {
 }
 
 .post-time {
-	font-size: 0.9em;
-}
-
-.pswp__caption__center {
 	font-size: 0.9em;
 }
 

@@ -8,14 +8,6 @@
 <script defer src="{{(resources.Get "/js/ini.min.js" ).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/load-highlight.js" | resources.Minify).RelPermalink}}"></script>
 {{ end -}}
-{{ if eq .Params.gallery true -}}
-<script defer src="{{(resources.Get "/js/jquery-3.6.1.js" | resources.Minify).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/load-photoswipe.js" | resources.Minify).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/photoswipe.js" | resources.Minify).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/photoswipe-ui-default.js" | resources.Minify).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/lazysizes.js" | resources.Minify).RelPermalink}}"></script>
-{{ partial "photoswipe" . -}}
-{{ end -}}
 {{ if isset .Site.Params "umami" -}}
 <script async src="https://analytics.umami.is/script.js" data-website-id="{{ .Site.Params.umami }}"></script>
 {{- end -}}
