@@ -4,7 +4,6 @@ description: "How to use DNSMASQ to specify DNS servers according to the URL"
 date: "2014-05-16"
 categories: 
   - "technology"
-code: true
 ---
 
 I subscribe to [Getflix](//www.getflix.com.au/ "Getflix"), which is quite similar to [Unblock-Us](//www.unblock-us.com/ "Unblock-Us") in that it allows users to access geo-blocked content. The basic method to use these services is to set one's device to use their provided DNS servers, but this sends all DNS requests their way. I wanted only to use their DNS servers to resolve specific geo-blocked URLs.
@@ -15,7 +14,7 @@ There are a couple of reasons you might want to do this - you may be concerned a
 
 Here is my Dnsmasq configuration file. Much of this isn't necessary for this goal but I've kept it intact for context. I'll go through why I've made certain decisions and it may help someone else.
 
-``` ini
+``` squidconf
 # /etc/dnsmasq.conf
  
 # regular dns servers (IPs redacted)

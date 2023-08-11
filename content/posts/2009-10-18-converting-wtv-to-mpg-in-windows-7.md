@@ -6,7 +6,6 @@ lastmod: "2014-02-25"
 slug: "converting-wtv-to-mpg-in-windows-7"
 categories: 
   - "technology"
-code: true
 comments: true
 ---
 
@@ -22,7 +21,7 @@ The WTV format is relatively new, having replaced the DVR-MS format that Windows
 
 To produce a .mpg file from a .dvr-ms file, we can use [ffmpeg](//ffmpeg.arrozcru.org/builds/) from the command line:
 
-```
+```batch
 ffmpeg.exe -y -i "showname.dvr-ms" -vcodec copy -acodec copy -f dvd "showname.mpg"
 ```
 
@@ -47,7 +46,7 @@ I quickly tired of having to complete a two-step process  to watch a TV show, a
 
 To use this script just paste it into a .bat file and change the paths accordingly. You shouldn't need to change the value of wtvconv.
 
-```
+```batch
 @echo off
  
 set recordedtv="D:\Recorded TV\"

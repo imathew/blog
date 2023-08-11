@@ -4,7 +4,6 @@ description: "Delete tweets on a regular schedule with the Twitter API"
 date: "2015-03-05"
 categories: 
   - "technology"
-code: true
 comments: true
 ---
 For some time I've used an online service to delete tweets that are more than one week old. I do this because I use Twitter for levity, for throwaway comments and retweets on issues of the day, and I don't really want those saved for posterity. Thanks to search crawlers and caches I can never be certain that tweets are gone forever, but this is a small step in that direction.

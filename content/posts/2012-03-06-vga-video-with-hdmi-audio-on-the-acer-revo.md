@@ -4,7 +4,6 @@ description: "How to combine VGA video with HDMI audio on the Acer Revo"
 date: "2012-03-06"
 categories: 
   - "technology"
-code: true
 ---
 
 _This information is for a specific setup of the Acer AspireRevo 3700 with XBMC, but it shows that there is no hardware limitation and may provide hints for achieving the same result with other models and configurations._
@@ -25,7 +24,7 @@ OpenELEC allows the user to edit the X.Org configuration by creating an [xorg.co
 
 What I've done is simply enable the NVIDIA feature "TwinView", and set its orientation option to "clone" mode. This means that the same video is being sent to both the VGA and HDMI outputs. I've pasted my xorg.config file below; in most setups just the Device section would suffice but I was required to flesh it out a bit more to accommodate my TV.
 
-``` ini
+``` xorg.conf
 # X.Org configuration: /storage/.config/xorg.conf
  
 # define the mode required by the TV
