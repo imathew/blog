@@ -8,9 +8,9 @@
   {{- $image := $image.Resize ($data.Get "resize") -}}
 {{ if .Title }}
 <figure class="inline">
-  <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}">
+  <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
   <figcaption>{{ .Title }}</figcaption>
 </figure>
 {{ else }}
-<img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}">
+<img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
 {{ end }}
