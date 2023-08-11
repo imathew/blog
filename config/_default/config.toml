@@ -8,8 +8,14 @@ titleCaseStyle = "AP"
 [frontmatter]
   lastmod = ["lastmod"]
 
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+      # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
+      guessSyntax = true
+      noClasses = false
 
 [module]
   [[module.mounts]]

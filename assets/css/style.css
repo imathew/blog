@@ -18,12 +18,12 @@ figure.inline figcaption {
 .addendum,
 .endnote,
 .fixedwidth,
-.hljs,
 .listdate,
 .subtitle,
 .tags,
 .updated, 
-figure.inline figcaption
+figure.inline figcaption,
+pre
 {
 	font-size: 0.8em;
 }
@@ -114,12 +114,17 @@ p img {
 	margin: 0.25em;
 }
 
-.hljs, 
-.fixedwidth {
+.highlight pre {
+	padding: 1em;
+	scrollbar-width: thin;
+}
+
+.fixedwidth,
+code,
+pre {
 	font-family: 'cascadia mono', monospace;
 }
 
-.hljs,
 body {
 	background-color: #fefefe;
 }
@@ -387,6 +392,12 @@ p.subtitle {
 
 pre {
 	overflow: auto;
+}
+
+pre.chroma {
+	-moz-tab-size:4;
+	-o-tab-size:4;
+	tab-size:4;
 }
 
 ul {

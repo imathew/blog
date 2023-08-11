@@ -2,12 +2,6 @@
 <script defer src="{{(resources.Get "/js/lazyframe.min.js" ).RelPermalink}}"></script>
 <script defer src="{{(resources.Get "/js/load-lazyframe.js" | resources.Minify).RelPermalink}}"></script>
 {{ end -}}
-{{ if eq .Params.code true -}}
-<script defer src="{{(resources.Get "/js/highlight.js" | resources.Minify).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/python.min.js" ).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/ini.min.js" ).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/load-highlight.js" | resources.Minify).RelPermalink}}"></script>
-{{ end -}}
 {{ if isset .Site.Params "umami" -}}
 <script async src="https://analytics.umami.is/script.js" data-website-id="{{ .Site.Params.umami }}"></script>
 {{- end -}}
