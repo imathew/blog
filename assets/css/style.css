@@ -1,3 +1,43 @@
+/* font definitions */
+@font-face {
+	font-family: 'Lora';
+	font-display: swap;
+	src: url("/font/lora-latin-400.woff2") format('woff2');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-display: swap;
+	src: url("/font/playfairdisplay-latin-400.woff2") format('woff2');
+}
+@font-face {
+	font-family: 'News Cycle';
+	font-display: swap;
+	src: url("/font/newscycle-latin-400.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Cascadia Mono';
+    font-display: swap;
+    src: url("/font/cascadiamono-light.woff2") format('woff2');
+}
+@font-face {
+    font-family: "Lora-fallback";
+    size-adjust: 115.68%;
+    src: local("Times New Roman"), local(serif);
+}
+@font-face {
+    font-family: "Playfair Display-fallback";
+    size-adjust: 111%;
+    src: local("Times New Roman"), local(serif);
+}
+@font-face {
+    font-family: "News Cycle-fallback";
+    size-adjust: 87.32%;
+    src: local("Arial"), local(sans-serif);
+}
+
+
+/* general styles */
+
 .addendum,
 .description-comments,
 .embed figcaption,
@@ -150,6 +190,31 @@ body {
 	border: none;
 }
 
+.lightbox {
+	background: rgba(0, 0, 0, 0.85);
+	display: none;
+	position: fixed;
+	z-index: 1000;
+}
+  
+.lightbox:target {
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+  
+.lightbox img {
+	border-radius: 1em;
+	display: block;
+	margin: auto;
+	max-height: calc(100vh - 120px);
+	max-width: 90vw;
+}
+
 .nav-list {
 	list-style-type: none;
 	margin: 0;
@@ -298,6 +363,10 @@ a:hover {
 	text-decoration: none;
 }
 
+a.lightbox-a {
+	position: unset;
+}
+
 blockquote {
 	font-style: italic;
 	margin-left: 0;
@@ -404,35 +473,8 @@ ul {
 	padding-left: 1em;
 }
 
-/* lightbox in pure html and css */
-.lightbox {
-	background: rgba(0, 0, 0, 0.85);
-	display: none;
-	position: fixed;
-	z-index: 1000;
-}
-  
-.lightbox:target {
-	align-items: center;
-	bottom: 0;
-	display: flex;
-	justify-content: center;
-	left: 0;
-	right: 0;
-	top: 0;
-}
-  
-.lightbox img {
-	border-radius: 1em;
-	display: block;
-	margin: auto;
-	max-height: calc(100vh - 120px);
-	max-width: 90vw;
-}
-  
-a.lightbox-a {
-	position: unset;
-}
+
+/* media queries */
 
 /* this is the width that the header and footer both add a line */
 @media (max-width:350px) {
