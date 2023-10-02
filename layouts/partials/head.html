@@ -3,12 +3,12 @@
 {{- $data := newScratch -}}
 {{ if isset .Params "image"}}
     {{ if gt $image.Width .Site.Params.imagesize_inline }}
-        {{- $data.Set "resize" (printf "%dx webp" .Site.Params.imagesize_inline) -}}
+        {{- $data.Set "resize" (printf "%dx" .Site.Params.imagesize_inline) -}}
     {{- else -}}
-        {{- $data.Set "resize" (printf "%dx%d webp" $image.Width $image.Height) -}}
+        {{- $data.Set "resize" (printf "%dx%d" $image.Width $image.Height) -}}
     {{- end -}}
 {{- else -}}
-    {{- $data.Set "resize" "1200x630 webp text" -}}
+    {{- $data.Set "resize" "1200x630" -}}
 {{- end -}}
 {{- $image := $image.Resize ($data.Get "resize") -}}
 {{- $preload := (resources.Get ("/.well-known/keybase.txt")).RelPermalink -}}

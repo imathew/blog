@@ -1,9 +1,9 @@
 {{- $image := resources.Get (printf "%s" (.Destination | safeURL)) -}}
 {{- $data := newScratch -}}
 {{- if gt $image.Width site.Params.imagesize_inline -}}
-  {{- $data.Set "resize" (printf "%dx webp" site.Params.imagesize_inline) -}}
+  {{- $data.Set "resize" (printf "%dx" site.Params.imagesize_inline) -}}
 {{- else -}}
-  {{- $data.Set "resize" (printf "%dx%d webp" $image.Width $image.Height) -}}
+  {{- $data.Set "resize" (printf "%dx%d" $image.Width $image.Height) -}}
 {{- end -}}
   {{- $image := $image.Resize ($data.Get "resize") -}}
 {{ if .Title }}

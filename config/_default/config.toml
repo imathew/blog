@@ -45,6 +45,6 @@ titleCaseStyle = "AP"
   category = "categories"
 
 [imaging]
-  quality = 85
+  quality = 75
   resampleFilter = "Lanczos"
   anchor = "Center"
