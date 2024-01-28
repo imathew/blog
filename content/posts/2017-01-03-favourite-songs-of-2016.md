@@ -43,8 +43,8 @@ image: "/img/mitskipuberty2.jpg"
 
 ## Spotify playlist
 {{< spotify
-  "//embed.spotify.com/?uri=spotify%3Auser%3Aimathew%3Aplaylist%3A0ShlslrrsURQcwMGNv4Wr6"
-  "//open.spotify.com/user/imathew/playlist/0ShlslrrsURQcwMGNv4Wr6"
+  "//open.spotify.com/embed/playlist/0ShlslrrsURQcwMGNv4Wr6"
+  "//open.spotify.com/playlist/0ShlslrrsURQcwMGNv4Wr6"
 >}}
 
 ## YouTube playlist
