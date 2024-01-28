@@ -8,7 +8,7 @@ categories:
 image: "/img/thelastdinnerparty_nothingmatters.jpg"
 ---
 
-The Last Dinner Party is a revelation, they have a fantastic mix of quality, energy, and humour. I don't think I've picked three songs from the same group since Chvrches [way back in 2013](/2014/01/favourite-songs-of-2013/).
+The Last Dinner Party is a revelation. I don't think I've picked three songs from the same group since Chvrches [way back in 2013](/2014/01/favourite-songs-of-2013/).
 
 Many thanks to my love for introducing me to them and Lola Young.
 
