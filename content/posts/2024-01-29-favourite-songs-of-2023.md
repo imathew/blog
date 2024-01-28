@@ -33,10 +33,10 @@ I don't often list covers but Donna Summer's original *I Feel Love* is one of th
 Also, congratulations to Triple J listeners for finally [picking a Mitski song in the Hottest 100](//en.wikipedia.org/wiki/Triple_J_Hottest_100,_2023)! It's not your fault that you didn't vote for the [best song of 2016](/2017/01/favourite-songs-of-2016/) back in the day, that's on JJJ for not even playing it. Maybe they had too many *Like A Versions* to promote.
 
 ## YouTube playlist
-{{< youtube
-  "//www.youtube.com/embed?listType=playlist&list=PL1QX4WW14gfB1qR8AYMraY4DqwM4gSnJ0"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfB1qR8AYMraY4DqwM4gSnJ0"
->}}
+<figure class="embed">
+    <figcaption><a href="//www.youtube.com/playlist?list=PL1QX4WW14gfB1qR8AYMraY4DqwM4gSnJ0" title="YouTube" target="_blank">Direct link</a></figcaption>
+    <p class="addendum">(No embedded playlist this year, it seems it breaks if the first video doesn't allow it - thanks Vevo.)</p>
+</figure>
 
 ## Spotify playlist
 {{< spotify
