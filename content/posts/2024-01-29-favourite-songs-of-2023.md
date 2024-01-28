@@ -13,11 +13,11 @@ The Last Dinner Party is a revelation, they have a fantastic mix of quality, ene
 ![The five members of The Last Dinner Party dressed for the Nothing Matters video](/img/thelastdinnerparty_nothingmatters.jpg "The Last Dinner Party - Nothing Matters")
 
 1. The Last Dinner Party - Nothing Matters
-2. Spanish Love Songs - Haunted
+2. Benjamin Gibbard, Tom Howe - Frightening Fishes
 3. The Last Dinner Party - Sinner
-4. Benjamin Gibbard, Tom Howe - Frightening Fishes
+4. LP - One Like You
 5. The Last Dinner Party - My Lady of Mercy
-6. LP - One Like You
+6. Spanish Love Songs - Haunted
 7. Gretel - Cry Me A River
 8. Olivia Rodrigo - vampire
 9. Lola Young - Conceited
@@ -34,7 +34,7 @@ Also, congratulations to Triple J listeners for finally [picking a Mitski song i
 
 ## YouTube playlist
 {{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfB1qR8AYMraY4DqwM4gSnJ0"
+  "//www.youtube.com/embed?listType=playlist&list=PL1QX4WW14gfB1qR8AYMraY4DqwM4gSnJ0"
   "//www.youtube.com/playlist?list=PL1QX4WW14gfB1qR8AYMraY4DqwM4gSnJ0"
 >}}
 
