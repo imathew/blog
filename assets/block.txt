@@ -1,39 +1,25 @@
 !  Title: Matt's Annoyances 
-!  TimeUpdated: March 25th 2023
+!  TimeUpdated: April 5th 2024
 !  Maintainer: imathew
 !  Expires: 365 days (update frequency)
 !  Homepage: https://www.mathewinkson.com
 
 ! -- AFL --
-afl.com.au##iframe
-afl.com.au###telstra-bar
-afl.com.au###telstra-footer
-afl.com.au###footer-menu
-afl.com.au##.promo
-afl.com.au##main > section:nth-child(7)
-afl.com.au##main > section:nth-child(8)
-afl.com.au##main > section:nth-child(9)
-afl.com.au##main > section:nth-child(10)
-afl.com.au##main > section:nth-child(11)
-afl.com.au##main > section:nth-child(12)
-afl.com.au##main > section:nth-child(13)
-afl.com.au##main > section:nth-child(14)
-afl.com.au##main > section:nth-child(15)
+www.afl.com.au###telstra-bar
+www.afl.com.au###telstra-footer
+www.afl.com.au###footer-menu
+www.afl.com.au##.promo
+www.afl.com.au##.parallax-content
+www.afl.com.au##.branding-bar
 
 ! -- AFL Fantasy --
-! -- Further improvements via Stylus and https://github.com/imathew/usercss/blob/main/aflfantasydraftdecrudulator.user.css
-fantasy.afl.com.au##header
+fantasy.afl.com.au###telstra-bar
 fantasy.afl.com.au##footer
 fantasy.afl.com.au##iframe
+fantasy.afl.com.au##main > div:nth-child(2) > div
 fantasy.afl.com.au##main > div:nth-child(4)
-fantasy.afl.com.au##:matches-path(-matchups) aside
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(1) > div
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(2)
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(3)
 fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(5)
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(6) > div > div > div:nth-child(1)
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(6) > div > div > div:nth-child(3)
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(8)
+fantasy.afl.com.au##:matches-path(-matchups) aside
 
 ! -- Mastodon (aus.social) --
 ! -- Remove spoiler warnings
