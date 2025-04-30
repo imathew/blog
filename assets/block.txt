@@ -1,5 +1,5 @@
 !  Title: Matt's Annoyances 
-!  TimeUpdated: April 5th 2024
+!  TimeUpdated: April 30th 2025
 !  Maintainer: imathew
 !  Expires: 365 days (update frequency)
 !  Homepage: https://www.mathewinkson.com
@@ -12,18 +12,15 @@ www.afl.com.au##.promo
 www.afl.com.au##.parallax-content
 www.afl.com.au##.branding-bar
 
-! -- AFL Fantasy --
-fantasy.afl.com.au###telstra-bar
-fantasy.afl.com.au##footer
-fantasy.afl.com.au##iframe
-fantasy.afl.com.au##main > div:nth-child(2) > div
-fantasy.afl.com.au##main > div:nth-child(4)
-fantasy.afl.com.au##:matches-path(-matchups) main > div:nth-child(5)
-fantasy.afl.com.au##:matches-path(-matchups) aside
-
-! -- Mastodon (aus.social) --
-! -- Remove spoiler warnings
-aus.social##.status__content--with-spoiler.status__content--with-action.status__content > p
+! -- BigFooty --
+www.bigfooty.com##.hScroller.gro_en_Container
+www.bigfooty.com##.lSSlideOuter.noticeScrollContainer
+www.bigfooty.com###bf_FuseForumHeader
+www.bigfooty.com##.bfRemoveBannerAd
+www.bigfooty.com###bf_FuseThreadReplyIC5
+www.bigfooty.com###bf_FuseForumFooter
+www.bigfooty.com###bf_ForumMidList1
+www.bigfooty.com###bf_ForumMidList2
 
 ! -- OZ BARGAIN --
 ! -- bugbears --
