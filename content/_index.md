@@ -14,9 +14,10 @@ Here are some outdated tech guides and even more outdated opinions&mdash;just do
 You can contact me via increasingly popular electronic email (firstname at surname dot org) or you can take your chances at one of the following:
 
 <ul class="compactcleanlist">
-    <li><a rel="me noopener" href="https://mathew.ink" title="Bluesky" target="_blank">Bluesky: @mathew.ink</a></li>
+    <li><a rel="me noopener" href="https://bsky.app/profile/imathew.bsky.social" title="Bluesky" target="_blank">Bluesky: @imathew.bsky.social</a></li>
     <li><a rel="me noopener" href="https://aus.social/@imathew" title="Mastodon" target="_blank">Mastodon: @imathew@aus.social</a></li>
     <li><a rel="me noopener" href="https://github.com/imathew" title="Github" target="_blank">Github: @imathew</a></li>
     <li><a rel="me noopener" href="https://www.facebook.com/imathew" title="Facebook" target="_blank">Facebook: @imathew</a></li>
     <li><a rel="me noopener" href="https://twitter.com/imathew" title="Twitter" target="_blank"><del>Twitter: @imathew</del></a> (RIP)</li>
 </ul>
+
