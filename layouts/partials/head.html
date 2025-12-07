@@ -74,7 +74,7 @@
     <meta property="og:image" content="{{ $image.Permalink }}">
     <meta property="og:updated_time" content="{{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{end}}">
     <meta name="generator" content="Hugo {{ hugo.Version }}" >
-{{ if eq .Type "posts" -}} 
+{{ if and (eq .Type "posts") (eq .Kind "section") -}} 
     {{ $paginator := .Paginate (where .Pages "Type" "!=" "pages") -}}
     {{ if $paginator }}
     <link rel="first" href="{{ $paginator.First.URL }}">
