@@ -8,7 +8,6 @@
 				<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
 				<br>
 				<time class="post-time" datetime="{{ dateFormat "2006-01-02" .date }}">{{ dateFormat "Jan 2, 2006" .date }}</time>
-				<br>
 				<span class="post-comment-reply-link">in reply to <a href="#comment-{{ $.parentId }}">{{ $.parentName }}</a></span>
 			</p>
 		</div>

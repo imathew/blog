@@ -13,51 +13,72 @@ This is a comprehensive sample post that demonstrates all the markdown and forma
 
 ## Font Strategy and Typography
 
-This blog now uses a carefully optimized font strategy that reduces file size while maintaining excellent visual hierarchy and readability. Here's what was implemented:
+This blog uses a carefully optimized font strategy based on a major second (1.125x) typographic scale, with a root font size of 18px (1em). The system is built entirely on CSS variables for maintainability and consistency.
 
 ### Typography Overview
 
-**Lora** is the primary serif font, used for all body text and headings (H2-H6). It's a variable font with weights ranging from 400 (Regular) to 700 (Bold), allowing for rich typographic expression without loading multiple font files.
+**Lora** (variable 400–700) is the primary serif font for all body text and headings H2–H6. As a variable font, all weights are available without additional downloads.
 
-**Playfair Display** is reserved for the page title (H1) and key accent elements, providing an elegant serif display font. Only the 400-weight regular version is loaded, keeping file size minimal.
+**Playfair Display** (weight 400) is reserved exclusively for the page title (H1), providing elegant serif display styling.
 
-**Cascadia Mono** is a crisp monospace font used for inline code blocks and fixed-width content. It provides excellent legibility for technical text and code snippets while maintaining consistent spacing.
+**Cascadia Mono** is a crisp monospace font for inline code and code blocks, with excellent legibility for technical content.
 
-### Heading Hierarchy with Variable Font Weights
+### Heading Hierarchy and Scaling
 
-The heading levels now use progressively bolder weights to create clear visual distinction:
+Headings follow a major second (1.125x) scale with proportional margins:
+
+- **Root font size:** 18px (1em = 18px)
+- **H1:** 2.1em (37.8px), Playfair Display, centered
+- **H2–H6:** 1em minimum margin-top, 0.8em margin-bottom, proportional font weights
+- **Line height:** 1.2em (var(--space-lg)) for all headings
 
 ## H2 Headings
 
-The h2 uses weight 650 at 1.6em, making it stand out prominently as a major section break. This strong visual presence makes it ideal for the top-level divisions in your content.
+The h2 uses weight 600 at 1.8em, making it stand out prominently as a major section break. This strong visual presence makes it ideal for the top-level divisions in your content.
 
 ### H3 Headings
 
-The h3 uses weight 600 at 1.35em, making it lighter than h2 but still authoritative. It should be used for major subsections within your content.
+The h3 uses weight 600 at 1.6em, matching h2's weight but in a smaller size. It should be used for major subsections within your content.
 
 #### H4 Headings
 
-The h4 uses weight 550 at 1.15em, providing a moderate level of emphasis. It's suitable for subsections within h3 sections and provides a subtle but clear distinction from regular text.
+The h4 uses weight 550 at 1.4em, providing a moderate level of emphasis. It's suitable for subsections within h3 sections and provides a subtle but clear distinction from regular text.
 
 ##### H5 Headings
 
-The h5 uses weight 500 at 1.1em, providing a moderate touch. Use this for minor subdivisions or detailed sections where you want visual separation without the strong emphasis of higher heading levels.
+The h5 uses weight 550 at 1.2em, providing a moderate touch. Use this for minor subdivisions or detailed sections where you want visual separation without the strong emphasis of higher heading levels.
 
 ###### H6 Headings
 
-The h6 uses weight 450 at 1.05em. It's best used for deep subsections or minor details—the increased size gives it heading status while staying light enough for subtle emphasis.
+The h6 uses weight 500 at 1.1em. It's best used for deep subsections or minor details—the increased size gives it heading status while staying light enough for subtle emphasis.
+
+## Spacing System
+
+All spacing uses a consistent variable system (root: 18px):
+
+- **--space-xs:** 0.25em (4.5px)
+- **--space-sm:** 0.5em (9px)
+- **--space-base:** 0.6em (10.8px)
+- **--space-md:** 1em (18px)
+- **--space-lg:** 1.2em (21.6px)
+- **--space-xl:** 1.5em (27px)
+
+Font sizes also use variables:
+
+- **--font-small:** 0.9em (16.2px) — tags, metadata, smaller text
+- **--font-smaller:** 0.8em (14.4px) — fine print, captions
 
 ## Font Performance
 
-This optimized typography stack is lean and efficient:
+This typography stack is lean and efficient:
 
-- **Lora Regular:** 82 KB (covers weights 400–700)
-- **Lora Italic:** 90 KB (italic styles, weights 400–700)
-- **Playfair Display:** 19 KB (accent font, weight 400 only)
-- **Cascadia Mono:** ~15 KB (monospace font for code)
+- **Lora Regular:** 82 KB (variable font, weights 400–700)
+- **Lora Italic:** 90 KB (variable font, weights 400–700)
+- **Playfair Display:** 19 KB (weight 400 only)
+- **Cascadia Mono:** ~15 KB
 - **Total:** ~206 KB
 
-The use of variable fonts means that all weight values between 400 and 700 are available without additional file downloads. The Lora italic variant enables elegant styling for subtitles, post metadata, and comment information. Cascadia Mono provides a professional monospace alternative to system fonts while remaining lightweight.
+Variable fonts eliminate the need for multiple weight files. The system is 100% CSS-variable-driven for easy maintenance and adjustments.
 
 ## Basic Text Formatting
 
