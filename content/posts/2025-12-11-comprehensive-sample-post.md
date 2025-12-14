@@ -27,25 +27,25 @@ This blog now uses a carefully optimized font strategy that reduces file size wh
 
 The heading levels now use progressively bolder weights to create clear visual distinction:
 
-#### H2 Headings — Weight 700
+## H2 Headings
 
-The h2 uses bold weight (700), making it stand out prominently as a major section break. This strong visual presence makes it ideal for the top-level divisions in your content.
+The h2 uses weight 650 at 1.6em, making it stand out prominently as a major section break. This strong visual presence makes it ideal for the top-level divisions in your content.
 
-#### H3 Headings — Weight 600
+### H3 Headings
 
-The h3 uses semibold weight (600), making it lighter than h2 but still authoritative. It should be used for major subsections within your content.
+The h3 uses weight 600 at 1.35em, making it lighter than h2 but still authoritative. It should be used for major subsections within your content.
 
-#### H4 Headings — Weight 550
+#### H4 Headings
 
-The h4 uses weight 550, sitting between medium and semibold. It's suitable for subsections within h3 sections and provides a subtle but clear distinction from regular text.
+The h4 uses weight 550 at 1.15em, providing a moderate level of emphasis. It's suitable for subsections within h3 sections and provides a subtle but clear distinction from regular text.
 
-##### H5 Headings — Weight 500
+##### H5 Headings
 
-The h5 uses weight 500 (medium). Use this for minor subdivisions or detailed sections where you want visual separation without the strong emphasis of higher heading levels.
+The h5 uses weight 500 at 1.1em, providing a moderate touch. Use this for minor subdivisions or detailed sections where you want visual separation without the strong emphasis of higher heading levels.
 
-###### H6 Headings — Weight 500
+###### H6 Headings
 
-The h6 uses weight 500, the same as h5 but sized at 0.9em. It's best used for deep subsections or minor details when H5 would be too heavy visually.
+The h6 uses weight 450 at 1.05em. It's best used for deep subsections or minor details—the increased size gives it heading status while staying light enough for subtle emphasis.
 
 ## Font Performance
 

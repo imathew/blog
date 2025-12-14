@@ -105,6 +105,11 @@ figure.inline figcaption
 	font-weight: bold;
 }
 
+.article-categories,
+.site-categories {
+	font-weight: 450;
+}
+
 .cleanlist, .compactcleanlist {
 	list-style-type: none;
 	padding-left: 0;
@@ -116,13 +121,6 @@ figure.inline figcaption
 
 .comment-message p {
 	margin: 0.5em 0;
-}
-
-.date,
-.list-date,
-.post-time,
-.site-title {
-	font-variant: small-caps;
 }
 
 .description-comments {
@@ -147,7 +145,6 @@ figcaption,
 p.addendum .date {
 	font-family: var(--font-serif);
 	font-weight: 400;
-	letter-spacing: 0em;
 	font-variant: normal;
 }
 
@@ -209,6 +206,13 @@ pre > code {
 
 body {
 	background-color: var(--color-bg-content);
+	font-family: var(--font-serif);
+	font-size: 1.25em;
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 35em;
+	overflow-wrap: break-word;
+	padding: 0.6em 1em;
 }
 
 .hljs-literal {
@@ -290,8 +294,6 @@ body {
 .post-comment-info {
 	margin-bottom: 0.6em;
 	font-size: 1em;
-	font-family: var(--font-serif);
-	font-weight: 400;
 }
 
 .post-comment-name,
@@ -309,8 +311,6 @@ body {
 	line-height: 2em;
 	font-size: 0.8em;
 	color: var(--color-secondary);
-	font-family: var(--font-serif);
-	font-weight: 400;
 	letter-spacing: 0.01em;
 	font-style: italic;
 }
@@ -353,7 +353,6 @@ blockquote {
 }
 
 hr {
-	background-color: #ddd;
 	border: 0;
 	height: 1px;
 }
@@ -425,6 +424,11 @@ a:hover {
 	text-decoration: none;
 }
 
+strong,
+b {
+	font-weight: 650;
+}
+
 a.lightbox-a {
 	position: unset;
 }
@@ -434,16 +438,6 @@ blockquote {
 	margin-left: 0;
 	margin-right: 1.5em;
 	padding-left: 1.5em;
-}
-
-body {
-	font-family: var(--font-serif);
-	font-size: 1.25em;
-	line-height: 1.6;
-	margin: 0 auto;
-	max-width: 35em;
-	overflow-wrap: break-word;
-	padding: 0.6em 1em;
 }
 
 h1 {
@@ -462,12 +456,11 @@ h6 {
 	font-family: var(--font-serif);
 	line-height: 1.2em;
 	font-weight: 400;
-	letter-spacing: 0em;
 }
 
 h2 {
 	font-size: 1.6em;
-	font-weight: 700;
+	font-weight: 650;
 	margin-top: 1.2em;
 	margin-bottom: 0.6em;
 }
@@ -487,15 +480,15 @@ h4 {
 }
 
 h5 {
-	font-size: 1em;
-	font-weight: 600;
+	font-size: 1.1em;
+	font-weight: 500;
 	margin-top: 0.8em;
 	margin-bottom: 0.4em;
 }
 
 h6 {
-	font-size: 0.9em;
-	font-weight: 600;
+	font-size: 1.05em;
+	font-weight: 450;
 	margin-top: 0.6em;
 	margin-bottom: 0.3em;
 }
@@ -504,15 +497,8 @@ header {
 	min-height: 3.5em;
 }
 
-hr {
-	background-color: var(--color-divider);
-	border: 0;
-	height: 1px;
-}
-
 html {
 	background-color: var(--color-bg-page);
-    width: 100%;
 }
 
 figcaption {
@@ -526,7 +512,6 @@ figure.inline {
 figure.inline img,
 p img {
 	display: block;
-	height: auto;
 	margin: 0 auto;
 	max-width: 90%;
 }
@@ -566,16 +551,6 @@ ul {
 	
 	.hljs-literal {
 		color: #0f0;
-	}
-
-	code,
-	.highlight {
-		background-color: #1e1e1e;
-		color: #e0e0e0;
-	}
-
-	.highlight pre {
-		background-color: #1e1e1e;
 	}
 }
 
