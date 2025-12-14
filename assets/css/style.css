@@ -2,22 +2,16 @@
 @font-face {
 	font-family: 'Lora';
 	font-display: swap;
-	src: url("/font/lora-latin-400.woff2") format('woff2');
+	font-style: normal;
+	font-weight: 400 700;
+	src: url("/font/Lora[wght].woff2") format('woff2-variations');
 }
 @font-face {
-	font-family: 'Playfair Display';
+	font-family: 'Lora';
 	font-display: swap;
-	src: url("/font/playfairdisplay-latin-400.woff2") format('woff2');
-}
-@font-face {
-	font-family: 'News Cycle';
-	font-display: swap;
-	src: url("/font/newscycle-latin-400.woff2") format('woff2');
-}
-@font-face {
-    font-family: 'Cascadia Mono';
-    font-display: swap;
-    src: url("/font/cascadiamono-light.woff2") format('woff2');
+	font-style: italic;
+	font-weight: 400 700;
+	src: url("/font/Lora-Italic[wght].woff2") format('woff2-variations');
 }
 @font-face {
     font-family: "Lora-fallback";
@@ -25,16 +19,56 @@
     src: local("Times New Roman"), local(serif);
 }
 @font-face {
+	font-family: 'Playfair Display';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+	src: url("/font/playfairdisplay-latin-400.woff2") format('woff2');
+}
+@font-face {
     font-family: "Playfair Display-fallback";
     size-adjust: 111%;
     src: local("Times New Roman"), local(serif);
 }
 @font-face {
-    font-family: "News Cycle-fallback";
-    size-adjust: 87.32%;
-    src: local("Arial"), local(sans-serif);
+    font-family: 'Cascadia Mono';
+    font-display: swap;
+    src: url("/font/cascadiamono-light.woff2") format('woff2');
 }
 
+/* CSS variables */
+:root {
+	/* Light mode colors */
+	--color-primary: #333;
+	--color-secondary: #666;
+	--color-divider: #ddd;
+	--color-link: #069;
+	--color-bg-page: #f0f0f0;
+	--color-bg-content: #fefefe;
+
+	/* Syntax highlighting - bluloco light background */
+	--light-bg: var(--color-bg-content);
+
+	/* Fonts */
+	--font-serif: 'lora', 'lora-fallback', serif;
+	--font-display: 'playfair display', 'playfair display-fallback', sans-serif;
+	--font-mono: 'cascadia mono', ui-monospace, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		/* Dark mode colors */
+		--color-primary: #e0e0e0;
+		--color-secondary: #bbb;
+		--color-divider: #666;
+		--color-link: #4daaff;
+		--color-bg-page: #1a1a1a;
+		--color-bg-content: #262626;
+
+		/* Syntax highlighting - bluloco dark background */
+		--dark-bg: var(--color-bg-content);
+	}
+}
 
 /* general styles */
 
@@ -52,7 +86,7 @@
 .updated,
 blockquote,
 figure.inline figcaption {
-	color: #666;
+	color: var(--color-secondary);
 }
 
 .addendum,
@@ -62,18 +96,13 @@ figure.inline figcaption {
 .subtitle,
 .tags,
 .updated, 
-figure.inline figcaption,
-pre
+figure.inline figcaption
 {
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 .addendum .date {
 	font-weight: bold;
-}
-
-.article-categories {
-	font-size: 1.1em;
 }
 
 .cleanlist, .compactcleanlist {
@@ -110,19 +139,23 @@ pre
 }
 
 .endnote,
-.post-comment-header,
 .site-title,
 .site-categories,
 .subtitle,
 .tags,
 figcaption,
 p.addendum .date {
-	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
+	font-family: var(--font-serif);
+	font-weight: 400;
+	letter-spacing: 0em;
+	font-variant: normal;
 }
 
-.endnote {
-	/*margin-top: -1.25em;*/
-	font-style: italic;
+.date,
+.list-date,
+.post-time,
+.site-title {
+	font-variant: small-caps;
 }
 
 .endnote,
@@ -134,12 +167,12 @@ figure.inline figcaption {
 .highlight,
 figure.inline img,
 p img {
-	outline: 1px solid #999;
+	outline: 1px solid var(--color-divider);
 }
 
 .gallery figcaption {
 	align-items: center;
-	color: #ccc;
+	color: var(--color-secondary);
 	display: flex !important;
 	font-size: 1em;
 	line-height: 1.2em;
@@ -162,11 +195,20 @@ p img {
 .fixedwidth,
 code,
 pre {
-	font-family: 'cascadia mono', monospace;
+	font-family: var(--font-mono);
+}
+
+code {
+	font-size: 0.94em;
+}
+
+.fixedwidth,
+pre > code {
+	font-size: 0.8em;
 }
 
 body {
-	background-color: #fefefe;
+	background-color: var(--color-bg-content);
 }
 
 .hljs-literal {
@@ -247,31 +289,38 @@ body {
 
 .post-comment-info {
 	margin-bottom: 0.6em;
-}
-
-.post-comment-name,
-.post-comment-name a {
-	font-weight: bold;
+	font-size: 1em;
+	font-family: var(--font-serif);
+	font-weight: 400;
 }
 
 .post-comment-name,
 .post-comment-name a, 
 .title-comments a,
 body {
-	color: #333;
+	color: var(--color-primary);
+}
+
+.post-comment-name {
+	font-weight: 500;
 }
 
 .post-comment-reply-link {
 	line-height: 2em;
-}
-
-.post-comment-reply-link,
-.post-comment-reply-link a {
+	font-size: 0.8em;
+	color: var(--color-secondary);
+	font-family: var(--font-serif);
+	font-weight: 400;
+	letter-spacing: 0.01em;
 	font-style: italic;
 }
 
+.post-comment-reply-link a {
+	font-weight: 500;
+}
+
 .post-time {
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 .reply {
@@ -281,11 +330,11 @@ body {
 
 .reply,
 blockquote {
-	border-left: 1px solid #999;
+	border-left: 1px solid var(--color-divider);
 }
 
 .site-categories {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	line-height: 2em;
 	margin-top: -0.5em;
 	text-align: center;
@@ -303,8 +352,14 @@ blockquote {
 	text-decoration: underline;
 }
 
+hr {
+	background-color: #ddd;
+	border: 0;
+	height: 1px;
+}
+
 .site-title {
-	color: #333;
+	color: var(--color-primary);
 	font-size: 1.2em;
 	margin: 0;
 	overflow: hidden;
@@ -314,7 +369,7 @@ blockquote {
 .site-title:before,
 .site-title:after,
 hr {
-	background-color: #ddd;
+	background-color: var(--color-divider);
 }
 
 .site-title:before,
@@ -335,6 +390,14 @@ hr {
 	margin-right: -50%;
 }
 
+.site-title-link {
+	text-decoration: none;
+}
+
+.site-title-link:hover .site-title {
+	text-decoration: underline;
+}
+
 .subtitle+p {
 	margin-top: 0.5em;
 }
@@ -353,9 +416,8 @@ hr {
 }
 
 a {
-	color: #069;
+	color: var(--color-link);
 	text-decoration: underline;
-	text-underline-offset: 0.1em;
 	text-decoration-thickness: from-font;
 }
 
@@ -375,7 +437,7 @@ blockquote {
 }
 
 body {
-	font-family: 'lora', 'lora-fallback', serif;
+	font-family: var(--font-serif);
 	font-size: 1.25em;
 	line-height: 1.6;
 	margin: 0 auto;
@@ -385,7 +447,7 @@ body {
 }
 
 h1 {
-	font-family: 'playfair display', 'playfair display-fallback', sans-serif;
+	font-family: var(--font-display);
 	font-size: 1.9em;
 	font-weight: 400;
 	line-height: 1.2em;
@@ -397,28 +459,45 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'news cycle', 'news cycle-fallback', sans-serif;
-	line-height: 1.1em;
+	font-family: var(--font-serif);
+	line-height: 1.2em;
+	font-weight: 400;
+	letter-spacing: 0em;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.6em;
+	font-weight: 700;
+	margin-top: 1.2em;
+	margin-bottom: 0.6em;
 }
 
 h3 {
-	font-size: 1.17em;
+	font-size: 1.35em;
+	font-weight: 600;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
 }
 
 h4 {
-	font-size: 1em;
+	font-size: 1.15em;
+	font-weight: 550;
+	margin-top: 0.8em;
+	margin-bottom: 0.4em;
 }
 
 h5 {
-	font-size: 0.83em;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 0.8em;
+	margin-bottom: 0.4em;
 }
 
 h6 {
-	font-size: 0.67em;
+	font-size: 0.9em;
+	font-weight: 600;
+	margin-top: 0.6em;
+	margin-bottom: 0.3em;
 }
 
 header {
@@ -426,13 +505,18 @@ header {
 }
 
 hr {
+	background-color: var(--color-divider);
 	border: 0;
 	height: 1px;
 }
 
 html {
-	background-color: #fafafa;
+	background-color: var(--color-bg-page);
     width: 100%;
+}
+
+figcaption {
+	font-style: italic;
 }
 
 figure.inline {
@@ -471,6 +555,28 @@ pre.chroma {
 
 ul {
 	padding-left: 1em;
+}
+
+
+/* dark mode */
+
+@media (prefers-color-scheme: dark) {
+	/* Color variables are already overridden in :root for dark mode */
+	/* Only non-color-variable styles need to be here now */
+	
+	.hljs-literal {
+		color: #0f0;
+	}
+
+	code,
+	.highlight {
+		background-color: #1e1e1e;
+		color: #e0e0e0;
+	}
+
+	.highlight pre {
+		background-color: #1e1e1e;
+	}
 }
 
 
