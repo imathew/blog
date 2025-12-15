@@ -52,4 +52,4 @@ And he's all right"
 
 My top thirty are those I can play over and over again, and although this one doesn't qualify on that count it's the most entertaining song of 2014. And it did us a favour by allowing us to listen to the catchy tune of the original without being subjected to its lyrics.
 
-{{< youtube "//www.youtube.com/embed/8Gv0H-vPoDc" >}}
+{{< embed "youtube" "//www.youtube.com/embed/8Gv0H-vPoDc" >}}

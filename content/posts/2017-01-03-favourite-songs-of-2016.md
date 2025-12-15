@@ -42,18 +42,12 @@ image: "/img/mitskipuberty2.jpg"
 30. Psychic Twin - Strangers
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/0ShlslrrsURQcwMGNv4Wr6"
-  "//open.spotify.com/playlist/0ShlslrrsURQcwMGNv4Wr6"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/0ShlslrrsURQcwMGNv4Wr6" "//open.spotify.com/playlist/0ShlslrrsURQcwMGNv4Wr6" >}}
 
 ## YouTube playlist
-{{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCa1sgox_8E-WLGg1gjaNk9"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfCa1sgox_8E-WLGg1gjaNk9"
->}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCa1sgox_8E-WLGg1gjaNk9" "//www.youtube.com/playlist?list=PL1QX4WW14gfCa1sgox_8E-WLGg1gjaNk9" >}}
 
 ## January 26
 I didn't submit my top ten to this year's [Hottest 100](//www.abc.net.au/triplej/hottest100/16/), since I don't think Australia Day should be celebrated as long as it's held on January 26th. Instead I voted only for _A.B. Original - January 26_. It's an important message, but I also like the tune.
 
-{{< youtube "//www.youtube.com/embed/tZ9qeX4gUeo" >}}
+{{< embed "youtube" "//www.youtube.com/embed/tZ9qeX4gUeo" >}}

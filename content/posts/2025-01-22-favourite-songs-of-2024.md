@@ -30,13 +30,7 @@ A superb song from Chappell Roan with bonus points to Haute & Freddy with two en
 </figure>
 
 ## Tidal playlist
-{{< tidal
-  "//embed.tidal.com/playlists/49f206cf-dc1d-4293-83f9-79403d93ef09"
-  "//listen.tidal.com/playlist/49f206cf-dc1d-4293-83f9-79403d93ef09"
->}}
+{{< embed "tidal" "//embed.tidal.com/playlists/49f206cf-dc1d-4293-83f9-79403d93ef09" "//listen.tidal.com/playlist/49f206cf-dc1d-4293-83f9-79403d93ef09" >}}
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/0cUGk8ZAgu0SKhmoqelFlk"
-  "//open.spotify.com/playlist/0cUGk8ZAgu0SKhmoqelFlk"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/0cUGk8ZAgu0SKhmoqelFlk" "//open.spotify.com/playlist/0cUGk8ZAgu0SKhmoqelFlk" >}}

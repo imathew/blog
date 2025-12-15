@@ -29,13 +29,7 @@ Only fifteen songs this year. A lot of good but often depressing music was made 
 ![Voting receipt from Triple J. The first ten tracks as listed here.](/img/Hottest100_2020.png "Matt's votes from the 2020 Hottest 100")
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/3ucArAmrG2dlA9EusZwO9h"
-  "//open.spotify.com/playlist/3ucArAmrG2dlA9EusZwO9h"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/3ucArAmrG2dlA9EusZwO9h" "//open.spotify.com/playlist/3ucArAmrG2dlA9EusZwO9h" >}}
 
 ## YouTube playlist
-{{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfA8NeXJa-mTTDPZK7B0Y0XG"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfA8NeXJa-mTTDPZK7B0Y0XG"
->}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfA8NeXJa-mTTDPZK7B0Y0XG" "//www.youtube.com/playlist?list=PL1QX4WW14gfA8NeXJa-mTTDPZK7B0Y0XG" >}}

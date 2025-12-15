@@ -46,13 +46,7 @@ Many amazing tracks have been missed, as always. My favourite songs are the ones
 An honourable mention to [Big Black Delta - Huggin & Kissin](//www.youtube.com/watch?v=Zg8-AbXqv4M "Huggin & Kissin"), which is my new favourite after hearing it on [The Sinner](//en.wikipedia.org/wiki/The_Sinner_(TV_series) "The Sinner"), but was released in 2013.
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/201WcCT9bMavhu5Q3Wp23J"
-  "//open.spotify.com/playlist/201WcCT9bMavhu5Q3Wp23J"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/201WcCT9bMavhu5Q3Wp23J" "//open.spotify.com/playlist/201WcCT9bMavhu5Q3Wp23J" >}}
 
 ## YouTube playlist
-{{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCywhL_wAmjQM5I2MNw7f6r"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfCywhL_wAmjQM5I2MNw7f6r"
->}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCywhL_wAmjQM5I2MNw7f6r" "//www.youtube.com/playlist?list=PL1QX4WW14gfCywhL_wAmjQM5I2MNw7f6r" >}}

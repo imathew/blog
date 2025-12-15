@@ -39,13 +39,7 @@ Twenty-five top tracks of Twenty-Nineteen.
 25. Picket Palace - Anthony McDonald-Tipungwuti
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/6tHMxjcmJe5GE3iqaAIdMg"
-  "//open.spotify.com/playlist/6tHMxjcmJe5GE3iqaAIdMg"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/6tHMxjcmJe5GE3iqaAIdMg" "//open.spotify.com/playlist/6tHMxjcmJe5GE3iqaAIdMg" >}}
 
 ## YouTube playlist
-{{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfBxVBnuh8ATtQwC9fCPyeGI"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfBxVBnuh8ATtQwC9fCPyeGI"
->}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfBxVBnuh8ATtQwC9fCPyeGI" "//www.youtube.com/playlist?list=PL1QX4WW14gfBxVBnuh8ATtQwC9fCPyeGI" >}}
