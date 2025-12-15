@@ -1,0 +1,12 @@
+<article>
+<p class="subtitle">
+    <time class="date" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+    {{ if .Params.categories -}}
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <span class="article-categories">
+    {{- range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}<a href="/categories/{{ . | urlize }}/">{{ lower $e }}</a>{{ end }}</span>{{ end }}
+</p>
+</article>
+{{ if .Params.lastmod }}
+<p class="updated">Last updated {{ .Params.lastmod.Format "January 2, 2006" }}</p>{{ end }}
+{{ partial "comments.html" . }}
