@@ -1,19 +1,5 @@
-{{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) -}}
-  {{ if eq .reply_to $.parentId }}
-	<div id="comment-{{ ._id }}" class="post-comment reply">
-		<div class="arrow-up"></div>
-		<div class="post-comment-header">
-			{{ if .url }}<a href="{{ .url }}" title="{{ .name }}'s website">{{ end }}<img class="post-comment-avatar" width="57px" height="57px" loading="lazy" src="//www.gravatar.com/avatar/{{ .email }}?s=57&r=pg&d=identicon&r=pg" alt="{{ if .url }}{{ .name }}'s gravatar{{ end }}">{{ if .url }}</a>{{ end }}
-			<p class="post-comment-info">
-				<span class="post-comment-name"><a href="#comment-{{ ._id }}" title="Permalink to this comment">{{ .name }}</a></span>
-				<br>
-				<time class="post-time" datetime="{{ dateFormat "2006-01-02" .date }}">{{ dateFormat "Jan 2, 2006" .date }}</time>
-				<span class="post-comment-reply-link">to <a href="#comment-{{ $.parentId }}">{{ $.parentName }}</a></span>
-			</p>
-		</div>
-		<div class="comment-message">
-			{{ .comment | plainify | markdownify }}
-		</div>
-	</div>
-  {{ end -}}
-{{ end -}}
+{{- range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) -}}
+  {{- if eq .reply_to $.parentId -}}
+    {{- partial "comment-item" (dict "comment" . "isReply" true "parentId" $.parentId "parentName" $.parentName "context" $.context) -}}
+  {{- end -}}
+{{- end -}}

@@ -37,6 +37,11 @@ timeZone = "Australia/Hobart"
   imagesize_inline = 1050
   imagesize_thumb = 310
   imagesize_gallery = 1800
+  
+  # Date Format Strings (Go time format)
+  date_format_iso = "2006-01-02"
+  date_format_long = "January 2, 2006"
+  date_format_rfc3339 = "2006-01-02T15:04:05Z0700"
 
 [permalinks]
   posts = '/:year/:month/:slug/'

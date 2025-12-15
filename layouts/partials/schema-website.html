@@ -1,0 +1,13 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": {{ .Site.BaseURL }},
+    "sameAs": [
+    {{ .Site.Params.facebook }},
+    {{ .Site.Params.github }}
+    ],
+    "name": {{ .Title }},
+    "logo": {{ print .Site.BaseURL "android-chrome-512x512.png" }}
+}
+</script>

@@ -12,7 +12,7 @@
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="#{{$image.RelPermalink}}-lb" itemprop="contentUrl" title="{{ .Get "title" }}" aria-hidden="true">
             {{ with $image.Fill (printf "%dx%d" .Site.Params.imagesize_thumb .Site.Params.imagesize_thumb) -}}
-            <div class="img" style="background-image: url('{{ .RelPermalink }}');">
+            <div class="img gallery-box" style="background-image: url('{{ .RelPermalink }}');">
             {{ end -}}
             </div>
         </a>

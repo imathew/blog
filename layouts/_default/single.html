@@ -1,11 +1,14 @@
 {{ define "main" }}
 <h1>{{ .Title | title }}</h1>
+{{ if eq .Type "posts" -}}
+{{ partial "post" . }}
+{{- end }}
 {{/* remove p tags from around figure tags */ -}}
 {{ $reFigIn := "<p>([\\s]*?<figure[>\\s][\\S\\s]*?</figure>\\s*?)</p>" -}}
 {{ $reFigOut := "$1" -}}
 {{ $reFigContent := .Content | replaceRE $reFigIn $reFigOut -}}
 {{ $reFigContent | safeHTML}}
 {{ if eq .Type "posts" -}}
-{{ partial "post" . }}
+{{ partial "comments.html" . }}
 {{- end }}
 {{ end }}
