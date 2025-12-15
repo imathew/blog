@@ -11,15 +11,11 @@
     {{- $data.Set "resize" "1200x630" -}}
 {{- end -}}
 {{- $image := $image.Resize ($data.Get "resize") -}}
-{{- $preload := (resources.Get ("/.well-known/keybase.txt")).RelPermalink -}}
-{{- $preload := (resources.Get ("/block.txt")).RelPermalink -}}
-{{- $preload := (resources.Get ("/font/playfairdisplay-latin-400.woff2")).RelPermalink -}}
-{{- $preload := (resources.Get ("/font/Lora[wght].woff2")).RelPermalink -}}
-{{- $preload := (resources.Get ("/font/Lora-Italic[wght].woff2")).RelPermalink -}}
-{{- $preload := (resources.Get ("/font/cascadiamono-light.woff2")).RelPermalink -}}
+{{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
+{{- $desc := cond (isset .Params "description") .Params.description .Title -}}
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
-    <title itemprop="name">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title itemprop="name">{{ $title }}</title>
     <link rel="canonical" href="{{if .IsHome }}{{ .Site.Params.canonURL }}/{{ else }}{{ .Site.Params.canonURL }}{{ .RelPermalink }}{{ end }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
     <link rel="preload" href="/font/playfairdisplay-latin-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -54,19 +50,13 @@
     <meta name="robots" content="index,follow"> 
     <meta name="googlebot" content="index,follow">
 
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta itemprop="name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta name="application-name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta itemprop="name" content="{{ $title }}">
+    <meta name="application-name" content="{{ $title }}">
     <meta property="og:site_name" content="{{ .Site.Params.sitename }}">
-    {{ if isset .Params "description" -}} 
-    <meta name="description" content="{{ .Params.description }}">
-    <meta itemprop="description" content="{{ .Params.description }}">
-    <meta property="og:description" content="{{ .Params.description }}">
-    {{ else -}}
-    <meta name="description" content="{{ .Title }}">
-    <meta itemprop="description" content="{{ .Title }}">
-    <meta property="og:description" content="{{ .Title }}">
-    {{ end }}
+    <meta name="description" content="{{ $desc }}">
+    <meta itemprop="description" content="{{ $desc }}">
+    <meta property="og:description" content="{{ $desc }}">
     <meta name="url" content="{{ .Permalink }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta itemprop="image" content="{{ $image.Permalink }}">
