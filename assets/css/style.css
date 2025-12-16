@@ -534,6 +534,11 @@ p img {
 	scrollbar-width: thin;
 }
 
+/* Chroma syntax highlighting - override inline font-family from Hugo */
+.chroma {
+	font-family: var(--font-mono) !important;
+}
+
 /* Lazy frame (videos) */
 .lazyframe {
 	position: relative;
