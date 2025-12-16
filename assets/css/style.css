@@ -215,7 +215,7 @@ h1 {
 	font-weight: 400;
 	line-height: var(--space-lg);
 	text-align: center;
-	margin-top: 0.8em;
+	margin-top: 1em;
 	margin-bottom: 1.2em;
 }
 
@@ -343,7 +343,7 @@ figure.inline figcaption {
 
 .nav-list {
 	list-style-type: none;
-	margin: 0;
+	margin: var(--space-xs) 0;
 	padding: 0;
 }
 
@@ -399,10 +399,6 @@ figure.inline figcaption {
 .site-title:after {
 	left: var(--space-sm);
 	margin-right: -50%;
-}
-
-.subtitle+p {
-	margin-top: var(--space-sm);
 }
 
 p.subtitle {
