@@ -9,6 +9,8 @@
 {{ $reFigContent := .Content | replaceRE $reFigIn $reFigOut -}}
 {{ $reFigContent | safeHTML}}
 {{ if eq .Type "posts" -}}
+{{ if .Params.lastmod }}
+<p class="updated">Last updated {{ .Params.lastmod.Format .Site.Params.date_format_long }}</p>{{ end }}
 {{ partial "comments.html" . }}
 {{- end }}
 {{ end }}

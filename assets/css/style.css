@@ -114,7 +114,7 @@ body {
 	line-height: 1.6;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 38.9em;
+	max-width: 41.1em;
 	overflow-wrap: break-word;
 	padding: var(--space-base) 1.1em;
 	box-sizing: border-box;
@@ -215,31 +215,35 @@ h1 {
 	font-weight: 400;
 	line-height: var(--space-lg);
 	text-align: center;
+	margin-top: 0.8em;
+	margin-bottom: 1.2em;
 }
 
 h2 {
-	font-size: 1.8em;
-	font-weight: 600;
+	font-size: 1.6em;
+	font-weight: 650;
 }
 
 h3 {
-	font-size: 1.6em;
+	font-size: 1.42em;
 	font-weight: 600;
 }
 
 h4 {
-	font-size: 1.4em;
+	font-size: 1.27em;
 	font-weight: 550;
 }
 
 h5 {
-	font-size: 1.2em;
-	font-weight: 550;
+	font-size: 1.12em;
+	font-style: italic;
+	font-weight: 500;
 }
 
 h6 {
-	font-size: 1.1em;
-	font-weight: 500;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 450;
 }
 
 /* Small text styles */
@@ -254,40 +258,23 @@ figure.inline figcaption {
 	font-size: var(--font-smaller);
 }
 
-.addendum,
-.endnote,
+
 .listdate,
 .site-title,
 .site-categories,
 .subtitle,
 .tags,
-figcaption,
-p.addendum .date {
-	font-family: var(--font-serif);
-	font-weight: 400;
-	font-variant: normal;
+.post-comment-header {
+	font-family: var(--font-display);
 }
 
 .addendum .date {
 	font-weight: bold;
 }
 
-.date,
-.post-time,
-.site-title {
-	font-variant: small-caps;
-}
-
-.description-comments {
-	font-size: var(--font-smaller);
-	font-style: italic;
-}
-
+.updated,
+.endnote,
 figcaption {
-	font-style: italic;
-}
-
-.updated {
 	font-style: italic;
 }
 
@@ -309,6 +296,11 @@ figure.inline figcaption {
 	color: var(--color-secondary);
 }
 
+.description-comments {
+	font-size: var(--font-small);
+	font-style: italic;
+}
+
 .post-comment-name,
 .post-comment-name a,
 .title-comments a {
@@ -325,7 +317,61 @@ p.addendum .date {
    LAYOUT COMPONENTS
    ============================================================================ */
 
-/* Site title */
+/* Alphabetized layout components */
+.cleanlist,
+.compactcleanlist {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.cleanlist li {
+	padding-bottom: var(--space-base);
+}
+
+.embed {
+	margin: 0;
+}
+
+.end {
+	padding-top: var(--space-lg);
+}
+
+.endnote,
+figure.inline figcaption {
+	text-align: center;
+}
+
+.nav-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list li {
+	display: inline;
+	padding: 0 var(--space-sm);
+}
+
+.site-categories {
+	font-size: var(--font-small);
+	line-height: 2em;
+	margin-top: calc(var(--space-sm) * -1);
+	text-align: center;
+}
+
+.site-categories a,
+.subtitle a,
+.tags a {
+	text-decoration: none;
+}
+
+.site-categories a:hover,
+.post-comment-header a:hover,
+.subtitle a:hover,
+.tags a:hover {
+	text-decoration: underline;
+}
+
 .site-title {
 	color: var(--color-primary);
 	font-size: 1.3em;
@@ -355,70 +401,12 @@ p.addendum .date {
 	margin-right: -50%;
 }
 
-/* Site categories and tags */
-.site-categories {
-	font-size: var(--font-small);
-	line-height: 2em;
-	margin-top: calc(var(--space-sm) * -1);
-	text-align: center;
-}
-
-.site-categories a,
-.subtitle a,
-.tags a {
-	text-decoration: none;
-}
-
-.site-categories a:hover,
-.subtitle a:hover,
-.tags a:hover {
-	text-decoration: underline;
-}
-
-/* Subtitle and related elements */
 .subtitle+p {
 	margin-top: var(--space-sm);
 }
 
 p.subtitle {
 	margin: 0;
-}
-
-/* Navigation */
-.nav-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.nav-list li {
-	display: inline;
-	padding: 0 var(--space-sm);
-}
-
-/* Lists */
-.cleanlist,
-.compactcleanlist {
-	list-style-type: none;
-	padding-left: 0;
-}
-
-.cleanlist li {
-	padding-bottom: var(--space-base);
-}
-
-/* Utilities */
-.end {
-	padding-top: var(--space-lg);
-}
-
-.embed {
-	margin: 0;
-}
-
-.endnote,
-figure.inline figcaption {
-	text-align: center;
 }
 
 /* ============================================================================
@@ -440,14 +428,6 @@ figure.inline figcaption {
 	text-decoration: none;
 }
 
-.post-comment-header a:hover {
-	text-decoration: underline;
-}
-
-.post-comment-name {
-	font-weight: 500;
-}
-
 .post-comment-info {
 	margin-bottom: var(--space-md);
 	font-size: 1em;
@@ -456,7 +436,6 @@ figure.inline figcaption {
 .post-comment-reply-link {
 	line-height: var(--space-lg);
 	font-size: var(--font-small);
-	font-style: italic;
 }
 
 .post-comment-reply-link a {
@@ -482,9 +461,17 @@ figure.inline figcaption {
 	text-decoration: none;
 }
 
-.description-comments {
-	font-size: var(--font-smaller);
-	font-style: italic;
+/* Screen reader only text - hidden visually but available to assistive technologies */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
 }
 
 

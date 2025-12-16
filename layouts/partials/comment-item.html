@@ -20,7 +20,7 @@
 			<br>
 			<time class="post-time" datetime="{{ dateFormat "2006-01-02" .comment.date }}">{{ dateFormat "Jan 2, 2006" .comment.date }}</time>
 			{{- if .isReply }}
-			<span class="post-comment-reply-link">to <a href="#comment-{{ .parentId }}">{{ .parentName }}</a></span>
+			<span class="post-comment-reply-link"><span aria-hidden="true">→</span> <span class="sr-only">to</span> <a href="#comment-{{ .parentId }}">{{ .parentName }}</a></span>
 			{{- end }}
 		</p>
 	</div>

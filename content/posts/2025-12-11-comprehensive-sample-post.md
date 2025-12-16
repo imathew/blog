@@ -29,28 +29,28 @@ Headings follow a major second (1.125x) scale with proportional margins:
 
 - **Root font size:** 18px (1em = 18px)
 - **H1:** 2.1em (37.8px), Playfair Display, centered
-- **H2–H6:** 1em minimum margin-top, 0.8em margin-bottom, proportional font weights
+- **H2–H6:** 1em margin-top, 0.8em margin-bottom, proportional font weights
 - **Line height:** 1.2em (var(--space-lg)) for all headings
 
 ## H2 Headings
 
-The h2 uses weight 600 at 1.8em, making it stand out prominently as a major section break. This strong visual presence makes it ideal for the top-level divisions in your content.
+The h2 uses weight 650 at 1.6em, making it stand out prominently as a major section break. This strong visual presence makes it ideal for the top-level divisions in your content.
 
 ### H3 Headings
 
-The h3 uses weight 600 at 1.6em, matching h2's weight but in a smaller size. It should be used for major subsections within your content.
+The h3 uses weight 600 at 1.42em, matching h2's weight but in a smaller size. It should be used for major subsections within your content.
 
 #### H4 Headings
 
-The h4 uses weight 550 at 1.4em, providing a moderate level of emphasis. It's suitable for subsections within h3 sections and provides a subtle but clear distinction from regular text.
+The h4 uses weight 550 at 1.27em, providing a moderate level of emphasis. It's suitable for subsections within h3 sections and provides a subtle but clear distinction from regular text.
 
 ##### H5 Headings
 
-The h5 uses weight 550 at 1.2em, providing a moderate touch. Use this for minor subdivisions or detailed sections where you want visual separation without the strong emphasis of higher heading levels.
+The h5 uses weight 500 at 1.12em with italic styling, providing a lighter touch. Use this for minor subdivisions or detailed sections where you want visual separation without the strong emphasis of higher heading levels.
 
 ###### H6 Headings
 
-The h6 uses weight 500 at 1.1em. It's best used for deep subsections or minor details—the increased size gives it heading status while staying light enough for subtle emphasis.
+The h6 uses weight 450 at 1em with italic styling. It's best used for deep subsections or minor details—the increased size gives it heading status while staying light enough for subtle emphasis.
 
 ## Spacing System
 
@@ -162,6 +162,14 @@ You can also use inline code blocks with backticks for the language name:
 This is a code block without syntax highlighting.
 Useful for configuration files or plain text output.
 ```
+
+## Images and Captions
+
+Images can be embedded with alt text and captions:
+
+![Steambox components laid out on a wooden surface](/img/steambox_components.jpg "A Steambox build showcasing the internal components and layout")
+
+The caption appears as hover text on the image and helps describe the visual content for accessibility.
 
 ## Lists
 
