@@ -28,9 +28,9 @@ This blog uses a carefully optimized font strategy based on a major second (1.12
 Headings follow a major second (1.125x) scale with proportional margins:
 
 - **Root font size:** 18px (1em = 18px)
-- **H1:** 2.1em (37.8px), Playfair Display, centered
-- **H2–H6:** 1em margin-top, 0.8em margin-bottom, proportional font weights
-- **Line height:** 1.2em (var(--space-lg)) for all headings
+- **H1:** 2.1em (37.8px), Playfair Display, centered, line-height 1.2em for display styling
+- **H2–H6:** 1em margin-top, 0.8em margin-bottom, proportional font weights, line-height 1.3 multiplier for accessibility
+- **H2–H6 line height details:** The 1.3 multiplier provides ~37.4px on H2, ~39px on H4, improving readability and meeting accessibility standards
 
 ## H2 Headings
 
@@ -38,7 +38,7 @@ The h2 uses weight 650 at 1.6em, making it stand out prominently as a major sect
 
 ### H3 Headings
 
-The h3 uses weight 600 at 1.42em, matching h2's weight but in a smaller size. It should be used for major subsections within your content.
+The h3 uses weight 600 at 1.42em, slightly lighter than h2's weight 650. It should be used for major subsections within your content, providing visual hierarchy through size reduction.
 
 #### H4 Headings
 
