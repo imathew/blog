@@ -13,6 +13,11 @@
 {{- $image := $image.Resize ($data.Get "resize") -}}
 {{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
 {{- $desc := cond (isset .Params "description") .Params.description .Title -}}
+{{- $preload := (resources.Get ("/font/playfairdisplay-latin-400.woff2")).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/Lora[wght].woff2")).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/Lora-Italic[wght].woff2")).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/cascadiamono-light.woff2")).RelPermalink -}}
+
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
     <title itemprop="name">{{ $title }}</title>
