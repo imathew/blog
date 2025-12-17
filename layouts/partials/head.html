@@ -19,8 +19,8 @@
     <link rel="canonical" href="{{if .IsHome }}{{ .Site.Params.canonURL }}/{{ else }}{{ .Site.Params.canonURL }}{{ .RelPermalink }}{{ end }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
     <link rel="preload" href="/font/playfairdisplay-latin-400.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-    <link rel="preload" href="/font/Lora[wght].woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-    <link rel="preload" href="/font/Lora-Italic[wght].woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+    <link rel="preload" href="/font/Lora-wght.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+    <link rel="preload" href="/font/Lora-Italic-wght.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
     <link rel="stylesheet" href="{{(resources.Get "/css/syntax-bluloco.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
     {{- if eq .Params.gallery true -}}
     {{- $def1 := (resources.Get ("/css/default-skin.png" | safeURL)).RelPermalink -}}
