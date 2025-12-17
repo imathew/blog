@@ -114,9 +114,9 @@ body {
 	line-height: 1.6;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 41.1em;
+	max-width: 42.2em;
 	overflow-wrap: break-word;
-	padding: var(--space-base) 1.1em;
+	padding: var(--space-base) clamp(1.1em, 5vw, 1.67em);
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -490,7 +490,7 @@ p img {
 }
 
 figure.inline {
-	margin: var(--space-lg) 0;
+	margin: var(--space-xl) 0;
 }
 
 figure.inline img,
