@@ -576,12 +576,27 @@ p img {
 	top: 0;
 }
 
+.lightbox .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: calc(100vh - 120px);
+	max-width: 90vw;
+}
+
+.lightbox picture {
+	display: block;
+	max-height: calc(100vh - 120px);
+	max-width: 90vw;
+}
+
 .lightbox img {
 	border-radius: var(--space-md);
 	display: block;
 	margin: auto;
 	max-height: calc(100vh - 120px);
 	max-width: 90vw;
+	object-fit: contain;
 }
 
 main {
