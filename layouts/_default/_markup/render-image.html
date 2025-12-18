@@ -11,14 +11,14 @@
 {{ if .Title }}
 <figure class="inline">
   <picture>
-    <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" type="image/webp">
-    <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image1x.Width -}}" height="{{- $image1x.Height -}}" loading="lazy">
+    <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" type="image/webp">
+    <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image1x.Width -}}" height="{{- $image1x.Height -}}" loading="lazy">
   </picture>
   <figcaption>{{ .Title }}</figcaption>
 </figure>
 {{ else }}
 <picture>
-  <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" type="image/webp">
-  <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image1x.Width -}}" height="{{- $image1x.Height -}}" loading="lazy">
+  <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" type="image/webp">
+    <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image1x.Width -}}" height="{{- $image1x.Height -}}" loading="lazy">
 </picture>
 {{ end }}

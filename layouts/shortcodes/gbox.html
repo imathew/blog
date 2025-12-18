@@ -20,8 +20,8 @@
             <div class="lightbox" id="{{$image.RelPermalink}}-lb">  
                 <div class="content">
                     <picture>
-                        <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" type="image/webp">
-                        <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" loading="lazy"/>
+                        <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" type="image/webp">
+                        <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" loading="lazy"/>
                     </picture>
                     <figcaption>
                         <p>{{ .Get "title"}}</p>
