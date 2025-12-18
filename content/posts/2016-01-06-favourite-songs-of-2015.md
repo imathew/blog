@@ -13,7 +13,7 @@ My top thirty tracks of the year that aren't on the [Hamilton](//en.wikipedia.or
 [Spotify playlist](//open.spotify.com/user/imathew/playlist/3uUbqjrA7BXIxpL1iwioot "Spotify")  
 [YouTube playlist](//www.youtube.com/playlist?list=PL1QX4WW14gfAVOLWSEE2CCRTz84KQ6o9d "YouTube")
 
-{{< youtube "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfAVOLWSEE2CCRTz84KQ6o9d" >}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfAVOLWSEE2CCRTz84KQ6o9d" >}}
 
 Starts with my top ten for Hottest 100 purposes, the rest are ordered by (Spotify) track length. This year I restricted myself to one track per artist in the top ten. Was itching to have more Courtney Barnett, Grimes, Torres.
 

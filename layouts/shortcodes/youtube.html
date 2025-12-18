@@ -1,8 +1,0 @@
-<figure class="embed">
-    {{- if isset .Params 1 }}
-    <figcaption><a href="{{ index .Params 1}}" title="YouTube" target="_blank">Direct link</a></figcaption>
-    {{- end }}
-    <div class="lazyframe" data-src="{{ index .Params 0}}" data-vendor="youtube" data-initinview="true">
-        <span class="loading">&nbsp;&nbsp;Loading ...</span>
-    </div>
-</figure>

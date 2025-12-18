@@ -1,0 +1,14 @@
+    <meta property="og:type" content="article">
+    <meta property="article:publisher" content="{{ .Site.Params.facebook }}"> 
+    <meta property="og:article:published_time" content="{{ .Date.Format .Site.Params.date_format_rfc3339 | safeHTML }}"> 
+    <meta property="article:published_time" content="{{ .Date.Format .Site.Params.date_format_rfc3339 | safeHTML }}">
+    {{ with .Params.author }} 
+    <meta property="og:article:author" content="{{humanize . }}">
+    <meta property="article:author" content="{{humanize . }}"> 
+    <meta name="author" content="{{humanize . }}"> 
+    {{ end -}}
+    {{ with .Params.category }} 
+    <meta name="news_keywords" content="{{ index . 0 }}">
+    <meta property="article:section" content="{{ index . 0 }}">
+    <meta property="fb:admins" content="637829497" />
+    {{ end -}}

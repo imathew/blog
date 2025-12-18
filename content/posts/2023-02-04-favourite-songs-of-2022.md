@@ -39,16 +39,10 @@ Yeah, there are a lot of similar sounds here. I'm consistent.
 25. The Smile - The Smoke
 
 ## YouTube playlist
-{{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfBuTC4OPfKm2iMTIK7WEpFh"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfBuTC4OPfKm2iMTIK7WEpFh"
->}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfBuTC4OPfKm2iMTIK7WEpFh" "//www.youtube.com/playlist?list=PL1QX4WW14gfBuTC4OPfKm2iMTIK7WEpFh" >}}
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/7jJ6jxc7DGvM6qjsgJM4Db"
-  "//open.spotify.com/playlist/7jJ6jxc7DGvM6qjsgJM4Db"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/7jJ6jxc7DGvM6qjsgJM4Db" "//open.spotify.com/playlist/7jJ6jxc7DGvM6qjsgJM4Db" >}}
 
 ## What happened to 2021?
 
@@ -64,12 +58,6 @@ All year I received telegrams and faxes from my many fans, asking what happened 
 8. Aimee Mann - At the Frick Museum
 9. Wet Leg - Too Late Now
 
-{{< youtube
-  "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCUWgmdiFVrnjj45ezUXncp"
-  "//www.youtube.com/playlist?list=PL1QX4WW14gfCUWgmdiFVrnjj45ezUXncp"
->}}
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCUWgmdiFVrnjj45ezUXncp" "//www.youtube.com/playlist?list=PL1QX4WW14gfCUWgmdiFVrnjj45ezUXncp" >}}
 
-{{< spotify
-  "//open.spotify.com/embed/playlist/4jQqUByDk46wdDy85yaroO"
-  "//open.spotify.com/playlist/4jQqUByDk46wdDy85yaroO"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/4jQqUByDk46wdDy85yaroO" "//open.spotify.com/playlist/4jQqUByDk46wdDy85yaroO" >}}

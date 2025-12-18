@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": {{ .page.Title }},
+    "author": {
+        "@type": "Person",
+        "name": {{ .page.Site.Params.github }}
+    },
+    "datePublished": {{ .page.Date.Format .page.Site.Params.date_format_rfc3339 }},
+    "description": {{ .page.Description }},
+    "wordCount": {{ .page.WordCount }},
+    "mainEntityOfPage": "True",
+    "dateModified": {{if isset .page.Params "lastmod" }}{{ .page.Params.lastmod.Format .page.Site.Params.date_format_rfc3339 }}{{else}}{{ .page.Date.Format .page.Site.Params.date_format_rfc3339 }}{{end}},
+    "image": {
+        "@type": "imageObject",
+        "url": {{ .image.Permalink }}
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": {{ .page.Site.Title }},
+        "logo": {
+            "@type": "imageObject",
+            "url": {{ print .page.Site.BaseURL "android-chrome-512x512.png" }}
+        }
+    }
+}
+    </script>

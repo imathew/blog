@@ -41,7 +41,4 @@ Also, congratulations to Triple J listeners for finally [picking a Mitski song i
 </figure>
 
 ## Spotify playlist
-{{< spotify
-  "//open.spotify.com/embed/playlist/331MrE5udrLO8djZYINFcC"
-  "//open.spotify.com/playlist/331MrE5udrLO8djZYINFcC"
->}}
+{{< embed "spotify" "//open.spotify.com/embed/playlist/331MrE5udrLO8djZYINFcC" "//open.spotify.com/playlist/331MrE5udrLO8djZYINFcC" >}}

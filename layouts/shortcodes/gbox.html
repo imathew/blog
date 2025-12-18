@@ -1,25 +1,28 @@
 {{- $image := resources.Get (printf "%s" (.Get "src" | safeURL)) -}}
-{{- $data := newScratch -}}
-{{- if gt $image.Width .Site.Params.imagesize_gallery -}}
-    {{- $data.Set "resize" (printf "%dx" .Site.Params.imagesize_gallery) -}}
-{{- else if gt $image.Height .Site.Params.imagesize_gallery -}}
-    {{- $data.Set "resize" (printf "x%d" .Site.Params.imagesize_gallery) -}}
-{{- else -}}
-    {{- $data.Set "resize" (printf "%dx%d" $image.Width $image.Height) -}}
-{{- end -}}
-{{- $image2 := $image.Resize ($data.Get "resize") -}}
+{{- $maxW := .Site.Params.imagesize_gallery -}}
+{{- $resize1x := cond (gt $image.Width $maxW) (printf "%dx" $maxW) (cond (gt $image.Height $maxW) (printf "x%d" $maxW) (printf "%dx%d" $image.Width $image.Height)) -}}
+{{- $image1x := $image.Resize $resize1x -}}
+{{- $resize2xWidth := mul $image1x.Width 2 -}}
+{{- $resize2xHeight := mul $image1x.Height 2 -}}
+{{- $resize2x := cond (and (le $resize2xWidth $image.Width) (le $resize2xHeight $image.Height)) (printf "%dx%d" $resize2xWidth $resize2xHeight) (printf "%dx%d" $image.Width $image.Height) -}}
+{{- $image2x := $image.Resize $resize2x -}}
+{{- $image1xWebP := $image1x.Resize (printf "%s webp" $resize1x) -}}
+{{- $image2xWebP := $image2x.Resize (printf "%s webp" $resize2x) -}}
 <div class="box" >
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="#{{$image.RelPermalink}}-lb" itemprop="contentUrl" title="{{ .Get "title" }}" aria-hidden="true">
             {{ with $image.Fill (printf "%dx%d" .Site.Params.imagesize_thumb .Site.Params.imagesize_thumb) -}}
-            <div class="img" style="background-image: url('{{ .RelPermalink }}');">
+            <div class="img gallery-box" style="background-image: url('{{ .RelPermalink }}');">
             {{ end -}}
             </div>
         </a>
         <a href="#{{ with .Get "galleryid" | default "thegallery" }}{{.}}{{end}}" title="Close lightbox" class="lightbox-a">
             <div class="lightbox" id="{{$image.RelPermalink}}-lb">  
                 <div class="content">
-                    <img src="{{ $image2.RelPermalink }}" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" loading="lazy"/>
+                    <picture>
+                        <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" type="image/webp">
+                        <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" alt="{{ .Get "alt" }}" title="{{ .Get "title" }}" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}" loading="lazy"/>
+                    </picture>
                     <figcaption>
                         <p>{{ .Get "title"}}</p>
                     </figcaption>

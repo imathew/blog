@@ -1,16 +1,24 @@
 {{- $image := resources.Get (printf "%s" (.Destination | safeURL)) -}}
-{{- $data := newScratch -}}
-{{- if gt $image.Width site.Params.imagesize_inline -}}
-  {{- $data.Set "resize" (printf "%dx" site.Params.imagesize_inline) -}}
-{{- else -}}
-  {{- $data.Set "resize" (printf "%dx%d" $image.Width $image.Height) -}}
-{{- end -}}
-  {{- $image := $image.Resize ($data.Get "resize") -}}
+{{- $maxWidth := site.Params.imagesize_inline -}}
+{{- $resize1x := cond (gt $image.Width $maxWidth) (printf "%dx" $maxWidth) (printf "%dx%d" $image.Width $image.Height) -}}
+{{- $image1x := $image.Resize $resize1x -}}
+{{- $resize2xWidth := mul $image1x.Width 2 -}}
+{{- $resize2xHeight := mul $image1x.Height 2 -}}
+{{- $resize2x := cond (and (le $resize2xWidth $image.Width) (le $resize2xHeight $image.Height)) (printf "%dx%d" $resize2xWidth $resize2xHeight) (printf "%dx%d" $image.Width $image.Height) -}}
+{{- $image2x := $image.Resize $resize2x -}}
+{{- $image1xWebP := $image1x.Resize (printf "%s webp" $resize1x) -}}
+{{- $image2xWebP := $image2x.Resize (printf "%s webp" $resize2x) -}}
 {{ if .Title }}
 <figure class="inline">
-  <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
+  <picture>
+    <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" type="image/webp">
+    <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image1x.Width -}}" height="{{- $image1x.Height -}}" loading="lazy">
+  </picture>
   <figcaption>{{ .Title }}</figcaption>
 </figure>
 {{ else }}
-<img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
+<picture>
+  <source srcset="{{ $image1xWebP.RelPermalink }} 1x, {{ $image2xWebP.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" type="image/webp">
+    <img src="{{ $image1x.RelPermalink }}" srcset="{{ $image1x.RelPermalink }} 1x, {{ $image2x.RelPermalink }} 2x" sizes="(max-width: 900px) 90vw, 90vw" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image1x.Width -}}" height="{{- $image1x.Height -}}" loading="lazy">
+</picture>
 {{ end }}

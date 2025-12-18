@@ -11,22 +11,22 @@
     {{- $data.Set "resize" "1200x630" -}}
 {{- end -}}
 {{- $image := $image.Resize ($data.Get "resize") -}}
-{{- $preload := (resources.Get ("/.well-known/keybase.txt")).RelPermalink -}}
-{{- $preload := (resources.Get ("/block.txt")).RelPermalink -}}
+{{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
+{{- $desc := cond (isset .Params "description") .Params.description .Title -}}
 {{- $preload := (resources.Get ("/font/playfairdisplay-latin-400.woff2")).RelPermalink -}}
-{{- $preload := (resources.Get ("/font/newscycle-latin-400.woff2")).RelPermalink -}}
-{{- $preload := (resources.Get ("/font/lora-latin-400.woff2")).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/Lora[wght].woff2")).RelPermalink -}}
+{{- $preload := (resources.Get ("/font/Lora-Italic[wght].woff2")).RelPermalink -}}
 {{- $preload := (resources.Get ("/font/cascadiamono-light.woff2")).RelPermalink -}}
 
 <head itemscope itemtype="https://schema.org/Blog">
     <meta charset="utf-8">
-    <title itemprop="name">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title itemprop="name">{{ $title }}</title>
     <link rel="canonical" href="{{if .IsHome }}{{ .Site.Params.canonURL }}/{{ else }}{{ .Site.Params.canonURL }}{{ .RelPermalink }}{{ end }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
-    <link rel="preload" href="/font/playfairdisplay-latin-400.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/font/newscycle-latin-400.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/font/lora-latin-400.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{(resources.Get "/css/syntax-pastie.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    <link rel="preload" href="/font/playfairdisplay-latin-400.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+    <link rel="preload" href="/font/Lora[wght].woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+    <link rel="preload" href="/font/Lora-Italic[wght].woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+    <link rel="stylesheet" href="{{(resources.Get "/css/syntax-bluloco.css" | resources.Minify).RelPermalink}}" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="{{(resources.Get "/css/syntax-bluloco.css" | resources.Minify).RelPermalink}}" type="text/css" media="all"></noscript>
     {{- if eq .Params.gallery true -}}
     {{- $def1 := (resources.Get ("/css/default-skin.png" | safeURL)).RelPermalink -}}
     {{- $def2 := (resources.Get ("/css/default-skin.svg" | safeURL)).RelPermalink }}
@@ -55,95 +55,38 @@
     <meta name="robots" content="index,follow"> 
     <meta name="googlebot" content="index,follow">
 
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta itemprop="name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta name="application-name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta itemprop="name" content="{{ $title }}">
+    <meta name="application-name" content="{{ $title }}">
     <meta property="og:site_name" content="{{ .Site.Params.sitename }}">
-    {{ if isset .Params "description" -}} 
-    <meta name="description" content="{{ .Params.description }}">
-    <meta itemprop="description" content="{{ .Params.description }}">
-    <meta property="og:description" content="{{ .Params.description }}">
-    {{ else -}}
-    <meta name="description" content="{{ .Title }}">
-    <meta itemprop="description" content="{{ .Title }}">
-    <meta property="og:description" content="{{ .Title }}">
-    {{ end }}
+    <meta name="description" content="{{ $desc }}">
+    <meta itemprop="description" content="{{ $desc }}">
+    <meta property="og:description" content="{{ $desc }}">
     <meta name="url" content="{{ .Permalink }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta itemprop="image" content="{{ $image.Permalink }}">
     <meta property="og:image" content="{{ $image.Permalink }}">
-    <meta property="og:updated_time" content="{{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}{{end}}">
+    <meta property="og:updated_time" content="{{if isset .Params "lastmod" }}{{ .Params.lastmod.Format .Site.Params.date_format_rfc3339 | safeHTML }}{{else}}{{ .Date.Format .Site.Params.date_format_rfc3339 | safeHTML }}{{end}}">
     <meta name="generator" content="Hugo {{ hugo.Version }}" >
-{{ if and (eq .Type "posts") (eq .Kind "section") -}} 
-    {{ $paginator := .Paginate (where .Pages "Type" "!=" "pages") -}}
-    {{ if $paginator }}
-    <link rel="first" href="{{ $paginator.First.URL }}">
-    <link rel="last" href="{{ $paginator.Last.URL }}">
-    {{ if $paginator.HasPrev -}}
-    <link rel="prev" href="{{ $paginator.Prev.URL }}">
-    {{end -}}
-    {{ if $paginator.HasNext -}}
-    <link rel="next" href="{{ $paginator.Next.URL }}">
-    {{end -}}
-    {{end }}
-    <meta property="og:type" content="article">
-    <meta property="article:publisher" content="{{ .Site.Params.facebook }}"> 
-    <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}"> 
-    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}">
-    {{ with .Params.author }} 
-    <meta property="og:article:author" content="{{humanize . }}">
-    <meta property="article:author" content="{{humanize . }}"> 
-    <meta name="author" content="{{humanize . }}"> 
+{{ if eq .Type "posts" -}}
+    {{ partial "article-meta" . }}
+    {{- if eq .Kind "section" }}
+        {{ $paginator := .Paginate (where .Pages "Type" "!=" "pages") -}}
+        {{ if $paginator }}
+        <link rel="first" href="{{ $paginator.First.URL }}">
+        <link rel="last" href="{{ $paginator.Last.URL }}">
+        {{ if $paginator.HasPrev -}}
+        <link rel="prev" href="{{ $paginator.Prev.URL }}">
+        {{end -}}
+        {{ if $paginator.HasNext -}}
+        <link rel="next" href="{{ $paginator.Next.URL }}">
+        {{end -}}
+        {{end -}}
     {{ end -}}
-    {{ with.Params.category }} 
-    <meta name="news_keywords" content="{{ index . 0 }}">
-    <meta property="article:section" content="{{ index . 0 }}">
-    <meta property="fb:admins" content="637829497" />
-    {{ end }}
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Article",
-        "headline": {{ .Title }},
-        "author": {
-            "@type": "Person",
-            "name": {{ .Site.Params.github }}
-        },
-        "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z0700" }},
-        "description": {{ .Description }},
-        "wordCount": {{ .WordCount }},
-        "mainEntityOfPage": "True",
-        "dateModified": {{if isset .Params "lastmod" }}{{ .Params.lastmod.Format "2006-01-02T15:04:05Z0700" }}{{else}}{{ .Date.Format "2006-01-02T15:04:05Z0700" }}{{end}},
-        "image": {
-            "@type": "imageObject",
-            "url": {{ $image.Permalink }}
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": {{ .Site.Title }},
-            "logo": {
-                "@type": "imageObject",
-                "url": {{ print .Site.BaseURL "android-chrome-512x512.png" }}
-            }
-        }
-    }
-    </script>
-{{ end -}}
-{{ if ne .Type "posts" }} 
+    {{ partial "schema-article" (dict "page" . "image" $image) }}
+{{ else }}
     <meta property="og:type" content="website"> 
     <meta name="author" content="{{ .Site.Params.author }}">
-    <script type="application/ld+json">
-    { 
-        "@context": "http://schema.org", 
-        "@type": "WebSite", 
-        "url": {{ .Site.BaseURL }}, 
-        "sameAs": [
-        {{ .Site.Params.facebook }}, 
-        {{ .Site.Params.github }}
-        ], 
-        "name": {{ .Title }}, 
-        "logo": {{ print .Site.BaseURL "android-chrome-512x512.png" }}
-    }
-    </script>
+    {{ partial "schema-website" . }}
 {{ end -}}
 </head>

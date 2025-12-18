@@ -1,0 +1,8 @@
+<figure class="embed">
+    {{- if isset .Params 2 }}
+    <figcaption><a href="{{ index .Params 2}}" title="{{ humanize (index .Params 0) }}" target="_blank">Direct link</a></figcaption>
+    {{- end }}
+    <div class="lazyframe" data-src="{{ index .Params 1}}" data-vendor="{{ index .Params 0 }}" data-initinview="true">
+        <span class="loading">&nbsp;&nbsp;Loading ...</span>
+    </div>
+</figure>

@@ -2,15 +2,10 @@
 <html prefix="og: http://ogp.me/ns#" lang="{{ .Language }}">
     {{ partial "head" . }}
 <body>
-
 {{ partial "header" . }}
-
 <main>
-
 {{ block "main" . }}{{ end }}
-
 </main>
-    
 {{ partial "footer" . }}
 {{ partial "js" . }}
 </body>
