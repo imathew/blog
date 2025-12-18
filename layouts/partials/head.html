@@ -26,7 +26,7 @@
     <link rel="preload" href="/font/playfairdisplay-latin-400.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
     <link rel="preload" href="/font/Lora[wght].woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
     <link rel="preload" href="/font/Lora-Italic[wght].woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-    <link rel="stylesheet" href="{{(resources.Get "/css/syntax-bluloco.css" | resources.Minify).RelPermalink}}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{(resources.Get "/css/syntax-bluloco.css" | resources.Minify).RelPermalink}}" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="{{(resources.Get "/css/syntax-bluloco.css" | resources.Minify).RelPermalink}}" type="text/css" media="all"></noscript>
     {{- if eq .Params.gallery true -}}
     {{- $def1 := (resources.Get ("/css/default-skin.png" | safeURL)).RelPermalink -}}
     {{- $def2 := (resources.Get ("/css/default-skin.svg" | safeURL)).RelPermalink }}

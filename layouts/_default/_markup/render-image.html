@@ -6,11 +6,18 @@
   {{- $data.Set "resize" (printf "%dx%d" $image.Width $image.Height) -}}
 {{- end -}}
   {{- $image := $image.Resize ($data.Get "resize") -}}
+  {{- $imageWebP := $image.Resize (printf "%s webp" ($data.Get "resize")) -}}
 {{ if .Title }}
 <figure class="inline">
-  <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
+  <picture>
+    <source srcset="{{- $imageWebP.RelPermalink -}}" type="image/webp">
+    <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" title="{{- .Title -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
+  </picture>
   <figcaption>{{ .Title }}</figcaption>
 </figure>
 {{ else }}
-<img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
+<picture>
+  <source srcset="{{- $imageWebP.RelPermalink -}}" type="image/webp">
+  <img src="{{- $image.RelPermalink -}}" alt="{{- .PlainText | htmlUnescape -}}" width="{{- $image.Width -}}" height="{{- $image.Height -}}" loading="lazy">
+</picture>
 {{ end }}

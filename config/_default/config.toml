@@ -34,9 +34,9 @@ timeZone = "Australia/Hobart"
   sitename = "Mathew Inkson"
   facebook = "https://facebook.com/imathew"
   github = "https://github.com/imathew"
-  imagesize_inline = 1050
-  imagesize_thumb = 310
-  imagesize_gallery = 1800
+  imagesize_inline = 1400
+  imagesize_thumb = 620
+  imagesize_gallery = 2600
   
   # Date Format Strings (Go time format)
   date_format_iso = "2006-01-02"
@@ -51,6 +51,6 @@ timeZone = "Australia/Hobart"
   category = "categories"
 
 [imaging]
-  quality = 75
+  quality = 80
   resampleFilter = "Lanczos"
   anchor = "Center"
