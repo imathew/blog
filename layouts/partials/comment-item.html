@@ -13,7 +13,11 @@
 	{{- if .isReply }}<div class="arrow-up"></div>{{ end }}
 	<div class="post-comment-header">
 		{{- if .comment.url }}<a href="{{ .comment.url }}" title="{{ .comment.name }}'s website">{{ end -}}
+		{{- if eq .comment.email site.Params.adminEmailHash }}
+		<img class="post-comment-avatar" width="57px" height="57px" loading="lazy" src="/android-chrome-192x192.png" alt="{{ if .comment.url }}{{ .comment.name }}'s avatar{{ end }}">
+		{{- else }}
 		<img class="post-comment-avatar" width="57px" height="57px" loading="lazy" src="//www.gravatar.com/avatar/{{ .comment.email }}?s=57&r=pg&d=identicon" alt="{{ if .comment.url }}{{ .comment.name }}'s gravatar{{ end }}">
+		{{- end }}
 		{{- if .comment.url }}</a>{{ end }}
 		<p class="post-comment-info">
 			<span class="post-comment-name"><a href="#comment-{{ .comment._id }}" title="Permalink to this comment">{{ .comment.name }}</a></span>
