@@ -1,6 +1,6 @@
 {{ if eq .Params.embed true -}}
-<script defer src="{{(resources.Get "/js/lazyframe.min.js" ).RelPermalink}}"></script>
-<script defer src="{{(resources.Get "/js/load-lazyframe.js" | resources.Minify).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/lazyframe.min.js" | fingerprint).RelPermalink}}"></script>
+<script defer src="{{(resources.Get "/js/load-lazyframe.js" | resources.Minify | fingerprint).RelPermalink}}"></script>
 {{ end -}}
 {{ if isset .Site.Params "umami" -}}
 <script async src="https://analytics.umami.is/script.js" data-website-id="{{ .Site.Params.umami }}"></script>
