@@ -6,7 +6,7 @@ embed: true
 categories: 
   - "music"
 image: "/img/lolayoung_imonlyfkingmyself.jpg"
-draft: true
+draft: false
 ---
 
 _SPIDERS_ slowly moved up my list with each listen, and before I knew it I was playing it every day. I think it's the vocal performance of the year and I'm surprised that it hasn't had the same attention as other songs on [the album](//en.wikipedia.org/wiki/I%27m_Only_F**king_Myself).
