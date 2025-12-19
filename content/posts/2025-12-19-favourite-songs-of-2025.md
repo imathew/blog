@@ -37,7 +37,7 @@ The rest are pretty much Mat music and, with a couple of exceptions, if you know
 
 ### Exceptions? ###
 
-_The Space Between_ sees Hannah Frances doing something on guitar that I don't understand but I really love, a careful discordance that reminds me of Stephen Sondheim in the way it evokes a feeling, taking you towards a resolution but never quite getting there. It will be polarising, but I think it's beautiful, and played it on repeat for a few days.
+_The Space Between_ sees Hannah Frances doing something on guitar that I don't understand but I really love, a careful discordance that reminds me of Stephen Sondheim in the way it evokes a feeling, taking you towards a resolution but never quite getting there. It will be polarising, but I think it's beautiful, and I played it on repeat for a few days.
 
 _One Tiny Flower_ is long, repetitive, and folksy (I think, I don't know genres). Not a description that would usually draw me in, but it speaks to me. In times of stress this year I loved to put it on and chill the fuck out. Thanks, Jeff.
 
