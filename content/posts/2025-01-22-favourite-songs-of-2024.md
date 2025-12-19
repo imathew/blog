@@ -24,10 +24,7 @@ A superb song from Chappell Roan with bonus points to Haute & Freddy with two en
 10. FKA twigs - Eusexua
 
 ## YouTube playlist
-<figure class="embed">
-    <figcaption><a href="//www.youtube.com/playlist?list=PL1QX4WW14gfCLmSetx0iOM_FuNCgvhQFJ" title="YouTube" target="_blank">Direct link</a></figcaption>
-    <p class="addendum">(No embedded playlist this year, it breaks if the first video doesn't allow it, darn Vevo.)</p>
-</figure>
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfCLmSetx0iOM_FuNCgvhQFJ" "//www.youtube.com/playlist?list=PL1QX4WW14gfCLmSetx0iOM_FuNCgvhQFJ" >}}
 
 ## Tidal playlist
 {{< embed "tidal" "//embed.tidal.com/playlists/49f206cf-dc1d-4293-83f9-79403d93ef09" "//listen.tidal.com/playlist/49f206cf-dc1d-4293-83f9-79403d93ef09" >}}
