@@ -13,7 +13,7 @@ _SPIDERS_ slowly moved up my list with each listen, and before I knew it I was p
 
 It's my favourite of Lola Young's songs (ahead of _Messy_ from [last year](/2025/01/favourite-songs-of-2024 "Favourite Songs of 2024") and _Conceited_ from [2023](/2024/01/favourite-songs-of-2023 "Favourite Songs of 2023")).
 
-![Album cover of I'm only F**cking Myself with Lola Young holding a pink blow-up doll that has her own face](/img/lolayoung_imonlyfkingmyself.jpg "Lola Young - SPIDERS")
+![Album cover of I'm only F**cking Myself with Lola Young holding a pink blow-up doll that has her own face](/img/lolayoung_imonlyfkingmyself.jpg "Lola Young - I'm only F**cking Myself album cover")
 
 The rest are pretty much Mat music and, with a couple of exceptions, if you know me you know what you're getting.
 
