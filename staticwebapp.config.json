@@ -10,12 +10,6 @@
     },
     "routes": [
         {
-            "route": "/block.txt",
-            "headers": {
-                "Cache-Control": "no-cache"
-            }
-        },
-        {
             "route": "/img/*",
             "headers": {
                 "Cache-Control": "public, max-age=2592000, immutable"
@@ -35,18 +29,6 @@
         },
         {
             "route": "/js/*",
-            "headers": {
-                "Cache-Control": "public, max-age=2592000, immutable"
-            }
-        },
-        {
-            "route": "/doc/*",
-            "headers": {
-                "Cache-Control": "public, max-age=2592000, immutable"
-            }
-        },
-        {
-            "route": "/*.{png,txt,ico,webmanifest,xml,svg,webp}",
             "headers": {
                 "Cache-Control": "public, max-age=2592000, immutable"
             }
@@ -96,5 +78,5 @@
             "statusCode": 301
         }
     ],
-    "trailingSlash": "always"
+    "trailingSlash": "auto"
 }
