@@ -5,9 +5,34 @@
         }
     },
     "globalHeaders": {
-        "Referrer-Policy": "strict-origin-when-cross-origin"
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "public, max-age=3600"
     },
     "routes": [
+        {
+            "route": "/img/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/font/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/css/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/js/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
         {
             "route": "/404.html",
             "statusCode": 404
@@ -53,5 +78,5 @@
             "statusCode": 301
         }
     ],
-    "trailingSlash": "always"
+    "trailingSlash": "auto"
 }
