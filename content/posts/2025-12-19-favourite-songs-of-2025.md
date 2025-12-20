@@ -9,7 +9,7 @@ image: "/img/lolayoung_imonlyfkingmyself.jpg"
 draft: false
 ---
 
-_SPIDERS_ slowly moved up my list with each listen, and before I knew it I was playing it every day. I think it's the vocal performance of the year and I'm surprised that it hasn't had the same attention as other songs on [the album](//en.wikipedia.org/wiki/I%27m_Only_F**king_Myself).
+_SPIDERS_ moved up my list with each listen, and before I knew it I was playing it every day. I think it's the vocal performance of the year and I'm surprised that it hasn't had the same attention as other songs on [the album](//en.wikipedia.org/wiki/I%27m_Only_F**king_Myself).
 
 It's my favourite of Lola Young's songs (ahead of _Messy_ from [last year](/2025/01/favourite-songs-of-2024 "Favourite Songs of 2024") and _Conceited_ from [2023](/2024/01/favourite-songs-of-2023 "Favourite Songs of 2023")).
 
@@ -48,3 +48,4 @@ Happy new year, friends.
 
 ## Tidal playlist
 {{< embed "tidal" "//embed.tidal.com/playlists/526faa31-910d-4624-a18e-3de6b329639a" "//listen.tidal.com/playlist/526faa31-910d-4624-a18e-3de6b329639a" >}}
+
