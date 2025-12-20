@@ -10,14 +10,50 @@
     },
     "routes": [
         {
-            "route": "/404.html",
-            "statusCode": 404
+            "route": "/block.txt",
+            "headers": {
+                "Cache-Control": "no-cache"
+            }
         },
         {
-            "route": "*.*",
+            "route": "/img/*",
             "headers": {
                 "Cache-Control": "public, max-age=2592000, immutable"
             }
+        },
+        {
+            "route": "/font/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/css/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/js/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/doc/*",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/*.{png,txt,ico,webmanifest,xml,svg,webp}",
+            "headers": {
+                "Cache-Control": "public, max-age=2592000, immutable"
+            }
+        },
+        {
+            "route": "/404.html",
+            "statusCode": 404
         },
         {
             "route": "/2009/05/unbricking-a-seagate-barracuda/comment*",
