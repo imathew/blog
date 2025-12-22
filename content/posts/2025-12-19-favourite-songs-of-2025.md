@@ -15,7 +15,7 @@ It's my favourite of Lola Young's songs (ahead of _Messy_ from [last year](/2025
 
 ![Album cover of I'm only F**cking Myself with Lola Young holding a pink blow-up doll that has her own face](/img/lolayoung_imonlyfkingmyself.jpg "Lola Young - I'm only F**cking Myself album cover")
 
-The rest are pretty much Mat music and, with a couple of exceptions, if you know me you know what you're getting.
+The rest are pretty much Mat music and, with a couple of [exceptions](#exceptions), if you know me you know what you're getting.
 
 ## Top 15 ##
 
@@ -35,6 +35,12 @@ The rest are pretty much Mat music and, with a couple of exceptions, if you know
 14. Radio Free Alice - Empty Words
 15. Man/Woman/Chainsaw - MadDog
 
+### YouTube playlist ###
+{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfDdvR2oDLfsn9-Q88fG8kLj" "//www.youtube.com/playlist?list=PL1QX4WW14gfDdvR2oDLfsn9-Q88fG8kLj" >}}
+
+### Tidal playlist ###
+{{< embed "tidal" "//embed.tidal.com/playlists/526faa31-910d-4624-a18e-3de6b329639a" "//listen.tidal.com/playlist/526faa31-910d-4624-a18e-3de6b329639a" >}}
+
 ### Exceptions? ###
 
 _The Space Between_ sees Hannah Frances doing something on guitar that I don't understand but I really love, a careful discordance that reminds me of Stephen Sondheim in the way it evokes a feeling, taking you towards a resolution but never quite getting there. It will be polarising, but I think it's beautiful, and I played it on repeat for a few days.
@@ -42,10 +48,3 @@ _The Space Between_ sees Hannah Frances doing something on guitar that I don't u
 _One Tiny Flower_ is long, repetitive, and folksy (I think, I don't know genres). Not a description that would usually draw me in, but it speaks to me. In times of stress this year I loved to put it on and chill the fuck out. Thanks, Jeff.
 
 Happy new year, friends.
-
-## YouTube playlist
-{{< embed "youtube" "//www.youtube.com/embed/videoseries?list=PL1QX4WW14gfDdvR2oDLfsn9-Q88fG8kLj" "//www.youtube.com/playlist?list=PL1QX4WW14gfDdvR2oDLfsn9-Q88fG8kLj" >}}
-
-## Tidal playlist
-{{< embed "tidal" "//embed.tidal.com/playlists/526faa31-910d-4624-a18e-3de6b329639a" "//listen.tidal.com/playlist/526faa31-910d-4624-a18e-3de6b329639a" >}}
-
